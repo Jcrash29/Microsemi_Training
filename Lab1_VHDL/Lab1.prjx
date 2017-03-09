@@ -1,6 +1,7 @@
 KEY LIBERO "11.7"
 KEY CAPTURE "11.7.1.14"
 KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
 KEY VERILOGMODE "VERILOG2001"
@@ -14,7 +15,9 @@ KEY VendorTechnology_DieVoltage "1.2"
 KEY VendorTechnology_PART_RANGE "COM"
 KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
 KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_33"
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "0"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
@@ -28,7 +31,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1"
+KEY ProjectLocation "C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1_VHDL"
 KEY ProjectDescription ""
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VHDL"
@@ -51,8 +54,8 @@ SIZE="152"
 ENDFILE
 VALUE "<project>\designer\impl1\LedBlinkingDSpeed.ide_des,ide_des"
 STATE="utd"
-TIME="1489076652"
-SIZE="216"
+TIME="1489076869"
+SIZE="414"
 ENDFILE
 VALUE "<project>\hdl\ClkGen.vhd,hdl"
 STATE="utd"
@@ -89,30 +92,20 @@ STATE="utd"
 TIME="1489077910"
 SIZE="6181"
 ENDFILE
-VALUE "<project>\synthesis\LedBlinkingDSpeed.edn,syn_edn"
-STATE="utd"
-TIME="1489077094"
-SIZE="79910"
-ENDFILE
 VALUE "<project>\synthesis\LedBlinkingDSpeed.so,so"
 STATE="utd"
-TIME="1489077095"
+TIME="1489078430"
 SIZE="251"
-ENDFILE
-VALUE "<project>\synthesis\LedBlinkingDSpeed.vhd,syn_hdl"
-STATE="utd"
-TIME="1489077105"
-SIZE="44558"
 ENDFILE
 VALUE "<project>\synthesis\LedBlinkingDSpeed_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1489077094"
+TIME="1489078429"
 SIZE="901"
 ENDFILE
 VALUE "<project>\synthesis\LedBlinkingDSpeed_syn.prj,prj"
 STATE="utd"
-TIME="1489076978"
-SIZE="1280"
+TIME="1489078431"
+SIZE="2162"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -131,9 +124,7 @@ VALUE "<project>\constraint\LedBlinkingDSpeed_sdc.sdc,sdc"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
-LiberoState=Post_Synthesis
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>\synthesis\LedBlinkingDSpeed.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -216,8 +207,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Synplify\\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -225,7 +216,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Model\\win32acoem\modelsim.exe"
-PARAM=" -l LedBlinkingDSpeed_tb_postsynth_simulation.log "
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -252,9 +243,7 @@ ENDLIST
 LIST ProjectState5.1
 LIST "LedBlinkingDSpeed::work"
 LIST Impl1
-LiberoState=Post_Synthesis
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>\synthesis\LedBlinkingDSpeed.edn,syn_edn)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
