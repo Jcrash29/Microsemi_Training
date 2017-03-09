@@ -4,7 +4,7 @@
 
 This training requires a SmartFusion2 or IGLOO2 development board.
 
-# StartUp
+# Startup
 
 To begin you need to install the Libero SoC software. Follow the included documentation [here](Documentation/Setup Libro Software.pdf)
 
@@ -18,11 +18,19 @@ This was the first lab, which simply implements two blinking LED's. One at 1 sec
 
 # Lab 2 VHDL
 
-this lab walks through a similar control of the LEDs. However by following the lab2 instructions, we can walk though the ability to choose the fabric area, which can be used/not used.
+This lab walks through a similar control of the LEDs. However by following the lab2 instructions, we can walk through the ability to choose the fabric area, which can be used/not used.
 
-However more importantly is their ability to do SMartDebug with active probes and probe insertion. This allows you to debug the fabric in real time, without stopping the processor.
+However more importantly is their ability to do SmartDebug with active probes and probe insertion. This allows you to debug the fabric in real time, without stopping the processor.
 
 The probe insertion also allows you to connect pins to a certain input pin. In this case we setup the switches to connect directly to 2 of the LEDs. 
 
 I found it most interesting that even when the board lost power these probe insertions remained. 
+
+# Lab 3
+
+The purpose of this lab was to learn to connect wires to block components.
+
+# Lab 3 Part 2
+
+They provided a fully connected schematic for the memory writing operations. When pressing button 2 the memory was written with memory, when resetting the controller the memory was returned to default state.
 
