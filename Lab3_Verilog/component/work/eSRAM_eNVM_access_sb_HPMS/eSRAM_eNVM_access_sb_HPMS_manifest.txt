@@ -1,0 +1,23 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1.1 (Version 11.7.1.14)
+
+Date      :  Thu Mar 09 14:14:57 2017
+Project   :  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab3_Verilog
+Component :  eSRAM_eNVM_access_sb_HPMS
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb_HPMS/eSRAM_eNVM_access_sb_HPMS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb_HPMS/eSRAM_eNVM_access_sb_HPMS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb_HPMS/eSRAM_eNVM_access_sb_HPMS_pre.v
+
+Configuration files to be used for Programming:
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb_HPMS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb_HPMS/ENVM.cfg
+

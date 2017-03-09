@@ -1,0 +1,40 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1.1 (Version 11.7.1.14)
+
+Date      :  Thu Mar 09 14:16:49 2017
+Project   :  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab3_Verilog
+Component :  eSRAM_eNVM_access_sb
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_masterstage.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_matrix4x16.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavearbiter.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavestage.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb/CCC_0/eSRAM_eNVM_access_sb_CCC_0_FCCC.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb/FABOSC_0/eSRAM_eNVM_access_sb_FABOSC_0_OSC.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb/eSRAM_eNVM_access_sb.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb_HPMS/eSRAM_eNVM_access_sb_HPMS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb_HPMS/eSRAM_eNVM_access_sb_HPMS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb_HPMS/eSRAM_eNVM_access_sb_HPMS_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb/subsystem.bfm
+
+Configuration files to be used for Programming:
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb_HPMS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_Verilog/component/work/eSRAM_eNVM_access_sb_HPMS/ENVM.cfg
+
