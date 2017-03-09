@@ -1,0 +1,48 @@
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed\synthesis.fdc
+@L: C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\LedBlinkingDSpeed_scck.rpt 
+Printing clock  summary report in "C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\LedBlinkingDSpeed_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+syn_allowed_resources : blockrams=31  set on top level netlist LedBlinkingDSpeed
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                     Requested     Requested     Clock        Clock           
+Clock                     Frequency     Period        Type         Group           
+-----------------------------------------------------------------------------------
+LedBlinkingDSpeed|clk     50.0 MHz      20.000        declared     default_clkgroup
+===================================================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\LedBlinkingDSpeed.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 23 02:59:32 2016
+
+###########################################################]

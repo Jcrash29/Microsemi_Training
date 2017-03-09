@@ -1,0 +1,10 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\impl1\LedBlinkingDSpeed.adb"
+LIST SOURCE_FILES
+VALUE "C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\constraint\io\LedBlinkingDSpeed.io.pdc;pdc"
+VALUE "C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\constraint\LedBlinkingDSpeed_sdc.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+ENDLIST
+LIST VCD_FILES
+ENDLIST

@@ -1,0 +1,554 @@
+#Build: Synplify Pro J-2015.03M-SP1-2, Build 266R, Dec 14 2015
+#install: C:\tools\Microsemi\Libero_SoC_v11.7\Synplify
+#OS: Windows 7 6.1
+#Hostname: LOSANGLAP73674
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Top entity is set to LedBlinkingDSpeed.
+VHDL syntax check successful!
+@N: CD231 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Synthesizing work.ledblinkingdspeed.architecture_ledblinkingdspeed 
+@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":86:11:86:23|Signal scale_factor0 is undriven 
+@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":87:11:87:23|Signal scale_factor1 is undriven 
+@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":88:11:88:23|Signal scale_factor3 is undriven 
+@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":54:7:54:13|Synthesizing work.display.architecture_display 
+@W: CG296 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":82:18:82:20|Referenced variable sw2 is not in sensitivity list
+@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":82:24:82:26|Referenced variable sw1 is not in sensitivity list
+Post processing for work.display.architecture_display
+@W: CL111 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to red_led1 assign '0'; register removed by optimization
+@W: CL111 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to green_led2 assign '0'; register removed by optimization
+@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":56:7:56:12|Synthesizing work.clkgen.architecture_clkgen 
+@W: CG296 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":76:4:76:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":79:21:79:25|Referenced variable scale is not in sensitivity list
+@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":83:33:83:34|Referenced variable sw is not in sensitivity list
+Post processing for work.clkgen.architecture_clkgen
+@W: CL113 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal cnt[31:0].
+@W: CL113 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal tmp_clk.
+@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":56:7:56:20|Synthesizing work.clkgennoswitch.architecture_clkgennoswitch 
+@W: CG296 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":80:21:80:25|Referenced variable scale is not in sensitivity list
+Post processing for work.clkgennoswitch.architecture_clkgennoswitch
+@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Reset_out.vhd":55:7:55:15|Synthesizing work.reset_out.architecture_reset_out 
+Post processing for work.reset_out.architecture_reset_out
+Post processing for work.ledblinkingdspeed.architecture_ledblinkingdspeed
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 23 02:53:20 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 23 02:53:20 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 23 02:53:20 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 23 02:53:22 2016
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed\synthesis.fdc
+@L: C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\LedBlinkingDSpeed_scck.rpt 
+Printing clock  summary report in "C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\LedBlinkingDSpeed_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+syn_allowed_resources : blockrams=31  set on top level netlist LedBlinkingDSpeed
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                     Requested     Requested     Clock        Clock           
+Clock                     Frequency     Period        Type         Group           
+-----------------------------------------------------------------------------------
+LedBlinkingDSpeed|clk     50.0 MHz      20.000        declared     default_clkgroup
+===================================================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\LedBlinkingDSpeed.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 23 02:53:22 2016
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Generic Technology Mapper, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Found counter in view:work.ClkGenNoSwitch(architecture_clkgennoswitch) inst cnt[31:0]
+@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Found counter in view:work.ClkGen(architecture_clkgen) inst cnt[31:0]
+@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Found counter in view:work.ClkGenNoSwitch_0(architecture_clkgennoswitch) inst cnt[31:0]
+@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Found counter in view:work.ClkGen_0(architecture_clkgen) inst cnt[31:0]
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[10] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[11] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[12] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[13] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[14] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[15] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[16] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[17] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[18] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[19] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[20] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[21] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[22] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[23] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[24] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[25] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[26] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[9] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[10] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[11] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[12] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[13] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[14] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[15] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[16] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[17] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[18] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[19] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[20] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[21] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[22] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[23] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[24] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[25] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[26] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[11] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[12] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[13] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[14] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[15] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[16] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[17] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[18] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[19] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[20] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[21] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[22] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[23] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[24] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[25] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[26] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[10] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[11] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[12] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[13] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[14] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[15] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[16] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[17] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[18] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[19] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[20] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[21] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[22] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[23] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[24] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[25] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[26] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    13.03ns		  67 /        47
+@N: FP130 |Promoting Net reset on CLKINT  I_196 
+@N: FP130 |Promoting Net clk_c on CLKINT  I_197 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 47 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================= Non-Gated/Non-Generated Clocks =================================
+Clock Tree ID     Driving Element     Drive Element Type           Fanout     Sample Instance     
+--------------------------------------------------------------------------------------------------
+@K:CKID0001       clk                 clock definition on port     47         Display_out.red_led2
+==================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 133MB)
+
+Writing Analyst data base C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synwork\LedBlinkingDSpeed_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+J-2015.03M-SP1-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 133MB)
+
+Found clock LedBlinkingDSpeed|clk with period 20.00ns 
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Oct 23 02:53:23 2016
+#
+
+
+Top view:               LedBlinkingDSpeed
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed\synthesis.fdc
+                       
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 14.415
+
+                          Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock            Frequency     Frequency     Period        Period        Slack      Type         Group           
+--------------------------------------------------------------------------------------------------------------------------
+LedBlinkingDSpeed|clk     50.0 MHz      179.0 MHz     20.000        5.585         14.415     declared     default_clkgroup
+==========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------
+Starting               Ending                 |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------
+LedBlinkingDSpeed|clk  LedBlinkingDSpeed|clk  |  20.000      14.415  |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: LedBlinkingDSpeed|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                Starting                                              Arrival           
+Instance                        Reference                 Type     Pin     Net        Time        Slack 
+                                Clock                                                                   
+--------------------------------------------------------------------------------------------------------
+Initial_blinking_SW2.cnt[5]     LedBlinkingDSpeed|clk     SLE      Q       cnt[5]     0.108       14.415
+Initial_blinking_SW2.cnt[6]     LedBlinkingDSpeed|clk     SLE      Q       cnt[6]     0.108       14.509
+Initial_blinking_SW2.cnt[7]     LedBlinkingDSpeed|clk     SLE      Q       cnt[7]     0.108       14.584
+Initial_blinking_SW2.cnt[8]     LedBlinkingDSpeed|clk     SLE      Q       cnt[8]     0.108       14.632
+Initial_blinking_SW2.cnt[4]     LedBlinkingDSpeed|clk     SLE      Q       cnt[4]     0.108       15.151
+Fast_clk_SW1.cnt[3]             LedBlinkingDSpeed|clk     SLE      Q       cnt[3]     0.108       15.196
+Fast_clk_SW1.cnt[1]             LedBlinkingDSpeed|clk     SLE      Q       cnt[1]     0.108       15.219
+Fast_clk_SW2.cnt[3]             LedBlinkingDSpeed|clk     SLE      Q       cnt[3]     0.108       15.232
+Initial_blinking_SW1.cnt[3]     LedBlinkingDSpeed|clk     SLE      Q       cnt[3]     0.108       15.232
+Initial_blinking_SW2.cnt[9]     LedBlinkingDSpeed|clk     SLE      Q       cnt[9]     0.108       15.245
+========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                Starting                                                Required           
+Instance                        Reference                 Type     Pin     Net          Time         Slack 
+                                Clock                                                                      
+-----------------------------------------------------------------------------------------------------------
+Initial_blinking_SW2.cnt[9]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[9]     19.745       14.415
+Initial_blinking_SW2.cnt[8]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[8]     19.745       14.431
+Initial_blinking_SW2.cnt[7]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[7]     19.745       14.447
+Initial_blinking_SW2.cnt[6]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[6]     19.745       14.464
+Initial_blinking_SW2.cnt[5]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[5]     19.745       14.480
+Initial_blinking_SW2.cnt[1]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[1]     19.745       14.495
+Initial_blinking_SW2.cnt[2]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[2]     19.745       14.495
+Initial_blinking_SW2.cnt[3]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[3]     19.745       14.495
+Initial_blinking_SW2.cnt[4]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[4]     19.745       14.495
+Fast_clk_SW1.cnt[7]             LedBlinkingDSpeed|clk     SLE      D       cnt_s[7]     19.745       15.196
+===========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.745
+
+    - Propagation time:                      5.330
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     14.415
+
+    Number of logic level(s):                12
+    Starting point:                          Initial_blinking_SW2.cnt[5] / Q
+    Ending point:                            Initial_blinking_SW2.cnt[9] / D
+    The start point is clocked by            LedBlinkingDSpeed|clk [rising] on pin CLK
+    The end   point is clocked by            LedBlinkingDSpeed|clk [rising] on pin CLK
+
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                                Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+Initial_blinking_SW2.cnt[5]                         SLE      Q        Out     0.108     0.108       -         
+cnt[5]                                              Net      -        -       0.674     -           2         
+Initial_blinking_SW2.un7_cntlto31_0_o3_0            CFG4     D        In      -         0.783       -         
+Initial_blinking_SW2.un7_cntlto31_0_o3_0            CFG4     Y        Out     0.317     1.100       -         
+un7_cntlto31_0_o3_0_0                               Net      -        -       0.630     -           2         
+Initial_blinking_SW2.un14_cntlto31_0_o2             CFG4     B        In      -         1.730       -         
+Initial_blinking_SW2.un14_cntlto31_0_o2             CFG4     Y        Out     0.165     1.895       -         
+un14_cntlto31_0_o2                                  Net      -        -       0.630     -           2         
+Initial_blinking_SW2.un14_cntlto31_0_o2_RNIC1E4     ARI1     B        In      -         2.525       -         
+Initial_blinking_SW2.un14_cntlto31_0_o2_RNIC1E4     ARI1     Y        Out     0.165     2.689       -         
+un14_cntlto31_0_o2_RNIC1E4_Y                        Net      -        -       1.136     -           9         
+Initial_blinking_SW2.cnt_RNIV1K91[1]                ARI1     B        In      -         3.825       -         
+Initial_blinking_SW2.cnt_RNIV1K91[1]                ARI1     FCO      Out     0.201     4.026       -         
+cnt_cry[1]                                          Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIQ37S1[2]                ARI1     FCI      In      -         4.026       -         
+Initial_blinking_SW2.cnt_RNIQ37S1[2]                ARI1     FCO      Out     0.016     4.042       -         
+cnt_cry[2]                                          Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIM6QE2[3]                ARI1     FCI      In      -         4.042       -         
+Initial_blinking_SW2.cnt_RNIM6QE2[3]                ARI1     FCO      Out     0.016     4.058       -         
+cnt_cry[3]                                          Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIJAD13[4]                ARI1     FCI      In      -         4.058       -         
+Initial_blinking_SW2.cnt_RNIJAD13[4]                ARI1     FCO      Out     0.016     4.075       -         
+cnt_cry[4]                                          Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIHF0K3[5]                ARI1     FCI      In      -         4.075       -         
+Initial_blinking_SW2.cnt_RNIHF0K3[5]                ARI1     FCO      Out     0.016     4.091       -         
+cnt_cry[5]                                          Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIGLJ64[6]                ARI1     FCI      In      -         4.091       -         
+Initial_blinking_SW2.cnt_RNIGLJ64[6]                ARI1     FCO      Out     0.016     4.107       -         
+cnt_cry[6]                                          Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIGS6P4[7]                ARI1     FCI      In      -         4.107       -         
+Initial_blinking_SW2.cnt_RNIGS6P4[7]                ARI1     FCO      Out     0.016     4.123       -         
+cnt_cry[7]                                          Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIH4QB5[8]                ARI1     FCI      In      -         4.123       -         
+Initial_blinking_SW2.cnt_RNIH4QB5[8]                ARI1     FCO      Out     0.016     4.140       -         
+cnt_cry[8]                                          Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIJDDU5[9]                ARI1     FCI      In      -         4.140       -         
+Initial_blinking_SW2.cnt_RNIJDDU5[9]                ARI1     S        Out     0.073     4.213       -         
+cnt_s[9]                                            Net      -        -       1.117     -           1         
+Initial_blinking_SW2.cnt[9]                         SLE      D        In      -         5.330       -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 5.585 is 1.398(25.0%) logic and 4.188(75.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 133MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 133MB)
+
+---------------------------------------
+Resource Usage Report for LedBlinkingDSpeed 
+
+Mapping to part: m2gl025vf256std
+Cell usage:
+CLKINT          2 uses
+CFG2           3 uses
+CFG3           5 uses
+CFG4           11 uses
+
+Carry primitives used for arithmetic functions:
+ARI1           40 uses
+
+
+Sequential Cells: 
+SLE            47 uses
+
+DSP Blocks:    0
+
+I/O ports: 7
+I/O primitives: 7
+INBUF          3 uses
+OUTBUF         4 uses
+
+
+Global Clock Buffers: 2
+
+
+Total LUTs:    59
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  47 + 0 + 0 + 0 = 47;
+Total number of LUTs after P&R:  59 + 0 + 0 + 0 = 59;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 49MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 23 02:53:23 2016
+
+###########################################################]

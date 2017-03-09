@@ -1,0 +1,81 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v11.7 SP1 11.7.1.11
+
+# Family: IGLOO2 , Die: M2GL025 , Package: 256 VF
+
+# Date generated: Sun Oct 23 02:59:56 2016 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io SW1            \
+    -pinname H12      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io SW2            \
+    -pinname H13      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io clk            \
+    -pinname H16      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io green_led1      \
+    -pinname J16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io green_led2      \
+    -pinname M16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io red_led1        \
+    -pinname K16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io red_led2        \
+    -pinname N16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+

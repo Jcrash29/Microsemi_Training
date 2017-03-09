@@ -1,0 +1,7 @@
+C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe  -link  -top  work.LedBlinkingDSpeed  -multisrs  C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synwork\LedBlinkingDSpeed_comp.srs  -osyn  C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synwork\LedBlinkingDSpeed_mult.srs  -log  C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synlog\LedBlinkingDSpeed_multi_srs_gen.srr 
+rc:0 success:1
+C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synwork\LedBlinkingDSpeed_comp.srs|i|1477216770|7473
+C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synwork\LedBlinkingDSpeed_mult.srs|o|1477216771|4627
+C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synlog\LedBlinkingDSpeed_multi_srs_gen.srr|o|1477216771|506
+C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\bin\syn_nfilter.exe|i|1449250524|3007488
+C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe|i|1449250526|3974144

@@ -1,0 +1,315 @@
+KEY LIBERO "11.7"
+KEY CAPTURE "11.7.1.14"
+KEY DEFAULT_IMPORT_LOC "C:\Actelprj\A3P_Verilog_labs\lab2"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "IGLOO2"
+KEY VendorTechnology_Die "PA4MGL2500_N"
+KEY VendorTechnology_Package "vf256"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_33"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "0"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4MGL2500_N"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "LedBlinkingDSpeed::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\constraint\io\LedBlinkingDSpeed.io.pdc,io_pdc"
+STATE="utd"
+TIME="1477216352"
+SIZE="1197"
+ENDFILE
+VALUE "<project>\constraint\LedBlinkingDSpeed_sdc.sdc,sdc"
+STATE="utd"
+TIME="1477216352"
+SIZE="152"
+ENDFILE
+VALUE "<project>\designer\impl1\LedBlinkingDSpeed.ide_des,ide_des"
+STATE="utd"
+TIME="1477216382"
+SIZE="438"
+ENDFILE
+VALUE "<project>\hdl\ClkGen.vhd,hdl"
+STATE="utd"
+TIME="1477216352"
+SIZE="4624"
+ENDFILE
+VALUE "<project>\hdl\ClkGenNoSwitch.vhd,hdl"
+STATE="utd"
+TIME="1477216352"
+SIZE="4722"
+ENDFILE
+VALUE "<project>\hdl\Display.vhd,hdl"
+STATE="utd"
+TIME="1477216352"
+SIZE="4734"
+ENDFILE
+VALUE "<project>\hdl\LedBlinkingDSpeed.vhd,hdl"
+STATE="utd"
+TIME="1477216740"
+SIZE="8890"
+ENDFILE
+VALUE "<project>\hdl\Reset_out.vhd,hdl"
+STATE="utd"
+TIME="1477216352"
+SIZE="3699"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1477216662"
+SIZE="727"
+ENDFILE
+VALUE "<project>\stimulus\LedBlinkingDSpeed_tb.vhd,tb_hdl"
+STATE="utd"
+TIME="1477216430"
+SIZE="6181"
+ENDFILE
+VALUE "<project>\synthesis\LedBlinkingDSpeed.edn,syn_edn"
+STATE="utd"
+TIME="1477216774"
+SIZE="182614"
+ENDFILE
+VALUE "<project>\synthesis\LedBlinkingDSpeed.so,so"
+STATE="utd"
+TIME="1477216774"
+SIZE="259"
+ENDFILE
+VALUE "<project>\synthesis\LedBlinkingDSpeed.vhd,syn_hdl"
+STATE="utd"
+TIME="1477216778"
+SIZE="88479"
+ENDFILE
+VALUE "<project>\synthesis\LedBlinkingDSpeed_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1477216774"
+SIZE="901"
+ENDFILE
+VALUE "<project>\synthesis\LedBlinkingDSpeed_syn.prj,prj"
+STATE="utd"
+TIME="1477216776"
+SIZE="2218"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "LedBlinkingDSpeed::work"
+FILE "<project>\hdl\LedBlinkingDSpeed.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\LedBlinkingDSpeed_tb.vhd,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\constraint\LedBlinkingDSpeed_sdc.sdc,sdc"
+ENDLIST
+LIST TimingConstraints
+VALUE "<project>\constraint\LedBlinkingDSpeed_sdc.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\LedBlinkingDSpeed.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST LedBlinkingDSpeed
+VALUE "<project>\stimulus\LedBlinkingDSpeed_tb.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=650us
+Resolution=1fs
+VsimOpt=
+EntityName=LedBlinkingDSpeed_tb
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=true
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Synplify\\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Model\\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Designer\\bin\flashpro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Identify\\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "LedBlinkingDSpeed::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\LedBlinkingDSpeed.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "ClkGen::work","hdl\ClkGen.vhd","FALSE","FALSE"
+ENDLIST
+LIST "ClkGenNoSwitch::work","hdl\ClkGenNoSwitch.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Display::work","hdl\Display.vhd","FALSE","FALSE"
+ENDLIST
+LIST "LedBlinkingDSpeed::work","hdl\LedBlinkingDSpeed.vhd","FALSE","FALSE"
+SUBBLOCK "ClkGen::work","hdl\ClkGen.vhd","FALSE","FALSE"
+SUBBLOCK "ClkGenNoSwitch::work","hdl\ClkGenNoSwitch.vhd","FALSE","FALSE"
+SUBBLOCK "Display::work","hdl\Display.vhd","FALSE","FALSE"
+SUBBLOCK "Reset_out::work","hdl\Reset_out.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Reset_out::work","hdl\Reset_out.vhd","FALSE","FALSE"
+ENDLIST
+LIST "LedBlinkingDSpeed_tb::work","stimulus\LedBlinkingDSpeed_tb.vhd","FALSE","TRUE"
+SUBBLOCK "LedBlinkingDSpeed::work","hdl\LedBlinkingDSpeed.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\LedBlinkingDSpeed.io.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "constraint\LedBlinkingDSpeed_sdc.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

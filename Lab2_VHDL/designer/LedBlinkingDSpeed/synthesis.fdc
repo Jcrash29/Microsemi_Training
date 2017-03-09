@@ -1,0 +1,7 @@
+# Microsemi Corp.
+# Date: 2016-Oct-23 02:59:29
+# This file was generated based on the following SDC source files:
+#   C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab2_VHDL/constraint/LedBlinkingDSpeed_sdc.sdc
+#
+
+create_clock -name {LedBlinkingDSpeed|clk} -period 20 -waveform {0 10 } [ get_ports { clk } ]
