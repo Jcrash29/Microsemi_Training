@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>SPI_Master</design>
+	<target_edif>C:\Users\Giovanna.Franco\Documents\9Oct2016\m2s_m2gl_ac429_liberov11p7_df\eSRAM_eNVM_RW_Fabric\Libero_project\IGL2\synthesis\SPI_Master.edn</target_edif>
+</SynplifyOutput>

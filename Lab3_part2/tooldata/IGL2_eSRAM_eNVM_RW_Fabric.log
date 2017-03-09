@@ -1,0 +1,16 @@
+Project Name: IGL2_eSRAM_eNVM_RW_Fabric
+Location: C:\Users\Giovanna.Franco\Documents\9Oct2016\m2s_m2gl_ac429_liberov11p7_df\eSRAM_eNVM_RW_Fabric\Libero_project\IGL2
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2GL025-VF256
+Family         : IGLOO2
+Die            : M2GL025
+Package        : 256 VF
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

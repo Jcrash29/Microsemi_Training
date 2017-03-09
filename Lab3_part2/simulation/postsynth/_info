@@ -1,0 +1,734 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/simulation
+vAHB_IF_0s_1s_2s_3s_4294967292s_4294967293s_4294967294s_0s_1_layer0
+Z1 !s110 1476222123
+!i10b 1
+!s100 C]bk1JmC<0PiXQ8@XRZ?E2
+IaEooCkFFON@08WnE`G0RO2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/simulation
+Z4 w1476222115
+Z5 8C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/synthesis/eSRAM_eNVM_access_top.v
+Z6 FC:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/synthesis/eSRAM_eNVM_access_top.v
+L0 5519
+Z7 OW;L;10.4c;61
+r1
+!s85 0
+31
+Z8 !s108 1476222123.000000
+Z9 !s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/synthesis/eSRAM_eNVM_access_top.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|postsynth|C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/synthesis/eSRAM_eNVM_access_top.v|
+!s101 -O0
+!i113 1
+Z11 o-vlog01compat -work postsynth -O0
+n@a@h@b_@i@f_0s_1s_2s_3s_4294967292s_4294967293s_4294967294s_0s_1_layer0
+vAHB_IF_0s_1s_2s_3s_4294967292s_4294967293s_4294967294s_0s_Z1
+Z12 !s110 1476210408
+!i10b 1
+!s100 L95i[e]Ff^;d;f^lU3zLn1
+Ih8UFHPzNW<EkALOAc=FnR3
+R2
+R0
+Z13 w1476210401
+Z14 8C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/synthesis/eSRAM_eNVM_access_top.v
+Z15 FC:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/synthesis/eSRAM_eNVM_access_top.v
+L0 5518
+R7
+r1
+!s85 0
+31
+Z16 !s108 1476210408.000000
+Z17 !s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/synthesis/eSRAM_eNVM_access_top.v|
+Z18 !s90 -reportprogress|300|-vlog01compat|-work|postsynth|C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/synthesis/eSRAM_eNVM_access_top.v|
+!s101 -O0
+!i113 1
+R11
+n@a@h@b_@i@f_0s_1s_2s_3s_4294967292s_4294967293s_4294967294s_0s_@z1
+vCOREAHBLITE_ADDRDEC_Z2_layer0
+R1
+!i10b 1
+!s100 PKbFE7S[5:O]>i;2WM>4b1
+I@9I?a[Fb[HB4D2nVJd1Y_3
+R2
+R3
+R4
+R5
+R6
+L0 1253
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+n@c@o@r@e@a@h@b@l@i@t@e_@a@d@d@r@d@e@c_@z2_layer0
+vCOREAHBLITE_DEFAULTSLAVESM_0s_0_1_0
+R1
+!i10b 1
+!s100 EYoS]<Pe1A2Fd9Z1Q4e@H0
+I^i26egE6]LC4nMQ0:ESI83
+R2
+R3
+R4
+R5
+R6
+L0 1275
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+n@c@o@r@e@a@h@b@l@i@t@e_@d@e@f@a@u@l@t@s@l@a@v@e@s@m_0s_0_1_0
+vCOREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0
+R1
+!i10b 1
+!s100 W4_68C`5h`zPQ:[?iAaRN1
+INL<<Le_iRX9Ei4?dVlFPV0
+R2
+R3
+R4
+R5
+R6
+L0 1381
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+n@c@o@r@e@a@h@b@l@i@t@e_@m@a@s@t@e@r@s@t@a@g@e_1_1_85_65536_0s_0_1_0
+vCOREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s
+R1
+!i10b 1
+!s100 E[flWO0jSPaOO4dK15j4n2
+IH0QV5SPzMD9Tk0NXRY=0Z0
+R2
+R3
+R4
+R5
+R6
+L0 2476
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+n@c@o@r@e@a@h@b@l@i@t@e_@m@a@t@r@i@x4@x16_1_1_85_65536_0_0_0_0s
+vCOREAHBLITE_SLAVEARBITER_Z4_1
+R12
+!i10b 1
+!s100 Y;OdMK>c>_5ml_SzBAeGT3
+I>DOJaU>bz?3j5=1gmlmR93
+R2
+R0
+R13
+R14
+R15
+L0 1688
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+!i113 1
+R11
+n@c@o@r@e@a@h@b@l@i@t@e_@s@l@a@v@e@a@r@b@i@t@e@r_@z4_1
+vCOREAHBLITE_SLAVEARBITER_Z4_layer0_1
+R1
+!i10b 1
+!s100 U26D813dHa4[Km]Rgm=Tb0
+Ig=59ERMBcmZIOIFM`?H^M3
+R2
+R3
+R4
+R5
+R6
+L0 1775
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+n@c@o@r@e@a@h@b@l@i@t@e_@s@l@a@v@e@a@r@b@i@t@e@r_@z4_layer0_1
+vCOREAHBLITE_SLAVESTAGE_0s_0_0_0
+R1
+!i10b 1
+!s100 d;VH4n5UM_hQ]M]E]DdQ43
+I[;a=z;eBJzf>zedRc;5`o2
+R2
+R3
+R4
+R5
+R6
+L0 2136
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+n@c@o@r@e@a@h@b@l@i@t@e_@s@l@a@v@e@s@t@a@g@e_0s_0_0_0
+vCoreAHBLite_Z5
+R12
+!i10b 1
+!s100 G_QX[l2z33=IDCGIDclD21
+IE6dk?70>I91GWocL`X5im3
+R2
+R0
+R13
+R14
+R15
+L0 2789
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+!i113 1
+R11
+n@core@a@h@b@lite_@z5
+vCoreAHBLite_Z5_layer0
+R1
+!i10b 1
+!s100 6n_gVh1g8eM]mS``=CIbo0
+I8BLKf7SdanZ<elNB8jkmG1
+R2
+R3
+R4
+R5
+R6
+L0 2754
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+n@core@a@h@b@lite_@z5_layer0
+vCoreResetP_Z6
+R12
+!i10b 1
+!s100 aR3lBIFFGBGAJQR;<@DKV0
+I:8W8Ba?i8@cKnhQiG@ATe2
+R2
+R0
+R13
+R14
+R15
+Z19 L0 1157
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+!i113 1
+R11
+n@core@reset@p_@z6
+vCoreResetP_Z6_layer0
+R1
+!i10b 1
+!s100 8Z:T__C3]f4`j_e0hz6^n2
+IL@C=KmILFDC?kC_Dii=l`2
+R2
+R3
+R4
+R5
+R6
+R19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+n@core@reset@p_@z6_layer0
+veNVM_tb
+!s110 1476215458
+!i10b 1
+!s100 Uizh]KB];WD6W45N89M4>2
+I0jfo>TQ^WLj;UVii_X9GB0
+R2
+R0
+w1476212799
+8C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/eNVM_tb.v
+FC:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/eNVM_tb.v
+Z20 L0 21
+R7
+r1
+!s85 0
+31
+!s108 1476215458.000000
+!s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/eNVM_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus|-vlog01compat|-work|postsynth|C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/eNVM_tb.v|
+!s101 -O0
+!i113 1
+R11
+Z21 !s92 +incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus -vlog01compat -work postsynth -O0
+ne@n@v@m_tb
+veSRAM_eNVM_access
+R1
+!i10b 1
+!s100 ^KbY=2Q4a^M4:XAbLAWQQ3
+I:YEB:L6WZ0ch?BfKBdV_>1
+R2
+R3
+R4
+R5
+R6
+L0 3688
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+ne@s@r@a@m_e@n@v@m_access
+veSRAM_eNVM_access_CCC_0_FCCC
+R1
+!i10b 1
+!s100 h=kAL7<TieGWP>X3[X4U90
+IKn>[7]NR01RbTm5G;n_X10
+R2
+R3
+R4
+R5
+R6
+L0 2955
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+ne@s@r@a@m_e@n@v@m_access_@c@c@c_0_@f@c@c@c
+veSRAM_eNVM_access_FABOSC_0_OSC
+R1
+!i10b 1
+!s100 ]>AU2e4c43[n8?m`CnUCM2
+I3844G4e9zYV]dmnG>Eji33
+R2
+R3
+R4
+R5
+R6
+L0 1142
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+ne@s@r@a@m_e@n@v@m_access_@f@a@b@o@s@c_0_@o@s@c
+veSRAM_eNVM_access_HPMS
+R1
+!i10b 1
+!s100 @i>j=ZB4NW;<PfPjFH<?<2
+IOQnR^M4IPTcUNTWCKj_<<2
+R2
+R3
+R4
+R5
+R6
+L0 2996
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+ne@s@r@a@m_e@n@v@m_access_@h@p@m@s
+veSRAM_eNVM_access_top
+R1
+!i10b 1
+!s100 O`3C8cUS@W0k?E=LT^Dn01
+I0ZfaaTDNGWgV]5fTPza2T3
+R2
+R3
+R4
+R5
+R6
+L0 7752
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+ne@s@r@a@m_e@n@v@m_access_top
+veSRAM_eNVM_access_top_tb
+R1
+!i10b 1
+!s100 h192C9djCn25D4HDT^mS60
+I5511X_?3SlD;:n8>MC7;Q2
+R2
+R3
+w1476219179
+8C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/stimulus/eSRAM_eNVM_access_top_tb.v
+FC:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/stimulus/eSRAM_eNVM_access_top_tb.v
+R20
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/stimulus/eSRAM_eNVM_access_top_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/stimulus|-vlog01compat|-work|postsynth|C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/stimulus/eSRAM_eNVM_access_top_tb.v|
+!s101 -O0
+!i113 1
+R11
+!s92 +incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/stimulus -vlog01compat -work postsynth -O0
+ne@s@r@a@m_e@n@v@m_access_top_tb
+veSRAM_eNVM_access_top_testbench
+Z22 !s110 1476210409
+!i10b 1
+!s100 TEU8fVlgIkfeY[UX9FlD53
+I0k^Oif>0cY==ZoN<B9>mG0
+R2
+R0
+Z23 w1455685901
+8C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_top_testbench/eSRAM_eNVM_access_top_testbench.v
+FC:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_top_testbench/eSRAM_eNVM_access_top_testbench.v
+L0 9
+R7
+r1
+!s85 0
+31
+Z24 !s108 1476210409.000000
+!s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_top_testbench/eSRAM_eNVM_access_top_testbench.v|
+!s90 -reportprogress|300|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_top_testbench|-vlog01compat|-work|postsynth|C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_top_testbench/eSRAM_eNVM_access_top_testbench.v|
+!s101 -O0
+!i113 1
+R11
+Z25 !s92 +incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/Simulation/RESET_GEN/1.0.1 +incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus +incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_top_testbench -vlog01compat -work postsynth -O0
+ne@s@r@a@m_e@n@v@m_access_top_testbench
+veSRAM_eNVM_access_top_TPSRAM_0_TPSRAM
+R1
+!i10b 1
+!s100 VJlT;Gc3AB^AJU79@DORe3
+InokJ]=^VdTf0hALGjkhim3
+R2
+R3
+R4
+R5
+R6
+L0 1078
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+ne@s@r@a@m_e@n@v@m_access_top_@t@p@s@r@a@m_0_@t@p@s@r@a@m
+veSRAM_eNVM_RW
+R1
+!i10b 1
+!s100 kK0UAFB@2`<l3l<8H3NL33
+I2fb^7lkiebgU[JNcUV]jF3
+R2
+R3
+R4
+R5
+R6
+L0 3949
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+ne@s@r@a@m_e@n@v@m_@r@w
+vMSS_025
+R1
+!i10b 1
+!s100 _K12]lbbBMcfGLzVO6MK90
+IR@Uk]3JlZW5Ea1`H?Mo2Y1
+R2
+R3
+R4
+R5
+R6
+L0 15
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+n@m@s@s_025
+vRCOSC_25_50MHZ
+R1
+!i10b 1
+!s100 AE<=db:L>So@zXJaK9H2l1
+I5hRi]o:PKWC^F>1GFmd:P3
+R2
+R3
+R4
+R5
+R6
+L0 5
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+n@r@c@o@s@c_25_50@m@h@z
+vRESET_GEN
+R22
+!i10b 1
+!s100 ^eT^?3Tbjk^[^3?FTW9WM1
+IX<A_SCZ3o`Z@Kj>mN0HlU0
+R2
+R0
+R23
+8C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+FC:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+L0 3
+R7
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v|
+!s90 -reportprogress|300|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_top_testbench|-vlog01compat|-work|postsynth|C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v|
+!s101 -O0
+!i113 1
+R11
+R25
+n@r@e@s@e@t_@g@e@n
+vSPI_eNVM_tb
+!s110 1476215543
+!i10b 1
+!s100 PW;ZoADlMYzQKV;cf]hkZ1
+IV:HdbP0JW0;0bfnUDl7Rm1
+R2
+R0
+w1476215529
+8C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_eNVM_tb.v
+FC:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_eNVM_tb.v
+Z26 L0 30
+R7
+r1
+!s85 0
+31
+!s108 1476215543.000000
+!s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_eNVM_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus|-vlog01compat|-work|postsynth|C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_eNVM_tb.v|
+!s101 -O0
+!i113 1
+R11
+R21
+n@s@p@i_e@n@v@m_tb
+Espi_envm_tb
+Z27 w1476214970
+Z28 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z29 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z30 8C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_eNVM_tb.vhd
+Z31 FC:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_eNVM_tb.vhd
+l0
+L23
+V>Mo8^gbYDk8L]66^@`=Kn1
+!s100 D^1l9hl5Wh<kdjJ^Q6WFO2
+Z32 OW;C;10.4c;61
+31
+Z33 !s110 1476214979
+!i10b 1
+Z34 !s108 1476214979.000000
+Z35 !s90 -reportprogress|300|-93|-explicit|-work|postsynth|C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_eNVM_tb.vhd|
+Z36 !s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_eNVM_tb.vhd|
+!i113 1
+Z37 o-93 -explicit -work postsynth -O0
+Abehavioral
+R28
+R29
+DEx4 work 11 spi_envm_tb 0 22 >Mo8^gbYDk8L]66^@`=Kn1
+l72
+L26
+VN37:XEGPz7?jU[MHXBoAY2
+!s100 ?M2m?4cR5j>H=E0[BIXa=1
+R32
+31
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R37
+vSPI_ma
+!s110 1476214065
+!i10b 1
+!s100 <]lPM0NJfJZ<14XN]T6932
+I8[DU:^4W>i8M_^oY>:B[J3
+R2
+R0
+w1476214057
+8C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_ma.v
+FC:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_ma.v
+R26
+R7
+r1
+!s85 0
+31
+!s108 1476214065.000000
+!s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_ma.v|
+!s90 -reportprogress|300|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus|-vlog01compat|-work|postsynth|C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_ma.v|
+!s101 -O0
+!i113 1
+R11
+R21
+n@s@p@i_ma
+vSPI_Master
+R1
+!i10b 1
+!s100 ]1Z<YId7aTblf7A_OmbEK3
+Ie=dHjf23Ch^jB?A]SN>]X3
+R2
+R3
+R4
+R5
+R6
+L0 6424
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+n@s@p@i_@master
+Espi_master_tb
+w1476213611
+R28
+R29
+R0
+8C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_Master_tb.vhd
+FC:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_Master_tb.vhd
+l0
+L32
+VOm4FQ^8@c3Z3hNjkA@;fb3
+!s100 0QYa;S@dZLNTZaQE5ec8n3
+R32
+31
+!s110 1476213631
+!i10b 1
+!s108 1476213631.000000
+!s90 -reportprogress|300|-93|-explicit|-work|postsynth|C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_Master_tb.vhd|
+!s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/SPI_Master_tb.vhd|
+!i113 1
+R37
+vTestBench_pulsegenerator
+R22
+!i10b 1
+!s100 [@[TSzz<SnJ<=?mzcO_SD2
+IdARKA3V6@XAPz^OH<eMd20
+R2
+R0
+w1443330482
+8C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/TestBench_pulsegenerator.v
+FC:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/TestBench_pulsegenerator.v
+R20
+R7
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/TestBench_pulsegenerator.v|
+!s90 -reportprogress|300|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_top_testbench|-vlog01compat|-work|postsynth|C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/stimulus/TestBench_pulsegenerator.v|
+!s101 -O0
+!i113 1
+R11
+R25
+n@test@bench_pulsegenerator

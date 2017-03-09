@@ -1,0 +1,28 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       2 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     1 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    492    0      0      'eSRAM_eNVM_access_0/CCC_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    0      261    31     'eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68' 
+
+Info: Demotion information: 
+      Disconnected 31 data pins from global 'eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+INFO: Reading User PDC file C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/constraint/io/eSRAM_eNVM_access_top.io.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/constraint/fp/eSRAM_eNVM_access_top.fp.pdc. 0 error(s) and 0 warning(s)

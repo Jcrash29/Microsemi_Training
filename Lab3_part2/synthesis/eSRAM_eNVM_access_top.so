@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>eSRAM_eNVM_access_top</design>
+	<target_edif>C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\eSRAM_eNVM_access_top.edn</target_edif>
+</SynplifyOutput>

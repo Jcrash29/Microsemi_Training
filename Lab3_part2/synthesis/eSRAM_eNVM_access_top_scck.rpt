@@ -1,0 +1,29 @@
+# Synopsys Constraint Checker(syntax only), version mapact, Build 1659R, built Dec 10 2015
+# Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+# Written on Fri Oct 14 23:24:49 2016
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "eSRAM_eNVM_access_top"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                                                                Requested     Requested     Clock        Clock              
+Clock                                                                Frequency     Period        Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------
+eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+eSRAM_eNVM_access_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_1
+=================================================================================================================================

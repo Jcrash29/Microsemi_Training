@@ -1,0 +1,43 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2GL025VF256STD (Microsemi)
+
+--------------------------------------------------------------------------
+########   Utilization report for  Top level view:   SPI_Master   ########
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      161                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block SPI_Master:	161 (37.70 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      128                100 %                
+ARI1     54                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block SPI_Master:	182 (42.62 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block SPI_Master:	2 (0.47 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       80                 100 %                
+=================================================
+Total IO PADS in the block SPI_Master:	80 (18.74 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

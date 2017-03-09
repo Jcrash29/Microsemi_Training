@@ -1,0 +1,56 @@
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+Inter-clock optimization : OFF
+TDPR scenario            : Primary
+
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 48 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.7.1 
+Design: eSRAM_eNVM_access_top           Started: Fri Oct 14 23:25:47 2016
+
+Initializing Timing-Driven Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 1 seconds
+Placement Runtime            : 9 seconds
+
+Placer completed successfully.
+
+Design: eSRAM_eNVM_access_top           
+Finished: Fri Oct 14 23:26:15 2016
+Total CPU Time:     00:00:26            Total Elapsed Time: 00:00:28
+Total Memory Usage: 356.8 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\designer\eSRAM_eNVM_access_top\eSRAM_eNVM_access_topStarted: Fri Oct 14 23:26:18 2016
+
+
+Router completed successfully.
+
+Design: C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\designer\eSRAM_eNVM_access_top\eSRAM_eNVM_access_top
+Finished: Fri Oct 14 23:26:32 2016
+Total CPU Time:     00:00:13            Total Elapsed Time: 00:00:14
+Total Memory Usage: 1024.0 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 648  | 27696 | 2.34       |
+| DFF           | 525  | 27696 | 1.90       |
+| I/O Register  | 0    | 408   | 0.00       |
+| Logic Element | 717  | 27696 | 2.59       |
++---------------+------+-------+------------+
+

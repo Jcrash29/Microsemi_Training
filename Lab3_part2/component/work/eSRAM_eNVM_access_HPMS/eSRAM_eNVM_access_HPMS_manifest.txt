@@ -1,0 +1,23 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1.1 (Version 11.7.1.14)
+
+Date      :  Tue Oct 11 14:25:53 2016
+Project   :  C:\Users\Giovanna.Franco\Documents\9Oct2016\m2s_m2gl_ac429_liberov11p7_df\eSRAM_eNVM_RW_Fabric\Libero_project\IGL2
+Component :  eSRAM_eNVM_access_HPMS
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_HPMS/eSRAM_eNVM_access_HPMS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_HPMS/eSRAM_eNVM_access_HPMS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_HPMS/eSRAM_eNVM_access_HPMS_pre.v
+
+Configuration files to be used for Programming:
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_HPMS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_HPMS/ENVM.cfg
+

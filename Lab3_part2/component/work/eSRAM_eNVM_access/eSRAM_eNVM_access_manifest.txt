@@ -1,0 +1,37 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1.1 (Version 11.7.1.14)
+
+Date      :  Tue Oct 11 14:26:03 2016
+Project   :  C:\Users\Giovanna.Franco\Documents\9Oct2016\m2s_m2gl_ac429_liberov11p7_df\eSRAM_eNVM_RW_Fabric\Libero_project\IGL2
+Component :  eSRAM_eNVM_access
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_masterstage.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_matrix4x16.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavearbiter.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavestage.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access/CCC_0/eSRAM_eNVM_access_CCC_0_FCCC.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access/FABOSC_0/eSRAM_eNVM_access_FABOSC_0_OSC.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access/eSRAM_eNVM_access.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_HPMS/eSRAM_eNVM_access_HPMS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_HPMS/eSRAM_eNVM_access_HPMS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_HPMS/eSRAM_eNVM_access_HPMS_pre.v
+
+Configuration files to be used for Programming:
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_HPMS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    C:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/component/work/eSRAM_eNVM_access_HPMS/ENVM.cfg
+

@@ -1,0 +1,42 @@
+Software Version: 11.7.1.14
+Embedded FlashPro5 programmer detected.
+programmer 'E20010PVHQ' : FlashPro5
+Opened 'C:\Users\ashj\Documents\LEARNING\Microsemi\Lab3_part2\designer\eSRAM_eNVM_access_top\eSRAM_eNVM_access_top_fp\eSRAM_eNVM_access_top.pro'
+The 'open_project' command succeeded.
+IPD file 'C:/Users/ashj/Documents/LEARNING/Microsemi/Lab3_part2/designer/eSRAM_eNVM_access_top/eSRAM_eNVM_access_top.ipd' has been loaded successfully.
+DESIGN : eSRAM_eNVM_access_top;  CHECKSUM : 705B;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2GL025'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E20010PVHQ' : Scan Chain...
+Warning: programmer 'E20010PVHQ' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E20010PVHQ' : Check Chain...
+programmer 'E20010PVHQ' : Scan and Check Chain PASSED.
+programmer 'E20010PVHQ' : device 'M2GL025' : Executing action PROGRAM
+programmer 'E20010PVHQ' : device 'M2GL025' : Family: SmartFusion2
+programmer 'E20010PVHQ' : device 'M2GL025' : Product:      M2S025
+programmer 'E20010PVHQ' : device 'M2GL025' : EXPORT ISC_ENABLE_RESULT[32] = 00766544
+programmer 'E20010PVHQ' : device 'M2GL025' : EXPORT CRCERR: [1] = 0
+programmer 'E20010PVHQ' : device 'M2GL025' : EXPORT EDCERR: [1] = 0
+programmer 'E20010PVHQ' : device 'M2GL025' : TEMPGRADE: ROOM
+programmer 'E20010PVHQ' : device 'M2GL025' : EXPORT VPPRANGE: [3] = 2
+programmer 'E20010PVHQ' : device 'M2GL025' : VPPRANGE: HIGH
+programmer 'E20010PVHQ' : device 'M2GL025' : EXPORT TEMP: [8] = 65
+programmer 'E20010PVHQ' : device 'M2GL025' : EXPORT VPP: [8] = 76
+programmer 'E20010PVHQ' : device 'M2GL025' : Programming FPGA Array and eNVM...
+programmer 'E20010PVHQ' : device 'M2GL025' : ===================================================================================
+programmer 'E20010PVHQ' : device 'M2GL025' : EXPORT DSN[128] = e6161fa71b52e29fc5134949348debeb
+programmer 'E20010PVHQ' : device 'M2GL025' : ===================================================================================
+programmer 'E20010PVHQ' : device 'M2GL025' : Finished: Thu Mar 09 14:42:24 2017 (Elapsed time 00:00:48)
+programmer 'E20010PVHQ' : device 'M2GL025' : Executing action PROGRAM PASSED.
+programmer 'E20010PVHQ' : Chain programming PASSED.
+Chain Programming Finished: Thu Mar 09 14:42:24 2017 (Elapsed time 00:00:48)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

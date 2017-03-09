@@ -1,0 +1,59 @@
+[Library]
+others = $MODEL_TECH/../modelsim.ini
+SmartFusion2 = C:/Microsemi/Libero_SoC_v11.7///Designer//lib//modelsim//precompiled/vlog/smartfusion2
+
+presynth = presynth
+COREAHBLITE_LIB = ../component/Actel/DirectCore/CoreAHBLite/5.2.100/mti/user_vlog/COREAHBLITE_LIB
+SmartFusion2 = C:/Microsemi/Libero_SoC_v11.7///Designer//lib//modelsim//precompiled/vlog/smartfusion2
+
+SmartFusion2 = C:/Microsemi/Libero_SoC_v11.7///Designer//lib//modelsim//precompiled/vlog/smartfusion2
+
+
+
+
+
+SmartFusion2 = C:/Microsemi/Libero_SoC_v11.7///Designer//lib//modelsim//precompiled/vlog/smartfusion2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IGLOO2 = C:/Microsemi/Libero_SoC_v11.7///Designer//lib//modelsim//precompiled/vlog/smartfusion2
+SmartFusion2 = C:/Microsemi/Libero_SoC_v11.7///Designer//lib//modelsim//precompiled/vlog/smartfusion2
+
+
+
+SmartFusion2 = C:/Microsemi/Libero_SoC_v11.7///Designer//lib//modelsim//precompiled/vlog/smartfusion2
+
+
+SmartFusion2 = C:/Microsemi/Libero_SoC_v11.7///Designer//lib//modelsim//precompiled/vlog/smartfusion2
+
+
+
+
+
+SmartFusion2 = C:/Microsemi/Libero_SoC_v11.7///Designer//lib//modelsim//precompiled/vlog/smartfusion2
+postsynth = postsynth
+postlayout = ../designer/eSRAM_eNVM_access_top/simulation/postlayout
+SmartFusion2 = C:/Microsemi/Libero_SoC_v11.7///Designer//lib//modelsim//precompiled/vlog/smartfusion2
+SmartFusion2 = C:/Microsemi/Libero_SoC_v11.7///Designer//lib//modelsim//precompiled/vlog/smartfusion2
+smartfusion2 = C:/tools/Microsemi/Libero_SoC_v11.7///Designer//lib//modelsim//precompiled/vlog/smartfusion2
+syncad_vhdl_lib = C:\tools\Microsemi\Libero_SoC_v11.7\Designer/lib/actel/syncad_vhdl_lib
+
+[vcom]
+VHDL93 = 1
+
+[vsim]
+IterationLimit = 5000
+RunLength = 100 ms

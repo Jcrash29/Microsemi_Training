@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\giovanna.franco\documents\9oct2016\m2s_m2gl_ac429_liberov11p7_df\esram_envm_rw_fabric\libero_project\igl2\hdl\spi_master.vhd":70:0:70:1|Found inferred clock SPI_Master|clk which controls 161 sequential elements including ltRx_bit[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 

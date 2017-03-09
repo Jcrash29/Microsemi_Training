@@ -1,0 +1,99 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Giovanna.Franco/Documents/9Oct2016/m2s_m2gl_ac429_liberov11p7_df/eSRAM_eNVM_RW_Fabric/Libero_project/IGL2/simulation
+veSRAM_eNVM_access_top
+Z0 !s110 1476222163
+!i10b 1
+!s100 MLB_Im^Nn_LSAD;dIU8i02
+I_]SV<8DJHD34;WS>6XILX3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/simulation
+Z3 w1476222149
+Z4 8C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/designer/eSRAM_eNVM_access_top/eSRAM_eNVM_access_top_ba.v
+Z5 FC:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/designer/eSRAM_eNVM_access_top/eSRAM_eNVM_access_top_ba.v
+L0 45
+Z6 OW;L;10.4c;61
+r1
+!s85 0
+31
+Z7 !s108 1476222163.000000
+Z8 !s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/designer/eSRAM_eNVM_access_top/eSRAM_eNVM_access_top_ba.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|postlayout|C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/designer/eSRAM_eNVM_access_top/eSRAM_eNVM_access_top_ba.v|
+!s101 -O0
+!i113 1
+Z10 o-vlog01compat -work postlayout -O0
+ne@s@r@a@m_e@n@v@m_access_top
+veSRAM_eNVM_access_top_tb
+R0
+!i10b 1
+!s100 h192C9djCn25D4HDT^mS60
+I>1[iY@KZ4^3jJXcBYih2g0
+R1
+R2
+w1476219179
+8C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/stimulus/eSRAM_eNVM_access_top_tb.v
+FC:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/stimulus/eSRAM_eNVM_access_top_tb.v
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/stimulus/eSRAM_eNVM_access_top_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/stimulus|-vlog01compat|-work|postlayout|C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/stimulus/eSRAM_eNVM_access_top_tb.v|
+!s101 -O0
+!i113 1
+R10
+!s92 +incdir+C:/Users/Giovanna.Franco/Documents/9Oct2016/Lab3/IGL2/stimulus -vlog01compat -work postlayout -O0
+ne@s@r@a@m_e@n@v@m_access_top_tb
+vsdf_IOPAD_IN
+R0
+!i10b 1
+!s100 =9Fc0;cn;6dEP3RFemTQn3
+I?:PDdjgBGDZcCVlz>>j3g2
+R1
+R2
+R3
+R4
+R5
+L0 25
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+nsdf_@i@o@p@a@d_@i@n
+vsdf_IOPAD_TRI
+R0
+!i10b 1
+!s100 H<OW9mQ8ViVa0WVYlGC?>0
+IGM:DWTB>NN5]CNfgKjDaG2
+R1
+R2
+R3
+R4
+R5
+L0 6
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+nsdf_@i@o@p@a@d_@t@r@i

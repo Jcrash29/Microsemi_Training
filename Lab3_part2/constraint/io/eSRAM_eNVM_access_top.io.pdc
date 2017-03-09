@@ -1,0 +1,331 @@
+# Microsemi I/O Physical Design Constraints file
+# Auto Generated User I/O Constraints file
+
+# Version: v11.7 SP1 11.7.1.11
+# Family: IGLOO2 , Die: M2GL025 , Package: 256 VF
+# Date generated: Tue Oct 11 21:30:04 2016 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+# does this need to be on a certain pin ???
+set_io FAB_RESET_N    \
+    -pinname G13      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+set_io CLKOUT          \
+    -pinname J14       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+set_io CS              \
+    -pinname J12       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+set_io MISO           \
+    -pinname J13      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+set_io MOSI            \
+    -pinname K12       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+# This is SW1 input
+set_io start_esram    \
+    -pinname H12      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+# This is SW2 input
+set_io PWRITE         \
+    -pinname H13      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+# IO below here are uused signals that I needed to place somewhere.
+
+set_io {PRDATA[0]}     \
+    -pinname T6        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[1]}     \
+    -pinname T9        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[2]}     \
+    -pinname N7        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[3]}     \
+    -pinname M7        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[4]}     \
+    -pinname P8        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[5]}     \
+    -pinname M8        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[6]}     \
+    -pinname N8        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[7]}     \
+    -pinname P9        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[8]}     \
+    -pinname M9        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[9]}     \
+    -pinname M10       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[10]}    \
+    -pinname N10       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[11]}    \
+    -pinname P10       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[12]}    \
+    -pinname P12       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[13]}    \
+    -pinname P13       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[14]}    \
+    -pinname R11       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[15]}    \
+    -pinname T12       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[16]}    \
+    -pinname R12       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[17]}    \
+    -pinname T13       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[18]}    \
+    -pinname R13       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[19]}    \
+    -pinname R10       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[20]}    \
+    -pinname R9        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[21]}    \
+    -pinname R8        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[22]}    \
+    -pinname T8        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[23]}    \
+    -pinname R6        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[24]}    \
+    -pinname L11       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[25]}    \
+    -pinname L12       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[26]}    \
+    -pinname L14       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[27]}    \
+    -pinname L13       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[28]}    \
+    -pinname N14       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[29]}    \
+    -pinname M13       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[30]}    \
+    -pinname M15       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {PRDATA[31]}    \
+    -pinname N15       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {RD[0]}         \
+    -pinname D13       \
+    -fixed yes         \
+    -iostd LVCMOS18    \
+    -DIRECTION OUTPUT
+
+
+set_io {RD[1]}         \
+    -pinname C15       \
+    -fixed yes         \
+    -iostd LVCMOS18    \
+    -DIRECTION OUTPUT
+
+
+set_io {RD[2]}         \
+    -pinname B15       \
+    -fixed yes         \
+    -iostd LVCMOS18    \
+    -DIRECTION OUTPUT
+
+
+set_io {RD[3]}         \
+    -pinname B13       \
+    -fixed yes         \
+    -iostd LVCMOS18    \
+    -DIRECTION OUTPUT
+
+
+set_io {RD[4]}         \
+    -pinname A13       \
+    -fixed yes         \
+    -iostd LVCMOS18    \
+    -DIRECTION OUTPUT
+
+
+set_io {RD[5]}         \
+    -pinname D6        \
+    -fixed yes         \
+    -iostd LVCMOS18    \
+    -DIRECTION OUTPUT
+
+
+set_io {RD[6]}         \
+    -pinname C5        \
+    -fixed yes         \
+    -iostd LVCMOS18    \
+    -DIRECTION OUTPUT
+
+
+set_io {RD[7]}         \
+    -pinname C3        \
+    -fixed yes         \
+    -iostd LVCMOS18    \
+    -DIRECTION OUTPUT
+
+
+set_io ss_n            \
+    -pinname B1        \
+    -fixed yes         \
+    -iostd LVCMOS18    \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+

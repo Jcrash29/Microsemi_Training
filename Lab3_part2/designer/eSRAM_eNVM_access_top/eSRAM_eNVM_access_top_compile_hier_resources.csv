@@ -1,0 +1,16 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,LSRAM 18K,PLLs and CCCs,Chip Globals,HPMS,HS USB,Multi-Mode UART,RCOSC_50MHZ
+AHB_IF_0/Primitives,52,137,0,0,0,0,0,0,0,0,0,0
+Primitives/Primitives,1,0,0,0,48,0,0,0,0,0,0,0
+SPI_Master_0/Primitives,171,159,0,0,0,0,0,0,0,0,0,0
+TPSRAM_0/Primitives,0,0,36,36,0,1,0,0,0,0,0,0
+eSRAM_eNVM_RW_0/Primitives,245,130,0,0,0,0,0,0,0,0,0,0
+eSRAM_eNVM_access_0/CCC_0/Primitives,0,0,0,0,0,0,1,1,0,0,0,0
+eSRAM_eNVM_access_0/CORERESETP_0/Primitives,2,12,0,0,0,0,0,1,0,0,0,0
+eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/Primitives,20,44,0,0,0,0,0,0,0,0,0,0
+eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/address_decode/Primitives,1,0,0,0,0,0,0,0,0,0,0,0
+eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/default_slave_sm/Primitives,10,1,0,0,0,0,0,0,0,0,0,0
+eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/Primitives,33,1,0,0,0,0,0,0,0,0,0,0
+eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/Primitives,44,5,0,0,0,0,0,0,0,0,0,0
+eSRAM_eNVM_access_0/FABOSC_0/Primitives,0,0,0,0,0,0,0,0,0,0,0,1
+eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/Primitives,33,0,0,0,0,0,0,0,1,0,0,0

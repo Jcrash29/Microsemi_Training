@@ -1,0 +1,193 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1 (Version 11.7.1.11)
+Date: Fri Oct 14 23:25:14 2016
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | IGLOO2         |
+| Device                         | M2GL025        |
+| Package                        | 256 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 3.3V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+-----------------------------------------------------------------------------------------------------+
+| Topcell | eSRAM_eNVM_access_top                                                                               |
+| Format  | EDIF                                                                                                |
+| Source  | C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\eSRAM_eNVM_access_top.edn        |
+| Source  | C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\constraint\io\eSRAM_eNVM_access_top.io.pdc |
+| Source  | C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\constraint\fp\eSRAM_eNVM_access_top.fp.pdc |
++---------+-----------------------------------------------------------------------------------------------------+
+
+Options
++---------------------------------------------------------+-------+
+| Merge User SDC file(s) with Existing Timing Constraints | true  |
+| Abort Compile if errors are found in PDC file(s)        | true  |
+| Enable Single Event Transient mitigation                | false |
+| Enable Design Separation Methodology                    | false |
+| Limit the number of high fanout nets to display to      | 10    |
++---------------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 648  | 27696 | 2.34       |
+| DFF                       | 525  | 27696 | 1.90       |
+| I/O Register              | 0    | 408   | 0.00       |
+| User I/O                  | 48   | 136   | 35.29      |
+| -- Single-ended I/O       | 48   | 136   | 35.29      |
+| -- Differential I/O Pairs | 0    | 64    | 0.00       |
+| RAM64x18                  | 0    | 34    | 0.00       |
+| RAM1K18                   | 1    | 31    | 3.23       |
+| MACC                      | 0    | 34    | 0.00       |
+| Chip Globals              | 2    | 16    | 12.50      |
+| CCC                       | 1    | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| HPMS                      | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 612  | 489 |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 36   | 36  |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 648  | 525 |
++--------------------------+------+-----+
+
+HPMS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| SPI           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 0    | 1     |
+| PDMA          | 0    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the HPMS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 7      | 1    |
+| 30     | 1    |
+| 32     | 1    |
+| 33     | 1    |
+| Total  | 4    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 4            | 0           | 0               |
+| Output I/O                    | 44           | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  4    |  35    |  0            |
+| LVCMOS18     |  1.80v |  N/A |  0    |  9     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  48   | 100.00%    |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  0    | 0.00%      |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                        |
++--------+---------+-----------------------------------------------------------------------------+
+| 492    | INT_NET | Net   : eSRAM_eNVM_access_0_FIC_0_CLK                                       |
+|        |         | Driver: eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1                          |
+|        |         | Source: NETLIST                                                             |
+| 261    | INT_NET | Net   : eSRAM_eNVM_access_0_HPMS_READY                                      |
+|        |         | Driver: eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1 |
+|        |         | Source: NETLIST                                                             |
++--------+---------+-----------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+--------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                               |
++--------+---------+--------------------------------------------------------------------------------------------------------------------+
+| 59     | INT_NET | Net   : SPI_Master_0.state[0]                                                                                      |
+|        |         | Driver: SPI_Master_0/state[0]                                                                                      |
+| 47     | INT_NET | Net   : SPI_Master_0/N_515                                                                                         |
+|        |         | Driver: SPI_Master_0/un1_reset_inv_2_i_a2_1                                                                        |
+| 41     | INT_NET | Net   : SPI_Master_0/PWDATA_buf_0_sqmuxa                                                                           |
+|        |         | Driver: SPI_Master_0/clk_toggles_0_sqmuxa_1_0_a2                                                                   |
+| 40     | INT_NET | Net   : eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterRegAddrSel                                              |
+|        |         | Driver: eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterRegAddrSel                                |
+| 40     | INT_NET | Net   : SPI_Master_0/un1_reset_inv_2_i_0                                                                           |
+|        |         | Driver: SPI_Master_0/un1_reset_inv_2_i_0                                                                           |
+| 38     | INT_NET | Net   : AHB_IF_0/ahb_fsm_current_state[0]                                                                          |
+|        |         | Driver: AHB_IF_0/ahb_fsm_current_state[0]                                                                          |
+| 35     | INT_NET | Net   : N_546                                                                                                      |
+|        |         | Driver: eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/default_slave_sm/defSlaveSMNextState_0_o2       |
+| 35     | INT_NET | Net   : eSRAM_eNVM_access_0/m0s16DataSel                                                                           |
+|        |         | Driver: eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[16]                                 |
+| 34     | INT_NET | Net   : eSRAM_eNVM_access_0/N_260                                                                                  |
+|        |         | Driver: eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_ns_i_0_a2[0] |
+| 33     | INT_NET | Net   : eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterDataInProg[0]                                           |
+|        |         | Driver: eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/masterDataInProg[0]                             |
++--------+---------+--------------------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+--------------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                               |
++--------+---------+--------------------------------------------------------------------------------------------------------------------+
+| 59     | INT_NET | Net   : SPI_Master_0.state[0]                                                                                      |
+|        |         | Driver: SPI_Master_0/state[0]                                                                                      |
+| 47     | INT_NET | Net   : SPI_Master_0/N_515                                                                                         |
+|        |         | Driver: SPI_Master_0/un1_reset_inv_2_i_a2_1                                                                        |
+| 41     | INT_NET | Net   : SPI_Master_0/PWDATA_buf_0_sqmuxa                                                                           |
+|        |         | Driver: SPI_Master_0/clk_toggles_0_sqmuxa_1_0_a2                                                                   |
+| 40     | INT_NET | Net   : eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterRegAddrSel                                              |
+|        |         | Driver: eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterRegAddrSel                                |
+| 40     | INT_NET | Net   : SPI_Master_0/un1_reset_inv_2_i_0                                                                           |
+|        |         | Driver: SPI_Master_0/un1_reset_inv_2_i_0                                                                           |
+| 38     | INT_NET | Net   : AHB_IF_0/ahb_fsm_current_state[0]                                                                          |
+|        |         | Driver: AHB_IF_0/ahb_fsm_current_state[0]                                                                          |
+| 35     | INT_NET | Net   : N_546                                                                                                      |
+|        |         | Driver: eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/default_slave_sm/defSlaveSMNextState_0_o2       |
+| 35     | INT_NET | Net   : eSRAM_eNVM_access_0/m0s16DataSel                                                                           |
+|        |         | Driver: eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[16]                                 |
+| 34     | INT_NET | Net   : eSRAM_eNVM_access_0/N_260                                                                                  |
+|        |         | Driver: eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_ns_i_0_a2[0] |
+| 33     | INT_NET | Net   : eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterDataInProg[0]                                           |
+|        |         | Driver: eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/masterDataInProg[0]                             |
++--------+---------+--------------------------------------------------------------------------------------------------------------------+
+

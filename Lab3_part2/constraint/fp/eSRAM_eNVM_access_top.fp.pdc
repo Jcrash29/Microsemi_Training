@@ -1,0 +1,27 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.7 SP1 11.7.1.14
+
+# Design Name: eSRAM_eNVM_access_top 
+
+# Input Netlist Format: EDIF 
+
+# Family: IGLOO2 , Die: M2GL025 , Package: 256 VF , Speed grade: STD 
+
+# Date generated: Tue Oct 11 16:50:12 2016 
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# Core cell constraints
+#
+

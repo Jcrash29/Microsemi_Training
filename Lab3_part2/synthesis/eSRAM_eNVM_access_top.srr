@@ -1,0 +1,1435 @@
+#Build: Synplify Pro J-2015.03M-SP1-2, Build 266R, Dec 14 2015
+#install: C:\tools\Microsemi\Libero_SoC_v11.7\Synplify
+#OS: Windows 7 6.1
+#Hostname: LOSANGLAP73674
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":57:7:57:16|Top entity is set to SPI_Master.
+@W: CD266 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":155:78:155:81|ss_n is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":159:42:159:47|clkout is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":168:42:168:47|clkout is not readable.  This may cause a simulation mismatch.
+VHDL syntax check successful!
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+# Fri Oct 14 23:24:45 2016
+
+###########################################################]
+Synopsys Verilog Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v"
+@I::"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\hypermods.v"
+@I::"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\umr_capim.v"
+@I::"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\scemi_objects.v"
+@I::"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\scemi_pipes.svh"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\CCC_0\eSRAM_eNVM_access_CCC_0_FCCC.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_HPMS\eSRAM_eNVM_access_HPMS_syn.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_HPMS\eSRAM_eNVM_access_HPMS.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\eSRAM_eNVM_access.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\TPSRAM_0\eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\eSRAM_eNVM_access_top.v"
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 77MB)
+
+# Fri Oct 14 23:24:45 2016
+
+###########################################################]
+@I::"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v"
+@I::"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\hypermods.v"
+@I::"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\umr_capim.v"
+@I::"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\scemi_objects.v"
+@I::"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\scemi_pipes.svh"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\CCC_0\eSRAM_eNVM_access_CCC_0_FCCC.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_HPMS\eSRAM_eNVM_access_HPMS_syn.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_HPMS\eSRAM_eNVM_access_HPMS.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\eSRAM_eNVM_access.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\TPSRAM_0\eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM.v"
+@I::"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\eSRAM_eNVM_access_top.v"
+Verilog syntax check successful!
+File C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\TPSRAM_0\eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM.v changed - recompiling
+File C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\eSRAM_eNVM_access_top.v changed - recompiling
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v":21:7:21:12|Synthesizing module AHB_IF
+
+	Idle_1=3'b000
+	Write_FIC_0=3'b001
+	Write_FIC_1=3'b010
+	Write_FIC_2=3'b011
+	Read_FIC_0=3'b100
+	Read_FIC_1=3'b101
+	Read_FIC_2=3'b110
+	Data_size=5'b00000
+   Generated name = AHB_IF_0s_1s_2s_3s_4294967292s_4294967293s_4294967294s_0s_1_layer0
+
+@W: CG360 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v":60:13:60:21|No assignment to wire HSIZE_int
+
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v":81:0:81:5|Feedback mux created for signal HWDATA_int[31:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@W: CL190 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v":81:0:81:5|Optimizing register bit HTRANS[0] to a constant 0
+@W: CL260 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v":81:0:81:5|Pruning register bit 0 of HTRANS[1:0] 
+
+@N: CG364 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v":376:7:376:9|Synthesizing module VCC
+
+@N: CG364 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v":372:7:372:9|Synthesizing module GND
+
+@N: CG364 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v":362:7:362:12|Synthesizing module CLKINT
+
+@N: CG364 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v":727:7:727:9|Synthesizing module CCC
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\CCC_0\eSRAM_eNVM_access_CCC_0_FCCC.v":5:7:5:34|Synthesizing module eSRAM_eNVM_access_CCC_0_FCCC
+
+@W: CG775 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":23:7:23:17|Found Component CoreAHBLite in library COREAHBLITE_LIB
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v":20:7:20:25|Synthesizing module COREAHBLITE_ADDRDEC
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000001010101
+	M_AHBSLOTENABLE=17'b10000000000000000
+	MSB_ADDR=32'b00000000000000000000000000011111
+	SLAVE_0=16'b0000000000000001
+	SLAVE_1=16'b0000000000000010
+	SLAVE_2=16'b0000000000000100
+	SLAVE_3=16'b0000000000001000
+	SLAVE_4=16'b0000000000010000
+	SLAVE_5=16'b0000000000100000
+	SLAVE_6=16'b0000000001000000
+	SLAVE_7=16'b0000000010000000
+	SLAVE_8=16'b0000000100000000
+	SLAVE_9=16'b0000001000000000
+	SLAVE_10=16'b0000010000000000
+	SLAVE_11=16'b0000100000000000
+	SLAVE_12=16'b0001000000000000
+	SLAVE_13=16'b0010000000000000
+	SLAVE_14=16'b0100000000000000
+	SLAVE_15=16'b1000000000000000
+	NONE=16'b0000000000000000
+   Generated name = COREAHBLITE_ADDRDEC_Z2_layer0
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v":20:7:20:32|Synthesizing module COREAHBLITE_DEFAULTSLAVESM
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IDLE=1'b0
+	HRESPEXTEND=1'b1
+   Generated name = COREAHBLITE_DEFAULTSLAVESM_0s_0_1
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":22:7:22:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000001010101
+	M_AHBSLOTENABLE=17'b10000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IDLE=1'b0
+	REGISTERED=1'b1
+	SLAVE_NONE=17'b00000000000000000
+   Generated name = COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0
+
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v":20:7:20:25|Synthesizing module COREAHBLITE_ADDRDEC
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000001010101
+	M_AHBSLOTENABLE=17'b00000000000000000
+	MSB_ADDR=32'b00000000000000000000000000011111
+	SLAVE_0=16'b0000000000000001
+	SLAVE_1=16'b0000000000000010
+	SLAVE_2=16'b0000000000000100
+	SLAVE_3=16'b0000000000001000
+	SLAVE_4=16'b0000000000010000
+	SLAVE_5=16'b0000000000100000
+	SLAVE_6=16'b0000000001000000
+	SLAVE_7=16'b0000000010000000
+	SLAVE_8=16'b0000000100000000
+	SLAVE_9=16'b0000001000000000
+	SLAVE_10=16'b0000010000000000
+	SLAVE_11=16'b0000100000000000
+	SLAVE_12=16'b0001000000000000
+	SLAVE_13=16'b0010000000000000
+	SLAVE_14=16'b0100000000000000
+	SLAVE_15=16'b1000000000000000
+	NONE=16'b0000000000000000
+   Generated name = COREAHBLITE_ADDRDEC_Z3_layer0
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":22:7:22:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000001010101
+	M_AHBSLOTENABLE=17'b00000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IDLE=1'b0
+	REGISTERED=1'b1
+	SLAVE_NONE=17'b00000000000000000
+   Generated name = COREAHBLITE_MASTERSTAGE_1_1_85_0_0s_0_1_0
+
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":20:7:20:30|Synthesizing module COREAHBLITE_SLAVEARBITER
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	M0EXTEND=4'b0000
+	M0DONE=4'b0001
+	M0LOCK=4'b0010
+	M0LOCKEXTEND=4'b0011
+	M1EXTEND=4'b0100
+	M1DONE=4'b0101
+	M1LOCK=4'b0110
+	M1LOCKEXTEND=4'b0111
+	M2EXTEND=4'b1000
+	M2DONE=4'b1001
+	M2LOCK=4'b1010
+	M2LOCKEXTEND=4'b1011
+	M3EXTEND=4'b1100
+	M3DONE=4'b1101
+	M3LOCK=4'b1110
+	M3LOCKEXTEND=4'b1111
+	MASTER_0=4'b0001
+	MASTER_1=4'b0010
+	MASTER_2=4'b0100
+	MASTER_3=4'b1000
+	MASTER_NONE=4'b0000
+   Generated name = COREAHBLITE_SLAVEARBITER_Z4_layer0
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":22:7:22:28|Synthesizing module COREAHBLITE_SLAVESTAGE
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	TRN_IDLE=1'b0
+	MASTER_NONE=4'b0000
+   Generated name = COREAHBLITE_SLAVESTAGE_0s_0_0
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":23:7:23:28|Synthesizing module COREAHBLITE_MATRIX4X16
+
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC=16'b0000000001010101
+	M0_AHBSLOTENABLE=17'b10000000000000000
+	M1_AHBSLOTENABLE=17'b00000000000000000
+	M2_AHBSLOTENABLE=17'b00000000000000000
+	M3_AHBSLOTENABLE=17'b00000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":23:7:23:17|Synthesizing module CoreAHBLite
+
+	FAMILY=6'b011000
+	MEMSPACE=3'b001
+	HADDR_SHG_CFG=1'b1
+	SC_0=1'b1
+	SC_1=1'b0
+	SC_2=1'b1
+	SC_3=1'b0
+	SC_4=1'b1
+	SC_5=1'b0
+	SC_6=1'b1
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	M0_AHBSLOT0ENABLE=1'b0
+	M0_AHBSLOT1ENABLE=1'b0
+	M0_AHBSLOT2ENABLE=1'b0
+	M0_AHBSLOT3ENABLE=1'b0
+	M0_AHBSLOT4ENABLE=1'b0
+	M0_AHBSLOT5ENABLE=1'b0
+	M0_AHBSLOT6ENABLE=1'b0
+	M0_AHBSLOT7ENABLE=1'b0
+	M0_AHBSLOT8ENABLE=1'b0
+	M0_AHBSLOT9ENABLE=1'b0
+	M0_AHBSLOT10ENABLE=1'b0
+	M0_AHBSLOT11ENABLE=1'b0
+	M0_AHBSLOT12ENABLE=1'b0
+	M0_AHBSLOT13ENABLE=1'b0
+	M0_AHBSLOT14ENABLE=1'b0
+	M0_AHBSLOT15ENABLE=1'b0
+	M0_AHBSLOT16ENABLE=1'b1
+	M1_AHBSLOT0ENABLE=1'b0
+	M1_AHBSLOT1ENABLE=1'b0
+	M1_AHBSLOT2ENABLE=1'b0
+	M1_AHBSLOT3ENABLE=1'b0
+	M1_AHBSLOT4ENABLE=1'b0
+	M1_AHBSLOT5ENABLE=1'b0
+	M1_AHBSLOT6ENABLE=1'b0
+	M1_AHBSLOT7ENABLE=1'b0
+	M1_AHBSLOT8ENABLE=1'b0
+	M1_AHBSLOT9ENABLE=1'b0
+	M1_AHBSLOT10ENABLE=1'b0
+	M1_AHBSLOT11ENABLE=1'b0
+	M1_AHBSLOT12ENABLE=1'b0
+	M1_AHBSLOT13ENABLE=1'b0
+	M1_AHBSLOT14ENABLE=1'b0
+	M1_AHBSLOT15ENABLE=1'b0
+	M1_AHBSLOT16ENABLE=1'b0
+	M2_AHBSLOT0ENABLE=1'b0
+	M2_AHBSLOT1ENABLE=1'b0
+	M2_AHBSLOT2ENABLE=1'b0
+	M2_AHBSLOT3ENABLE=1'b0
+	M2_AHBSLOT4ENABLE=1'b0
+	M2_AHBSLOT5ENABLE=1'b0
+	M2_AHBSLOT6ENABLE=1'b0
+	M2_AHBSLOT7ENABLE=1'b0
+	M2_AHBSLOT8ENABLE=1'b0
+	M2_AHBSLOT9ENABLE=1'b0
+	M2_AHBSLOT10ENABLE=1'b0
+	M2_AHBSLOT11ENABLE=1'b0
+	M2_AHBSLOT12ENABLE=1'b0
+	M2_AHBSLOT13ENABLE=1'b0
+	M2_AHBSLOT14ENABLE=1'b0
+	M2_AHBSLOT15ENABLE=1'b0
+	M2_AHBSLOT16ENABLE=1'b0
+	M3_AHBSLOT0ENABLE=1'b0
+	M3_AHBSLOT1ENABLE=1'b0
+	M3_AHBSLOT2ENABLE=1'b0
+	M3_AHBSLOT3ENABLE=1'b0
+	M3_AHBSLOT4ENABLE=1'b0
+	M3_AHBSLOT5ENABLE=1'b0
+	M3_AHBSLOT6ENABLE=1'b0
+	M3_AHBSLOT7ENABLE=1'b0
+	M3_AHBSLOT8ENABLE=1'b0
+	M3_AHBSLOT9ENABLE=1'b0
+	M3_AHBSLOT10ENABLE=1'b0
+	M3_AHBSLOT11ENABLE=1'b0
+	M3_AHBSLOT12ENABLE=1'b0
+	M3_AHBSLOT13ENABLE=1'b0
+	M3_AHBSLOT14ENABLE=1'b0
+	M3_AHBSLOT15ENABLE=1'b0
+	M3_AHBSLOT16ENABLE=1'b0
+	SYNC_RESET=32'b00000000000000000000000000000000
+	M0_AHBSLOTENABLE=17'b10000000000000000
+	M1_AHBSLOTENABLE=17'b00000000000000000
+	M2_AHBSLOTENABLE=17'b00000000000000000
+	M3_AHBSLOTENABLE=17'b00000000000000000
+	SC=16'b0000000001010101
+   Generated name = CoreAHBLite_Z5_layer0
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP
+
+	FAMILY=32'b00000000000000000000000000010011
+	EXT_RESET_CFG=32'b00000000000000000000000000000000
+	DEVICE_VOLTAGE=32'b00000000000000000000000000000010
+	MDDR_IN_USE=32'b00000000000000000000000000000000
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000000
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	SDIF0_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF1_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF2_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF3_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF0_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF1_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF2_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF3_PCIE_L2P2=32'b00000000000000000000000000000001
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000000
+	DDR_WAIT=32'b00000000000000000000000011001000
+	RCOSC_MEGAHERTZ=32'b00000000000000000000000000110010
+	SDIF_INTERVAL=32'b00000000000000000001100101100100
+	DDR_INTERVAL=32'b00000000000000000010011100010000
+	COUNT_WIDTH_SDIF=32'b00000000000000000000000000001101
+	COUNT_WIDTH_DDR=32'b00000000000000000000000000001110
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+   Generated name = CoreResetP_Z6_layer0
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning register count_ddr[13:0] 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning register count_sdif3[12:0] 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning register count_sdif2[12:0] 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning register count_sdif1[12:0] 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning register count_sdif0[12:0] 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif0_enable_q1 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_q1 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_q1 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_q1 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif0_enable_rcosc 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_rcosc 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_rcosc 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_rcosc 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_ddr_enable_q1 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_ddr_enable_rcosc 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning register count_sdif3_enable 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning register count_sdif2_enable 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning register count_sdif1_enable 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning register count_sdif0_enable 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning register count_ddr_enable 
+
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1.
+@W: CL190 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning register release_ext_reset 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register EXT_RESET_OUT_int 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register sm2_state[2:0] 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_q1 
+
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_clk_base 
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_HPMS\eSRAM_eNVM_access_HPMS_syn.v":5:7:5:13|Synthesizing module MSS_025
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_HPMS\eSRAM_eNVM_access_HPMS.v":9:7:9:28|Synthesizing module eSRAM_eNVM_access_HPMS
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v":5:7:5:36|Synthesizing module eSRAM_eNVM_access_FABOSC_0_OSC
+
+@N: CG364 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v":718:7:718:14|Synthesizing module SYSRESET
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\eSRAM_eNVM_access.v":9:7:9:23|Synthesizing module eSRAM_eNVM_access
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v":29:7:29:19|Synthesizing module eSRAM_eNVM_RW
+
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v":110:0:110:5|Feedback mux created for signal ram_wdata[31:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v":110:0:110:5|Feedback mux created for signal addr_temp[31:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@N: CG364 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v":382:7:382:13|Synthesizing module RAM1K18
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\TPSRAM_0\eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM.v":5:7:5:43|Synthesizing module eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM
+
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\eSRAM_eNVM_access_top.v":9:7:9:27|Synthesizing module eSRAM_eNVM_access_top
+
+@N: CG794 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\eSRAM_eNVM_access_top.v":206:11:206:22|Using module SPI_Master from library work
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v":110:0:110:5|Register bit addr_temp[0] is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v":110:0:110:5|Register bit addr_temp[1] is always 0, optimizing ...
+@W: CL279 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v":110:0:110:5|Pruning register bits 1 to 0 of addr_temp[31:0] 
+
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v":110:0:110:5|Trying to extract state machine for register current_state
+Extracted state machine for register current_state
+State machine has 17 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00011
+   00100
+   00101
+   00110
+   00111
+   01000
+   01001
+   01010
+   01011
+   01100
+   01101
+   01110
+   01111
+   10000
+@W: CL157 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v":14:7:14:9|Input XTL is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_HPMS\eSRAM_eNVM_access_HPMS.v":51:14:51:31|Input port bit 0 of FIC_0_AHB_S_HTRANS[1:0] is unused
+
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2.
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":120:15:120:23|Input port bit 0 of HTRANS_M0[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":131:15:131:23|Input port bit 0 of HTRANS_M1[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":142:15:142:23|Input port bit 0 of HTRANS_M2[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":153:15:153:23|Input port bit 0 of HTRANS_M3[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":163:15:163:22|Input port bit 1 of HRESP_S0[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":176:15:176:22|Input port bit 1 of HRESP_S1[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":189:15:189:22|Input port bit 1 of HRESP_S2[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":202:15:202:22|Input port bit 1 of HRESP_S3[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":215:15:215:22|Input port bit 1 of HRESP_S4[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":228:15:228:22|Input port bit 1 of HRESP_S5[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":241:15:241:22|Input port bit 1 of HRESP_S6[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":254:15:254:22|Input port bit 1 of HRESP_S7[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":267:15:267:22|Input port bit 1 of HRESP_S8[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":280:15:280:22|Input port bit 1 of HRESP_S9[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":293:15:293:23|Input port bit 1 of HRESP_S10[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":306:15:306:23|Input port bit 1 of HRESP_S11[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":319:15:319:23|Input port bit 1 of HRESP_S12[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":332:15:332:23|Input port bit 1 of HRESP_S13[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":345:15:345:23|Input port bit 1 of HRESP_S14[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":358:15:358:23|Input port bit 1 of HRESP_S15[1:0] is unused
+
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":371:15:371:23|Input port bit 1 of HRESP_S16[1:0] is unused
+
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":123:15:123:23|Input HBURST_M0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":124:15:124:22|Input HPROT_M0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":134:15:134:23|Input HBURST_M1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":135:15:135:22|Input HPROT_M1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":145:15:145:23|Input HBURST_M2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":146:15:146:22|Input HPROT_M2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":156:15:156:23|Input HBURST_M3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":157:15:157:22|Input HPROT_M3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":51:18:51:26|Input HWDATA_M1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":60:18:60:26|Input HWDATA_M2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":69:18:69:26|Input HWDATA_M3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":73:18:73:26|Input HRDATA_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":74:13:74:24|Input HREADYOUT_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":75:13:75:20|Input HRESP_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":84:18:84:26|Input HRDATA_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":85:13:85:24|Input HREADYOUT_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":86:13:86:20|Input HRESP_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":95:18:95:26|Input HRDATA_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":96:13:96:24|Input HREADYOUT_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":97:13:97:20|Input HRESP_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":106:18:106:26|Input HRDATA_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":107:13:107:24|Input HREADYOUT_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":108:13:108:20|Input HRESP_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":117:18:117:26|Input HRDATA_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":118:13:118:24|Input HREADYOUT_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":119:13:119:20|Input HRESP_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":128:18:128:26|Input HRDATA_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":129:13:129:24|Input HREADYOUT_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":130:13:130:20|Input HRESP_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":139:18:139:26|Input HRDATA_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":140:13:140:24|Input HREADYOUT_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":141:13:141:20|Input HRESP_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":150:18:150:26|Input HRDATA_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":151:13:151:24|Input HREADYOUT_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":152:13:152:20|Input HRESP_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":161:18:161:26|Input HRDATA_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":162:13:162:24|Input HREADYOUT_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":163:13:163:20|Input HRESP_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":172:18:172:26|Input HRDATA_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":173:13:173:24|Input HREADYOUT_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":174:13:174:20|Input HRESP_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":183:18:183:27|Input HRDATA_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":184:13:184:25|Input HREADYOUT_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":185:13:185:21|Input HRESP_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":194:18:194:27|Input HRDATA_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":195:13:195:25|Input HREADYOUT_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":196:13:196:21|Input HRESP_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":205:18:205:27|Input HRDATA_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":206:13:206:25|Input HREADYOUT_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":207:13:207:21|Input HRESP_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":216:18:216:27|Input HRDATA_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":217:13:217:25|Input HREADYOUT_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":218:13:218:21|Input HRESP_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":227:18:227:27|Input HRDATA_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":228:13:228:25|Input HREADYOUT_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":229:13:229:21|Input HRESP_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":238:18:238:27|Input HRDATA_S15 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":239:13:239:25|Input HREADYOUT_S15 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":240:13:240:21|Input HRESP_S15 is unused
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Trying to extract state machine for register arbRegSMCurrentState
+Extracted state machine for register arbRegSMCurrentState
+State machine has 16 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1100
+   1101
+   1110
+   1111
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":42:16:42:25|Input SDATAREADY is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":43:16:43:21|Input SHRESP is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":52:16:52:24|Input HRDATA_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":53:11:53:22|Input HREADYOUT_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":54:16:54:24|Input HRDATA_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":55:11:55:22|Input HREADYOUT_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":56:16:56:24|Input HRDATA_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":57:11:57:22|Input HREADYOUT_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":58:16:58:24|Input HRDATA_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":59:11:59:22|Input HREADYOUT_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":60:16:60:24|Input HRDATA_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":61:11:61:22|Input HREADYOUT_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":62:16:62:24|Input HRDATA_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":63:11:63:22|Input HREADYOUT_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":64:16:64:24|Input HRDATA_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":65:11:65:22|Input HREADYOUT_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":66:16:66:24|Input HRDATA_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":67:11:67:22|Input HREADYOUT_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":68:16:68:24|Input HRDATA_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":69:11:69:22|Input HREADYOUT_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":70:16:70:24|Input HRDATA_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":71:11:71:22|Input HREADYOUT_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":72:16:72:25|Input HRDATA_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":73:11:73:23|Input HREADYOUT_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":74:16:74:25|Input HRDATA_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":75:11:75:23|Input HREADYOUT_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":76:16:76:25|Input HRDATA_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":77:11:77:23|Input HREADYOUT_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":78:16:78:25|Input HRDATA_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":79:11:79:23|Input HREADYOUT_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":80:16:80:25|Input HRDATA_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":81:11:81:23|Input HREADYOUT_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":82:16:82:25|Input HRDATA_S15 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":83:11:83:23|Input HREADYOUT_S15 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":84:16:84:25|Input HRDATA_S16 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":85:11:85:23|Input HREADYOUT_S16 is unused
+@W: CL246 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":42:16:42:25|Input port bits 15 to 0 of SDATAREADY[16:0] are unused
+
+@W: CL246 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":43:16:43:21|Input port bits 15 to 0 of SHRESP[16:0] are unused
+
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":52:16:52:24|Input HRDATA_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":53:11:53:22|Input HREADYOUT_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":54:16:54:24|Input HRDATA_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":55:11:55:22|Input HREADYOUT_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":56:16:56:24|Input HRDATA_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":57:11:57:22|Input HREADYOUT_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":58:16:58:24|Input HRDATA_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":59:11:59:22|Input HREADYOUT_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":60:16:60:24|Input HRDATA_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":61:11:61:22|Input HREADYOUT_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":62:16:62:24|Input HRDATA_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":63:11:63:22|Input HREADYOUT_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":64:16:64:24|Input HRDATA_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":65:11:65:22|Input HREADYOUT_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":66:16:66:24|Input HRDATA_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":67:11:67:22|Input HREADYOUT_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":68:16:68:24|Input HRDATA_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":69:11:69:22|Input HREADYOUT_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":70:16:70:24|Input HRDATA_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":71:11:71:22|Input HREADYOUT_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":72:16:72:25|Input HRDATA_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":73:11:73:23|Input HREADYOUT_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":74:16:74:25|Input HRDATA_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":75:11:75:23|Input HREADYOUT_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":76:16:76:25|Input HRDATA_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":77:11:77:23|Input HREADYOUT_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":78:16:78:25|Input HRDATA_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":79:11:79:23|Input HREADYOUT_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":80:16:80:25|Input HRDATA_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":81:11:81:23|Input HREADYOUT_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":82:16:82:25|Input HRDATA_S15 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":83:11:83:23|Input HREADYOUT_S15 is unused
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v":81:0:81:5|Trying to extract state machine for register ahb_fsm_current_state
+Extracted state machine for register ahb_fsm_current_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 87MB)
+
+# Fri Oct 14 23:24:46 2016
+
+###########################################################]
+@N: CD720 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":57:7:57:16|Top entity is set to SPI_Master.
+
+File Dependency file is up to date.  It will not be rewritten.
+
+@W: CD266 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":155:78:155:81|ss_n is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":159:42:159:47|clkout is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":168:42:168:47|clkout is not readable.  This may cause a simulation mismatch.
+VHDL syntax check successful!
+@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":57:7:57:16|Synthesizing work.spi_master.architecture_spi_master 
+@N: CD233 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":83:10:83:11|Using sequential encoding for type fsm
+@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":86:11:86:20|Signal clk_select is undriven 
+@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":95:11:95:14|Signal cont is undriven 
+@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":97:11:97:14|Signal cnt1 is undriven 
+Post processing for work.spi_master.architecture_spi_master
+@W: CL271 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Pruning bits 39 to 32 of PRDATA_buf_5(39 downto 0) -- not in use ... 
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Feedback mux created for signal PRDATA_buf[31:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Feedback mux created for signal clk_toggles[6:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Feedback mux created for signal PWDATA_buf[39:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Feedback mux created for signal ltRx_bit[6:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Feedback mux created for signal count[31:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Feedback mux created for signal continue -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Feedback mux created for signal assert_data -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Feedback mux created for signal command[2:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Feedback mux created for signal clk_ratio[31:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Feedback mux created for signal slv_select[4:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Feedback mux created for signal CLKOUT_cl -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Feedback mux created for signal CLKOUT -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(0) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(1) is always 1, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(2) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(3) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(4) is always 1, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(5) is always 1, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(6) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(7) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(8) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(9) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(10) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(11) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(12) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(13) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(14) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(15) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(16) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(17) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(18) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(19) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(20) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(21) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(22) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(23) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(24) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(25) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(26) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(27) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(28) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(29) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(30) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(31) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit command(1) is always 1, optimizing ...
+@W: CL260 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Pruning register bit 1 of command(2 downto 0)  
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit ltRx_bit(5) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit ltRx_bit(6) is always 1, optimizing ...
+@W: CL279 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Pruning register bits 6 to 5 of ltRx_bit(6 downto 0)  
+@W: CL279 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Pruning register bits 3 to 1 of ltRx_bit(4 downto 0)  
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 86MB)
+
+# Fri Oct 14 23:24:47 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+
+=======================================================================================
+For a summary of linker messages for components that did not bind, please see log file:
+@L: C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\synwork\eSRAM_eNVM_access_top_comp.linkerlog
+=======================================================================================
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Oct 14 23:24:47 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Fri Oct 14 23:24:47 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+File C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\synwork\eSRAM_eNVM_access_top_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 81MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Oct 14 23:24:49 2016
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@L: C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\eSRAM_eNVM_access_top_scck.rpt 
+Printing clock  summary report in "C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\eSRAM_eNVM_access_top_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 118MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 118MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 118MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 119MB)
+
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3580:2:3580:14|Removing user instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_15,  because it is equivalent to instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_14
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3534:2:3534:14|Removing user instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_14,  because it is equivalent to instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_13
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3488:2:3488:14|Removing user instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_13,  because it is equivalent to instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_12
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3442:2:3442:14|Removing user instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_12,  because it is equivalent to instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_11
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3396:2:3396:14|Removing user instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_11,  because it is equivalent to instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_10
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3304:2:3304:13|Removing user instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_9,  because it is equivalent to instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_10
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3258:2:3258:13|Removing user instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_8,  because it is equivalent to instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_10
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3212:2:3212:13|Removing user instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_7,  because it is equivalent to instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_10
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3166:2:3166:13|Removing user instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_6,  because it is equivalent to instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_10
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":3120:2:3120:13|Removing user instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_5,  because it is equivalent to instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_10
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance DDR_READY_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_RELEASED_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FDDR_CORE_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHMASTLOCK of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHSIZE[2:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance regHWRITE of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2703:2:2703:14|Removing instance masterstage_1 of view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_2(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2767:2:2767:14|Removing instance masterstage_2 of view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_1(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2831:2:2831:14|Removing instance masterstage_3 of view:COREAHBLITE_LIB.COREAHBLITE_MASTERSTAGE_1_1_85_0s_0_1_0_0(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":2890:1:2890:12|Removing instance slavestage_0 of view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance sdif0_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance sdif1_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance sdif2_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance sdif3_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[3:0] of view:PrimLib.dffre(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z6_layer0(verilog) because there are no references to its outputs 
+@N: BN115 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":87:56:87:68|Removing instance slave_arbiter of view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z4_layer0_0(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance arbRegSMCurrentState[15:0] of view:PrimLib.statemachine(prim) in hierarchy view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z4_layer0_0(verilog) because there are no references to its outputs 
+syn_allowed_resources : blockrams=31  set on top level netlist eSRAM_eNVM_access_top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 147MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                                                                Requested     Requested     Clock        Clock              
+Clock                                                                Frequency     Period        Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------
+eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+eSRAM_eNVM_access_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_1
+=================================================================================================================================
+
+@W: MT530 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\ahb_if.v":81:0:81:5|Found inferred clock eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock which controls 563 sequential elements including AHB_IF_0.VALID. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Found inferred clock eSRAM_eNVM_access_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 15 sequential elements including eSRAM_eNVM_access_0.CORERESETP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\eSRAM_eNVM_access_top.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 147MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Oct 14 23:24:50 2016
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Generic Technology Mapper, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@W: MO111 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\work\esram_envm_access\fabosc_0\esram_envm_access_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F on net XTLOSC_O2F has its enable tied to GND (module eSRAM_eNVM_access_FABOSC_0_OSC) 
+@W: MO111 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\work\esram_envm_access\fabosc_0\esram_envm_access_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC on net XTLOSC_CCC has its enable tied to GND (module eSRAM_eNVM_access_FABOSC_0_OSC) 
+@W: MO111 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\work\esram_envm_access\fabosc_0\esram_envm_access_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F on net RCOSC_1MHZ_O2F has its enable tied to GND (module eSRAM_eNVM_access_FABOSC_0_OSC) 
+@W: MO111 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\work\esram_envm_access\fabosc_0\esram_envm_access_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC on net RCOSC_1MHZ_CCC has its enable tied to GND (module eSRAM_eNVM_access_FABOSC_0_OSC) 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF0_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF1_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF2_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF3_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF0_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF1_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF2_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF3_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF0_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF1_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF2_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF3_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif3_spll_lock_q1,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.CONFIG2_DONE_q1
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.CONFIG2_DONE_q1,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.CONFIG1_DONE_q1
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.CONFIG2_DONE_clk_base,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sdif3_spll_lock_q2
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.CONFIG1_DONE_clk_base,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sdif3_spll_lock_q2
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif1_areset_n_rcosc_q1,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif3_areset_n_rcosc_q1,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif2_areset_n_rcosc_q1,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_areset_n_rcosc_q1,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif2_areset_n_rcosc,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_areset_n_rcosc
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif3_areset_n_rcosc,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_areset_n_rcosc
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+Encoding state machine ahb_fsm_current_state[6:0] (view:work.AHB_IF_0s_1s_2s_3s_4294967292s_4294967293s_4294967294s_0s_1_layer0(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\ahb_if.v":81:0:81:5|Register bit HADDR[1] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\ahb_if.v":81:0:81:5|Register bit HADDR[0] is always 0, optimizing ...
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHSIZE[2] of view:PrimLib.dffr(prim) in hierarchy view:work.eSRAM_eNVM_access(verilog) because there are no references to its outputs 
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHSIZE[0] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[6] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[4] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[2] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[0] is always 0, optimizing ...
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_16.masterDataInProg[3] of view:PrimLib.dffr(prim) in hierarchy view:work.eSRAM_eNVM_access(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_16.masterDataInProg[2] of view:PrimLib.dffr(prim) in hierarchy view:work.eSRAM_eNVM_access(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_16.masterDataInProg[1] of view:PrimLib.dffr(prim) in hierarchy view:work.eSRAM_eNVM_access(verilog) because there are no references to its outputs 
+Encoding state machine arbRegSMCurrentState[15:0] (view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z4_layer0_1(verilog))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Register bit arbRegSMCurrentState[12] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Register bit arbRegSMCurrentState[8] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Register bit arbRegSMCurrentState[4] is always 0, optimizing ...
+Encoding state machine sm0_state[6:0] (view:work.CoreResetP_Z6_layer0(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine current_state[16:0] (view:work.eSRAM_eNVM_RW(verilog))
+original code -> new code
+   00000 -> 00000000000000001
+   00001 -> 00000000000000010
+   00010 -> 00000000000000100
+   00011 -> 00000000000001000
+   00100 -> 00000000000010000
+   00101 -> 00000000000100000
+   00110 -> 00000000001000000
+   00111 -> 00000000010000000
+   01000 -> 00000000100000000
+   01001 -> 00000001000000000
+   01010 -> 00000010000000000
+   01011 -> 00000100000000000
+   01100 -> 00001000000000000
+   01101 -> 00010000000000000
+   01110 -> 00100000000000000
+   01111 -> 01000000000000000
+   10000 -> 10000000000000000
+@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\esram_envm_rw.v":110:0:110:5|Found counter in view:work.eSRAM_eNVM_RW(verilog) inst addr_temp[31:2]
+@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\esram_envm_rw.v":110:0:110:5|Found counter in view:work.eSRAM_eNVM_RW(verilog) inst ram_waddr[4:0]
+@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\esram_envm_rw.v":110:0:110:5|Found counter in view:work.eSRAM_eNVM_RW(verilog) inst data[31:0]
+@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\esram_envm_rw.v":110:0:110:5|Found counter in view:work.eSRAM_eNVM_RW(verilog) inst data_cnt[4:0]
+@W: MO161 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\spi_master.vhd":101:0:101:1|Register bit ltRx_bit[1] is always 1, optimizing ...
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.INIT_DONE_int in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[0] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[6] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[14] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[15] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[2] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[3] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[6] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[7] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[10] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[11] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.ddr_settled_q1 in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register eSRAM_eNVM_access_0.CORERESETP_0.ddr_settled_q1 packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif3_spll_lock_q2 in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.CONFIG1_DONE_q1 in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_areset_n_rcosc in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_areset_n_q1 in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_areset_n_clk_base in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.ddr_settled_clk_base in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.ddr_settled in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Boundary register eSRAM_eNVM_access_0.CORERESETP_0.ddr_settled packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[5] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[4] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[3] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[2] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[1] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[0] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 156MB peak: 159MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     0.73ns		 624 /       489
+   2		0h:00m:01s		     0.73ns		 617 /       489
+@N: FP130 |Promoting Net eSRAM_eNVM_access_0_HPMS_READY on CLKINT  I_74 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 157MB peak: 159MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 157MB peak: 159MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 492 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================================================== Non-Gated/Non-Generated Clocks ===========================================================
+Clock Tree ID     Driving Element                        Drive Element Type     Fanout     Sample Instance                                            
+------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       eSRAM_eNVM_access_0.CCC_0.GL0_INST     CLKINT                 492        eSRAM_eNVM_access_0.eSRAM_eNVM_access_HPMS_0.MSS_ADLIB_INST
+======================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 128MB peak: 159MB)
+
+Writing Analyst data base C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\synwork\eSRAM_eNVM_access_top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 155MB peak: 159MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+J-2015.03M-SP1-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 156MB peak: 159MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 155MB peak: 159MB)
+
+@W: MT246 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\work\esram_envm_access\ccc_0\esram_envm_access_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock eSRAM_eNVM_access_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:eSRAM_eNVM_access_0.FABOSC_0.RCOSC_25_50MHZ_CCC"
+
+@W: MT420 |Found inferred clock eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:eSRAM_eNVM_access_0.CCC_0.GL0_net"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Oct 14 23:24:53 2016
+#
+
+
+Top view:               eSRAM_eNVM_access_top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 2.054
+
+                                                                     Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                                       Frequency     Frequency     Period        Period        Slack     Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     125.8 MHz     10.000        7.946         2.054     inferred     Inferred_clkgroup_0
+eSRAM_eNVM_access_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+=======================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                             Ending                                               |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock  eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      2.054  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                Starting                                                                                                                    Arrival          
+Instance                                                                        Reference                                               Type        Pin                Net                                  Time        Slack
+                                                                                Clock                                                                                                                                        
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+eSRAM_eNVM_access_0.eSRAM_eNVM_access_HPMS_0.MSS_ADLIB_INST                     eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_READYOUT     CoreAHBLite_0_AHBmslave16_HREADY     3.920       2.054
+eSRAM_eNVM_access_0.CORERESETP_0.MSS_HPMS_READY_int                             eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  MSS_HPMS_READY_int                   0.108       3.593
+SPI_Master_0.count[12]                                                          eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[12]                            0.087       3.797
+eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.masterstage_0.masterRegAddrSel     eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  masterRegAddrSel                     0.108       3.805
+SPI_Master_0.count[28]                                                          eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[28]                            0.087       3.874
+SPI_Master_0.count[8]                                                           eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[8]                             0.087       3.875
+SPI_Master_0.count[13]                                                          eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[13]                            0.087       3.898
+SPI_Master_0.count[2]                                                           eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[2]                             0.087       3.920
+SPI_Master_0.count[24]                                                          eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[24]                            0.087       3.952
+SPI_Master_0.count[29]                                                          eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[29]                            0.087       3.975
+=============================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                                               Required          
+Instance               Reference                                               Type     Pin     Net           Time         Slack
+                       Clock                                                                                                    
+--------------------------------------------------------------------------------------------------------------------------------
+AHB_IF_0.HADDR[2]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[3]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[4]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[5]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[6]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[7]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[8]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[9]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[10]     eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[11]     eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      7.609
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     2.054
+
+    Number of logic level(s):                2
+    Starting point:                          eSRAM_eNVM_access_0.eSRAM_eNVM_access_HPMS_0.MSS_ADLIB_INST / F_FM0_READYOUT
+    Ending point:                            AHB_IF_0.HADDR[2] / EN
+    The start point is clocked by            eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+    The end   point is clocked by            eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                                                Pin                Pin               Arrival     No. of    
+Name                                                                                                              Type        Name               Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+eSRAM_eNVM_access_0.eSRAM_eNVM_access_HPMS_0.MSS_ADLIB_INST                                                       MSS_025     F_FM0_READYOUT     Out     3.920     3.920       -         
+CoreAHBLite_0_AHBmslave16_HREADY                                                                                  Net         -                  -       1.136     -           9         
+eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.masterstage_0.default_slave_sm.defSlaveSMNextState_0_o2_RNI2KC11     CFG4        B                  In      -         5.056       -         
+eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.masterstage_0.default_slave_sm.defSlaveSMNextState_0_o2_RNI2KC11     CFG4        Y                  Out     0.148     5.204       -         
+N_53                                                                                                              Net         -                  -       0.888     -           13        
+AHB_IF_0.un1_HADDR_0_sqmuxa_i_0_o2_s_0_RNIJLTK1                                                                   CFG4        D                  In      -         6.092       -         
+AHB_IF_0.un1_HADDR_0_sqmuxa_i_0_o2_s_0_RNIJLTK1                                                                   CFG4        Y                  Out     0.326     6.419       -         
+N_101_i_0                                                                                                         Net         -                  -       1.190     -           30        
+AHB_IF_0.HADDR[2]                                                                                                 SLE         EN                 In      -         7.609       -         
+=========================================================================================================================================================================================
+Total path delay (propagation time + setup) of 7.946 is 4.732(59.6%) logic and 3.214(40.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 155MB peak: 159MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 155MB peak: 159MB)
+
+---------------------------------------
+Resource Usage Report for eSRAM_eNVM_access_top 
+
+Mapping to part: m2gl025vf256std
+Cell usage:
+CCC             1 use
+CLKINT          2 uses
+MSS_025         1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           2 uses
+CFG2           168 uses
+CFG3           110 uses
+CFG4           229 uses
+
+Carry primitives used for arithmetic functions:
+ARI1           102 uses
+
+
+Sequential Cells: 
+SLE            489 uses
+
+DSP Blocks:    0
+
+I/O ports: 49
+I/O primitives: 48
+INBUF          4 uses
+OUTBUF         42 uses
+TRIBUFF        2 uses
+
+
+Global Clock Buffers: 2
+
+
+RAM/ROM usage summary
+Block Rams (RAM1K18) : 1
+
+Total LUTs:    611
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  489 + 0 + 36 + 0 = 525;
+Total number of LUTs after P&R:  611 + 0 + 36 + 0 = 647;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 53MB peak: 159MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Fri Oct 14 23:24:54 2016
+
+###########################################################]

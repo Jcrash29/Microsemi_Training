@@ -1,0 +1,8 @@
+#0 define_false_path
+#1001 define_clock {n:eSRAM_eNVM_access_0.CCC_0.GL0_net} -name {eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock} -ref_rise {0.000000} -ref_fall {5.000000} -uncertainty {0.000000} -period {10.000000} -clockgroup {Inferred_clkgroup_0} -rise {0.000000} -fall {5 . . . 
+#1002 define_clock {n:eSRAM_eNVM_access_0.FABOSC_0.RCOSC_25_50MHZ_CCC} -name {eSRAM_eNVM_access_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock} -ref_rise {0.000000} -ref_fall {5.000000} -uncertainty {0.000000} -period {10.000000} -clockgroup {Inferred_clkgroup_1 . . . 
+define_attribute {i:eSRAM_eNVM_access_0.FABOSC_0}  {syn_noprune} 1
+define_attribute {i:eSRAM_eNVM_access_0.eSRAM_eNVM_access_HPMS_0}  {syn_noprune} 1
+define_attribute {i:eSRAM_eNVM_access_0.CCC_0}  {syn_noprune} 1
+define_attribute {i:TPSRAM_0}  {syn_noprune} 1
+define_attribute {i:eSRAM_eNVM_access_0}  {syn_noprune} 1

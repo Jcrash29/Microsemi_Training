@@ -1,0 +1,1054 @@
+Design: eSRAM_eNVM_access_top
+Fam: IGLOO2
+Die: PA4MGL1000
+Pkg: fg484
+Debug: 0
+ProbePoint: Net=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_YNn Inst=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0 Pin=YNn Type=GB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_YNn Inst=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0 Pin=YNn Type=GB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_READ Inst=eSRAM_eNVM_RW_0/READ Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_WRITE Inst=eSRAM_eNVM_RW_0/WRITE Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[2] Inst=eSRAM_eNVM_RW_0/addr_temp[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[0] Inst=eSRAM_eNVM_RW_0/data[0] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[1] Inst=eSRAM_eNVM_RW_0/data[1] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[2] Inst=eSRAM_eNVM_RW_0/data[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[3] Inst=eSRAM_eNVM_RW_0/data[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[4] Inst=eSRAM_eNVM_RW_0/data[4] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[5] Inst=eSRAM_eNVM_RW_0/data[5] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[6] Inst=eSRAM_eNVM_RW_0/data[6] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[7] Inst=eSRAM_eNVM_RW_0/data[7] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[8] Inst=eSRAM_eNVM_RW_0/data[8] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[9] Inst=eSRAM_eNVM_RW_0/data[9] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[10] Inst=eSRAM_eNVM_RW_0/data[10] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[11] Inst=eSRAM_eNVM_RW_0/data[11] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[12] Inst=eSRAM_eNVM_RW_0/data[12] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[13] Inst=eSRAM_eNVM_RW_0/data[13] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[14] Inst=eSRAM_eNVM_RW_0/data[14] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[15] Inst=eSRAM_eNVM_RW_0/data[15] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[16] Inst=eSRAM_eNVM_RW_0/data[16] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[17] Inst=eSRAM_eNVM_RW_0/data[17] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[18] Inst=eSRAM_eNVM_RW_0/data[18] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[19] Inst=eSRAM_eNVM_RW_0/data[19] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[20] Inst=eSRAM_eNVM_RW_0/data[20] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[21] Inst=eSRAM_eNVM_RW_0/data[21] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[22] Inst=eSRAM_eNVM_RW_0/data[22] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[23] Inst=eSRAM_eNVM_RW_0/data[23] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[24] Inst=eSRAM_eNVM_RW_0/data[24] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[25] Inst=eSRAM_eNVM_RW_0/data[25] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[26] Inst=eSRAM_eNVM_RW_0/data[26] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[27] Inst=eSRAM_eNVM_RW_0/data[27] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[28] Inst=eSRAM_eNVM_RW_0/data[28] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[29] Inst=eSRAM_eNVM_RW_0/data[29] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[30] Inst=eSRAM_eNVM_RW_0/data[30] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_DATAOUT[31] Inst=eSRAM_eNVM_RW_0/data[31] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[0] Inst=AHB_IF_0/DATAOUT[0] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[1] Inst=AHB_IF_0/DATAOUT[1] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[2] Inst=AHB_IF_0/DATAOUT[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[3] Inst=AHB_IF_0/DATAOUT[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[4] Inst=AHB_IF_0/DATAOUT[4] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[5] Inst=AHB_IF_0/DATAOUT[5] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[6] Inst=AHB_IF_0/DATAOUT[6] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[7] Inst=AHB_IF_0/DATAOUT[7] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[8] Inst=AHB_IF_0/DATAOUT[8] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[9] Inst=AHB_IF_0/DATAOUT[9] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[10] Inst=AHB_IF_0/DATAOUT[10] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[11] Inst=AHB_IF_0/DATAOUT[11] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[12] Inst=AHB_IF_0/DATAOUT[12] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[13] Inst=AHB_IF_0/DATAOUT[13] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[14] Inst=AHB_IF_0/DATAOUT[14] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[15] Inst=AHB_IF_0/DATAOUT[15] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[16] Inst=AHB_IF_0/DATAOUT[16] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[17] Inst=AHB_IF_0/DATAOUT[17] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[18] Inst=AHB_IF_0/DATAOUT[18] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[19] Inst=AHB_IF_0/DATAOUT[19] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[20] Inst=AHB_IF_0/DATAOUT[20] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[21] Inst=AHB_IF_0/DATAOUT[21] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[22] Inst=AHB_IF_0/DATAOUT[22] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[23] Inst=AHB_IF_0/DATAOUT[23] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[24] Inst=AHB_IF_0/DATAOUT[24] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[25] Inst=AHB_IF_0/DATAOUT[25] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[26] Inst=AHB_IF_0/DATAOUT[26] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[27] Inst=AHB_IF_0/DATAOUT[27] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[28] Inst=AHB_IF_0/DATAOUT[28] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[29] Inst=AHB_IF_0/DATAOUT[29] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[30] Inst=AHB_IF_0/DATAOUT[30] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_DATAOUT[31] Inst=AHB_IF_0/DATAOUT[31] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[2] Inst=AHB_IF_0/HADDR[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[3] Inst=AHB_IF_0/HADDR[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[4] Inst=AHB_IF_0/HADDR[4] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[5] Inst=AHB_IF_0/HADDR[5] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[6] Inst=AHB_IF_0/HADDR[6] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[7] Inst=AHB_IF_0/HADDR[7] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[8] Inst=AHB_IF_0/HADDR[8] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[9] Inst=AHB_IF_0/HADDR[9] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[10] Inst=AHB_IF_0/HADDR[10] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[11] Inst=AHB_IF_0/HADDR[11] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[12] Inst=AHB_IF_0/HADDR[12] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[13] Inst=AHB_IF_0/HADDR[13] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[14] Inst=AHB_IF_0/HADDR[14] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[15] Inst=AHB_IF_0/HADDR[15] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[16] Inst=AHB_IF_0/HADDR[16] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[17] Inst=AHB_IF_0/HADDR[17] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[18] Inst=AHB_IF_0/HADDR[18] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[19] Inst=AHB_IF_0/HADDR[19] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[20] Inst=AHB_IF_0/HADDR[20] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[21] Inst=AHB_IF_0/HADDR[21] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[22] Inst=AHB_IF_0/HADDR[22] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[23] Inst=AHB_IF_0/HADDR[23] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[24] Inst=AHB_IF_0/HADDR[24] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[25] Inst=AHB_IF_0/HADDR[25] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[26] Inst=AHB_IF_0/HADDR[26] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[27] Inst=AHB_IF_0/HADDR[27] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[28] Inst=AHB_IF_0/HADDR[28] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[29] Inst=AHB_IF_0/HADDR[29] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[30] Inst=AHB_IF_0/HADDR[30] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HADDR[31] Inst=AHB_IF_0/HADDR[31] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HTRANS[1] Inst=AHB_IF_0/HTRANS_1[1] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWRITE Inst=AHB_IF_0/HWRITE Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[0] Inst=AHB_IF_0/HWDATA[0] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[1] Inst=AHB_IF_0/HWDATA[1] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[2] Inst=AHB_IF_0/HWDATA[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[3] Inst=AHB_IF_0/HWDATA[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[4] Inst=AHB_IF_0/HWDATA[4] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[5] Inst=AHB_IF_0/HWDATA[5] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[6] Inst=AHB_IF_0/HWDATA[6] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[7] Inst=AHB_IF_0/HWDATA[7] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[8] Inst=AHB_IF_0/HWDATA[8] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[9] Inst=AHB_IF_0/HWDATA[9] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[10] Inst=AHB_IF_0/HWDATA[10] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[11] Inst=AHB_IF_0/HWDATA[11] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[12] Inst=AHB_IF_0/HWDATA[12] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[13] Inst=AHB_IF_0/HWDATA[13] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[14] Inst=AHB_IF_0/HWDATA[14] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[15] Inst=AHB_IF_0/HWDATA[15] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[16] Inst=AHB_IF_0/HWDATA[16] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[17] Inst=AHB_IF_0/HWDATA[17] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[18] Inst=AHB_IF_0/HWDATA[18] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[19] Inst=AHB_IF_0/HWDATA[19] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[20] Inst=AHB_IF_0/HWDATA[20] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[21] Inst=AHB_IF_0/HWDATA[21] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[22] Inst=AHB_IF_0/HWDATA[22] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[23] Inst=AHB_IF_0/HWDATA[23] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[24] Inst=AHB_IF_0/HWDATA[24] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[25] Inst=AHB_IF_0/HWDATA[25] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[26] Inst=AHB_IF_0/HWDATA[26] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[27] Inst=AHB_IF_0/HWDATA[27] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[28] Inst=AHB_IF_0/HWDATA[28] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[29] Inst=AHB_IF_0/HWDATA[29] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[30] Inst=AHB_IF_0/HWDATA[30] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HWDATA[31] Inst=AHB_IF_0/HWDATA[31] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[0] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[1] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[2] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[3] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[4] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_3 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[5] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_4 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[6] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_5 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[7] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_6 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[8] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_7 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[9] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_8 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[10] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_9 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[11] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_10 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[12] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_11 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[13] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_12 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[14] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_13 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[15] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_14 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[16] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_15 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[17] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_16 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[18] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_17 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[19] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_18 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[20] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_19 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[21] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_20 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[22] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_21 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[23] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_22 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[24] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_23 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[25] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_24 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[26] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_25 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[27] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_26 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[28] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_27 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[29] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_28 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[30] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_29 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_BIF_1_HRDATA[31] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST_RNISF24_30 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_AHB_BUSY Inst=AHB_IF_0/AHB_BUSY Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0_VALID Inst=AHB_IF_0/VALID Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wen Inst=eSRAM_eNVM_RW_0/ram_wen Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_waddr[0] Inst=eSRAM_eNVM_RW_0/ram_waddr[0] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_waddr[1] Inst=eSRAM_eNVM_RW_0/ram_waddr[1] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_waddr[2] Inst=eSRAM_eNVM_RW_0/ram_waddr[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_waddr[3] Inst=eSRAM_eNVM_RW_0/ram_waddr[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_waddr[4] Inst=eSRAM_eNVM_RW_0/ram_waddr[4] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[0] Inst=eSRAM_eNVM_RW_0/ram_wdata[0] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[1] Inst=eSRAM_eNVM_RW_0/ram_wdata[1] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[2] Inst=eSRAM_eNVM_RW_0/ram_wdata[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[3] Inst=eSRAM_eNVM_RW_0/ram_wdata[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[4] Inst=eSRAM_eNVM_RW_0/ram_wdata[4] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[5] Inst=eSRAM_eNVM_RW_0/ram_wdata[5] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[6] Inst=eSRAM_eNVM_RW_0/ram_wdata[6] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[7] Inst=eSRAM_eNVM_RW_0/ram_wdata[7] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[8] Inst=eSRAM_eNVM_RW_0/ram_wdata[8] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[9] Inst=eSRAM_eNVM_RW_0/ram_wdata[9] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[10] Inst=eSRAM_eNVM_RW_0/ram_wdata[10] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[11] Inst=eSRAM_eNVM_RW_0/ram_wdata[11] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[12] Inst=eSRAM_eNVM_RW_0/ram_wdata[12] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[13] Inst=eSRAM_eNVM_RW_0/ram_wdata[13] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[14] Inst=eSRAM_eNVM_RW_0/ram_wdata[14] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[15] Inst=eSRAM_eNVM_RW_0/ram_wdata[15] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[16] Inst=eSRAM_eNVM_RW_0/ram_wdata[16] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[17] Inst=eSRAM_eNVM_RW_0/ram_wdata[17] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[18] Inst=eSRAM_eNVM_RW_0/ram_wdata[18] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[19] Inst=eSRAM_eNVM_RW_0/ram_wdata[19] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[20] Inst=eSRAM_eNVM_RW_0/ram_wdata[20] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[21] Inst=eSRAM_eNVM_RW_0/ram_wdata[21] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[22] Inst=eSRAM_eNVM_RW_0/ram_wdata[22] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[23] Inst=eSRAM_eNVM_RW_0/ram_wdata[23] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[24] Inst=eSRAM_eNVM_RW_0/ram_wdata[24] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[25] Inst=eSRAM_eNVM_RW_0/ram_wdata[25] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[26] Inst=eSRAM_eNVM_RW_0/ram_wdata[26] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[27] Inst=eSRAM_eNVM_RW_0/ram_wdata[27] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[28] Inst=eSRAM_eNVM_RW_0/ram_wdata[28] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[29] Inst=eSRAM_eNVM_RW_0/ram_wdata[29] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[30] Inst=eSRAM_eNVM_RW_0/ram_wdata[30] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ram_wdata[31] Inst=eSRAM_eNVM_RW_0/ram_wdata[31] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.masterstage_0.default_slave_sm.defSlaveSMNextState Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/default_slave_sm/defSlaveSMNextState Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.masterstage_0.HREADY_M_iv Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/HREADY_M_iv Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=RD_c[0] Inst=TPSRAM_0/eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM_R0C0/INST_RAM1K18_IP Pin=B_DOUT[0] Type=SRAM PkgPin= Port=
+ProbePoint: Net=RD_c[1] Inst=TPSRAM_0/eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM_R0C0/INST_RAM1K18_IP Pin=B_DOUT[1] Type=SRAM PkgPin= Port=
+ProbePoint: Net=RD_c[2] Inst=TPSRAM_0/eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM_R0C0/INST_RAM1K18_IP Pin=B_DOUT[2] Type=SRAM PkgPin= Port=
+ProbePoint: Net=RD_c[3] Inst=TPSRAM_0/eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM_R0C0/INST_RAM1K18_IP Pin=B_DOUT[3] Type=SRAM PkgPin= Port=
+ProbePoint: Net=RD_c[4] Inst=TPSRAM_0/eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM_R0C0/INST_RAM1K18_IP Pin=B_DOUT[4] Type=SRAM PkgPin= Port=
+ProbePoint: Net=RD_c[5] Inst=TPSRAM_0/eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM_R0C0/INST_RAM1K18_IP Pin=B_DOUT[5] Type=SRAM PkgPin= Port=
+ProbePoint: Net=RD_c[6] Inst=TPSRAM_0/eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM_R0C0/INST_RAM1K18_IP Pin=B_DOUT[6] Type=SRAM PkgPin= Port=
+ProbePoint: Net=RD_c[7] Inst=TPSRAM_0/eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM_R0C0/INST_RAM1K18_IP Pin=B_DOUT[7] Type=SRAM PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.s16m0DataReady_i_m Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/masterDataInProg_RNICRSH[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[3] Inst=eSRAM_eNVM_RW_0/addr_temp[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[4] Inst=eSRAM_eNVM_RW_0/addr_temp[4] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[5] Inst=eSRAM_eNVM_RW_0/addr_temp[5] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[6] Inst=eSRAM_eNVM_RW_0/addr_temp[6] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[7] Inst=eSRAM_eNVM_RW_0/addr_temp[7] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[8] Inst=eSRAM_eNVM_RW_0/addr_temp[8] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[9] Inst=eSRAM_eNVM_RW_0/addr_temp[9] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[10] Inst=eSRAM_eNVM_RW_0/addr_temp[10] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[11] Inst=eSRAM_eNVM_RW_0/addr_temp[11] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[12] Inst=eSRAM_eNVM_RW_0/addr_temp[12] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[13] Inst=eSRAM_eNVM_RW_0/addr_temp[13] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[14] Inst=eSRAM_eNVM_RW_0/addr_temp[14] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[15] Inst=eSRAM_eNVM_RW_0/addr_temp[15] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[16] Inst=eSRAM_eNVM_RW_0/addr_temp[16] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[17] Inst=eSRAM_eNVM_RW_0/addr_temp[17] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[18] Inst=eSRAM_eNVM_RW_0/addr_temp[18] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[19] Inst=eSRAM_eNVM_RW_0/addr_temp[19] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[20] Inst=eSRAM_eNVM_RW_0/addr_temp[20] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[21] Inst=eSRAM_eNVM_RW_0/addr_temp[21] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[22] Inst=eSRAM_eNVM_RW_0/addr_temp[22] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[23] Inst=eSRAM_eNVM_RW_0/addr_temp[23] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[24] Inst=eSRAM_eNVM_RW_0/addr_temp[24] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[25] Inst=eSRAM_eNVM_RW_0/addr_temp[25] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[26] Inst=eSRAM_eNVM_RW_0/addr_temp[26] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[27] Inst=eSRAM_eNVM_RW_0/addr_temp[27] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[28] Inst=eSRAM_eNVM_RW_0/addr_temp[28] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[29] Inst=eSRAM_eNVM_RW_0/addr_temp[29] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[30] Inst=eSRAM_eNVM_RW_0/addr_temp[30] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0_ADDR[31] Inst=eSRAM_eNVM_RW_0/addr_temp[31] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/SYSRESET_POR Inst=eSRAM_eNVM_access_0/SYSRESET_POR/INST_SYSRESET_FF_IP Pin=POWER_ON_RESET_N Type=G4C PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/LOCK Inst=eSRAM_eNVM_access_0/CCC_0/CCC_INST/INST_CCC_IP Pin=LOCK Type=CCC PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[0] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[1] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[1] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[2] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[2] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[3] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[3] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[4] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[4] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[5] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[5] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[6] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[6] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[7] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[7] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[8] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[8] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[9] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[9] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[10] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[10] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[11] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[11] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[12] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[12] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[13] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[13] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[14] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[14] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[15] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[15] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[16] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[16] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[17] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[17] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[18] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[18] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[19] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[19] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[20] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[20] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[21] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[21] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[22] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[22] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[23] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[23] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[24] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[24] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[25] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[25] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[26] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[26] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[27] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[27] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[28] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[28] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[29] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[29] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[30] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[30] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWDATA[31] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWDATA[31] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[2] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[2] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[3] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[3] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[4] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[4] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[5] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[5] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[6] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[6] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[7] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[7] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[8] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[8] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[9] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[9] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[10] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[10] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[11] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[11] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[12] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[12] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[13] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[13] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[14] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[14] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[15] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[15] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[16] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[16] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[17] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[17] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[18] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[18] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[19] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[19] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[20] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[20] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[21] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[21] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[22] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[22] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[23] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[23] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[24] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[24] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[25] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[25] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[26] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[26] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HADDR[27] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR[27] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HSIZE[1] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HSIZE[1] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/HREADY_M_pre37_10 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/HREADY_M_pre37_10 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/HREADY_M_pre37_9 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/HREADY_M_pre37_9 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HREADY Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_READYOUT Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/N_31_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HTRANS_i_o3_RNIKR811 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/N_41_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR_i_a3_RNI4UUP[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/N_35_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR_i_a3_RNIA3UP[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0_AHBmslave16_HWRITE Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HWRITE Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/un1_masterAddrInProg_6_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_RNISFMK[7] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/N_39_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/MASTERADDRINPROG_i_a2_0_a2_RNIG76E1[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/N_37_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/MASTERADDRINPROG_i_a2_0_a2_RNI3FBS[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_TMP_0_MSS_RESET_N_M2F Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=FPGA_RESET_N Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_TMP_0_FIC_2_APB_M_PRESET_N Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=CONFIG_PRESET_N Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int Inst=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/mss_ready_select Inst=eSRAM_eNVM_access_0/CORERESETP_0/mss_ready_select Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/POWER_ON_RESET_N_clk_base Inst=eSRAM_eNVM_access_0/CORERESETP_0/POWER_ON_RESET_N_clk_base Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/mss_ready_select4 Inst=eSRAM_eNVM_access_0/CORERESETP_0/mss_ready_select4 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/mss_ready_state Inst=eSRAM_eNVM_access_0/CORERESETP_0/mss_ready_state Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/RESET_N_M2F_clk_base Inst=eSRAM_eNVM_access_0/CORERESETP_0/RESET_N_M2F_clk_base Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/POWER_ON_RESET_N_q1 Inst=eSRAM_eNVM_access_0/CORERESETP_0/POWER_ON_RESET_N_q1 Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/RESET_N_M2F_q1 Inst=eSRAM_eNVM_access_0/CORERESETP_0/RESET_N_M2F_q1 Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base Inst=eSRAM_eNVM_access_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_q1 Inst=eSRAM_eNVM_access_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_q1 Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_4 Inst=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_4 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[24] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[24] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[25] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[25] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[26] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[26] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[27] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[27] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[30] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[30] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[9] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[9] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[10] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[10] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[11] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[11] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[12] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[12] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[13] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[13] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[14] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[14] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[15] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[15] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[16] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[16] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[17] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[17] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[18] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[18] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[19] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[19] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[20] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[20] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[21] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[21] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[22] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[22] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[23] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[23] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[2] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[3] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[4] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[4] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[5] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[5] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[6] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[6] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[7] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[7] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHADDR[8] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[8] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/m0s16DataSel Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[16] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/m0s16AddrSel Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL_0_o2[16] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHWRITE Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHWRITE Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/regHTRANS Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHTRANS Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterRegAddrSel Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterRegAddrSel Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/N_81 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/PREGATEDHADDR_i_m3[29] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/N_117 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HADDR_i_a3[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/N_123 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_ns_i_0_a3[1] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/N_118 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HTRANS_i_a3_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterAddrClockEnable Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterAddrClockEnable_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[29] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/regHADDR[29] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[12] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[12] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL[12] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL_0_a2[12] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/N_70_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/default_slave_sm/defSlaveSMNextState_RNIVVAA Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[13] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[13] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/N_24_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt_RNO[13] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[14] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[14] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL[14] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL_0_a2[14] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[15] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[15] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/N_11_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt_RNO[15] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[1] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[1] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL[1] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL_0_a2[1] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[3] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL[3] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL_0_a2[3] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[5] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[5] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL[5] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL_0_a2[5] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[7] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[7] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL[7] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL_0_a2[7] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[8] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[8] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL[8] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL_0_a2[8] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[9] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[9] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/N_18_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt_RNO[9] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[10] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[10] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL[10] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL_0_a2[10] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[11] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt[11] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/N_21_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SDATASELInt_RNO[11] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/d_masterRegAddrSel Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/d_masterRegAddrSel_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/HREADY_M_pre37_5 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/HREADY_M_pre37_5 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/HREADY_M_pre37_8 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/HREADY_M_pre37_8 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/HREADY_M_pre37_7 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/HREADY_M_pre37_7 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/DEFSLAVEDATASEL_8 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/DEFSLAVEDATASEL_8 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/DEFSLAVEDATASEL_7 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/DEFSLAVEDATASEL_7 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/DEFSLAVEDATASEL_6 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/DEFSLAVEDATASEL_6 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/N_71 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL_i_o2[9] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/N_124 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/SADDRSEL_0_a3[8] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/N_116 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterAddrClockEnable_0_a3_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/d_masterRegAddrSel_0_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/d_masterRegAddrSel_0_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterAddrClockEnable_0_a2_0_1 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterAddrClockEnable_0_a2_0_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterAddrClockEnable_0_a2_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/masterAddrClockEnable_0_a2_0_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/default_slave_sm/defSlaveSMCurrentState Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/masterstage_0/default_slave_sm/defSlaveSMCurrentState Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/masterDataInProg[0] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/masterDataInProg[0] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/N_152 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/MASTERADDRINPROG_i_a2_0_a2[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/N_60 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/HTRANS_i_o3 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/arbRegSMCurrentState[0] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[0] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/arbRegSMCurrentState[3] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/N_104_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_RNO[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[1] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[1] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/N_106_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_RNO[1] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[2] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/N_108_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_RNO[2] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/N_110_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_RNO[3] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[5] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[5] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_ns[5] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_ns[5] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[6] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[6] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/N_114_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_RNO[6] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/HSEL7_sn Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[7] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/N_116_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_RNO[7] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[9] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[9] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_ns[9] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_ns[9] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[10] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[10] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/N_120_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_RNO[10] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/masterAddrInProg[2] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[11] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/N_122_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_RNO[11] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[13] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState[13] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/N_48_i_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_RNO[13] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/MASTERADDRINPROG_i_a2_0_o3_1[0] Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/MASTERADDRINPROG_i_a2_0_o3_1[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/N_106_i_1_0 Inst=eSRAM_eNVM_access_0/CoreAHBLite_0/matrix4x16/slavestage_16/slave_arbiter/arbRegSMCurrentState_RNO_0[1] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[31] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[31] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[30] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[30] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[29] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[29] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[28] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[28] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[27] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[27] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[26] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[26] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[25] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[25] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[24] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[24] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[23] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[23] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[22] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[22] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[21] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[21] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[20] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[20] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[19] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[19] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[18] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[18] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[17] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[17] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[16] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[16] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[15] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[15] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[14] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[14] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[13] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[13] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[12] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[12] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[11] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[11] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[10] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[10] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[9] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[9] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[8] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[8] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[7] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[7] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[6] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[6] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[5] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[5] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[4] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[4] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[3] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[3] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[2] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[2] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[1] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[1] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/CoreAHBLite_0_AHBmslave16_HRDATA[0] Inst=eSRAM_eNVM_access_0/eSRAM_eNVM_access_HPMS_0/MSS_ADLIB_INST/INST_MSS_010_IP Pin=F_FM0_RDATA[0] Type=MSS PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/ram_waddr_n4 Inst=eSRAM_eNVM_RW_0/ram_waddr_n4 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/ram_waddre Inst=eSRAM_eNVM_RW_0/current_state_RNI9HCC[15] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/ram_waddr_n1 Inst=eSRAM_eNVM_RW_0/ram_waddr_n1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/ram_waddr_n2 Inst=eSRAM_eNVM_RW_0/ram_waddr_n2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/ram_waddr_n3 Inst=eSRAM_eNVM_RW_0/ram_waddr_n3 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_cnt[4] Inst=eSRAM_eNVM_RW_0/data_cnt[4] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_cnt_n4 Inst=eSRAM_eNVM_RW_0/data_cnt_n4 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_cnte Inst=eSRAM_eNVM_RW_0/un38_i_a5_RNIIOET Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_9_i_0 Inst=eSRAM_eNVM_RW_0/ram_waddr_RNO[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_cnt[1] Inst=eSRAM_eNVM_RW_0/data_cnt[1] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_cnt_n1 Inst=eSRAM_eNVM_RW_0/data_cnt_n1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_cnt[2] Inst=eSRAM_eNVM_RW_0/data_cnt[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_cnt_n2 Inst=eSRAM_eNVM_RW_0/data_cnt_n2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_cnt[3] Inst=eSRAM_eNVM_RW_0/data_cnt[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_cnt_n3 Inst=eSRAM_eNVM_RW_0/data_cnt_n3 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_cnt[0] Inst=eSRAM_eNVM_RW_0/data_cnt[0] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_8_i_0 Inst=eSRAM_eNVM_RW_0/data_cnt_RNO[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/ram_wdata_0_sqmuxa Inst=eSRAM_eNVM_RW_0/ram_wdata_0_sqmuxa Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/envm_release_reg Inst=eSRAM_eNVM_RW_0/envm_release_reg Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[9] Inst=eSRAM_eNVM_RW_0/current_state[9] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un40_0 Inst=eSRAM_eNVM_RW_0/un40_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_800_i_0 Inst=eSRAM_eNVM_RW_0/ram_wen_RNO Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_387_i_0 Inst=eSRAM_eNVM_RW_0/ram_wen_RNO_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_777_i_0 Inst=eSRAM_eNVM_RW_0/WRITE_RNO Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_392_i_0 Inst=eSRAM_eNVM_RW_0/WRITE_RNO_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_378_i_0 Inst=eSRAM_eNVM_RW_0/READ_RNO Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_390_i_0 Inst=eSRAM_eNVM_RW_0/READ_RNO_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_13[31] Inst=eSRAM_eNVM_RW_0/current_state[10] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns[10] Inst=eSRAM_eNVM_RW_0/current_state_ns[10] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[11] Inst=eSRAM_eNVM_RW_0/current_state[11] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_336_i_0 Inst=eSRAM_eNVM_RW_0/current_state_RNO[11] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[12] Inst=eSRAM_eNVM_RW_0/current_state[12] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns[12] Inst=eSRAM_eNVM_RW_0/current_state_ns[12] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[13] Inst=eSRAM_eNVM_RW_0/current_state[13] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_339_i_0 Inst=eSRAM_eNVM_RW_0/current_state_RNO[13] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[14] Inst=eSRAM_eNVM_RW_0/current_state[14] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_341_i_0 Inst=eSRAM_eNVM_RW_0/current_state_RNO[14] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[15] Inst=eSRAM_eNVM_RW_0/current_state[15] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns[15] Inst=eSRAM_eNVM_RW_0/current_state_ns[15] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[16] Inst=eSRAM_eNVM_RW_0/current_state[16] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns[16] Inst=eSRAM_eNVM_RW_0/current_state_ns[16] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[0] Inst=eSRAM_eNVM_RW_0/current_state[0] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns[0] Inst=eSRAM_eNVM_RW_0/current_state_ns[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[1] Inst=eSRAM_eNVM_RW_0/current_state[1] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_323_i_0 Inst=eSRAM_eNVM_RW_0/current_state_RNO[1] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[2] Inst=eSRAM_eNVM_RW_0/current_state[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns[2] Inst=eSRAM_eNVM_RW_0/current_state_ns[2] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[3] Inst=eSRAM_eNVM_RW_0/current_state[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns[3] Inst=eSRAM_eNVM_RW_0/current_state_ns[3] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[4] Inst=eSRAM_eNVM_RW_0/current_state[4] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_327_i_0 Inst=eSRAM_eNVM_RW_0/current_state_RNO[4] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[5] Inst=eSRAM_eNVM_RW_0/current_state[5] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns[5] Inst=eSRAM_eNVM_RW_0/current_state_ns[5] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[6] Inst=eSRAM_eNVM_RW_0/current_state[6] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_330_i_0 Inst=eSRAM_eNVM_RW_0/current_state_RNO[6] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[7] Inst=eSRAM_eNVM_RW_0/current_state[7] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns[7] Inst=eSRAM_eNVM_RW_0/current_state_ns[7] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state[8] Inst=eSRAM_eNVM_RW_0/current_state[8] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns[8] Inst=eSRAM_eNVM_RW_0/current_state_ns[8] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns[9] Inst=eSRAM_eNVM_RW_0/current_state_ns[9] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/start_envm_reg Inst=eSRAM_eNVM_RW_0/start_envm_reg Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/start_esram_reg Inst=eSRAM_eNVM_RW_0/start_esram_reg Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[2] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[2] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_addr_temp_8_sqmuxa_2_i_0 Inst=eSRAM_eNVM_RW_0/un1_addr_temp_8_sqmuxa_8_RNIPEIB1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[3] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[3] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[4] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[4] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[5] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[5] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[6] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[6] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[7] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[7] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[8] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[8] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[9] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[9] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[10] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[10] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[11] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[11] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[12] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[12] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[13] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[13] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[14] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[14] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[15] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[15] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[16] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[16] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[17] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[17] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[18] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[18] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[19] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[19] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[20] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[20] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[21] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[21] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[22] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[22] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[23] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[23] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[24] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[24] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[25] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[25] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[26] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[26] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[27] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[27] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[28] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[28] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[29] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[29] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[30] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[30] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_lm[31] Inst=eSRAM_eNVM_RW_0/addr_temp_lm_0[31] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[0] Inst=eSRAM_eNVM_RW_0/data_cry[0] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_369_i_0 Inst=eSRAM_eNVM_RW_0/un1_current_state_9_i_a2_RNI8FOA1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[1] Inst=eSRAM_eNVM_RW_0/data_cry[1] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[2] Inst=eSRAM_eNVM_RW_0/data_cry[2] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[3] Inst=eSRAM_eNVM_RW_0/data_cry[3] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[4] Inst=eSRAM_eNVM_RW_0/data_cry[4] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[5] Inst=eSRAM_eNVM_RW_0/data_cry[5] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[6] Inst=eSRAM_eNVM_RW_0/data_cry[6] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[7] Inst=eSRAM_eNVM_RW_0/data_cry[7] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[8] Inst=eSRAM_eNVM_RW_0/data_cry[8] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[9] Inst=eSRAM_eNVM_RW_0/data_cry[9] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[10] Inst=eSRAM_eNVM_RW_0/data_cry[10] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[11] Inst=eSRAM_eNVM_RW_0/data_cry[11] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[12] Inst=eSRAM_eNVM_RW_0/data_cry[12] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[13] Inst=eSRAM_eNVM_RW_0/data_cry[13] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[14] Inst=eSRAM_eNVM_RW_0/data_cry[14] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[15] Inst=eSRAM_eNVM_RW_0/data_cry[15] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[16] Inst=eSRAM_eNVM_RW_0/data_cry[16] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[17] Inst=eSRAM_eNVM_RW_0/data_cry[17] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[18] Inst=eSRAM_eNVM_RW_0/data_cry[18] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[19] Inst=eSRAM_eNVM_RW_0/data_cry[19] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[20] Inst=eSRAM_eNVM_RW_0/data_cry[20] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[21] Inst=eSRAM_eNVM_RW_0/data_cry[21] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[22] Inst=eSRAM_eNVM_RW_0/data_cry[22] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[23] Inst=eSRAM_eNVM_RW_0/data_cry[23] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[24] Inst=eSRAM_eNVM_RW_0/data_cry[24] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[25] Inst=eSRAM_eNVM_RW_0/data_cry[25] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[26] Inst=eSRAM_eNVM_RW_0/data_cry[26] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[27] Inst=eSRAM_eNVM_RW_0/data_cry[27] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[28] Inst=eSRAM_eNVM_RW_0/data_cry[28] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[29] Inst=eSRAM_eNVM_RW_0/data_cry[29] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[30] Inst=eSRAM_eNVM_RW_0/data_cry[30] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_s[31] Inst=eSRAM_eNVM_RW_0/data_s[31] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_cry_cy_Y[0] Inst=eSRAM_eNVM_RW_0/data_cry_cy[0] Pin=Y Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_READ6_3_0_0_440_2 Inst=eSRAM_eNVM_RW_0/data_cry_cy_RNO[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_816 Inst=eSRAM_eNVM_RW_0/data_cry_cy_RNO_0[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_READ6_3_0_0_440_1 Inst=eSRAM_eNVM_RW_0/data_cry_cy_RNO_1[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_348_i_0 Inst=eSRAM_eNVM_RW_0/data_cry_RNO[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_13[6] Inst=eSRAM_eNVM_RW_0/current_state_ns_a5_0[5] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_13[27] Inst=eSRAM_eNVM_RW_0/current_state_ns_a5[8] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_13[9] Inst=eSRAM_eNVM_RW_0/data_cnst_o5[8] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_13[7] Inst=eSRAM_eNVM_RW_0/data_cnst_o5[7] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[3] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[3] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[4] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[4] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[5] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[5] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[6] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[6] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[7] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[7] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[8] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[8] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[9] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[9] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[10] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[10] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[11] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[11] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[12] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[12] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[13] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[13] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[14] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[14] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[15] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[15] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[16] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[16] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[17] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[17] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[18] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[18] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[19] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[19] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[20] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[20] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[21] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[21] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[22] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[22] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[23] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[23] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[24] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[24] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[25] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[25] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[26] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[26] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[27] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[27] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[28] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[28] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[29] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[29] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[31] Inst=eSRAM_eNVM_RW_0/addr_temp_s[31] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_s[30] Inst=eSRAM_eNVM_RW_0/addr_temp_cry[30] Pin=S Type=1BIT PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_addr_temp_5_sqmuxa Inst=eSRAM_eNVM_RW_0/un1_addr_temp_5_sqmuxa Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_addr_temp_12_sqmuxa Inst=eSRAM_eNVM_RW_0/un1_addr_temp_12_sqmuxa Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/READ50 Inst=eSRAM_eNVM_RW_0/READ50_i_o2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_521 Inst=eSRAM_eNVM_RW_0/un1_current_state_16_i_a2_4 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_387_i_1 Inst=eSRAM_eNVM_RW_0/ram_wen_RNO_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/ram_waddr_0_sqmuxa Inst=eSRAM_eNVM_RW_0/current_state_ns_i_a5_0[14] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/READ32 Inst=eSRAM_eNVM_RW_0/READ31_0_o2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_523 Inst=eSRAM_eNVM_RW_0/un32_i_a2[2] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_504 Inst=eSRAM_eNVM_RW_0/current_state_ns_i_a2[1] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_current_state_19_i_a5_0 Inst=eSRAM_eNVM_RW_0/un1_current_state_19_i_a5_0_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_489_2 Inst=eSRAM_eNVM_RW_0/un1_current_state_19_i_a5_2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_395 Inst=eSRAM_eNVM_RW_0/data_cnst_i_o5[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_489 Inst=eSRAM_eNVM_RW_0/un1_current_state_19_i_a5 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un32_i_a5_0[2] Inst=eSRAM_eNVM_RW_0/un32_i_a5_0[2] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_0_sqmuxa_0 Inst=eSRAM_eNVM_RW_0/addr_temp_0_sqmuxa_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_9_sqmuxa Inst=eSRAM_eNVM_RW_0/addr_temp_9_sqmuxa Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_409 Inst=eSRAM_eNVM_RW_0/un37_0_o5 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/ram_waddr_c1 Inst=eSRAM_eNVM_RW_0/ram_waddr_c1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_820 Inst=eSRAM_eNVM_RW_0/current_state_RNIF59K[2] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_499 Inst=eSRAM_eNVM_RW_0/un1_current_state_16_i_a2_6 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_781_1 Inst=eSRAM_eNVM_RW_0/current_state_RNI0A7R[2] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/esram_select Inst=eSRAM_eNVM_RW_0/esram_select Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_current_state_20_i_a5_0_2 Inst=eSRAM_eNVM_RW_0/un1_current_state_20_i_a5_0_2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_current_state_9_i_a5_1 Inst=eSRAM_eNVM_RW_0/un1_current_state_9_i_a5_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un32_i_a5_2[0] Inst=eSRAM_eNVM_RW_0/un32_i_a5_2[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un32_i_a5_1_0[0] Inst=eSRAM_eNVM_RW_0/un32_i_a5_1[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_READ_1_sqmuxa_2_i_a5_1 Inst=eSRAM_eNVM_RW_0/un1_READ_1_sqmuxa_2_i_a5_1_2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_READ_1_sqmuxa_2_i_a5_0 Inst=eSRAM_eNVM_RW_0/un1_READ_1_sqmuxa_2_i_a5_0_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/READ50_i_o2_2 Inst=eSRAM_eNVM_RW_0/READ50_i_o2_2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_READ_1_sqmuxa_2_i_a5_1_1 Inst=eSRAM_eNVM_RW_0/un1_READ_1_sqmuxa_2_i_a5_1_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_current_state_16_i_a2_2_2 Inst=eSRAM_eNVM_RW_0/un1_current_state_16_i_a2_2_2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_0_sqmuxa_3 Inst=eSRAM_eNVM_RW_0/addr_temp_0_sqmuxa_3 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_478 Inst=eSRAM_eNVM_RW_0/un38_i_a5 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_1_sqmuxa_1 Inst=eSRAM_eNVM_RW_0/addr_temp_1_sqmuxa_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_0_sqmuxa_4 Inst=eSRAM_eNVM_RW_0/addr_temp_0_sqmuxa_4 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_785 Inst=eSRAM_eNVM_RW_0/WRITE_RNO_4 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/data_cnt_c2 Inst=eSRAM_eNVM_RW_0/data_cnt_c2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_486 Inst=eSRAM_eNVM_RW_0/un1_current_state_20_i_a5 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_513 Inst=eSRAM_eNVM_RW_0/un1_current_state_20_i_a2_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_490_1 Inst=eSRAM_eNVM_RW_0/un1_current_state_19_i_a5_0_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_addr_temp_8_sqmuxa_3 Inst=eSRAM_eNVM_RW_0/un1_addr_temp_8_sqmuxa_3 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_addr_temp_8_sqmuxa_2_0 Inst=eSRAM_eNVM_RW_0/un1_addr_temp_8_sqmuxa_2_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_current_state_20_i_a5_0_3 Inst=eSRAM_eNVM_RW_0/un1_current_state_20_i_a5_0_3 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_cnst_i_a2_0[7] Inst=eSRAM_eNVM_RW_0/addr_temp_cnst_i_a2_0[7] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un32_i_a5_2[2] Inst=eSRAM_eNVM_RW_0/un32_i_a5_2[2] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un32_i_a5_1[3] Inst=eSRAM_eNVM_RW_0/un32_i_a5_1[3] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns_i_0[13] Inst=eSRAM_eNVM_RW_0/current_state_ns_i_0[13] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/current_state_ns_i_0[1] Inst=eSRAM_eNVM_RW_0/current_state_ns_i_0[1] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_481 Inst=eSRAM_eNVM_RW_0/un1_READ_1_sqmuxa_2_i_a5_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_cnst_i_a2_0[8] Inst=eSRAM_eNVM_RW_0/addr_temp_cnst_i_a2_0[5] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_779 Inst=eSRAM_eNVM_RW_0/WRITE_RNO_2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_cnst_i_a2[4] Inst=eSRAM_eNVM_RW_0/addr_temp_cnst_i_a2[4] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_450 Inst=eSRAM_eNVM_RW_0/current_state_ns_i_a5_0[4] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_445 Inst=eSRAM_eNVM_RW_0/current_state_ns_a5[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_addr_temp_8_sqmuxa_5 Inst=eSRAM_eNVM_RW_0/un1_addr_temp_8_sqmuxa_5 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_addr_temp_8_sqmuxa_4 Inst=eSRAM_eNVM_RW_0/un1_addr_temp_8_sqmuxa_4 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_current_state_19_i_0 Inst=eSRAM_eNVM_RW_0/un1_current_state_19_i_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_cnst_0_a2_0[19] Inst=eSRAM_eNVM_RW_0/addr_temp_cnst_0_a2_0[19] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_READ_1_sqmuxa_2_i_0 Inst=eSRAM_eNVM_RW_0/un1_READ_1_sqmuxa_2_i_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/ram_wdata_1_sqmuxa_1_0 Inst=eSRAM_eNVM_RW_0/ram_wdata_1_sqmuxa_1_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/ram_wdata_1_sqmuxa Inst=eSRAM_eNVM_RW_0/ram_wdata_1_sqmuxa Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_497 Inst=eSRAM_eNVM_RW_0/un1_current_state_20_i_a2_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_519 Inst=eSRAM_eNVM_RW_0/current_state_ns_i_a2[6] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_778 Inst=eSRAM_eNVM_RW_0/WRITE_RNO_5 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_495 Inst=eSRAM_eNVM_RW_0/un1_current_state_9_i_a2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_488_1 Inst=eSRAM_eNVM_RW_0/un1_current_state_20_i_a5_1_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_22[17] Inst=eSRAM_eNVM_RW_0/current_state_ns_a5_0_RNI28QD[5] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/addr_temp_cnst_i_a2[6] Inst=eSRAM_eNVM_RW_0/addr_temp_cnst_i_a2[6] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_383 Inst=eSRAM_eNVM_RW_0/un1_ram_wen_0_sqmuxa_i Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_786 Inst=eSRAM_eNVM_RW_0/WRITE_RNO_3 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_397 Inst=eSRAM_eNVM_RW_0/un1_current_state_9_i_o2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_400 Inst=eSRAM_eNVM_RW_0/un1_current_state_20_i_o2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_current_state_20_i_0 Inst=eSRAM_eNVM_RW_0/un1_current_state_20_i_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/un1_addr_temp_8_sqmuxa_8 Inst=eSRAM_eNVM_RW_0/un1_addr_temp_8_sqmuxa_8 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/ram_wdata_1_sqmuxa_1 Inst=eSRAM_eNVM_RW_0/ram_wdata_1_sqmuxa_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_474 Inst=eSRAM_eNVM_RW_0/un1_current_state_9_i_a5 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_695 Inst=eSRAM_eNVM_RW_0/ram_waddr_370 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_698 Inst=eSRAM_eNVM_RW_0/ram_waddr_373 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_781 Inst=eSRAM_eNVM_RW_0/WRITE_RNO_1 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_RW_0/N_821 Inst=eSRAM_eNVM_RW_0/un1_addr_temp_5_sqmuxa_RNIV44N Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[20] Inst=AHB_IF_0/HWDATA_int[20] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int_0_sqmuxa Inst=AHB_IF_0/HWDATA_int_0_sqmuxa Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[21] Inst=AHB_IF_0/HWDATA_int[21] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[22] Inst=AHB_IF_0/HWDATA_int[22] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[23] Inst=AHB_IF_0/HWDATA_int[23] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[24] Inst=AHB_IF_0/HWDATA_int[24] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[25] Inst=AHB_IF_0/HWDATA_int[25] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[26] Inst=AHB_IF_0/HWDATA_int[26] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[27] Inst=AHB_IF_0/HWDATA_int[27] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[28] Inst=AHB_IF_0/HWDATA_int[28] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[29] Inst=AHB_IF_0/HWDATA_int[29] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[30] Inst=AHB_IF_0/HWDATA_int[30] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[31] Inst=AHB_IF_0/HWDATA_int[31] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[5] Inst=AHB_IF_0/HWDATA_int[5] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[6] Inst=AHB_IF_0/HWDATA_int[6] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[7] Inst=AHB_IF_0/HWDATA_int[7] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[8] Inst=AHB_IF_0/HWDATA_int[8] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[9] Inst=AHB_IF_0/HWDATA_int[9] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[10] Inst=AHB_IF_0/HWDATA_int[10] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[11] Inst=AHB_IF_0/HWDATA_int[11] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[12] Inst=AHB_IF_0/HWDATA_int[12] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[13] Inst=AHB_IF_0/HWDATA_int[13] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[14] Inst=AHB_IF_0/HWDATA_int[14] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[15] Inst=AHB_IF_0/HWDATA_int[15] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[16] Inst=AHB_IF_0/HWDATA_int[16] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[17] Inst=AHB_IF_0/HWDATA_int[17] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[18] Inst=AHB_IF_0/HWDATA_int[18] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[19] Inst=AHB_IF_0/HWDATA_int[19] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/DATAOUT_1_sqmuxa Inst=AHB_IF_0/un18_0_0_a3 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[0] Inst=AHB_IF_0/HWDATA_int[0] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[1] Inst=AHB_IF_0/HWDATA_int[1] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[2] Inst=AHB_IF_0/HWDATA_int[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[3] Inst=AHB_IF_0/HWDATA_int[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_int[4] Inst=AHB_IF_0/HWDATA_int[4] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HWDATA_1_sqmuxa Inst=AHB_IF_0/un1_ahb_fsm_current_state_4_0_0_a3 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[26] Inst=AHB_IF_0/HADDR_6[26] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/N_101_i_0 Inst=AHB_IF_0/ahb_fsm_current_state_ns_a3_1_RNIH5DN[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[27] Inst=AHB_IF_0/HADDR_6[27] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[28] Inst=AHB_IF_0/HADDR_6[28] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[29] Inst=AHB_IF_0/HADDR_6[29] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[30] Inst=AHB_IF_0/HADDR_6[30] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[31] Inst=AHB_IF_0/HADDR_6[31] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[11] Inst=AHB_IF_0/HADDR_6[11] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[12] Inst=AHB_IF_0/HADDR_6[12] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[13] Inst=AHB_IF_0/HADDR_6[13] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[14] Inst=AHB_IF_0/HADDR_6[14] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[15] Inst=AHB_IF_0/HADDR_6[15] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[16] Inst=AHB_IF_0/HADDR_6[16] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[17] Inst=AHB_IF_0/HADDR_6[17] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[18] Inst=AHB_IF_0/HADDR_6[18] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[19] Inst=AHB_IF_0/HADDR_6[19] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[20] Inst=AHB_IF_0/HADDR_6[20] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[21] Inst=AHB_IF_0/HADDR_6[21] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[22] Inst=AHB_IF_0/HADDR_6[22] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[23] Inst=AHB_IF_0/HADDR_6[23] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[24] Inst=AHB_IF_0/HADDR_6[24] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[25] Inst=AHB_IF_0/HADDR_6[25] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[2] Inst=AHB_IF_0/HADDR_6[2] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[3] Inst=AHB_IF_0/HADDR_6[3] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[4] Inst=AHB_IF_0/HADDR_6[4] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[5] Inst=AHB_IF_0/HADDR_6[5] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[6] Inst=AHB_IF_0/HADDR_6[6] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[7] Inst=AHB_IF_0/HADDR_6[7] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[8] Inst=AHB_IF_0/HADDR_6[8] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[9] Inst=AHB_IF_0/HADDR_6[9] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/HADDR_6[10] Inst=AHB_IF_0/HADDR_6[10] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/un18_0_0 Inst=AHB_IF_0/un18_0_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/N_541_i_0 Inst=AHB_IF_0/AHB_BUSY_RNO Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/N_106_i_0 Inst=AHB_IF_0/AHB_BUSY_RNO_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/N_126_i_0 Inst=AHB_IF_0/HTRANS_1_RNO[1] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/un1_ahb_fsm_current_state_8_0_0 Inst=AHB_IF_0/un1_ahb_fsm_current_state_8_0_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/ahb_fsm_current_state[1] Inst=AHB_IF_0/ahb_fsm_current_state[1] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/un1_ahb_fsm_current_state_4_0_0 Inst=AHB_IF_0/un1_ahb_fsm_current_state_4_0_0 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/ahb_fsm_current_state[0] Inst=AHB_IF_0/ahb_fsm_current_state[0] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/ahb_fsm_current_state_ns[0] Inst=AHB_IF_0/ahb_fsm_current_state_ns_0[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/N_94_i_0 Inst=AHB_IF_0/ahb_fsm_current_state_RNO[1] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/ahb_fsm_current_state[2] Inst=AHB_IF_0/ahb_fsm_current_state[2] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/ahb_fsm_current_state_ns[2] Inst=AHB_IF_0/ahb_fsm_current_state_ns_0[2] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/ahb_fsm_current_state[3] Inst=AHB_IF_0/ahb_fsm_current_state[3] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/ahb_fsm_current_state[4] Inst=AHB_IF_0/ahb_fsm_current_state[4] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/ahb_fsm_current_state_ns[4] Inst=AHB_IF_0/ahb_fsm_current_state_ns_a3[4] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/ahb_fsm_current_state[5] Inst=AHB_IF_0/ahb_fsm_current_state[5] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/ahb_fsm_current_state_ns[5] Inst=AHB_IF_0/ahb_fsm_current_state_ns_0[5] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/ahb_fsm_current_state[6] Inst=AHB_IF_0/ahb_fsm_current_state[6] Pin=Q Type=SEQ PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/N_20 Inst=AHB_IF_0/un1_ahb_fsm_current_state_8_0_0_o3 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/N_130 Inst=AHB_IF_0/ahb_fsm_current_state_ns_a3_1[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/N_19 Inst=AHB_IF_0/ahb_fsm_current_state_RNI9QV[3] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/N_110_i_0 Inst=AHB_IF_0/HTRANS_2_i_o3_i_a2 Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=AHB_IF_0/N_29 Inst=AHB_IF_0/ahb_fsm_current_state_ns_0_a3_0[0] Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=ff_to_start_net Inst=eSRAM_eNVM_access_0/SYSRESET_POR/INST_SYSRESET_FF_IP Pin=FF_TO_START Type=G4C PkgPin= Port=
+ProbePoint: Net=CFG0_GND_INST_NET Inst=CFG0_GND_INST Pin=Y Type=COMB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_YR Inst=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB0_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB0 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB1_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB1 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB2_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB2 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB3_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB3 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB4_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB4 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB5_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB5 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB6_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_RGB1_RGB6 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_YR Inst=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB0_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB0 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB1_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB1 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB2_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB2 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB3_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB3 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB4_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB4 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB5_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB5 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB6_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB6 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB7_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB7 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB8_rgbr_net_1 Inst=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_RGB1_RGB8 Pin=YR Type=RGB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0_YNn_GSouth Inst=eSRAM_eNVM_access_0/CORERESETP_0/MSS_HPMS_READY_int_RNISI68/U0 Pin=YSn Type=GB PkgPin= Port=
+ProbePoint: Net=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0_YNn_GSouth Inst=eSRAM_eNVM_access_0/CCC_0/GL0_INST/U0 Pin=YSn Type=GB PkgPin= Port=
+PkgPin: Id=1 Name=D5 Port= Status=2
+PkgPin: Id=2 Name=C4 Port= Status=2
+PkgPin: Id=3 Name=B3 Port= Status=2
+PkgPin: Id=4 Name=C3 Port= Status=2
+PkgPin: Id=5 Name=G6 Port= Status=2
+PkgPin: Id=6 Name=G5 Port= Status=2
+PkgPin: Id=7 Name=F6 Port= Status=2
+PkgPin: Id=8 Name=F5 Port= Status=2
+PkgPin: Id=9 Name=D4 Port= Status=2
+PkgPin: Id=10 Name=D3 Port= Status=2
+PkgPin: Id=11 Name=A2 Port= Status=2
+PkgPin: Id=12 Name=B2 Port= Status=2
+PkgPin: Id=13 Name=E5 Port= Status=2
+PkgPin: Id=14 Name=E4 Port= Status=2
+PkgPin: Id=15 Name=B1 Port= Status=2
+PkgPin: Id=16 Name=C1 Port= Status=2
+PkgPin: Id=17 Name=D2 Port= Status=2
+PkgPin: Id=18 Name=D1 Port= Status=2
+PkgPin: Id=19 Name=E2 Port= Status=2
+PkgPin: Id=20 Name=E1 Port= Status=2
+PkgPin: Id=21 Name=F4 Port= Status=2
+PkgPin: Id=22 Name=F3 Port= Status=2
+PkgPin: Id=23 Name=G7 Port= Status=2
+PkgPin: Id=24 Name=H7 Port= Status=2
+PkgPin: Id=25 Name=J6 Port= Status=2
+PkgPin: Id=26 Name=H6 Port= Status=2
+PkgPin: Id=27 Name=H5 Port= Status=2
+PkgPin: Id=28 Name=H4 Port= Status=2
+PkgPin: Id=29 Name=G1 Port= Status=2
+PkgPin: Id=30 Name=H1 Port= Status=2
+PkgPin: Id=31 Name=J4 Port= Status=2
+PkgPin: Id=32 Name=J3 Port= Status=2
+PkgPin: Id=33 Name=J2 Port= Status=2
+PkgPin: Id=34 Name=J1 Port= Status=2
+PkgPin: Id=35 Name=K7 Port= Status=2
+PkgPin: Id=36 Name=K6 Port= Status=2
+PkgPin: Id=37 Name=K5 Port= Status=2
+PkgPin: Id=38 Name=K4 Port= Status=2
+PkgPin: Id=39 Name=L8 Port= Status=2
+PkgPin: Id=40 Name=K8 Port= Status=2
+PkgPin: Id=41 Name=L7 Port= Status=2
+PkgPin: Id=42 Name=M7 Port= Status=2
+PkgPin: Id=43 Name=K2 Port= Status=2
+PkgPin: Id=44 Name=K1 Port= Status=2
+PkgPin: Id=45 Name=L3 Port= Status=2
+PkgPin: Id=46 Name=L2 Port= Status=2
+PkgPin: Id=47 Name=L5 Port= Status=2
+PkgPin: Id=48 Name=L4 Port= Status=2
+PkgPin: Id=49 Name=M6 Port= Status=2
+PkgPin: Id=50 Name=M5 Port= Status=2
+PkgPin: Id=51 Name=N6 Port= Status=2
+PkgPin: Id=52 Name=N5 Port= Status=2
+PkgPin: Id=53 Name=M2 Port= Status=2
+PkgPin: Id=54 Name=M3 Port= Status=2
+PkgPin: Id=55 Name=N4 Port= Status=2
+PkgPin: Id=56 Name=N3 Port= Status=2
+PkgPin: Id=57 Name=M1 Port= Status=2
+PkgPin: Id=58 Name=N1 Port= Status=2
+PkgPin: Id=59 Name=P3 Port= Status=2
+PkgPin: Id=60 Name=P4 Port= Status=2
+PkgPin: Id=61 Name=P2 Port= Status=2
+PkgPin: Id=62 Name=P1 Port= Status=2
+PkgPin: Id=63 Name=M8 Port= Status=2
+PkgPin: Id=64 Name=N8 Port= Status=2
+PkgPin: Id=65 Name=P7 Port= Status=2
+PkgPin: Id=66 Name=P6 Port= Status=2
+PkgPin: Id=67 Name=R1 Port= Status=2
+PkgPin: Id=68 Name=R2 Port= Status=2
+PkgPin: Id=69 Name=R4 Port= Status=2
+PkgPin: Id=70 Name=R3 Port= Status=2
+PkgPin: Id=71 Name=T3 Port= Status=2
+PkgPin: Id=72 Name=T4 Port= Status=2
+PkgPin: Id=73 Name=T1 Port= Status=2
+PkgPin: Id=74 Name=U1 Port= Status=2
+PkgPin: Id=76 Name=U4 Port= Status=2
+PkgPin: Id=77 Name=U3 Port= Status=2
+PkgPin: Id=98 Name=W9 Port= Status=2
+PkgPin: Id=99 Name=Y9 Port= Status=2
+PkgPin: Id=102 Name=V11 Port= Status=2
+PkgPin: Id=103 Name=W11 Port= Status=2
+PkgPin: Id=104 Name=AB13 Port= Status=2
+PkgPin: Id=105 Name=AB14 Port= Status=2
+PkgPin: Id=106 Name=AA13 Port= Status=2
+PkgPin: Id=107 Name=Y13 Port= Status=2
+PkgPin: Id=108 Name=U13 Port= Status=2
+PkgPin: Id=109 Name=T13 Port= Status=2
+PkgPin: Id=110 Name=V13 Port= Status=2
+PkgPin: Id=111 Name=V14 Port= Status=2
+PkgPin: Id=112 Name=Y14 Port= Status=2
+PkgPin: Id=113 Name=W14 Port= Status=2
+PkgPin: Id=114 Name=AB15 Port=RD<1> Status=2
+PkgPin: Id=115 Name=AA15 Port=RD<0> Status=2
+PkgPin: Id=116 Name=Y15 Port=RD<3> Status=2
+PkgPin: Id=117 Name=W15 Port=RD<2> Status=2
+PkgPin: Id=118 Name=U14 Port=RD<5> Status=2
+PkgPin: Id=119 Name=U15 Port=RD<4> Status=2
+PkgPin: Id=120 Name=AB17 Port=RD<7> Status=2
+PkgPin: Id=121 Name=AA18 Port=RD<6> Status=2
+PkgPin: Id=122 Name=AA16 Port= Status=2
+PkgPin: Id=123 Name=AA17 Port= Status=2
+PkgPin: Id=124 Name=W16 Port= Status=2
+PkgPin: Id=125 Name=V16 Port= Status=2
+PkgPin: Id=126 Name=Y17 Port= Status=2
+PkgPin: Id=127 Name=W17 Port= Status=2
+PkgPin: Id=128 Name=Y18 Port= Status=2
+PkgPin: Id=129 Name=Y19 Port= Status=2
+PkgPin: Id=130 Name=AB18 Port= Status=2
+PkgPin: Id=131 Name=AB19 Port= Status=2
+PkgPin: Id=144 Name=U19 Port= Status=2
+PkgPin: Id=145 Name=V19 Port= Status=2
+PkgPin: Id=146 Name=R17 Port= Status=2
+PkgPin: Id=147 Name=R18 Port= Status=2
+PkgPin: Id=148 Name=T18 Port= Status=2
+PkgPin: Id=149 Name=T19 Port= Status=2
+PkgPin: Id=150 Name=V22 Port= Status=2
+PkgPin: Id=151 Name=V21 Port= Status=2
+PkgPin: Id=152 Name=U22 Port= Status=2
+PkgPin: Id=153 Name=U21 Port= Status=2
+PkgPin: Id=154 Name=T20 Port= Status=2
+PkgPin: Id=155 Name=T21 Port= Status=2
+PkgPin: Id=156 Name=P17 Port= Status=2
+PkgPin: Id=157 Name=P18 Port= Status=2
+PkgPin: Id=158 Name=R16 Port= Status=2
+PkgPin: Id=159 Name=P16 Port= Status=2
+PkgPin: Id=160 Name=N16 Port= Status=2
+PkgPin: Id=161 Name=N17 Port= Status=2
+PkgPin: Id=168 Name=P22 Port= Status=2
+PkgPin: Id=169 Name=R22 Port= Status=2
+PkgPin: Id=170 Name=N19 Port= Status=2
+PkgPin: Id=171 Name=N20 Port= Status=2
+PkgPin: Id=172 Name=N21 Port= Status=2
+PkgPin: Id=173 Name=N22 Port= Status=2
+PkgPin: Id=174 Name=M21 Port= Status=2
+PkgPin: Id=175 Name=M22 Port= Status=2
+PkgPin: Id=176 Name=L21 Port= Status=2
+PkgPin: Id=177 Name=L20 Port= Status=2
+PkgPin: Id=180 Name=K21 Port= Status=2
+PkgPin: Id=181 Name=K20 Port= Status=2
+PkgPin: Id=182 Name=L16 Port= Status=2
+PkgPin: Id=183 Name=K15 Port= Status=2
+PkgPin: Id=184 Name=K17 Port= Status=2
+PkgPin: Id=185 Name=K16 Port= Status=2
+PkgPin: Id=186 Name=K18 Port= Status=2
+PkgPin: Id=187 Name=J18 Port= Status=2
+PkgPin: Id=188 Name=H20 Port= Status=2
+PkgPin: Id=189 Name=H19 Port= Status=2
+PkgPin: Id=190 Name=G19 Port= Status=2
+PkgPin: Id=191 Name=G18 Port= Status=2
+PkgPin: Id=192 Name=F21 Port= Status=2
+PkgPin: Id=193 Name=F20 Port= Status=2
+PkgPin: Id=194 Name=F19 Port= Status=2
+PkgPin: Id=195 Name=F18 Port= Status=2
+PkgPin: Id=196 Name=E22 Port= Status=2
+PkgPin: Id=197 Name=E21 Port= Status=2
+PkgPin: Id=199 Name=D21 Port= Status=2
+PkgPin: Id=200 Name=C22 Port= Status=2
+PkgPin: Id=201 Name=B22 Port= Status=2
+PkgPin: Id=202 Name=G17 Port= Status=2
+PkgPin: Id=203 Name=G16 Port= Status=2
+PkgPin: Id=210 Name=E18 Port= Status=2
+PkgPin: Id=211 Name=D18 Port= Status=2
+PkgPin: Id=212 Name=D20 Port= Status=2
+PkgPin: Id=213 Name=E19 Port= Status=2
+PkgPin: Id=214 Name=B21 Port= Status=2
+PkgPin: Id=215 Name=A21 Port= Status=2
+PkgPin: Id=216 Name=F17 Port= Status=2
+PkgPin: Id=217 Name=E17 Port= Status=2
+PkgPin: Id=218 Name=C19 Port= Status=2
+PkgPin: Id=219 Name=C20 Port= Status=2
+PkgPin: Id=220 Name=A20 Port= Status=2
+PkgPin: Id=221 Name=B19 Port= Status=2
+PkgPin: Id=222 Name=C18 Port= Status=2
+PkgPin: Id=223 Name=C17 Port= Status=2
+PkgPin: Id=224 Name=E16 Port= Status=2
+PkgPin: Id=225 Name=D16 Port= Status=2
+PkgPin: Id=226 Name=B17 Port= Status=2
+PkgPin: Id=227 Name=C16 Port= Status=2
+PkgPin: Id=228 Name=A19 Port= Status=2
+PkgPin: Id=229 Name=A18 Port= Status=2
+PkgPin: Id=230 Name=A17 Port= Status=2
+PkgPin: Id=231 Name=A16 Port= Status=2
+PkgPin: Id=232 Name=F15 Port= Status=2
+PkgPin: Id=233 Name=E15 Port= Status=2
+PkgPin: Id=234 Name=C15 Port= Status=2
+PkgPin: Id=235 Name=B15 Port= Status=2
+PkgPin: Id=236 Name=G14 Port= Status=2
+PkgPin: Id=237 Name=F14 Port= Status=2
+PkgPin: Id=238 Name=E13 Port= Status=2
+PkgPin: Id=239 Name=D14 Port= Status=2
+PkgPin: Id=240 Name=A15 Port= Status=2
+PkgPin: Id=241 Name=A14 Port= Status=2
+PkgPin: Id=242 Name=G13 Port= Status=2
+PkgPin: Id=243 Name=G12 Port= Status=2
+PkgPin: Id=244 Name=C13 Port= Status=2
+PkgPin: Id=245 Name=B13 Port= Status=2
+PkgPin: Id=246 Name=D13 Port= Status=2
+PkgPin: Id=247 Name=D12 Port= Status=2
+PkgPin: Id=248 Name=A13 Port= Status=2
+PkgPin: Id=249 Name=A12 Port= Status=2
+PkgPin: Id=250 Name=F12 Port= Status=2
+PkgPin: Id=251 Name=E12 Port= Status=2
+PkgPin: Id=252 Name=D11 Port= Status=2
+PkgPin: Id=253 Name=D10 Port= Status=2
+PkgPin: Id=254 Name=A11 Port= Status=2
+PkgPin: Id=255 Name=A10 Port= Status=2
+PkgPin: Id=256 Name=C11 Port= Status=2
+PkgPin: Id=257 Name=B11 Port= Status=2
+PkgPin: Id=258 Name=E10 Port= Status=2
+PkgPin: Id=259 Name=F10 Port= Status=2
+PkgPin: Id=260 Name=A9 Port= Status=2
+PkgPin: Id=261 Name=B9 Port= Status=2
+PkgPin: Id=262 Name=C9 Port= Status=2
+PkgPin: Id=263 Name=D9 Port= Status=2
+PkgPin: Id=264 Name=A8 Port= Status=2
+PkgPin: Id=265 Name=A7 Port= Status=2
+PkgPin: Id=266 Name=D8 Port= Status=2
+PkgPin: Id=267 Name=E8 Port= Status=2
+PkgPin: Id=268 Name=B7 Port= Status=2
+PkgPin: Id=269 Name=C7 Port= Status=2
+PkgPin: Id=271 Name=A6 Port= Status=2
+PkgPin: Id=272 Name=B6 Port= Status=2
+PkgPin: Id=273 Name=F8 Port= Status=2
+PkgPin: Id=274 Name=E7 Port= Status=2
+PkgPin: Id=275 Name=D6 Port= Status=2
+PkgPin: Id=276 Name=C5 Port= Status=2
+PkgPin: Id=277 Name=A5 Port= Status=2
+PkgPin: Id=278 Name=B5 Port= Status=2
+PkgPin: Id=279 Name=A3 Port= Status=2
+PkgPin: Id=280 Name=A4 Port= Status=2

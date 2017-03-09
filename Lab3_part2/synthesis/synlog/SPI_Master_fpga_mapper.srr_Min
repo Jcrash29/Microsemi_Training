@@ -1,0 +1,130 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Oct 11 15:18:22 2016
+#
+
+
+Top view:               SPI_Master
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.362
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+SPI_Master|clk     100.0 MHz     159.2 MHz     10.000        6.281         3.719     inferred     Inferred_clkgroup_0
+=====================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------
+SPI_Master|clk  SPI_Master|clk  |  0.000       0.362  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: SPI_Master|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                               Arrival          
+Instance           Reference          Type     Pin     Net                Time        Slack
+                   Clock                                                                   
+-------------------------------------------------------------------------------------------
+PRDATA_buf[31]     SPI_Master|clk     SLE      Q       PRDATA_buf[31]     0.061       0.362
+PWDATA_buf[39]     SPI_Master|clk     SLE      Q       PWDATA_buf[39]     0.061       0.362
+PRDATA_buf[0]      SPI_Master|clk     SLE      Q       PRDATA_buf[0]      0.061       0.435
+PRDATA_buf[1]      SPI_Master|clk     SLE      Q       PRDATA_buf[1]      0.061       0.435
+PRDATA_buf[2]      SPI_Master|clk     SLE      Q       PRDATA_buf[2]      0.061       0.435
+PRDATA_buf[3]      SPI_Master|clk     SLE      Q       PRDATA_buf[3]      0.061       0.435
+PRDATA_buf[4]      SPI_Master|clk     SLE      Q       PRDATA_buf[4]      0.061       0.435
+PRDATA_buf[5]      SPI_Master|clk     SLE      Q       PRDATA_buf[5]      0.061       0.435
+PRDATA_buf[6]      SPI_Master|clk     SLE      Q       PRDATA_buf[6]      0.061       0.435
+PRDATA_buf[7]      SPI_Master|clk     SLE      Q       PRDATA_buf[7]      0.061       0.435
+===========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+               Starting                                               Required          
+Instance       Reference          Type     Pin     Net                Time         Slack
+               Clock                                                                    
+----------------------------------------------------------------------------------------
+MOSI_1         SPI_Master|clk     SLE      D       PWDATA_buf[39]     0.179        0.362
+PRDATA[31]     SPI_Master|clk     SLE      D       PRDATA_buf[31]     0.179        0.362
+PRDATA[0]      SPI_Master|clk     SLE      D       PRDATA_buf[0]      0.179        0.435
+PRDATA[1]      SPI_Master|clk     SLE      D       PRDATA_buf[1]      0.179        0.435
+PRDATA[2]      SPI_Master|clk     SLE      D       PRDATA_buf[2]      0.179        0.435
+PRDATA[3]      SPI_Master|clk     SLE      D       PRDATA_buf[3]      0.179        0.435
+PRDATA[4]      SPI_Master|clk     SLE      D       PRDATA_buf[4]      0.179        0.435
+PRDATA[5]      SPI_Master|clk     SLE      D       PRDATA_buf[5]      0.179        0.435
+PRDATA[6]      SPI_Master|clk     SLE      D       PRDATA_buf[6]      0.179        0.435
+PRDATA[7]      SPI_Master|clk     SLE      D       PRDATA_buf[7]      0.179        0.435
+========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.541
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.179
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.362
+
+    Number of logic level(s):                0
+    Starting point:                          PRDATA_buf[31] / Q
+    Ending point:                            PRDATA[31] / D
+    The start point is clocked by            SPI_Master|clk [rising] on pin CLK
+    The end   point is clocked by            SPI_Master|clk [rising] on pin CLK
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+PRDATA_buf[31]     SLE      Q        Out     0.061     0.061       -         
+PRDATA_buf[31]     Net      -        -       0.480     -           1         
+PRDATA[31]         SLE      D        In      -         0.541       -         
+=============================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

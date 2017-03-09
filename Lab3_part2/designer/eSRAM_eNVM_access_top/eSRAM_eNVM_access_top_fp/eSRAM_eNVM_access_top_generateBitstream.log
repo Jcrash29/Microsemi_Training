@@ -1,0 +1,10 @@
+Software Version: 11.7.1.11
+Opened 'C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\designer\eSRAM_eNVM_access_top\eSRAM_eNVM_access_top_fp\eSRAM_eNVM_access_top.pro'
+The 'open_project' command succeeded.
+PDB file 'C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\designer\eSRAM_eNVM_access_top\dbe2810c-aba1-492d-aba1-c92daba1c92d.pdb' has been loaded successfully.
+DESIGN : eSRAM_eNVM_access_top;  CHECKSUM : 705B;  PDB_VERSION : 1.9
+The 'load_programming_data' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

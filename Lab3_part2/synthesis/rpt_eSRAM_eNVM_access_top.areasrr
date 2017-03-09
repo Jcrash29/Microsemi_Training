@@ -1,0 +1,368 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2GL025VF256STD (Microsemi)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   eSRAM_eNVM_access_top   ########
+=====================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      489                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block eSRAM_eNVM_access_top:	489 (41.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           509                100 %                
+ARI1          102                100 %                
+BLACK BOX     88                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block eSRAM_eNVM_access_top:	699 (58.69 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  100 %                
+====================================================
+Total MEMORY ELEMENTS in the block eSRAM_eNVM_access_top:	1 (0.08 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block eSRAM_eNVM_access_top:	2 (0.17 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       48                 100 %                
+=================================================
+Total IO PADS in the block eSRAM_eNVM_access_top:	48 (4.03 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   AHB_IF_0s_1s_2s_3s_4294967292s_4294967293s_4294967294s_0s_1_layer0   ########
+Instance path:   eSRAM_eNVM_access_top.AHB_IF_0s_1s_2s_3s_4294967292s_4294967293s_4294967294s_0s_1_layer0               
+========================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      137                28. %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block eSRAM_eNVM_access_top.AHB_IF_0s_1s_2s_3s_4294967292s_4294967293s_4294967294s_0s_1_layer0:	137 (11.50 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           52                 10.2 %               
+BLACK BOX     1                  1.14 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block eSRAM_eNVM_access_top.AHB_IF_0s_1s_2s_3s_4294967292s_4294967293s_4294967294s_0s_1_layer0:	53 (4.45 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   SPI_Master   ########
+Instance path:   eSRAM_eNVM_access_top.SPI_Master               
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      159                32.5 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block eSRAM_eNVM_access_top.SPI_Master:	159 (13.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      131                25.7 %               
+ARI1     40                 39.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block eSRAM_eNVM_access_top.SPI_Master:	171 (14.36 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   eSRAM_eNVM_RW   ########
+Instance path:   eSRAM_eNVM_access_top.eSRAM_eNVM_RW               
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      130                26.6 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block eSRAM_eNVM_access_top.eSRAM_eNVM_RW:	130 (10.92 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           183                36. %                
+ARI1          62                 60.8 %               
+BLACK BOX     1                  1.14 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block eSRAM_eNVM_access_top.eSRAM_eNVM_RW:	246 (20.65 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   eSRAM_eNVM_access   ########
+Instance path:   eSRAM_eNVM_access_top.eSRAM_eNVM_access               
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      63                 12.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block eSRAM_eNVM_access_top.eSRAM_eNVM_access:	63 (5.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           143                28.1 %               
+BLACK BOX     86                 97.7 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block eSRAM_eNVM_access_top.eSRAM_eNVM_access:	229 (19.23 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block eSRAM_eNVM_access_top.eSRAM_eNVM_access:	2 (0.17 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   CoreAHBLite_Z5_layer0   ########
+Instance path:   eSRAM_eNVM_access.CoreAHBLite_Z5_layer0                   
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      51                 10.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block eSRAM_eNVM_access.CoreAHBLite_Z5_layer0:	51 (4.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           108                21.2 %               
+BLACK BOX     14                 15.9 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block eSRAM_eNVM_access.CoreAHBLite_Z5_layer0:	122 (10.24 % Utilization)
+
+--------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s   ########
+Instance path:   CoreAHBLite_Z5_layer0.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s               
+==================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      51                 10.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CoreAHBLite_Z5_layer0.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s:	51 (4.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           108                21.2 %               
+BLACK BOX     14                 15.9 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CoreAHBLite_Z5_layer0.COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s:	122 (10.24 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0   ########        
+Instance path:   COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0
+===========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      45                 9.2 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0:	45 (3.78 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           31                 6.09 %               
+BLACK BOX     2                  2.27 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0:	33 (2.77 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_ADDRDEC_Z2_layer0   ########         
+Instance path:   COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0.COREAHBLITE_ADDRDEC_Z2_layer0
+============================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.1960 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0.COREAHBLITE_ADDRDEC_Z2_layer0:	1 (0.08 % Utilization)
+
+--------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0   ########         
+Instance path:   COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0
+==================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.2040 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0:	1 (0.08 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      10                 1.96 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_1_1_85_65536_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0:	10 (0.84 % Utilization)
+
+---------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_SLAVESTAGE_0s_0_0_0   ########        
+Instance path:   COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0
+=============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      6                  1.23 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0:	6 (0.50 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           77                 15.1 %               
+BLACK BOX     12                 13.6 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_1_1_85_65536_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_0:	89 (7.47 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_SLAVEARBITER_Z4_layer0_1   ########
+Instance path:   COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z4_layer0_1     
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      5                  1.02 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z4_layer0_1:	5 (0.42 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           44                 8.64 %               
+BLACK BOX     9                  10.2 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0_0.COREAHBLITE_SLAVEARBITER_Z4_layer0_1:	53 (4.45 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP_Z6_layer0   ########
+Instance path:   eSRAM_eNVM_access.CoreResetP_Z6_layer0                   
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      12                 2.45 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block eSRAM_eNVM_access.CoreResetP_Z6_layer0:	12 (1.01 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           2                  0.3930 %             
+BLACK BOX     66                 75. %                
+======================================================
+Total COMBINATIONAL LOGIC in the block eSRAM_eNVM_access.CoreResetP_Z6_layer0:	68 (5.71 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50. %                
+===================================================
+Total GLOBAL BUFFERS in the block eSRAM_eNVM_access.CoreResetP_Z6_layer0:	1 (0.08 % Utilization)
+
+----------------------------------------------------------------------------------
+########   Utilization report for  cell:   eSRAM_eNVM_access_CCC_0_FCCC   ########
+Instance path:   eSRAM_eNVM_access.eSRAM_eNVM_access_CCC_0_FCCC                   
+==================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  2.27 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block eSRAM_eNVM_access.eSRAM_eNVM_access_CCC_0_FCCC:	2 (0.17 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50. %                
+===================================================
+Total GLOBAL BUFFERS in the block eSRAM_eNVM_access.eSRAM_eNVM_access_CCC_0_FCCC:	1 (0.08 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   eSRAM_eNVM_access_FABOSC_0_OSC   ########
+Instance path:   eSRAM_eNVM_access.eSRAM_eNVM_access_FABOSC_0_OSC                   
+====================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  2.27 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block eSRAM_eNVM_access.eSRAM_eNVM_access_FABOSC_0_OSC:	2 (0.17 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   eSRAM_eNVM_access_HPMS   ########
+Instance path:   eSRAM_eNVM_access.eSRAM_eNVM_access_HPMS                   
+============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           33                 6.48 %               
+BLACK BOX     1                  1.14 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block eSRAM_eNVM_access.eSRAM_eNVM_access_HPMS:	34 (2.85 % Utilization)
+
+-------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM   ########
+Instance path:   eSRAM_eNVM_access_top.eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM               
+===========================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  100 %                
+====================================================
+Total MEMORY ELEMENTS in the block eSRAM_eNVM_access_top.eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM:	1 (0.08 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

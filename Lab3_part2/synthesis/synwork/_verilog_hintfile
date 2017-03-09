@@ -1,0 +1,35 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_vhdl.exe":1449250526
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\location.map":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\snps_haps_pkg.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std1164.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\numeric.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\umr_capim.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\arith.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\unsigned.vhd":1449250532
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\hdl\\SPI_Master.vhd":1476231976
+@E8lFkRDC1_uQv0N#CDs
+HNLssI$RF
+s	bNNslCC0s8RhR0HMCsoC
+sbNN0lCChsRNMRH0CCosN
+bsCNl0RCshHORMo0CCbs
+NlsNCs0CR	OD_P8HR0HMCsoC
+bHMkO0RD-	R4M
+HbRk0sCC#04R-
+bHMkC0RMDNLC4R-
+bHMkO0RbRFD-H4
+M0bkREObN4R-
+bHMku0RWa)Q 4R-
+bHMku0Rq)77R
+-4HkMb0WRu7qqaR
+-4HkMb0QRv1-mR4k
+F00bkRRB1-F4
+kk0b0#R#_-MR4k
+F00bkR7u)qRaq-F4
+kk0b0pRBiamzR
+-4Fbk0kv0RmR1Q-C4
+MF8l8CkD
+
+@ 

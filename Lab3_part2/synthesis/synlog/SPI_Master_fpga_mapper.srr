@@ -1,0 +1,314 @@
+Synopsys Generic Technology Mapper, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     1.51ns		 188 /       161
+@N: FP130 |Promoting Net clk_c on CLKINT  I_848 
+@N: FP130 |Promoting Net reset_c on CLKINT  I_849 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 161 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   161        CS             
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 135MB)
+
+Writing Analyst data base C:\Users\Giovanna.Franco\Documents\9Oct2016\m2s_m2gl_ac429_liberov11p7_df\eSRAM_eNVM_RW_Fabric\Libero_project\IGL2\synthesis\synwork\SPI_Master_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+J-2015.03M-SP1-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 135MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 135MB)
+
+@W: MT420 |Found inferred clock SPI_Master|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Oct 11 15:18:22 2016
+#
+
+
+Top view:               SPI_Master
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 3.719
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group              
+---------------------------------------------------------------------------------------------------------------------
+SPI_Master|clk     100.0 MHz     159.2 MHz     10.000        6.281         3.719     inferred     Inferred_clkgroup_0
+=====================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------
+SPI_Master|clk  SPI_Master|clk  |  10.000      3.719  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: SPI_Master|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+              Starting                                          Arrival          
+Instance      Reference          Type     Pin     Net           Time        Slack
+              Clock                                                              
+---------------------------------------------------------------------------------
+count[16]     SPI_Master|clk     SLE      Q       count[16]     0.087       3.719
+count[0]      SPI_Master|clk     SLE      Q       count[0]      0.087       3.796
+count[20]     SPI_Master|clk     SLE      Q       count[20]     0.087       3.797
+count[17]     SPI_Master|clk     SLE      Q       count[17]     0.087       3.820
+count[24]     SPI_Master|clk     SLE      Q       count[24]     0.087       3.842
+count[2]      SPI_Master|clk     SLE      Q       count[2]      0.087       3.874
+count[1]      SPI_Master|clk     SLE      Q       count[1]      0.108       3.892
+count[21]     SPI_Master|clk     SLE      Q       count[21]     0.087       3.898
+count[18]     SPI_Master|clk     SLE      Q       count[18]     0.087       3.902
+count[8]      SPI_Master|clk     SLE      Q       count[8]      0.087       3.920
+=================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                          Required          
+Instance          Reference          Type     Pin     Net           Time         Slack
+                  Clock                                                               
+--------------------------------------------------------------------------------------
+PWDATA_buf[0]     SPI_Master|clk     SLE      EN      m74_0_N_6     9.662        3.719
+PWDATA_buf[1]     SPI_Master|clk     SLE      EN      m74_0_N_6     9.662        3.719
+PWDATA_buf[2]     SPI_Master|clk     SLE      EN      m74_0_N_6     9.662        3.719
+PWDATA_buf[3]     SPI_Master|clk     SLE      EN      m74_0_N_6     9.662        3.719
+PWDATA_buf[4]     SPI_Master|clk     SLE      EN      m74_0_N_6     9.662        3.719
+PWDATA_buf[5]     SPI_Master|clk     SLE      EN      m74_0_N_6     9.662        3.719
+PWDATA_buf[6]     SPI_Master|clk     SLE      EN      m74_0_N_6     9.662        3.719
+PWDATA_buf[7]     SPI_Master|clk     SLE      EN      m74_0_N_6     9.662        3.719
+PWDATA_buf[8]     SPI_Master|clk     SLE      EN      m74_0_N_6     9.662        3.719
+PWDATA_buf[9]     SPI_Master|clk     SLE      EN      m74_0_N_6     9.662        3.719
+======================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      5.944
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     3.719
+
+    Number of logic level(s):                5
+    Starting point:                          count[16] / Q
+    Ending point:                            PWDATA_buf[0] / EN
+    The start point is clocked by            SPI_Master|clk [rising] on pin CLK
+    The end   point is clocked by            SPI_Master|clk [rising] on pin CLK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+count[16]                       SLE      Q        Out     0.087     0.087       -         
+count[16]                       Net      -        -       0.674     -           2         
+un2_count_20                    CFG4     D        In      -         0.762       -         
+un2_count_20                    CFG4     Y        Out     0.326     1.088       -         
+un2_count_20                    Net      -        -       0.556     -           1         
+un2_count_29                    CFG4     D        In      -         1.644       -         
+un2_count_29                    CFG4     Y        Out     0.288     1.932       -         
+un2_count_29                    Net      -        -       0.630     -           2         
+un2_count                       CFG2     B        In      -         2.562       -         
+un2_count                       CFG2     Y        Out     0.164     2.726       -         
+un2_count                       Net      -        -       0.846     -           10        
+enable_ibuf_RNIIOBQ             CFG3     C        In      -         3.572       -         
+enable_ibuf_RNIIOBQ             CFG3     Y        Out     0.210     3.781       -         
+N_4_0_i_0                       Net      -        -       0.630     -           2         
+un42_count_NE_i_a2_RNIQPG94     CFG4     D        In      -         4.412       -         
+un42_count_NE_i_a2_RNIQPG94     CFG4     Y        Out     0.288     4.699       -         
+m74_0_N_6                       Net      -        -       1.244     -           40        
+PWDATA_buf[0]                   SLE      EN       In      -         5.944       -         
+==========================================================================================
+Total path delay (propagation time + setup) of 6.281 is 1.701(27.1%) logic and 4.580(72.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 135MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 134MB peak: 135MB)
+
+---------------------------------------
+Resource Usage Report for SPI_Master 
+
+Mapping to part: m2gl025vf256std
+Cell usage:
+CLKINT          2 uses
+CFG1           5 uses
+CFG2           38 uses
+CFG3           54 uses
+CFG4           31 uses
+
+Carry primitives used for arithmetic functions:
+ARI1           54 uses
+
+
+Sequential Cells: 
+SLE            161 uses
+
+DSP Blocks:    0
+
+I/O ports: 80
+I/O primitives: 80
+INBUF          44 uses
+OUTBUF         34 uses
+TRIBUFF        2 uses
+
+
+Global Clock Buffers: 2
+
+
+Total LUTs:    182
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  161 + 0 + 0 + 0 = 161;
+Total number of LUTs after P&R:  182 + 0 + 0 + 0 = 182;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 49MB peak: 135MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Oct 11 15:18:22 2016
+
+###########################################################]

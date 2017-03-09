@@ -1,0 +1,90 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.7 SP1 11.7.1.11
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: IGLOO2 , Die: M2GL025 , Package: 256 VF , Speed grade: STD 
+
+# Date generated: Fri Oct 14 23:25:14 2016 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank0 -vcci 1.80 -fixed no
+set_iobank Bank1 -vcci 3.30 -fixed no
+set_iobank Bank2 -vcci 3.30 -fixed no
+set_iobank Bank4 -vcci 3.30 -fixed no
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io CLKOUT -DIRECTION OUTPUT -pinname J14 -fixed yes
+set_io CS -DIRECTION OUTPUT -pinname J12 -fixed yes
+set_io DEVRST_N -DIRECTION INPUT -pinname M11
+set_io FAB_RESET_N -DIRECTION INPUT -pinname G13 -fixed yes
+set_io MISO -DIRECTION INPUT -pinname J13 -fixed yes
+set_io MOSI -DIRECTION OUTPUT -pinname K12 -fixed yes
+set_io PRDATA\[0\] -DIRECTION OUTPUT -pinname T6 -fixed yes
+set_io PRDATA\[1\] -DIRECTION OUTPUT -pinname T9 -fixed yes
+set_io PRDATA\[2\] -DIRECTION OUTPUT -pinname N7 -fixed yes
+set_io PRDATA\[3\] -DIRECTION OUTPUT -pinname M7 -fixed yes
+set_io PRDATA\[4\] -DIRECTION OUTPUT -pinname P8 -fixed yes
+set_io PRDATA\[5\] -DIRECTION OUTPUT -pinname M8 -fixed yes
+set_io PRDATA\[6\] -DIRECTION OUTPUT -pinname N8 -fixed yes
+set_io PRDATA\[7\] -DIRECTION OUTPUT -pinname P9 -fixed yes
+set_io PRDATA\[8\] -DIRECTION OUTPUT -pinname M9 -fixed yes
+set_io PRDATA\[9\] -DIRECTION OUTPUT -pinname M10 -fixed yes
+set_io PRDATA\[10\] -DIRECTION OUTPUT -pinname N10 -fixed yes
+set_io PRDATA\[11\] -DIRECTION OUTPUT -pinname P10 -fixed yes
+set_io PRDATA\[12\] -DIRECTION OUTPUT -pinname P12 -fixed yes
+set_io PRDATA\[13\] -DIRECTION OUTPUT -pinname P13 -fixed yes
+set_io PRDATA\[14\] -DIRECTION OUTPUT -pinname R11 -fixed yes
+set_io PRDATA\[15\] -DIRECTION OUTPUT -pinname T12 -fixed yes
+set_io PRDATA\[16\] -DIRECTION OUTPUT -pinname R12 -fixed yes
+set_io PRDATA\[17\] -DIRECTION OUTPUT -pinname T13 -fixed yes
+set_io PRDATA\[18\] -DIRECTION OUTPUT -pinname R13 -fixed yes
+set_io PRDATA\[19\] -DIRECTION OUTPUT -pinname R10 -fixed yes
+set_io PRDATA\[20\] -DIRECTION OUTPUT -pinname R9 -fixed yes
+set_io PRDATA\[21\] -DIRECTION OUTPUT -pinname R8 -fixed yes
+set_io PRDATA\[22\] -DIRECTION OUTPUT -pinname T8 -fixed yes
+set_io PRDATA\[23\] -DIRECTION OUTPUT -pinname R6 -fixed yes
+set_io PRDATA\[24\] -DIRECTION OUTPUT -pinname L11 -fixed yes
+set_io PRDATA\[25\] -DIRECTION OUTPUT -pinname L12 -fixed yes
+set_io PRDATA\[26\] -DIRECTION OUTPUT -pinname L14 -fixed yes
+set_io PRDATA\[27\] -DIRECTION OUTPUT -pinname L13 -fixed yes
+set_io PRDATA\[28\] -DIRECTION OUTPUT -pinname N14 -fixed yes
+set_io PRDATA\[29\] -DIRECTION OUTPUT -pinname M13 -fixed yes
+set_io PRDATA\[30\] -DIRECTION OUTPUT -pinname M15 -fixed yes
+set_io PRDATA\[31\] -DIRECTION OUTPUT -pinname N15 -fixed yes
+set_io PWRITE -DIRECTION INPUT -pinname H13 -fixed yes
+set_io RD\[0\] -DIRECTION OUTPUT -iostd LVCMOS18 -pinname D13 -fixed yes
+set_io RD\[1\] -DIRECTION OUTPUT -iostd LVCMOS18 -pinname C15 -fixed yes
+set_io RD\[2\] -DIRECTION OUTPUT -iostd LVCMOS18 -pinname B15 -fixed yes
+set_io RD\[3\] -DIRECTION OUTPUT -iostd LVCMOS18 -pinname B13 -fixed yes
+set_io RD\[4\] -DIRECTION OUTPUT -iostd LVCMOS18 -pinname A13 -fixed yes
+set_io RD\[5\] -DIRECTION OUTPUT -iostd LVCMOS18 -pinname D6 -fixed yes
+set_io RD\[6\] -DIRECTION OUTPUT -iostd LVCMOS18 -pinname C5 -fixed yes
+set_io RD\[7\] -DIRECTION OUTPUT -iostd LVCMOS18 -pinname C3 -fixed yes
+set_io ss_n -DIRECTION OUTPUT -iostd LVCMOS18 -pinname B1 -fixed yes
+set_io start_esram -DIRECTION INPUT -pinname H12 -fixed yes
+
+#
+# Core cell constraints
+#
+

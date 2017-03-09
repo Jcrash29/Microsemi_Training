@@ -1,0 +1,29 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.SPI_Master|-mpparams|C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\synthesis\\synwork\\eSRAM_eNVM_access_top_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_vhdl.exe":1449250526
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\location.map":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\snps_haps_pkg.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\std1164.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\numeric.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\umr_capim.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\arith.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\unsigned.vhd":1449250532
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vhd\\hyperents.vhd":1449250532
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\hdl\\SPI_Master.vhd":1476231976
+0 "C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work spi_master architecture_spi_master 0
+module work spi_master 0
+
+# Unbound Instances to File Association
+
+
+# Configuration files used

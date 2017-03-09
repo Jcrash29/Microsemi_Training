@@ -1,0 +1,271 @@
+@W: CD266 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":155:78:155:81|ss_n is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":159:42:159:47|clkout is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":168:42:168:47|clkout is not readable.  This may cause a simulation mismatch.
+@W: CG360 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v":60:13:60:21|No assignment to wire HSIZE_int
+@W: CL190 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v":81:0:81:5|Optimizing register bit HTRANS[0] to a constant 0
+@W: CL260 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v":81:0:81:5|Pruning register bit 0 of HTRANS[1:0] 
+@W: CG775 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":23:7:23:17|Found Component CoreAHBLite in library COREAHBLITE_LIB
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning register count_ddr[13:0] 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning register count_sdif3[12:0] 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning register count_sdif2[12:0] 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning register count_sdif1[12:0] 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning register count_sdif0[12:0] 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif0_enable_q1 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_q1 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_q1 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_q1 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif0_enable_rcosc 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_rcosc 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_rcosc 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_rcosc 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_ddr_enable_q1 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_ddr_enable_rcosc 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning register count_sdif3_enable 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning register count_sdif2_enable 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning register count_sdif1_enable 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning register count_sdif0_enable 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning register count_ddr_enable 
+@W: CL190 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning register release_ext_reset 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register EXT_RESET_OUT_int 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register sm2_state[2:0] 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_q1 
+@W: CL169 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_clk_base 
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v":110:0:110:5|Register bit addr_temp[0] is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v":110:0:110:5|Register bit addr_temp[1] is always 0, optimizing ...
+@W: CL279 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v":110:0:110:5|Pruning register bits 1 to 0 of addr_temp[31:0] 
+@W: CL157 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v":14:7:14:9|Input XTL is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_HPMS\eSRAM_eNVM_access_HPMS.v":51:14:51:31|Input port bit 0 of FIC_0_AHB_S_HTRANS[1:0] is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":120:15:120:23|Input port bit 0 of HTRANS_M0[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":131:15:131:23|Input port bit 0 of HTRANS_M1[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":142:15:142:23|Input port bit 0 of HTRANS_M2[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":153:15:153:23|Input port bit 0 of HTRANS_M3[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":163:15:163:22|Input port bit 1 of HRESP_S0[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":176:15:176:22|Input port bit 1 of HRESP_S1[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":189:15:189:22|Input port bit 1 of HRESP_S2[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":202:15:202:22|Input port bit 1 of HRESP_S3[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":215:15:215:22|Input port bit 1 of HRESP_S4[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":228:15:228:22|Input port bit 1 of HRESP_S5[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":241:15:241:22|Input port bit 1 of HRESP_S6[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":254:15:254:22|Input port bit 1 of HRESP_S7[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":267:15:267:22|Input port bit 1 of HRESP_S8[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":280:15:280:22|Input port bit 1 of HRESP_S9[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":293:15:293:23|Input port bit 1 of HRESP_S10[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":306:15:306:23|Input port bit 1 of HRESP_S11[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":319:15:319:23|Input port bit 1 of HRESP_S12[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":332:15:332:23|Input port bit 1 of HRESP_S13[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":345:15:345:23|Input port bit 1 of HRESP_S14[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":358:15:358:23|Input port bit 1 of HRESP_S15[1:0] is unused
+@W: CL247 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":371:15:371:23|Input port bit 1 of HRESP_S16[1:0] is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":123:15:123:23|Input HBURST_M0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":124:15:124:22|Input HPROT_M0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":134:15:134:23|Input HBURST_M1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":135:15:135:22|Input HPROT_M1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":145:15:145:23|Input HBURST_M2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":146:15:146:22|Input HPROT_M2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":156:15:156:23|Input HBURST_M3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":157:15:157:22|Input HPROT_M3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":51:18:51:26|Input HWDATA_M1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":60:18:60:26|Input HWDATA_M2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":69:18:69:26|Input HWDATA_M3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":73:18:73:26|Input HRDATA_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":74:13:74:24|Input HREADYOUT_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":75:13:75:20|Input HRESP_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":84:18:84:26|Input HRDATA_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":85:13:85:24|Input HREADYOUT_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":86:13:86:20|Input HRESP_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":95:18:95:26|Input HRDATA_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":96:13:96:24|Input HREADYOUT_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":97:13:97:20|Input HRESP_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":106:18:106:26|Input HRDATA_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":107:13:107:24|Input HREADYOUT_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":108:13:108:20|Input HRESP_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":117:18:117:26|Input HRDATA_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":118:13:118:24|Input HREADYOUT_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":119:13:119:20|Input HRESP_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":128:18:128:26|Input HRDATA_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":129:13:129:24|Input HREADYOUT_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":130:13:130:20|Input HRESP_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":139:18:139:26|Input HRDATA_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":140:13:140:24|Input HREADYOUT_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":141:13:141:20|Input HRESP_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":150:18:150:26|Input HRDATA_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":151:13:151:24|Input HREADYOUT_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":152:13:152:20|Input HRESP_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":161:18:161:26|Input HRDATA_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":162:13:162:24|Input HREADYOUT_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":163:13:163:20|Input HRESP_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":172:18:172:26|Input HRDATA_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":173:13:173:24|Input HREADYOUT_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":174:13:174:20|Input HRESP_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":183:18:183:27|Input HRDATA_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":184:13:184:25|Input HREADYOUT_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":185:13:185:21|Input HRESP_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":194:18:194:27|Input HRDATA_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":195:13:195:25|Input HREADYOUT_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":196:13:196:21|Input HRESP_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":205:18:205:27|Input HRDATA_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":206:13:206:25|Input HREADYOUT_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":207:13:207:21|Input HRESP_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":216:18:216:27|Input HRDATA_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":217:13:217:25|Input HREADYOUT_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":218:13:218:21|Input HRESP_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":227:18:227:27|Input HRDATA_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":228:13:228:25|Input HREADYOUT_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":229:13:229:21|Input HRESP_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":238:18:238:27|Input HRDATA_S15 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":239:13:239:25|Input HREADYOUT_S15 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":240:13:240:21|Input HRESP_S15 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":42:16:42:25|Input SDATAREADY is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":43:16:43:21|Input SHRESP is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":52:16:52:24|Input HRDATA_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":53:11:53:22|Input HREADYOUT_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":54:16:54:24|Input HRDATA_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":55:11:55:22|Input HREADYOUT_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":56:16:56:24|Input HRDATA_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":57:11:57:22|Input HREADYOUT_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":58:16:58:24|Input HRDATA_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":59:11:59:22|Input HREADYOUT_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":60:16:60:24|Input HRDATA_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":61:11:61:22|Input HREADYOUT_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":62:16:62:24|Input HRDATA_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":63:11:63:22|Input HREADYOUT_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":64:16:64:24|Input HRDATA_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":65:11:65:22|Input HREADYOUT_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":66:16:66:24|Input HRDATA_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":67:11:67:22|Input HREADYOUT_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":68:16:68:24|Input HRDATA_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":69:11:69:22|Input HREADYOUT_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":70:16:70:24|Input HRDATA_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":71:11:71:22|Input HREADYOUT_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":72:16:72:25|Input HRDATA_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":73:11:73:23|Input HREADYOUT_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":74:16:74:25|Input HRDATA_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":75:11:75:23|Input HREADYOUT_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":76:16:76:25|Input HRDATA_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":77:11:77:23|Input HREADYOUT_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":78:16:78:25|Input HRDATA_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":79:11:79:23|Input HREADYOUT_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":80:16:80:25|Input HRDATA_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":81:11:81:23|Input HREADYOUT_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":82:16:82:25|Input HRDATA_S15 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":83:11:83:23|Input HREADYOUT_S15 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":84:16:84:25|Input HRDATA_S16 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":85:11:85:23|Input HREADYOUT_S16 is unused
+@W: CL246 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":42:16:42:25|Input port bits 15 to 0 of SDATAREADY[16:0] are unused
+@W: CL246 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":43:16:43:21|Input port bits 15 to 0 of SHRESP[16:0] are unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":52:16:52:24|Input HRDATA_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":53:11:53:22|Input HREADYOUT_S0 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":54:16:54:24|Input HRDATA_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":55:11:55:22|Input HREADYOUT_S1 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":56:16:56:24|Input HRDATA_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":57:11:57:22|Input HREADYOUT_S2 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":58:16:58:24|Input HRDATA_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":59:11:59:22|Input HREADYOUT_S3 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":60:16:60:24|Input HRDATA_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":61:11:61:22|Input HREADYOUT_S4 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":62:16:62:24|Input HRDATA_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":63:11:63:22|Input HREADYOUT_S5 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":64:16:64:24|Input HRDATA_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":65:11:65:22|Input HREADYOUT_S6 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":66:16:66:24|Input HRDATA_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":67:11:67:22|Input HREADYOUT_S7 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":68:16:68:24|Input HRDATA_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":69:11:69:22|Input HREADYOUT_S8 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":70:16:70:24|Input HRDATA_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":71:11:71:22|Input HREADYOUT_S9 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":72:16:72:25|Input HRDATA_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":73:11:73:23|Input HREADYOUT_S10 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":74:16:74:25|Input HRDATA_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":75:11:75:23|Input HREADYOUT_S11 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":76:16:76:25|Input HRDATA_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":77:11:77:23|Input HREADYOUT_S12 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":78:16:78:25|Input HRDATA_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":79:11:79:23|Input HREADYOUT_S13 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":80:16:80:25|Input HRDATA_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":81:11:81:23|Input HREADYOUT_S14 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":82:16:82:25|Input HRDATA_S15 is unused
+@W: CL159 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":83:11:83:23|Input HREADYOUT_S15 is unused
+@W: CD266 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":155:78:155:81|ss_n is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":159:42:159:47|clkout is not readable.  This may cause a simulation mismatch.
+@W: CD266 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":168:42:168:47|clkout is not readable.  This may cause a simulation mismatch.
+@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":86:11:86:20|Signal clk_select is undriven 
+@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":95:11:95:14|Signal cont is undriven 
+@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":97:11:97:14|Signal cnt1 is undriven 
+@W: CL271 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Pruning bits 39 to 32 of PRDATA_buf_5(39 downto 0) -- not in use ... 
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(0) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(1) is always 1, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(2) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(3) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(4) is always 1, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(5) is always 1, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(6) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(7) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(8) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(9) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(10) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(11) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(12) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(13) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(14) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(15) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(16) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(17) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(18) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(19) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(20) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(21) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(22) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(23) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(24) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(25) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(26) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(27) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(28) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(29) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(30) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit clk_ratio(31) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit command(1) is always 1, optimizing ...
+@W: CL260 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Pruning register bit 1 of command(2 downto 0)  
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit ltRx_bit(5) is always 0, optimizing ...
+@W: CL189 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Register bit ltRx_bit(6) is always 1, optimizing ...
+@W: CL279 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Pruning register bits 6 to 5 of ltRx_bit(6 downto 0)  
+@W: CL279 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":101:0:101:1|Pruning register bits 3 to 1 of ltRx_bit(4 downto 0)  
+

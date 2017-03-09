@@ -1,0 +1,110 @@
+
+fsm_encoding {5810818} onehot
+
+fsm_state_encoding {5810818} Idle_1 {0000001}
+
+fsm_state_encoding {5810818} Write_FIC_0 {0000010}
+
+fsm_state_encoding {5810818} Write_FIC_1 {0000100}
+
+fsm_state_encoding {5810818} Write_FIC_2 {0001000}
+
+fsm_state_encoding {5810818} Read_FIC_0 {0010000}
+
+fsm_state_encoding {5810818} Read_FIC_1 {0100000}
+
+fsm_state_encoding {5810818} Read_FIC_2 {1000000}
+
+fsm_registers {5810818} {ahb_fsm_current_state[6]}  {ahb_fsm_current_state[5]}  {ahb_fsm_current_state[4]}  {ahb_fsm_current_state[3]}  {ahb_fsm_current_state[2]}  {ahb_fsm_current_state[1]}  {ahb_fsm_current_state[0]} 
+
+fsm_encoding {1744944497} onehot
+
+fsm_state_encoding {1744944497} M0EXTEND {0000000000000001}
+
+fsm_state_encoding {1744944497} M0DONE {0000000000000010}
+
+fsm_state_encoding {1744944497} M0LOCK {0000000000000100}
+
+fsm_state_encoding {1744944497} M0LOCKEXTEND {0000000000001000}
+
+fsm_state_encoding {1744944497} M1EXTEND {0000000000010000}
+
+fsm_state_encoding {1744944497} M1DONE {0000000000100000}
+
+fsm_state_encoding {1744944497} M1LOCK {0000000001000000}
+
+fsm_state_encoding {1744944497} M1LOCKEXTEND {0000000010000000}
+
+fsm_state_encoding {1744944497} M2EXTEND {0000000100000000}
+
+fsm_state_encoding {1744944497} M2DONE {0000001000000000}
+
+fsm_state_encoding {1744944497} M2LOCK {0000010000000000}
+
+fsm_state_encoding {1744944497} M2LOCKEXTEND {0000100000000000}
+
+fsm_state_encoding {1744944497} M3EXTEND {0001000000000000}
+
+fsm_state_encoding {1744944497} M3DONE {0010000000000000}
+
+fsm_state_encoding {1744944497} M3LOCK {0100000000000000}
+
+fsm_state_encoding {1744944497} M3LOCKEXTEND {1000000000000000}
+
+fsm_registers {1744944497} {arbRegSMCurrentState[15]}  {arbRegSMCurrentState[14]}  {arbRegSMCurrentState[13]}  {arbRegSMCurrentState[12]}  {arbRegSMCurrentState[11]}  {arbRegSMCurrentState[10]}  {arbRegSMCurrentState[9]}  {arbRegSMCurrentState[8]}  {arbRegSMCurrentState[7]}  {arbRegSMCurrentState[6]}  {arbRegSMCurrentState[5]}  {arbRegSMCurrentState[4]}  {arbRegSMCurrentState[3]}  {arbRegSMCurrentState[2]}  {arbRegSMCurrentState[1]}  {arbRegSMCurrentState[0]} 
+
+fsm_encoding {81089410896} onehot
+
+fsm_state_encoding {81089410896} 000 {0000001}
+
+fsm_state_encoding {81089410896} 001 {0000010}
+
+fsm_state_encoding {81089410896} 010 {0000100}
+
+fsm_state_encoding {81089410896} 011 {0001000}
+
+fsm_state_encoding {81089410896} 100 {0010000}
+
+fsm_state_encoding {81089410896} 101 {0100000}
+
+fsm_state_encoding {81089410896} 110 {1000000}
+
+fsm_registers {81089410896} {sm0_state[6]}  {sm0_state[5]}  {sm0_state[4]}  {sm0_state[3]}  {sm0_state[2]}  {sm0_state[1]}  {sm0_state[0]} 
+
+fsm_encoding {611001101} onehot
+
+fsm_state_encoding {611001101} Idle_ESRAM_ENVM {00000000000000001}
+
+fsm_state_encoding {611001101} ENVM_Idle_0 {00000000000000010}
+
+fsm_state_encoding {611001101} ENVM_Idle_1 {00000000000000100}
+
+fsm_state_encoding {611001101} ENVM0_ACCESS1 {00000000000001000}
+
+fsm_state_encoding {611001101} ENVM0_ACCESS2 {00000000000010000}
+
+fsm_state_encoding {611001101} ENVM0_WD {00000000000100000}
+
+fsm_state_encoding {611001101} Fill_WD {00000000001000000}
+
+fsm_state_encoding {611001101} CMD_Write {00000000010000000}
+
+fsm_state_encoding {611001101} ENVM0_Prog {00000000100000000}
+
+fsm_state_encoding {611001101} ENVM_INIT_DONE {00000001000000000}
+
+fsm_state_encoding {611001101} ESRAM_0 {00000010000000000}
+
+fsm_state_encoding {611001101} ESRAM_1 {00000100000000000}
+
+fsm_state_encoding {611001101} ESRAM_2 {00001000000000000}
+
+fsm_state_encoding {611001101} Read_0 {00010000000000000}
+
+fsm_state_encoding {611001101} Read_1 {00100000000000000}
+
+fsm_state_encoding {611001101} Read_2 {01000000000000000}
+
+fsm_state_encoding {611001101} ENVM0_RELEASE {10000000000000000}
+
+fsm_registers {611001101} {current_state[16]}  {current_state[15]}  {current_state[14]}  {current_state[13]}  {current_state[12]}  {current_state[11]}  {current_state[10]}  {current_state[9]}  {current_state[8]}  {current_state[7]}  {current_state[6]}  {current_state[5]}  {current_state[4]}  {current_state[3]}  {current_state[2]}  {current_state[1]}  {current_state[0]} 

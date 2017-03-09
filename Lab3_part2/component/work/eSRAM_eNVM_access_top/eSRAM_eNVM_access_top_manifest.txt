@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1 (Version 11.7.1.11)
+
+Date      :  Fri Oct 14 23:21:53 2016
+Project   :  C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2
+Component :  eSRAM_eNVM_access_top
+Family    :  IGLOO2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/work/eSRAM_eNVM_access_top/TPSRAM_0/eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM.v
+    C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/work/eSRAM_eNVM_access_top/eSRAM_eNVM_access_top.v
+
+Stimulus files for all Simulation tools:
+    C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/work/eSRAM_eNVM_access_top/subsystem.bfm
+

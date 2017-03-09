@@ -1,0 +1,10 @@
+DESIGN=eSRAM_eNVM_access_top
+DESDIR=C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\designer\eSRAM_eNVM_access_top
+TARGET_DIR=C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\designer\eSRAM_eNVM_access_top
+FAM=IGLOO2
+DIE=PA4MGL2500_N
+PACKAGE=vf256
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

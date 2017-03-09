@@ -1,0 +1,445 @@
+Synopsys Generic Technology Mapper, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+@W: MO111 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\work\esram_envm_access\fabosc_0\esram_envm_access_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F on net XTLOSC_O2F has its enable tied to GND (module eSRAM_eNVM_access_FABOSC_0_OSC) 
+@W: MO111 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\work\esram_envm_access\fabosc_0\esram_envm_access_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC on net XTLOSC_CCC has its enable tied to GND (module eSRAM_eNVM_access_FABOSC_0_OSC) 
+@W: MO111 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\work\esram_envm_access\fabosc_0\esram_envm_access_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F on net RCOSC_1MHZ_O2F has its enable tied to GND (module eSRAM_eNVM_access_FABOSC_0_OSC) 
+@W: MO111 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\work\esram_envm_access\fabosc_0\esram_envm_access_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC on net RCOSC_1MHZ_CCC has its enable tied to GND (module eSRAM_eNVM_access_FABOSC_0_OSC) 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF0_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF1_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF2_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF3_PERST_N_q1 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF0_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF1_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF2_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF3_PERST_N_q2 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF0_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF1_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF2_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: MO171 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance eSRAM_eNVM_access_0.CORERESETP_0.SDIF3_PERST_N_q3 reduced to a combinational gate by constant propagation 
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif3_spll_lock_q1,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.CONFIG2_DONE_q1
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.CONFIG2_DONE_q1,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.CONFIG1_DONE_q1
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.CONFIG2_DONE_clk_base,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sdif3_spll_lock_q2
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.CONFIG1_DONE_clk_base,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sdif3_spll_lock_q2
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif1_areset_n_rcosc_q1,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif3_areset_n_rcosc_q1,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif2_areset_n_rcosc_q1,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_areset_n_rcosc_q1,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif2_areset_n_rcosc,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_areset_n_rcosc
+@W: BN132 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif3_areset_n_rcosc,  because it is equivalent to instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_areset_n_rcosc
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+Encoding state machine ahb_fsm_current_state[6:0] (view:work.AHB_IF_0s_1s_2s_3s_4294967292s_4294967293s_4294967294s_0s_1_layer0(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\ahb_if.v":81:0:81:5|Register bit HADDR[1] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\ahb_if.v":81:0:81:5|Register bit HADDR[0] is always 0, optimizing ...
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHSIZE[2] of view:PrimLib.dffr(prim) in hierarchy view:work.eSRAM_eNVM_access(verilog) because there are no references to its outputs 
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHSIZE[0] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[6] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[4] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[2] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[0] is always 0, optimizing ...
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_16.masterDataInProg[3] of view:PrimLib.dffr(prim) in hierarchy view:work.eSRAM_eNVM_access(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_16.masterDataInProg[2] of view:PrimLib.dffr(prim) in hierarchy view:work.eSRAM_eNVM_access(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance CoreAHBLite_0.matrix4x16.slavestage_16.masterDataInProg[1] of view:PrimLib.dffr(prim) in hierarchy view:work.eSRAM_eNVM_access(verilog) because there are no references to its outputs 
+Encoding state machine arbRegSMCurrentState[15:0] (view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z4_layer0_1(verilog))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Register bit arbRegSMCurrentState[12] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Register bit arbRegSMCurrentState[8] is always 0, optimizing ...
+@W: MO160 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Register bit arbRegSMCurrentState[4] is always 0, optimizing ...
+Encoding state machine sm0_state[6:0] (view:work.CoreResetP_Z6_layer0(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine current_state[16:0] (view:work.eSRAM_eNVM_RW(verilog))
+original code -> new code
+   00000 -> 00000000000000001
+   00001 -> 00000000000000010
+   00010 -> 00000000000000100
+   00011 -> 00000000000001000
+   00100 -> 00000000000010000
+   00101 -> 00000000000100000
+   00110 -> 00000000001000000
+   00111 -> 00000000010000000
+   01000 -> 00000000100000000
+   01001 -> 00000001000000000
+   01010 -> 00000010000000000
+   01011 -> 00000100000000000
+   01100 -> 00001000000000000
+   01101 -> 00010000000000000
+   01110 -> 00100000000000000
+   01111 -> 01000000000000000
+   10000 -> 10000000000000000
+@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\esram_envm_rw.v":110:0:110:5|Found counter in view:work.eSRAM_eNVM_RW(verilog) inst addr_temp[31:2]
+@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\esram_envm_rw.v":110:0:110:5|Found counter in view:work.eSRAM_eNVM_RW(verilog) inst ram_waddr[4:0]
+@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\esram_envm_rw.v":110:0:110:5|Found counter in view:work.eSRAM_eNVM_RW(verilog) inst data[31:0]
+@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\esram_envm_rw.v":110:0:110:5|Found counter in view:work.eSRAM_eNVM_RW(verilog) inst data_cnt[4:0]
+@W: MO161 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\hdl\spi_master.vhd":101:0:101:1|Register bit ltRx_bit[1] is always 1, optimizing ...
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.INIT_DONE_int in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[0] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[6] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[14] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[15] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[2] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[3] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[6] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[7] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[10] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.slavestage_16.slave_arbiter.arbRegSMCurrentState[11] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.ddr_settled_q1 in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register eSRAM_eNVM_access_0.CORERESETP_0.ddr_settled_q1 packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif3_spll_lock_q2 in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.CONFIG1_DONE_q1 in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_areset_n_rcosc in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_areset_n_q1 in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_areset_n_clk_base in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.ddr_settled_clk_base in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.ddr_settled in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@A: BN291 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Boundary register eSRAM_eNVM_access_0.CORERESETP_0.ddr_settled packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[5] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[4] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[3] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[2] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[1] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance eSRAM_eNVM_access_0.CORERESETP_0.sm0_state[0] in hierarchy view:work.eSRAM_eNVM_access_top(verilog) because there are no references to its outputs 
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 145MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 156MB peak: 159MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     0.73ns		 624 /       489
+   2		0h:00m:01s		     0.73ns		 617 /       489
+@N: FP130 |Promoting Net eSRAM_eNVM_access_0_HPMS_READY on CLKINT  I_74 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 157MB peak: 159MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 157MB peak: 159MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 492 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================================================== Non-Gated/Non-Generated Clocks ===========================================================
+Clock Tree ID     Driving Element                        Drive Element Type     Fanout     Sample Instance                                            
+------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       eSRAM_eNVM_access_0.CCC_0.GL0_INST     CLKINT                 492        eSRAM_eNVM_access_0.eSRAM_eNVM_access_HPMS_0.MSS_ADLIB_INST
+======================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 128MB peak: 159MB)
+
+Writing Analyst data base C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\synwork\eSRAM_eNVM_access_top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 155MB peak: 159MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+J-2015.03M-SP1-2
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 156MB peak: 159MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 155MB peak: 159MB)
+
+@W: MT246 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab3_part2\component\work\esram_envm_access\ccc_0\esram_envm_access_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock eSRAM_eNVM_access_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:eSRAM_eNVM_access_0.FABOSC_0.RCOSC_25_50MHZ_CCC"
+
+@W: MT420 |Found inferred clock eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:eSRAM_eNVM_access_0.CCC_0.GL0_net"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Oct 14 23:24:53 2016
+#
+
+
+Top view:               eSRAM_eNVM_access_top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 2.054
+
+                                                                     Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                                       Frequency     Frequency     Period        Period        Slack     Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     125.8 MHz     10.000        7.946         2.054     inferred     Inferred_clkgroup_0
+eSRAM_eNVM_access_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+=======================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                             Ending                                               |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock  eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      2.054  |  No paths    -      |  No paths    -      |  No paths    -    
+================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                Starting                                                                                                                    Arrival          
+Instance                                                                        Reference                                               Type        Pin                Net                                  Time        Slack
+                                                                                Clock                                                                                                                                        
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+eSRAM_eNVM_access_0.eSRAM_eNVM_access_HPMS_0.MSS_ADLIB_INST                     eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     MSS_025     F_FM0_READYOUT     CoreAHBLite_0_AHBmslave16_HREADY     3.920       2.054
+eSRAM_eNVM_access_0.CORERESETP_0.MSS_HPMS_READY_int                             eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  MSS_HPMS_READY_int                   0.108       3.593
+SPI_Master_0.count[12]                                                          eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[12]                            0.087       3.797
+eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.masterstage_0.masterRegAddrSel     eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  masterRegAddrSel                     0.108       3.805
+SPI_Master_0.count[28]                                                          eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[28]                            0.087       3.874
+SPI_Master_0.count[8]                                                           eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[8]                             0.087       3.875
+SPI_Master_0.count[13]                                                          eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[13]                            0.087       3.898
+SPI_Master_0.count[2]                                                           eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[2]                             0.087       3.920
+SPI_Master_0.count[24]                                                          eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[24]                            0.087       3.952
+SPI_Master_0.count[29]                                                          eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE         Q                  count[29]                            0.087       3.975
+=============================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                                               Required          
+Instance               Reference                                               Type     Pin     Net           Time         Slack
+                       Clock                                                                                                    
+--------------------------------------------------------------------------------------------------------------------------------
+AHB_IF_0.HADDR[2]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[3]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[4]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[5]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[6]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[7]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[8]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[9]      eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[10]     eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+AHB_IF_0.HADDR[11]     eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      N_101_i_0     9.662        2.054
+================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.338
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.662
+
+    - Propagation time:                      7.609
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     2.054
+
+    Number of logic level(s):                2
+    Starting point:                          eSRAM_eNVM_access_0.eSRAM_eNVM_access_HPMS_0.MSS_ADLIB_INST / F_FM0_READYOUT
+    Ending point:                            AHB_IF_0.HADDR[2] / EN
+    The start point is clocked by            eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK_BASE
+    The end   point is clocked by            eSRAM_eNVM_access_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                                                Pin                Pin               Arrival     No. of    
+Name                                                                                                              Type        Name               Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+eSRAM_eNVM_access_0.eSRAM_eNVM_access_HPMS_0.MSS_ADLIB_INST                                                       MSS_025     F_FM0_READYOUT     Out     3.920     3.920       -         
+CoreAHBLite_0_AHBmslave16_HREADY                                                                                  Net         -                  -       1.136     -           9         
+eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.masterstage_0.default_slave_sm.defSlaveSMNextState_0_o2_RNI2KC11     CFG4        B                  In      -         5.056       -         
+eSRAM_eNVM_access_0.CoreAHBLite_0.matrix4x16.masterstage_0.default_slave_sm.defSlaveSMNextState_0_o2_RNI2KC11     CFG4        Y                  Out     0.148     5.204       -         
+N_53                                                                                                              Net         -                  -       0.888     -           13        
+AHB_IF_0.un1_HADDR_0_sqmuxa_i_0_o2_s_0_RNIJLTK1                                                                   CFG4        D                  In      -         6.092       -         
+AHB_IF_0.un1_HADDR_0_sqmuxa_i_0_o2_s_0_RNIJLTK1                                                                   CFG4        Y                  Out     0.326     6.419       -         
+N_101_i_0                                                                                                         Net         -                  -       1.190     -           30        
+AHB_IF_0.HADDR[2]                                                                                                 SLE         EN                 In      -         7.609       -         
+=========================================================================================================================================================================================
+Total path delay (propagation time + setup) of 7.946 is 4.732(59.6%) logic and 3.214(40.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 155MB peak: 159MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 155MB peak: 159MB)
+
+---------------------------------------
+Resource Usage Report for eSRAM_eNVM_access_top 
+
+Mapping to part: m2gl025vf256std
+Cell usage:
+CCC             1 use
+CLKINT          2 uses
+MSS_025         1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           2 uses
+CFG2           168 uses
+CFG3           110 uses
+CFG4           229 uses
+
+Carry primitives used for arithmetic functions:
+ARI1           102 uses
+
+
+Sequential Cells: 
+SLE            489 uses
+
+DSP Blocks:    0
+
+I/O ports: 49
+I/O primitives: 48
+INBUF          4 uses
+OUTBUF         42 uses
+TRIBUFF        2 uses
+
+
+Global Clock Buffers: 2
+
+
+RAM/ROM usage summary
+Block Rams (RAM1K18) : 1
+
+Total LUTs:    611
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  489 + 0 + 36 + 0 = 525;
+Total number of LUTs after P&R:  611 + 0 + 36 + 0 = 647;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 53MB peak: 159MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Fri Oct 14 23:24:54 2016
+
+###########################################################]

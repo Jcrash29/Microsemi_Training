@@ -1,0 +1,58 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":57:7:57:16|Top entity is set to SPI_Master.
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v":21:7:21:12|Synthesizing module AHB_IF
+@N: CG364 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v":376:7:376:9|Synthesizing module VCC
+@N: CG364 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v":372:7:372:9|Synthesizing module GND
+@N: CG364 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v":362:7:362:12|Synthesizing module CLKINT
+@N: CG364 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v":727:7:727:9|Synthesizing module CCC
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\CCC_0\eSRAM_eNVM_access_CCC_0_FCCC.v":5:7:5:34|Synthesizing module eSRAM_eNVM_access_CCC_0_FCCC
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v":20:7:20:25|Synthesizing module COREAHBLITE_ADDRDEC
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v":20:7:20:32|Synthesizing module COREAHBLITE_DEFAULTSLAVESM
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":22:7:22:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v":20:7:20:25|Synthesizing module COREAHBLITE_ADDRDEC
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":22:7:22:29|Synthesizing module COREAHBLITE_MASTERSTAGE
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":625:0:625:5|Sharing sequential element addrRegSMCurrentState.
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":20:7:20:30|Synthesizing module COREAHBLITE_SLAVEARBITER
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":22:7:22:28|Synthesizing module COREAHBLITE_SLAVESTAGE
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v":23:7:23:28|Synthesizing module COREAHBLITE_MATRIX4X16
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v":23:7:23:17|Synthesizing module CoreAHBLite
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1.
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_HPMS\eSRAM_eNVM_access_HPMS_syn.v":5:7:5:13|Synthesizing module MSS_025
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_HPMS\eSRAM_eNVM_access_HPMS.v":9:7:9:28|Synthesizing module eSRAM_eNVM_access_HPMS
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v":5:7:5:36|Synthesizing module eSRAM_eNVM_access_FABOSC_0_OSC
+@N: CG364 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v":718:7:718:14|Synthesizing module SYSRESET
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\eSRAM_eNVM_access.v":9:7:9:23|Synthesizing module eSRAM_eNVM_access
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v":29:7:29:19|Synthesizing module eSRAM_eNVM_RW
+@N: CG364 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v":382:7:382:13|Synthesizing module RAM1K18
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\TPSRAM_0\eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM.v":5:7:5:43|Synthesizing module eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM
+@N: CG364 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\eSRAM_eNVM_access_top.v":9:7:9:27|Synthesizing module eSRAM_eNVM_access_top
+@N: CG794 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\eSRAM_eNVM_access_top.v":206:11:206:22|Using module SPI_Master from library work
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v":110:0:110:5|Trying to extract state machine for register current_state
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL177 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2.
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Trying to extract state machine for register arbRegSMCurrentState
+@N: CL201 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v":81:0:81:5|Trying to extract state machine for register ahb_fsm_current_state
+@N: CD720 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":57:7:57:16|Top entity is set to SPI_Master.
+@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":57:7:57:16|Synthesizing work.spi_master.architecture_spi_master 
+@N: CD233 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\SPI_Master.vhd":83:10:83:11|Using sequential encoding for type fsm
+@N|Running in 64-bit mode
+

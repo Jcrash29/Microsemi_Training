@@ -1,0 +1,7 @@
+C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe  -link  -top  eSRAM_eNVM_access_top  -multisrs  C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\synwork\eSRAM_eNVM_access_top_comp.srs  -osyn  C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\synwork\eSRAM_eNVM_access_top_mult.srs  -log  C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\synlog\eSRAM_eNVM_access_top_multi_srs_gen.srr 
+rc:0 success:1
+C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\synwork\eSRAM_eNVM_access_top_comp.srs|i|1476512687|188359
+C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\synwork\eSRAM_eNVM_access_top_mult.srs|o|1476512689|11981
+C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\synlog\eSRAM_eNVM_access_top_multi_srs_gen.srr|o|1476512689|511
+C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\bin\syn_nfilter.exe|i|1449250524|3007488
+C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe|i|1449250526|3974144

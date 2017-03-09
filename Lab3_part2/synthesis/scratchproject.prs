@@ -1,0 +1,86 @@
+#--  Synopsys, Inc.
+#--  Version J-2015.03M-SP1-2
+#--  Project file C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis\scratchproject.prs
+
+#project files
+add_file -verilog "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/hdl/AHB_IF.v"
+add_file -vhdl -lib work "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/hdl/SPI_Master.vhd"
+add_file -verilog "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/hdl/eSRAM_eNVM_RW.v"
+add_file -verilog "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v"
+add_file -verilog "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v"
+add_file -verilog "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/work/eSRAM_eNVM_access/CCC_0/eSRAM_eNVM_access_CCC_0_FCCC.v"
+add_file -verilog "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/work/eSRAM_eNVM_access/FABOSC_0/eSRAM_eNVM_access_FABOSC_0_OSC.v"
+add_file -verilog "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/work/eSRAM_eNVM_access_HPMS/eSRAM_eNVM_access_HPMS_syn.v"
+add_file -verilog "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/work/eSRAM_eNVM_access_HPMS/eSRAM_eNVM_access_HPMS.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_masterstage.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavearbiter.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavestage.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_matrix4x16.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v"
+add_file -verilog "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/work/eSRAM_eNVM_access/eSRAM_eNVM_access.v"
+add_file -verilog "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/work/eSRAM_eNVM_access_top/TPSRAM_0/eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM.v"
+add_file -verilog "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/component/work/eSRAM_eNVM_access_top/eSRAM_eNVM_access_top.v"
+
+
+
+#implementation: "synthesis"
+impl -add C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology IGLOO2
+set_option -part M2GL025
+set_option -package VF256
+set_option -speed_grade STD
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "eSRAM_eNVM_access_top"
+
+# mapper_options
+set_option -frequency 100.000
+set_option -write_verilog 0
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microsemi G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 12
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 0
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab3_part2/synthesis/eSRAM_eNVM_access_top.edn"
+impl -active "synthesis"

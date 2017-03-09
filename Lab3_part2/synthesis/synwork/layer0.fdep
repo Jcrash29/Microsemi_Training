@@ -1,0 +1,116 @@
+#OPTIONS:"|-mixedhdl|-modhint|C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\synthesis\\synwork\\_verilog_hintfile|-top|eSRAM_eNVM_access_top|-layerid|0|-orig_srs|C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\synthesis\\synwork\\eSRAM_eNVM_access_top_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\synthesis\\|-I|C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib|-v2001|-devicelib|C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\generic\\igloo2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_ver.exe":1449250526
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\synthesis\\synwork\\_verilog_hintfile":1476509102
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\generic\\igloo2.v":1449250530
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\hypermods.v":1449250534
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\umr_capim.v":1449250534
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\scemi_objects.v":1449250534
+#CUR:"C:\\tools\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\scemi_pipes.svh":1449250534
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\hdl\\AHB_IF.v":1455861824
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\hdl\\eSRAM_eNVM_RW.v":1476242949
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1473283904
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1473283904
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\work\\eSRAM_eNVM_access\\CCC_0\\eSRAM_eNVM_access_CCC_0_FCCC.v":1476221160
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1473283906
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\work\\eSRAM_eNVM_access\\FABOSC_0\\eSRAM_eNVM_access_FABOSC_0_OSC.v":1476221164
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\work\\eSRAM_eNVM_access_HPMS\\eSRAM_eNVM_access_HPMS_syn.v":1476221154
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\work\\eSRAM_eNVM_access_HPMS\\eSRAM_eNVM_access_HPMS.v":1476221154
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_addrdec.v":1474994528
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_defaultslavesm.v":1474994528
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_masterstage.v":1474994528
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_slavearbiter.v":1474994528
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_slavestage.v":1474994528
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_matrix4x16.v":1474994528
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite.v":1474994528
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\work\\eSRAM_eNVM_access\\eSRAM_eNVM_access.v":1476221164
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\work\\eSRAM_eNVM_access_top\\TPSRAM_0\\eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM.v":1476512510
+#CUR:"C:\\Future\\FPGA\\Microsemi\\CreativeBoard\\IGLOO2\\Lab3_part2\\component\\work\\eSRAM_eNVM_access_top\\eSRAM_eNVM_access_top.v":1476512511
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\AHB_IF.v" verilog
+1			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\hdl\eSRAM_eNVM_RW.v" verilog
+2			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+3			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+4			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\CCC_0\eSRAM_eNVM_access_CCC_0_FCCC.v" verilog
+5			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+6			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\FABOSC_0\eSRAM_eNVM_access_FABOSC_0_OSC.v" verilog
+7			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_HPMS\eSRAM_eNVM_access_HPMS_syn.v" verilog
+8			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_HPMS\eSRAM_eNVM_access_HPMS.v" verilog
+9			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v" verilog
+10			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v" verilog
+11			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v" verilog
+12			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v" verilog
+13			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v" verilog
+14			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v" verilog
+15			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v" verilog
+16			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access\eSRAM_eNVM_access.v" verilog
+17			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\TPSRAM_0\eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM.v" verilog
+18			"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab3_part2\component\work\eSRAM_eNVM_access_top\eSRAM_eNVM_access_top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 2
+4 -1
+5 -1
+6 5
+7 -1
+8 7
+9 -1
+10 -1
+11 9 10
+12 -1
+13 12
+14 11 13
+15 14
+16 4 15 3 8 6
+17 -1
+18 0 16 1 17
+#Dependency Lists(Users Of)
+0 18
+1 18
+2 3
+3 16
+4 16
+5 6
+6 16
+7 8
+8 16
+9 11
+10 11
+11 14
+12 13
+13 14
+14 15
+15 16
+16 18
+17 18
+18 -1
+#Design Unit to File Association
+module work AHB_IF 0
+module work eSRAM_eNVM_RW 1
+module work coreresetp_pcie_hotreset 2
+module work CoreResetP 3
+module work eSRAM_eNVM_access_CCC_0_FCCC 4
+module work RCOSC_1MHZ 5
+module work RCOSC_25_50MHZ 5
+module work XTLOSC 5
+module work RCOSC_1MHZ_FAB 5
+module work RCOSC_25_50MHZ_FAB 5
+module work XTLOSC_FAB 5
+module work eSRAM_eNVM_access_FABOSC_0_OSC 6
+module work MSS_025 7
+module work eSRAM_eNVM_access_HPMS 8
+module work eSRAM_eNVM_access 16
+module work eSRAM_eNVM_access_top_TPSRAM_0_TPSRAM 17
+module work eSRAM_eNVM_access_top 18
+module COREAHBLITE_LIB COREAHBLITE_ADDRDEC 9
+module COREAHBLITE_LIB COREAHBLITE_DEFAULTSLAVESM 10
+module COREAHBLITE_LIB COREAHBLITE_MASTERSTAGE 11
+module COREAHBLITE_LIB COREAHBLITE_SLAVEARBITER 12
+module COREAHBLITE_LIB COREAHBLITE_SLAVESTAGE 13
+module COREAHBLITE_LIB COREAHBLITE_MATRIX4X16 14
+module COREAHBLITE_LIB CoreAHBLite 15
+#Unbound instances to file Association.
+inst work eSRAM_eNVM_access_top SPI_Master 18
+inst work eSRAM_eNVM_access_top SPI_Master 18

@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Giovanna.Franco\Documents\9Oct2016\m2s_m2gl_ac429_liberov11p7_df\eSRAM_eNVM_RW_Fabric\Libero_project\IGL2\hdl\SPI_Master.vhd":26:7:26:16|Top entity is set to SPI_Master.
+@N: CD630 :"C:\Users\Giovanna.Franco\Documents\9Oct2016\m2s_m2gl_ac429_liberov11p7_df\eSRAM_eNVM_RW_Fabric\Libero_project\IGL2\hdl\SPI_Master.vhd":26:7:26:16|Synthesizing work.spi_master.architecture_spi_master 
+@N: CD233 :"C:\Users\Giovanna.Franco\Documents\9Oct2016\m2s_m2gl_ac429_liberov11p7_df\eSRAM_eNVM_RW_Fabric\Libero_project\IGL2\hdl\SPI_Master.vhd":52:10:52:11|Using sequential encoding for type fsm
+@N|Running in 64-bit mode
+
