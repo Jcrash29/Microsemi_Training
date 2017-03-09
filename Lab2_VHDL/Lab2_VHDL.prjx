@@ -42,6 +42,12 @@ VALUE="Impl1",NUM=1
 CURREV=1
 ENDLIST
 LIST FileManager
+VALUE "<project>\constraint\fp\user.pdc,fp_pdc"
+STATE="utd"
+TIME="1489085514"
+SIZE="426"
+IS_TARGET="TRUE"
+ENDFILE
 VALUE "<project>\constraint\io\LedBlinkingDSpeed.io.pdc,io_pdc"
 STATE="utd"
 TIME="1477216352"
@@ -74,7 +80,7 @@ SIZE="4734"
 ENDFILE
 VALUE "<project>\hdl\LedBlinkingDSpeed.vhd,hdl"
 STATE="utd"
-TIME="1477216740"
+TIME="1489084648"
 SIZE="8890"
 ENDFILE
 VALUE "<project>\hdl\Reset_out.vhd,hdl"
@@ -94,8 +100,8 @@ SIZE="6181"
 ENDFILE
 VALUE "<project>\synthesis\LedBlinkingDSpeed.edn,syn_edn"
 STATE="utd"
-TIME="1477216774"
-SIZE="182614"
+TIME="1489084817"
+SIZE="185669"
 ENDFILE
 VALUE "<project>\synthesis\LedBlinkingDSpeed.so,so"
 STATE="utd"
@@ -104,8 +110,8 @@ SIZE="259"
 ENDFILE
 VALUE "<project>\synthesis\LedBlinkingDSpeed.vhd,syn_hdl"
 STATE="utd"
-TIME="1477216778"
-SIZE="88479"
+TIME="1489084829"
+SIZE="90994"
 ENDFILE
 VALUE "<project>\synthesis\LedBlinkingDSpeed_sdc.sdc,syn_sdc"
 STATE="utd"
@@ -219,8 +225,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.7\\\Synplify\\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -279,8 +285,12 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Run PROGRAM Action:LedBlinkingDSpeed_PROGRAM.log
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+HDL;hdl\LedBlinkingDSpeed.vhd;0
+Constraint Manager;Constraint Manager;0
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "ClkGen::work","hdl\ClkGen.vhd","FALSE","FALSE"
@@ -307,6 +317,7 @@ LIST IOTabList
 VALUE "constraint\io\LedBlinkingDSpeed.io.pdc"
 ENDLIST
 LIST FPTabList
+VALUE "constraint\fp\user.pdc"
 ENDLIST
 LIST TimingTabList
 VALUE "constraint\LedBlinkingDSpeed_sdc.sdc"
