@@ -1,0 +1,11 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\c_hdl.exe  -osyn  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synwork\LedBlinkingDSpeed_comp.srs  -top  work.LedBlinkingDSpeed  -hdllog  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synlog\LedBlinkingDSpeed_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram  -encrypt  -pro  -dmgen  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGen.vhd -lib work C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGenNoSwitch.vhd -lib work C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\Display.vhd -lib work C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\Reset_out.vhd -lib work C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\LedBlinkingDSpeed.vhd 
+rc:0 success:1
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synwork\LedBlinkingDSpeed_comp.srs|o|1489078421|7356
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synlog\LedBlinkingDSpeed_compiler.srr|o|1489078421|5585
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGen.vhd|i|1489076472|4624
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGenNoSwitch.vhd|i|1489076472|4722
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\Display.vhd|i|1489076472|4734
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\Reset_out.vhd|i|1489076472|3699
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\LedBlinkingDSpeed.vhd|i|1489078378|8892
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\c_hdl.exe|i|1449243322|1295872
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\c_hdl.exe|i|1449243324|1897472

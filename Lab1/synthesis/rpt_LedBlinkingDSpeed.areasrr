@@ -1,0 +1,180 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2GL025VF256STD (Microsemi)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   LedBlinkingDSpeed   ########
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      115                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block LedBlinkingDSpeed:	115 (38.72 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           51                 100 %                
+ARI1          108                100 %                
+BLACK BOX     20                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block LedBlinkingDSpeed:	179 (60.27 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block LedBlinkingDSpeed:	2 (0.67 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       7                  100 %                
+=================================================
+Total IO PADS in the block LedBlinkingDSpeed:	7 (2.36 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   ClkGen   ########
+Instance path:   LedBlinkingDSpeed.ClkGen                   
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      27                 23.5 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block LedBlinkingDSpeed.ClkGen:	27 (9.09 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           12                 23.5 %               
+ARI1          26                 24.1 %               
+BLACK BOX     6                  30. %                
+======================================================
+Total COMBINATIONAL LOGIC in the block LedBlinkingDSpeed.ClkGen:	44 (14.81 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   ClkGenNoSwitch   ########
+Instance path:   LedBlinkingDSpeed.ClkGenNoSwitch                   
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      28                 24.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block LedBlinkingDSpeed.ClkGenNoSwitch:	28 (9.43 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           12                 23.5 %               
+ARI1          27                 25. %                
+BLACK BOX     5                  25. %                
+======================================================
+Total COMBINATIONAL LOGIC in the block LedBlinkingDSpeed.ClkGenNoSwitch:	44 (14.81 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   ClkGenNoSwitch_1   ########
+Instance path:   LedBlinkingDSpeed.ClkGenNoSwitch_1                   
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      29                 25.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block LedBlinkingDSpeed.ClkGenNoSwitch_1:	29 (9.76 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           12                 23.5 %               
+ARI1          28                 25.9 %               
+BLACK BOX     4                  20. %                
+======================================================
+Total COMBINATIONAL LOGIC in the block LedBlinkingDSpeed.ClkGenNoSwitch_1:	44 (14.81 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   ClkGen_1   ########
+Instance path:   LedBlinkingDSpeed.ClkGen_1                   
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      28                 24.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block LedBlinkingDSpeed.ClkGen_1:	28 (9.43 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           12                 23.5 %               
+ARI1          27                 25. %                
+BLACK BOX     5                  25. %                
+======================================================
+Total COMBINATIONAL LOGIC in the block LedBlinkingDSpeed.ClkGen_1:	44 (14.81 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   Display   ########
+Instance path:   LedBlinkingDSpeed.Display                   
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  1.74 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block LedBlinkingDSpeed.Display:	2 (0.67 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  3.92 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block LedBlinkingDSpeed.Display:	2 (0.67 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   Reset_out   ########
+Instance path:   LedBlinkingDSpeed.Reset_out                   
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.870 %              
+=================================================
+Total SEQUENTIAL ELEMENTS in the block LedBlinkingDSpeed.Reset_out:	1 (0.34 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  1.96 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block LedBlinkingDSpeed.Reset_out:	1 (0.34 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50. %                
+===================================================
+Total GLOBAL BUFFERS in the block LedBlinkingDSpeed.Reset_out:	1 (0.34 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

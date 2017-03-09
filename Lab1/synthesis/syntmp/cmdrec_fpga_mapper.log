@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis   -part M2GL025  -package VF256  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synlog\report\LedBlinkingDSpeed_fpga_mapper.xml  -top_level_module  work.LedBlinkingDSpeed  -licensetype  synplifypro_actel  -flow mapping  -mp  1  -prjfile  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\LedBlinkingDSpeed.edn   -freq 100.000   -tcl  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\designer\LedBlinkingDSpeed\synthesis.fdc  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synwork\LedBlinkingDSpeed_prem.srd  -sap  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\LedBlinkingDSpeed.sap  -otap  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\LedBlinkingDSpeed.tap  -omap  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\LedBlinkingDSpeed.map  -devicelib  C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v  -sap  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\LedBlinkingDSpeed.sap  -ologparam  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\syntmp\LedBlinkingDSpeed.plg  -osyn  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\LedBlinkingDSpeed.srm  -prjdir  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\  -prjname  LedBlinkingDSpeed_syn  -log  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synlog\LedBlinkingDSpeed_fpga_mapper.srr 
+rc:0 success:1
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\scratchproject.prs|o|1489078420|2259
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\LedBlinkingDSpeed.edn|o|1489078429|182613
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\designer\LedBlinkingDSpeed\synthesis.fdc|i|1489078418|307
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synwork\LedBlinkingDSpeed_prem.srd|i|1489078425|10423
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\LedBlinkingDSpeed.sap|o|1489078425|3780
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\LedBlinkingDSpeed.tap|o|0|0
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\LedBlinkingDSpeed.map|o|1489078430|28
+C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\igloo2.v|i|1449243330|16387
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\LedBlinkingDSpeed.sap|o|1489078425|3780
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\syntmp\LedBlinkingDSpeed.plg|o|1489078430|895
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\LedBlinkingDSpeed.srm|o|1489078428|8153
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synlog\LedBlinkingDSpeed_fpga_mapper.srr|o|1489078430|30318
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\m_generic.exe|i|1449760744|15814144
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe|i|1449762356|27632640

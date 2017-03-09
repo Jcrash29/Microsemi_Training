@@ -1,0 +1,16 @@
+Project Name: Lab1
+Location: C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2GL025-VF256
+Family         : IGLOO2
+Die            : M2GL025
+Package        : 256 VF
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

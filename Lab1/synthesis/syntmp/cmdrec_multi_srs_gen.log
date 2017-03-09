@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe  -link  -top  work.LedBlinkingDSpeed  -multisrs  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synwork\LedBlinkingDSpeed_comp.srs  -osyn  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synwork\LedBlinkingDSpeed_mult.srs  -log  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synlog\LedBlinkingDSpeed_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synwork\LedBlinkingDSpeed_comp.srs|i|1489078421|7356
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synwork\LedBlinkingDSpeed_mult.srs|o|1489078423|4504
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\synthesis\synlog\LedBlinkingDSpeed_multi_srs_gen.srr|o|1489078423|408
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\syn_nfilter.exe|i|1449243324|3007488
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe|i|1449243326|3974144

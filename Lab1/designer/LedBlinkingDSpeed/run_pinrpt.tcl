@@ -1,0 +1,10 @@
+DESIGN=LedBlinkingDSpeed
+DESDIR=C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\designer\LedBlinkingDSpeed
+TARGET_DIR=C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\designer\LedBlinkingDSpeed
+FAM=IGLOO2
+DIE=PA4MGL2500_N
+PACKAGE=vf256
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 11.7.1.14</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1.1 (Version 11.7.1.14)
+Date: Thu Mar 09 11:03:33 2017 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>LedBlinkingDSpeed</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>IGLOO2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2GL025</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>256 VF</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          114</cell>
+ <cell>           56</cell>
+ <cell>          170</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>          114</cell>
+ <cell>            0</cell>
+ <cell>          114</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          228</cell>
+ <cell>           58</cell>
+ <cell>          286</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          114</cell>
+ <cell>           56</cell>
+ <cell>          170</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>          114</cell>
+ <cell>            0</cell>
+ <cell>          114</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          228</cell>
+ <cell>           58</cell>
+ <cell>          286</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>LedBlinkingDSpeed|clk</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          114</cell>
+ <cell>           56</cell>
+ <cell>          170</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>          114</cell>
+ <cell>            0</cell>
+ <cell>          114</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          228</cell>
+ <cell>           58</cell>
+ <cell>          286</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          114</cell>
+ <cell>           56</cell>
+ <cell>          170</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>          114</cell>
+ <cell>            0</cell>
+ <cell>          114</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          228</cell>
+ <cell>           58</cell>
+ <cell>          286</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on  ports:</text>
+<text>   </text>
+<list>
+ <item>SW1</item>
+ <item>SW2</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on  ports:</text>
+<text>   </text>
+<list>
+ <item>SW1</item>
+ <item>SW2</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on  ports:</text>
+<text>   </text>
+<list>
+ <item>green_led1</item>
+ <item>red_led2</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on  ports:</text>
+<text>   </text>
+<list>
+ <item>green_led1</item>
+ <item>red_led2</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>Clear_outputs/reset:D</item>
+ <item>Fast_clk_SW1/cnt[0]:EN</item>
+ <item>Fast_clk_SW1/cnt[10]:EN</item>
+ <item>Fast_clk_SW1/cnt[11]:EN</item>
+ <item>Fast_clk_SW1/cnt[12]:EN</item>
+ <item>Fast_clk_SW1/cnt[13]:EN</item>
+ <item>Fast_clk_SW1/cnt[14]:EN</item>
+ <item>Fast_clk_SW1/cnt[15]:EN</item>
+ <item>Fast_clk_SW1/cnt[16]:EN</item>
+ <item>Fast_clk_SW1/cnt[17]:EN</item>
+ <item>Fast_clk_SW1/cnt[18]:EN</item>
+ <item>Fast_clk_SW1/cnt[19]:EN</item>
+ <item>Fast_clk_SW1/cnt[1]:EN</item>
+ <item>Fast_clk_SW1/cnt[20]:EN</item>
+ <item>Fast_clk_SW1/cnt[21]:EN</item>
+ <item>Fast_clk_SW1/cnt[22]:EN</item>
+ <item>Fast_clk_SW1/cnt[23]:EN</item>
+ <item>Fast_clk_SW1/cnt[24]:EN</item>
+ <item>Fast_clk_SW1/cnt[25]:EN</item>
+ <item>Fast_clk_SW1/cnt[2]:EN</item>
+ <item>Fast_clk_SW1/cnt[3]:EN</item>
+ <item>Fast_clk_SW1/cnt[4]:EN</item>
+ <item>Fast_clk_SW1/cnt[5]:EN</item>
+ <item>Fast_clk_SW1/cnt[6]:EN</item>
+ <item>Fast_clk_SW1/cnt[7]:EN</item>
+ <item>Fast_clk_SW1/cnt[8]:EN</item>
+ <item>Fast_clk_SW1/cnt[9]:EN</item>
+ <item>Fast_clk_SW1/tmp_clk:EN</item>
+ <item>Fast_clk_SW2/cnt[0]:EN</item>
+ <item>Fast_clk_SW2/cnt[10]:EN</item>
+ <item>Fast_clk_SW2/cnt[11]:EN</item>
+ <item>Fast_clk_SW2/cnt[12]:EN</item>
+ <item>Fast_clk_SW2/cnt[13]:EN</item>
+ <item>Fast_clk_SW2/cnt[14]:EN</item>
+ <item>Fast_clk_SW2/cnt[15]:EN</item>
+ <item>Fast_clk_SW2/cnt[16]:EN</item>
+ <item>Fast_clk_SW2/cnt[17]:EN</item>
+ <item>Fast_clk_SW2/cnt[18]:EN</item>
+ <item>Fast_clk_SW2/cnt[19]:EN</item>
+ <item>Fast_clk_SW2/cnt[1]:EN</item>
+ <item>Fast_clk_SW2/cnt[20]:EN</item>
+ <item>Fast_clk_SW2/cnt[21]:EN</item>
+ <item>Fast_clk_SW2/cnt[22]:EN</item>
+ <item>Fast_clk_SW2/cnt[23]:EN</item>
+ <item>Fast_clk_SW2/cnt[24]:EN</item>
+ <item>Fast_clk_SW2/cnt[25]:EN</item>
+ <item>Fast_clk_SW2/cnt[26]:EN</item>
+ <item>Fast_clk_SW2/cnt[2]:EN</item>
+ <item>Fast_clk_SW2/cnt[3]:EN</item>
+ <item>Fast_clk_SW2/cnt[4]:EN</item>
+ <item>Fast_clk_SW2/cnt[5]:EN</item>
+ <item>Fast_clk_SW2/cnt[6]:EN</item>
+ <item>Fast_clk_SW2/cnt[7]:EN</item>
+ <item>Fast_clk_SW2/cnt[8]:EN</item>
+ <item>Fast_clk_SW2/cnt[9]:EN</item>
+ <item>Fast_clk_SW2/tmp_clk:EN</item>
+</list>
+<text></text>
+<text> - Hold uncconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>Clear_outputs/reset:D</item>
+ <item>Fast_clk_SW1/cnt[0]:EN</item>
+ <item>Fast_clk_SW1/cnt[10]:EN</item>
+ <item>Fast_clk_SW1/cnt[11]:EN</item>
+ <item>Fast_clk_SW1/cnt[12]:EN</item>
+ <item>Fast_clk_SW1/cnt[13]:EN</item>
+ <item>Fast_clk_SW1/cnt[14]:EN</item>
+ <item>Fast_clk_SW1/cnt[15]:EN</item>
+ <item>Fast_clk_SW1/cnt[16]:EN</item>
+ <item>Fast_clk_SW1/cnt[17]:EN</item>
+ <item>Fast_clk_SW1/cnt[18]:EN</item>
+ <item>Fast_clk_SW1/cnt[19]:EN</item>
+ <item>Fast_clk_SW1/cnt[1]:EN</item>
+ <item>Fast_clk_SW1/cnt[20]:EN</item>
+ <item>Fast_clk_SW1/cnt[21]:EN</item>
+ <item>Fast_clk_SW1/cnt[22]:EN</item>
+ <item>Fast_clk_SW1/cnt[23]:EN</item>
+ <item>Fast_clk_SW1/cnt[24]:EN</item>
+ <item>Fast_clk_SW1/cnt[25]:EN</item>
+ <item>Fast_clk_SW1/cnt[2]:EN</item>
+ <item>Fast_clk_SW1/cnt[3]:EN</item>
+ <item>Fast_clk_SW1/cnt[4]:EN</item>
+ <item>Fast_clk_SW1/cnt[5]:EN</item>
+ <item>Fast_clk_SW1/cnt[6]:EN</item>
+ <item>Fast_clk_SW1/cnt[7]:EN</item>
+ <item>Fast_clk_SW1/cnt[8]:EN</item>
+ <item>Fast_clk_SW1/cnt[9]:EN</item>
+ <item>Fast_clk_SW1/tmp_clk:EN</item>
+ <item>Fast_clk_SW2/cnt[0]:EN</item>
+ <item>Fast_clk_SW2/cnt[10]:EN</item>
+ <item>Fast_clk_SW2/cnt[11]:EN</item>
+ <item>Fast_clk_SW2/cnt[12]:EN</item>
+ <item>Fast_clk_SW2/cnt[13]:EN</item>
+ <item>Fast_clk_SW2/cnt[14]:EN</item>
+ <item>Fast_clk_SW2/cnt[15]:EN</item>
+ <item>Fast_clk_SW2/cnt[16]:EN</item>
+ <item>Fast_clk_SW2/cnt[17]:EN</item>
+ <item>Fast_clk_SW2/cnt[18]:EN</item>
+ <item>Fast_clk_SW2/cnt[19]:EN</item>
+ <item>Fast_clk_SW2/cnt[1]:EN</item>
+ <item>Fast_clk_SW2/cnt[20]:EN</item>
+ <item>Fast_clk_SW2/cnt[21]:EN</item>
+ <item>Fast_clk_SW2/cnt[22]:EN</item>
+ <item>Fast_clk_SW2/cnt[23]:EN</item>
+ <item>Fast_clk_SW2/cnt[24]:EN</item>
+ <item>Fast_clk_SW2/cnt[25]:EN</item>
+ <item>Fast_clk_SW2/cnt[26]:EN</item>
+ <item>Fast_clk_SW2/cnt[2]:EN</item>
+ <item>Fast_clk_SW2/cnt[3]:EN</item>
+ <item>Fast_clk_SW2/cnt[4]:EN</item>
+ <item>Fast_clk_SW2/cnt[5]:EN</item>
+ <item>Fast_clk_SW2/cnt[6]:EN</item>
+ <item>Fast_clk_SW2/cnt[7]:EN</item>
+ <item>Fast_clk_SW2/cnt[8]:EN</item>
+ <item>Fast_clk_SW2/cnt[9]:EN</item>
+ <item>Fast_clk_SW2/tmp_clk:EN</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

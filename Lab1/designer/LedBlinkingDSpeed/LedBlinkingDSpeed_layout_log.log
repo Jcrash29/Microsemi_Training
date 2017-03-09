@@ -1,0 +1,61 @@
+No errors or warnings found.
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+TDPR scenario            : place_and_route
+
+INFO: Reading User PDC file C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\constraint\io\LedBlinkingDSpeed.io.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 7 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.7.1 
+Design: LedBlinkingDSpeed               Started: Thu Mar 09 11:00:03 2017
+
+Initializing Timing-Driven Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 0 seconds
+Placement Runtime            : 7 seconds
+
+Placer completed successfully.
+
+Design: LedBlinkingDSpeed               
+Finished: Thu Mar 09 11:01:24 2017
+Total CPU Time:     00:01:17            Total Elapsed Time: 00:01:21
+Total Memory Usage: 353.3 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\designer\LedBlinkingDSpeed\LedBlinkingDSpeedStarted: Thu Mar 09 11:01:37 2017
+
+
+Router completed successfully.
+
+Design: C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\designer\LedBlinkingDSpeed\LedBlinkingDSpeed
+Finished: Thu Mar 09 11:02:19 2017
+Total CPU Time:     00:00:39            Total Elapsed Time: 00:00:42
+Total Memory Usage: 1024.1 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Number of violating paths: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 163  | 27696 | 0.59       |
+| DFF           | 115  | 27696 | 0.42       |
+| I/O Register  | 0    | 414   | 0.00       |
+| Logic Element | 164  | 27696 | 0.59       |
++---------------+------+-------+------------+
+

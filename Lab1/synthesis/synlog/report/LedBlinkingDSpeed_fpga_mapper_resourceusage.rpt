@@ -1,0 +1,38 @@
+Resource Usage Report for LedBlinkingDSpeed 
+
+Mapping to part: m2gl025vf256std
+Cell usage:
+CLKINT          2 uses
+CFG2           4 uses
+CFG3           9 uses
+CFG4           38 uses
+
+Carry primitives used for arithmetic functions:
+ARI1           108 uses
+
+
+Sequential Cells: 
+SLE            115 uses
+
+DSP Blocks:    0
+
+I/O ports: 7
+I/O primitives: 7
+INBUF          3 uses
+OUTBUF         4 uses
+
+
+Global Clock Buffers: 2
+
+
+Total LUTs:    159
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  115 + 0 + 0 + 0 = 115;
+Total number of LUTs after P&R:  159 + 0 + 0 + 0 = 159;
+

@@ -1,0 +1,28 @@
+# Synopsys Constraint Checker(syntax only), version mapact, Build 1659R, built Dec 10 2015
+# Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+# Written on Thu Mar 09 10:53:44 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "LedBlinkingDSpeed"
+Constraint File(s):      "C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\designer\LedBlinkingDSpeed\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                     Requested     Requested     Clock        Clock           
+Clock                     Frequency     Period        Type         Group           
+-----------------------------------------------------------------------------------
+LedBlinkingDSpeed|clk     50.0 MHz      20.000        declared     default_clkgroup
+===================================================================================

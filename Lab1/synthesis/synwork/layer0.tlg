@@ -1,0 +1,26 @@
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Synthesizing work.ledblinkingdspeed.architecture_ledblinkingdspeed 
+@W: CD638 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\LedBlinkingDSpeed.vhd":93:11:93:23|Signal scale_factor0 is undriven 
+@W: CD638 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\LedBlinkingDSpeed.vhd":94:11:94:23|Signal scale_factor1 is undriven 
+@W: CD638 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\LedBlinkingDSpeed.vhd":95:11:95:23|Signal scale_factor3 is undriven 
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\Display.vhd":54:7:54:13|Synthesizing work.display.architecture_display 
+@W: CG296 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\Display.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\Display.vhd":82:18:82:20|Referenced variable sw2 is not in sensitivity list
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\Display.vhd":82:24:82:26|Referenced variable sw1 is not in sensitivity list
+Post processing for work.display.architecture_display
+@W: CL111 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\Display.vhd":84:8:84:9|All reachable assignments to red_led1 assign '0'; register removed by optimization
+@W: CL111 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\Display.vhd":84:8:84:9|All reachable assignments to green_led2 assign '0'; register removed by optimization
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGen.vhd":56:7:56:12|Synthesizing work.clkgen.architecture_clkgen 
+@W: CG296 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGen.vhd":76:4:76:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGen.vhd":79:21:79:25|Referenced variable scale is not in sensitivity list
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGen.vhd":83:33:83:34|Referenced variable sw is not in sensitivity list
+Post processing for work.clkgen.architecture_clkgen
+@W: CL113 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal cnt[31:0].
+@W: CL113 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal tmp_clk.
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGenNoSwitch.vhd":56:7:56:20|Synthesizing work.clkgennoswitch.architecture_clkgennoswitch 
+@W: CG296 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGenNoSwitch.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\ClkGenNoSwitch.vhd":80:21:80:25|Referenced variable scale is not in sensitivity list
+Post processing for work.clkgennoswitch.architecture_clkgennoswitch
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab1\hdl\Reset_out.vhd":55:7:55:15|Synthesizing work.reset_out.architecture_reset_out 
+Post processing for work.reset_out.architecture_reset_out
+Post processing for work.ledblinkingdspeed.architecture_ledblinkingdspeed

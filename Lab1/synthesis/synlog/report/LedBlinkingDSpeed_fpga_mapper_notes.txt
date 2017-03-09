@@ -1,0 +1,30 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[26] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab1\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: FP130 |Promoting Net reset on CLKINT  I_103 
+@N: FP130 |Promoting Net clk_c on CLKINT  I_104 
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
