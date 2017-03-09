@@ -1,1 +1,1 @@
-"clk",,"clk","clk"
+"LedBlinkingDSpeed|clk",20,"clk","clk"

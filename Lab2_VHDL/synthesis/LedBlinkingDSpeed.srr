@@ -1,7 +1,7 @@
 #Build: Synplify Pro J-2015.03M-SP1-2, Build 266R, Dec 14 2015
-#install: C:\tools\Microsemi\Libero_SoC_v11.7\Synplify
+#install: C:\Microsemi\Libero_SoC_v11.7\Synplify
 #OS: Windows 7 6.1
-#Hostname: LOSANGLAP73674
+#Hostname: DCC12202
 
 #Implementation: synthesis
 
@@ -13,83 +13,85 @@ Synopsys VHDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
 @N|Running in 64-bit mode
 Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
 
-@N: CD720 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
-@N:"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Top entity is set to LedBlinkingDSpeed.
-File C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd changed - recompiling
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Top entity is set to LedBlinkingDSpeed.
+
+File Dependency file is up to date.  It will not be rewritten.
+
 VHDL syntax check successful!
-File C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd changed - recompiling
-@N: CD231 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Synthesizing work.ledblinkingdspeed.architecture_ledblinkingdspeed 
-@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":93:11:93:23|Signal scale_factor0 is undriven 
-@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":94:11:94:23|Signal scale_factor1 is undriven 
-@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":95:11:95:23|Signal scale_factor3 is undriven 
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":54:7:54:13|Synthesizing work.display.architecture_display 
-@W: CG296 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":82:18:82:20|Referenced variable sw2 is not in sensitivity list
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":82:24:82:26|Referenced variable sw1 is not in sensitivity list
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Synthesizing work.ledblinkingdspeed.architecture_ledblinkingdspeed 
+@W: CD638 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":99:11:99:23|Signal scale_factor0 is undriven 
+@W: CD638 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":100:11:100:23|Signal scale_factor1 is undriven 
+@W: CD638 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":101:11:101:23|Signal scale_factor3 is undriven 
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":54:7:54:13|Synthesizing work.display.architecture_display 
+@W: CG296 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":82:18:82:20|Referenced variable sw2 is not in sensitivity list
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":82:24:82:26|Referenced variable sw1 is not in sensitivity list
 Post processing for work.display.architecture_display
-@W: CL111 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to red_led1 assign '0'; register removed by optimization
-@W: CL111 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to green_led2 assign '0'; register removed by optimization
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":56:7:56:12|Synthesizing work.clkgen.architecture_clkgen 
-@W: CG296 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":76:4:76:10|Incomplete sensitivity list - assuming completeness
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":79:21:79:25|Referenced variable scale is not in sensitivity list
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":83:33:83:34|Referenced variable sw is not in sensitivity list
+@W: CL111 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to red_led1 assign '0'; register removed by optimization
+@W: CL111 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to green_led2 assign '0'; register removed by optimization
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":56:7:56:12|Synthesizing work.clkgen.architecture_clkgen 
+@W: CG296 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":76:4:76:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":79:21:79:25|Referenced variable scale is not in sensitivity list
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":83:33:83:34|Referenced variable sw is not in sensitivity list
 Post processing for work.clkgen.architecture_clkgen
-@W: CL113 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal cnt[31:0].
-@W: CL113 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal tmp_clk.
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":56:7:56:20|Synthesizing work.clkgennoswitch.architecture_clkgennoswitch 
-@W: CG296 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":80:21:80:25|Referenced variable scale is not in sensitivity list
+@W: CL113 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal cnt[31:0].
+@W: CL113 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal tmp_clk.
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":56:7:56:20|Synthesizing work.clkgennoswitch.architecture_clkgennoswitch 
+@W: CG296 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":80:21:80:25|Referenced variable scale is not in sensitivity list
 Post processing for work.clkgennoswitch.architecture_clkgennoswitch
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Reset_out.vhd":55:7:55:15|Synthesizing work.reset_out.architecture_reset_out 
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Reset_out.vhd":55:7:55:15|Synthesizing work.reset_out.architecture_reset_out 
 Post processing for work.reset_out.architecture_reset_out
 Post processing for work.ledblinkingdspeed.architecture_ledblinkingdspeed
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 23 02:59:30 2016
+# Thu Mar 09 12:40:09 2017
 
 ###########################################################]
 Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
 @N|Running in 64-bit mode
-File C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synwork\layer0.srs changed - recompiling
+
+Linker output is up to date. No re-linking necessary
+
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 23 02:59:30 2016
+# Thu Mar 09 12:40:10 2017
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 23 02:59:30 2016
+# Thu Mar 09 12:40:10 2017
 
 ###########################################################]
-Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
-@N|Running in 64-bit mode
-File C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synwork\LedBlinkingDSpeed_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 23 02:59:31 2016
-
-###########################################################]
+@A: multi_srs_gen output is up to date. No run necessary.
+To force a re-synthesis, select [Resynthesize All] in menu [Run].
+Click link to view previous log file.
+Multi-srs Generator Report
+@R:"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\synlog\LedBlinkingDSpeed_multi_srs_gen.srr"
 Pre-mapping Report
 
 Synopsys Generic Technology Pre-mapping, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
 Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
 Product Version J-2015.03M-SP1-2
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
-Reading constraint file: C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed\synthesis.fdc
-@L: C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\LedBlinkingDSpeed_scck.rpt 
-Printing clock  summary report in "C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\LedBlinkingDSpeed_scck.rpt" file 
+Reading constraint file: C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\LedBlinkingDSpeed\synthesis.fdc
+@L: C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\LedBlinkingDSpeed_scck.rpt 
+Printing clock  summary report in "C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\LedBlinkingDSpeed_scck.rpt" file 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled 
 
@@ -106,7 +108,7 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 
 syn_allowed_resources : blockrams=31  set on top level netlist LedBlinkingDSpeed
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 131MB peak: 133MB)
 
 
 
@@ -120,13 +122,13 @@ LedBlinkingDSpeed|clk     50.0 MHz      20.000        declared     default_clkgr
 ===================================================================================
 
 Finished Pre Mapping Phase.
-@N: BN225 |Writing default property annotation file C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\LedBlinkingDSpeed.sap.
+@N: BN225 |Writing default property annotation file C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\LedBlinkingDSpeed.sap.
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 133MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 68MB peak: 133MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 23 02:59:32 2016
+# Thu Mar 09 12:40:12 2017
 
 ###########################################################]
 Map & Optimize Report
@@ -135,137 +137,136 @@ Synopsys Generic Technology Mapper, Version mapact, Build 1659R, Built Dec 10 20
 Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
 Product Version J-2015.03M-SP1-2
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled 
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
 
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 133MB)
 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 133MB)
 
-@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Found counter in view:work.ClkGenNoSwitch(architecture_clkgennoswitch) inst cnt[31:0]
-@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Found counter in view:work.ClkGen(architecture_clkgen) inst cnt[31:0]
-@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Found counter in view:work.ClkGenNoSwitch_0(architecture_clkgennoswitch) inst cnt[31:0]
-@N:"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Found counter in view:work.ClkGen_0(architecture_clkgen) inst cnt[31:0]
+@N:"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Found counter in view:work.ClkGenNoSwitch(architecture_clkgennoswitch) inst cnt[31:0]
+@N:"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Found counter in view:work.ClkGen(architecture_clkgen) inst cnt[31:0]
+@N:"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Found counter in view:work.ClkGenNoSwitch_0(architecture_clkgennoswitch) inst cnt[31:0]
+@N:"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Found counter in view:work.ClkGen_0(architecture_clkgen) inst cnt[31:0]
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
-
-
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 133MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 133MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 133MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 133MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 133MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 132MB peak: 133MB)
 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[26] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW2.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
-@N: BN362 :"c:\future\fpga\microsemi\creativeboard\igloo2\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 133MB peak: 133MB)
+
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[26] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgennoswitch.vhd":81:4:81:5|Removing sequential instance Initial_blinking_SW1.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[25] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[26] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW1.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[26] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[27] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[28] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[29] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[30] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+@N: BN362 :"c:\users\ashj\documents\learning\microsemi\lab2_vhdl\hdl\clkgen.vhd":80:4:80:5|Removing sequential instance Fast_clk_SW2.cnt[31] in hierarchy view:work.LedBlinkingDSpeed(architecture_ledblinkingdspeed) because there are no references to its outputs 
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 133MB peak: 134MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		    10.53ns		 165 /       115
-@N: FP130 |Promoting Net reset on CLKINT  I_103 
-@N: FP130 |Promoting Net clk_c on CLKINT  I_104 
+   1		0h:00m:02s		    10.53ns		 169 /       116
+@N: FP130 |Promoting Net reset on CLKINT  I_113 
+@N: FP130 |Promoting Net clk_c on CLKINT  I_114 
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 133MB peak: 134MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 133MB peak: 134MB)
 
 
 
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-1 non-gated/non-generated clock tree(s) driving 115 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 116 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 ================================= Non-Gated/Non-Generated Clocks =================================
 Clock Tree ID     Driving Element     Drive Element Type           Fanout     Sample Instance     
 --------------------------------------------------------------------------------------------------
-@K:CKID0001       clk                 clock definition on port     115        Display_out.red_led2
+@K:CKID0001       clk                 clock definition on port     116        Display_out.red_led2
 ==================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 134MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 107MB peak: 134MB)
 
-Writing Analyst data base C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synwork\LedBlinkingDSpeed_m.srm
+Writing Analyst data base C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\synwork\LedBlinkingDSpeed_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 132MB peak: 134MB)
 
 Writing EDIF Netlist and constraint files
 @N: BW103 |Synopsys Constraint File time units using default value of 1ns 
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 J-2015.03M-SP1-2
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 135MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:04s; Memory used current: 133MB peak: 135MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 135MB)
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 133MB peak: 135MB)
 
 Found clock LedBlinkingDSpeed|clk with period 20.00ns 
 
 
 @S |##### START OF TIMING REPORT #####[
-# Timing Report written on Sun Oct 23 02:59:33 2016
+# Timing Report written on Thu Mar 09 12:40:17 2017
 #
 
 
@@ -273,7 +274,7 @@ Top view:               LedBlinkingDSpeed
 Requested Frequency:    50.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed\synthesis.fdc
+Constraint File(s):    C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\LedBlinkingDSpeed\synthesis.fdc
                        
 @N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
 
@@ -285,12 +286,12 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 12.640
+Worst slack in design: 13.111
 
                           Requested     Estimated     Requested     Estimated                Clock        Clock           
 Starting Clock            Frequency     Frequency     Period        Period        Slack      Type         Group           
 --------------------------------------------------------------------------------------------------------------------------
-LedBlinkingDSpeed|clk     50.0 MHz      135.9 MHz     20.000        7.360         12.640     declared     default_clkgroup
+LedBlinkingDSpeed|clk     50.0 MHz      145.2 MHz     20.000        6.889         13.111     declared     default_clkgroup
 ==========================================================================================================================
 
 
@@ -304,7 +305,7 @@ Clocks                                        |    rise  to  rise    |    fall  
 -------------------------------------------------------------------------------------------------------------------------------------
 Starting               Ending                 |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
 -------------------------------------------------------------------------------------------------------------------------------------
-LedBlinkingDSpeed|clk  LedBlinkingDSpeed|clk  |  20.000      12.640  |  No paths    -      |  No paths    -      |  No paths    -    
+LedBlinkingDSpeed|clk  LedBlinkingDSpeed|clk  |  20.000      13.111  |  No paths    -      |  No paths    -      |  No paths    -    
 =====================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -331,16 +332,16 @@ Starting Points with Worst Slack
 Instance                         Reference                 Type     Pin     Net         Time        Slack 
                                  Clock                                                                    
 ----------------------------------------------------------------------------------------------------------
-Initial_blinking_SW2.cnt[8]      LedBlinkingDSpeed|clk     SLE      Q       cnt[8]      0.108       12.640
-Initial_blinking_SW2.cnt[9]      LedBlinkingDSpeed|clk     SLE      Q       cnt[9]      0.108       12.734
-Initial_blinking_SW2.cnt[13]     LedBlinkingDSpeed|clk     SLE      Q       cnt[13]     0.108       12.747
-Initial_blinking_SW2.cnt[10]     LedBlinkingDSpeed|clk     SLE      Q       cnt[10]     0.108       12.809
-Initial_blinking_SW2.cnt[14]     LedBlinkingDSpeed|clk     SLE      Q       cnt[14]     0.108       12.825
-Initial_blinking_SW2.cnt[11]     LedBlinkingDSpeed|clk     SLE      Q       cnt[11]     0.108       12.857
-Initial_blinking_SW2.cnt[15]     LedBlinkingDSpeed|clk     SLE      Q       cnt[15]     0.108       12.871
-Initial_blinking_SW2.cnt[16]     LedBlinkingDSpeed|clk     SLE      Q       cnt[16]     0.108       12.948
-Fast_clk_SW2.cnt[7]              LedBlinkingDSpeed|clk     SLE      Q       cnt[7]      0.087       13.391
-Fast_clk_SW1.cnt[6]              LedBlinkingDSpeed|clk     SLE      Q       cnt[6]      0.087       13.407
+Initial_blinking_SW2.cnt[9]      LedBlinkingDSpeed|clk     SLE      Q       cnt[9]      0.087       13.111
+Initial_blinking_SW2.cnt[10]     LedBlinkingDSpeed|clk     SLE      Q       cnt[10]     0.108       13.209
+Initial_blinking_SW2.cnt[14]     LedBlinkingDSpeed|clk     SLE      Q       cnt[14]     0.108       13.277
+Initial_blinking_SW2.cnt[11]     LedBlinkingDSpeed|clk     SLE      Q       cnt[11]     0.108       13.284
+Initial_blinking_SW2.cnt[28]     LedBlinkingDSpeed|clk     SLE      Q       cnt[28]     0.108       13.294
+Initial_blinking_SW2.cnt[12]     LedBlinkingDSpeed|clk     SLE      Q       cnt[12]     0.108       13.332
+Initial_blinking_SW2.cnt[15]     LedBlinkingDSpeed|clk     SLE      Q       cnt[15]     0.108       13.352
+Initial_blinking_SW2.cnt[29]     LedBlinkingDSpeed|clk     SLE      Q       cnt[29]     0.108       13.372
+Initial_blinking_SW2.cnt[16]     LedBlinkingDSpeed|clk     SLE      Q       cnt[16]     0.108       13.400
+Fast_clk_SW2.cnt[6]              LedBlinkingDSpeed|clk     SLE      Q       cnt[6]      0.087       13.407
 ==========================================================================================================
 
 
@@ -351,16 +352,16 @@ Ending Points with Worst Slack
 Instance                         Reference                 Type     Pin     Net           Time         Slack 
                                  Clock                                                                       
 -------------------------------------------------------------------------------------------------------------
-Initial_blinking_SW2.cnt[26]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[26]     19.745       12.640
-Initial_blinking_SW2.cnt[25]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[25]     19.745       12.656
-Initial_blinking_SW2.cnt[24]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[24]     19.745       12.673
-Initial_blinking_SW2.cnt[23]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[23]     19.745       12.689
-Initial_blinking_SW2.cnt[22]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[22]     19.745       12.705
-Initial_blinking_SW2.cnt[21]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[21]     19.745       12.722
-Initial_blinking_SW2.cnt[20]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[20]     19.745       12.738
-Initial_blinking_SW2.cnt[19]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[19]     19.745       12.754
-Initial_blinking_SW2.cnt[18]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[18]     19.745       12.770
-Initial_blinking_SW2.cnt[17]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[17]     19.745       12.787
+Initial_blinking_SW2.cnt[31]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[31]     19.745       13.111
+Initial_blinking_SW2.cnt[30]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[30]     19.745       13.127
+Initial_blinking_SW2.cnt[29]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[29]     19.745       13.143
+Initial_blinking_SW2.cnt[28]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[28]     19.745       13.160
+Initial_blinking_SW2.cnt[27]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[27]     19.745       13.176
+Initial_blinking_SW2.cnt[26]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[26]     19.745       13.192
+Initial_blinking_SW2.cnt[25]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[25]     19.745       13.208
+Initial_blinking_SW2.cnt[24]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[24]     19.745       13.225
+Initial_blinking_SW2.cnt[23]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[23]     19.745       13.241
+Initial_blinking_SW2.cnt[22]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[22]     19.745       13.257
 =============================================================================================================
 
 
@@ -375,120 +376,132 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         19.745
 
-    - Propagation time:                      7.105
+    - Propagation time:                      6.634
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     12.640
+    = Slack (critical) :                     13.111
 
-    Number of logic level(s):                32
-    Starting point:                          Initial_blinking_SW2.cnt[8] / Q
-    Ending point:                            Initial_blinking_SW2.cnt[26] / D
+    Number of logic level(s):                36
+    Starting point:                          Initial_blinking_SW2.cnt[9] / Q
+    Ending point:                            Initial_blinking_SW2.cnt[31] / D
     The start point is clocked by            LedBlinkingDSpeed|clk [rising] on pin CLK
     The end   point is clocked by            LedBlinkingDSpeed|clk [rising] on pin CLK
 
-Instance / Net                                      Pin      Pin               Arrival     No. of    
-Name                                       Type     Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------
-Initial_blinking_SW2.cnt[8]                SLE      Q        Out     0.108     0.108       -         
-cnt[8]                                     Net      -        -       0.674     -           2         
-Initial_blinking_SW2.cnt_RNI8JG21[10]      CFG4     D        In      -         0.783       -         
-Initial_blinking_SW2.cnt_RNI8JG21[10]      CFG4     Y        Out     0.317     1.100       -         
-N_176                                      Net      -        -       0.630     -           2         
-Initial_blinking_SW2.cnt_RNIIH0I1[12]      CFG3     C        In      -         1.730       -         
-Initial_blinking_SW2.cnt_RNIIH0I1[12]      CFG3     Y        Out     0.226     1.956       -         
-N_87                                       Net      -        -       0.556     -           1         
-Initial_blinking_SW2.cnt_RNI4GAR1[17]      CFG4     B        In      -         2.511       -         
-Initial_blinking_SW2.cnt_RNI4GAR1[17]      CFG4     Y        Out     0.148     2.660       -         
-N_93                                       Net      -        -       0.556     -           1         
-Initial_blinking_SW2.cnt_RNI9EVA2[20]      CFG4     C        In      -         3.216       -         
-Initial_blinking_SW2.cnt_RNI9EVA2[20]      CFG4     Y        Out     0.226     3.441       -         
-N_103                                      Net      -        -       0.556     -           1         
-Initial_blinking_SW2.cnt_RNIOCCK2[27]      ARI1     B        In      -         3.997       -         
-Initial_blinking_SW2.cnt_RNIOCCK2[27]      ARI1     Y        Out     0.165     4.161       -         
-cnt_RNIOCCK2_Y[27]                         Net      -        -       1.145     -           27        
-Initial_blinking_SW2.cnt_RNITNTM5[0]       ARI1     B        In      -         5.306       -         
-Initial_blinking_SW2.cnt_RNITNTM5[0]       ARI1     FCO      Out     0.201     5.507       -         
-cnt_cry[0]                                 Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNI34FP8[1]       ARI1     FCI      In      -         5.507       -         
-Initial_blinking_SW2.cnt_RNI34FP8[1]       ARI1     FCO      Out     0.016     5.523       -         
-cnt_cry[1]                                 Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNIAH0SB[2]       ARI1     FCI      In      -         5.523       -         
-Initial_blinking_SW2.cnt_RNIAH0SB[2]       ARI1     FCO      Out     0.016     5.540       -         
-cnt_cry[2]                                 Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNIIVHUE[3]       ARI1     FCI      In      -         5.540       -         
-Initial_blinking_SW2.cnt_RNIIVHUE[3]       ARI1     FCO      Out     0.016     5.556       -         
-cnt_cry[3]                                 Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNIRE31I[4]       ARI1     FCI      In      -         5.556       -         
-Initial_blinking_SW2.cnt_RNIRE31I[4]       ARI1     FCO      Out     0.016     5.572       -         
-cnt_cry[4]                                 Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNI5VK3L[5]       ARI1     FCI      In      -         5.572       -         
-Initial_blinking_SW2.cnt_RNI5VK3L[5]       ARI1     FCO      Out     0.016     5.589       -         
-cnt_cry[5]                                 Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNIGG66O[6]       ARI1     FCI      In      -         5.589       -         
-Initial_blinking_SW2.cnt_RNIGG66O[6]       ARI1     FCO      Out     0.016     5.605       -         
-cnt_cry[6]                                 Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNIS2O8R[7]       ARI1     FCI      In      -         5.605       -         
-Initial_blinking_SW2.cnt_RNIS2O8R[7]       ARI1     FCO      Out     0.016     5.621       -         
-cnt_cry[7]                                 Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNI9M9BU[8]       ARI1     FCI      In      -         5.621       -         
-Initial_blinking_SW2.cnt_RNI9M9BU[8]       ARI1     FCO      Out     0.016     5.638       -         
-cnt_cry[8]                                 Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNINARD11[9]      ARI1     FCI      In      -         5.638       -         
-Initial_blinking_SW2.cnt_RNINARD11[9]      ARI1     FCO      Out     0.016     5.654       -         
-cnt_cry[9]                                 Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNIDPA541[10]     ARI1     FCI      In      -         5.654       -         
-Initial_blinking_SW2.cnt_RNIDPA541[10]     ARI1     FCO      Out     0.016     5.670       -         
-cnt_cry[10]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNI49QS61[11]     ARI1     FCI      In      -         5.670       -         
-Initial_blinking_SW2.cnt_RNI49QS61[11]     ARI1     FCO      Out     0.016     5.686       -         
-cnt_cry[11]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNISP9K91[12]     ARI1     FCI      In      -         5.686       -         
-Initial_blinking_SW2.cnt_RNISP9K91[12]     ARI1     FCO      Out     0.016     5.703       -         
-cnt_cry[12]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNILBPBC1[13]     ARI1     FCI      In      -         5.703       -         
-Initial_blinking_SW2.cnt_RNILBPBC1[13]     ARI1     FCO      Out     0.016     5.719       -         
-cnt_cry[13]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNIFU83F1[14]     ARI1     FCI      In      -         5.719       -         
-Initial_blinking_SW2.cnt_RNIFU83F1[14]     ARI1     FCO      Out     0.016     5.735       -         
-cnt_cry[14]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNIAIOQH1[15]     ARI1     FCI      In      -         5.735       -         
-Initial_blinking_SW2.cnt_RNIAIOQH1[15]     ARI1     FCO      Out     0.016     5.752       -         
-cnt_cry[15]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNI678IK1[16]     ARI1     FCI      In      -         5.752       -         
-Initial_blinking_SW2.cnt_RNI678IK1[16]     ARI1     FCO      Out     0.016     5.768       -         
-cnt_cry[16]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNI3TN9N1[17]     ARI1     FCI      In      -         5.768       -         
-Initial_blinking_SW2.cnt_RNI3TN9N1[17]     ARI1     FCO      Out     0.016     5.784       -         
-cnt_cry[17]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNI1K71Q1[18]     ARI1     FCI      In      -         5.784       -         
-Initial_blinking_SW2.cnt_RNI1K71Q1[18]     ARI1     FCO      Out     0.016     5.801       -         
-cnt_cry[18]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNI0CNOS1[19]     ARI1     FCI      In      -         5.801       -         
-Initial_blinking_SW2.cnt_RNI0CNOS1[19]     ARI1     FCO      Out     0.016     5.817       -         
-cnt_cry[19]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNINS7GV1[20]     ARI1     FCI      In      -         5.817       -         
-Initial_blinking_SW2.cnt_RNINS7GV1[20]     ARI1     FCO      Out     0.016     5.833       -         
-cnt_cry[20]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNIFEO722[21]     ARI1     FCI      In      -         5.833       -         
-Initial_blinking_SW2.cnt_RNIFEO722[21]     ARI1     FCO      Out     0.016     5.849       -         
-cnt_cry[21]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNI819V42[22]     ARI1     FCI      In      -         5.849       -         
-Initial_blinking_SW2.cnt_RNI819V42[22]     ARI1     FCO      Out     0.016     5.866       -         
-cnt_cry[22]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNI2LPM72[23]     ARI1     FCI      In      -         5.866       -         
-Initial_blinking_SW2.cnt_RNI2LPM72[23]     ARI1     FCO      Out     0.016     5.882       -         
-cnt_cry[23]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNIT9AEA2[24]     ARI1     FCI      In      -         5.882       -         
-Initial_blinking_SW2.cnt_RNIT9AEA2[24]     ARI1     FCO      Out     0.016     5.898       -         
-cnt_cry[24]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNIPVQ5D2[25]     ARI1     FCI      In      -         5.898       -         
-Initial_blinking_SW2.cnt_RNIPVQ5D2[25]     ARI1     FCO      Out     0.016     5.915       -         
-cnt_cry[25]                                Net      -        -       0.000     -           1         
-Initial_blinking_SW2.cnt_RNIMMBTF2[26]     ARI1     FCI      In      -         5.915       -         
-Initial_blinking_SW2.cnt_RNIMMBTF2[26]     ARI1     S        Out     0.073     5.988       -         
-cnt_s[26]                                  Net      -        -       1.117     -           1         
-Initial_blinking_SW2.cnt[26]               SLE      D        In      -         7.105       -         
-=====================================================================================================
-Total path delay (propagation time + setup) of 7.360 is 2.126(28.9%) logic and 5.234(71.1%) route.
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                               Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+Initial_blinking_SW2.cnt[9]                        SLE      Q        Out     0.087     0.087       -         
+cnt[9]                                             Net      -        -       0.674     -           2         
+Initial_blinking_SW2.un14_cntlto31_0_a2_1_3        CFG4     D        In      -         0.762       -         
+Initial_blinking_SW2.un14_cntlto31_0_a2_1_3        CFG4     Y        Out     0.326     1.088       -         
+N_89_3                                             Net      -        -       0.630     -           2         
+Initial_blinking_SW2.un14_cntlto31_0_o2            CFG4     D        In      -         1.718       -         
+Initial_blinking_SW2.un14_cntlto31_0_o2            CFG4     Y        Out     0.288     2.006       -         
+un14_cntlto31_0_o2                                 Net      -        -       0.556     -           1         
+Initial_blinking_SW2.un14_cntlto31_0_1_0           CFG3     B        In      -         2.562       -         
+Initial_blinking_SW2.un14_cntlto31_0_1_0           CFG3     Y        Out     0.164     2.726       -         
+un14_cntlto31_0_1_0                                Net      -        -       0.556     -           1         
+Initial_blinking_SW2.un14_cntlto31_0_0_RNID8IS     ARI1     D        In      -         3.281       -         
+Initial_blinking_SW2.un14_cntlto31_0_0_RNID8IS     ARI1     Y        Out     0.326     3.608       -         
+un14_cntlto31_0_0_RNID8IS_Y                        Net      -        -       1.147     -           32        
+Initial_blinking_SW2.cnt_RNI7F972[0]               ARI1     B        In      -         4.754       -         
+Initial_blinking_SW2.cnt_RNI7F972[0]               ARI1     FCO      Out     0.201     4.955       -         
+cnt_cry[0]                                         Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNI2N0I3[1]               ARI1     FCI      In      -         4.955       -         
+Initial_blinking_SW2.cnt_RNI2N0I3[1]               ARI1     FCO      Out     0.016     4.971       -         
+cnt_cry[1]                                         Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIUVNS4[2]               ARI1     FCI      In      -         4.971       -         
+Initial_blinking_SW2.cnt_RNIUVNS4[2]               ARI1     FCO      Out     0.016     4.988       -         
+cnt_cry[2]                                         Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIR9F76[3]               ARI1     FCI      In      -         4.988       -         
+Initial_blinking_SW2.cnt_RNIR9F76[3]               ARI1     FCO      Out     0.016     5.004       -         
+cnt_cry[3]                                         Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIPK6I7[4]               ARI1     FCI      In      -         5.004       -         
+Initial_blinking_SW2.cnt_RNIPK6I7[4]               ARI1     FCO      Out     0.016     5.020       -         
+cnt_cry[4]                                         Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIO0US8[5]               ARI1     FCI      In      -         5.020       -         
+Initial_blinking_SW2.cnt_RNIO0US8[5]               ARI1     FCO      Out     0.016     5.037       -         
+cnt_cry[5]                                         Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIODL7A[6]               ARI1     FCI      In      -         5.037       -         
+Initial_blinking_SW2.cnt_RNIODL7A[6]               ARI1     FCO      Out     0.016     5.053       -         
+cnt_cry[6]                                         Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIPRCIB[7]               ARI1     FCI      In      -         5.053       -         
+Initial_blinking_SW2.cnt_RNIPRCIB[7]               ARI1     FCO      Out     0.016     5.069       -         
+cnt_cry[7]                                         Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIRA4TC[8]               ARI1     FCI      In      -         5.069       -         
+Initial_blinking_SW2.cnt_RNIRA4TC[8]               ARI1     FCO      Out     0.016     5.085       -         
+cnt_cry[8]                                         Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIUQR7E[9]               ARI1     FCI      In      -         5.085       -         
+Initial_blinking_SW2.cnt_RNIUQR7E[9]               ARI1     FCO      Out     0.016     5.102       -         
+cnt_cry[9]                                         Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNI95H7F[10]              ARI1     FCI      In      -         5.102       -         
+Initial_blinking_SW2.cnt_RNI95H7F[10]              ARI1     FCO      Out     0.016     5.118       -         
+cnt_cry[10]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNILG67G[11]              ARI1     FCI      In      -         5.118       -         
+Initial_blinking_SW2.cnt_RNILG67G[11]              ARI1     FCO      Out     0.016     5.134       -         
+cnt_cry[11]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNI2TR6H[12]              ARI1     FCI      In      -         5.134       -         
+Initial_blinking_SW2.cnt_RNI2TR6H[12]              ARI1     FCO      Out     0.016     5.151       -         
+cnt_cry[12]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIGAH6I[13]              ARI1     FCI      In      -         5.151       -         
+Initial_blinking_SW2.cnt_RNIGAH6I[13]              ARI1     FCO      Out     0.016     5.167       -         
+cnt_cry[13]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIVO66J[14]              ARI1     FCI      In      -         5.167       -         
+Initial_blinking_SW2.cnt_RNIVO66J[14]              ARI1     FCO      Out     0.016     5.183       -         
+cnt_cry[14]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIF8S5K[15]              ARI1     FCI      In      -         5.183       -         
+Initial_blinking_SW2.cnt_RNIF8S5K[15]              ARI1     FCO      Out     0.016     5.199       -         
+cnt_cry[15]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNI0PH5L[16]              ARI1     FCI      In      -         5.199       -         
+Initial_blinking_SW2.cnt_RNI0PH5L[16]              ARI1     FCO      Out     0.016     5.216       -         
+cnt_cry[16]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIIA75M[17]              ARI1     FCI      In      -         5.216       -         
+Initial_blinking_SW2.cnt_RNIIA75M[17]              ARI1     FCO      Out     0.016     5.232       -         
+cnt_cry[17]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNI5TS4N[18]              ARI1     FCI      In      -         5.232       -         
+Initial_blinking_SW2.cnt_RNI5TS4N[18]              ARI1     FCO      Out     0.016     5.248       -         
+cnt_cry[18]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIPGI4O[19]              ARI1     FCI      In      -         5.248       -         
+Initial_blinking_SW2.cnt_RNIPGI4O[19]              ARI1     FCO      Out     0.016     5.265       -         
+cnt_cry[19]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNI5T84P[20]              ARI1     FCI      In      -         5.265       -         
+Initial_blinking_SW2.cnt_RNI5T84P[20]              ARI1     FCO      Out     0.016     5.281       -         
+cnt_cry[20]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIIAV3Q[21]              ARI1     FCI      In      -         5.281       -         
+Initial_blinking_SW2.cnt_RNIIAV3Q[21]              ARI1     FCO      Out     0.016     5.297       -         
+cnt_cry[21]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNI0PL3R[22]              ARI1     FCI      In      -         5.297       -         
+Initial_blinking_SW2.cnt_RNI0PL3R[22]              ARI1     FCO      Out     0.016     5.314       -         
+cnt_cry[22]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIF8C3S[23]              ARI1     FCI      In      -         5.314       -         
+Initial_blinking_SW2.cnt_RNIF8C3S[23]              ARI1     FCO      Out     0.016     5.330       -         
+cnt_cry[23]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIVO23T[24]              ARI1     FCI      In      -         5.330       -         
+Initial_blinking_SW2.cnt_RNIVO23T[24]              ARI1     FCO      Out     0.016     5.346       -         
+cnt_cry[24]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIGAP2U[25]              ARI1     FCI      In      -         5.346       -         
+Initial_blinking_SW2.cnt_RNIGAP2U[25]              ARI1     FCO      Out     0.016     5.362       -         
+cnt_cry[25]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNI2TF2V[26]              ARI1     FCI      In      -         5.362       -         
+Initial_blinking_SW2.cnt_RNI2TF2V[26]              ARI1     FCO      Out     0.016     5.379       -         
+cnt_cry[26]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNILG6201[27]             ARI1     FCI      In      -         5.379       -         
+Initial_blinking_SW2.cnt_RNILG6201[27]             ARI1     FCO      Out     0.016     5.395       -         
+cnt_cry[27]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNI95T111[28]             ARI1     FCI      In      -         5.395       -         
+Initial_blinking_SW2.cnt_RNI95T111[28]             ARI1     FCO      Out     0.016     5.411       -         
+cnt_cry[28]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIUQJ121[29]             ARI1     FCI      In      -         5.411       -         
+Initial_blinking_SW2.cnt_RNIUQJ121[29]             ARI1     FCO      Out     0.016     5.428       -         
+cnt_cry[29]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNIB9B131[30]             ARI1     FCI      In      -         5.428       -         
+Initial_blinking_SW2.cnt_RNIB9B131[30]             ARI1     FCO      Out     0.016     5.444       -         
+cnt_cry[30]                                        Net      -        -       0.000     -           1         
+Initial_blinking_SW2.cnt_RNO[31]                   ARI1     FCI      In      -         5.444       -         
+Initial_blinking_SW2.cnt_RNO[31]                   ARI1     S        Out     0.073     5.517       -         
+cnt_s[31]                                          Net      -        -       1.117     -           1         
+Initial_blinking_SW2.cnt[31]                       SLE      D        In      -         6.634       -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 6.889 is 2.210(32.1%) logic and 4.679(67.9%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -496,10 +509,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 ##### END OF TIMING REPORT #####]
 
 
-Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 135MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:05s; Memory used current: 133MB peak: 135MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 133MB peak: 135MB)
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:05s; Memory used current: 133MB peak: 135MB)
 
 ---------------------------------------
 Resource Usage Report for LedBlinkingDSpeed 
@@ -507,16 +520,16 @@ Resource Usage Report for LedBlinkingDSpeed
 Mapping to part: m2gl025vf256std
 Cell usage:
 CLKINT          2 uses
-CFG2           4 uses
+CFG2           6 uses
 CFG3           9 uses
 CFG4           38 uses
 
 Carry primitives used for arithmetic functions:
-ARI1           108 uses
+ARI1           110 uses
 
 
 Sequential Cells: 
-SLE            115 uses
+SLE            116 uses
 
 DSP Blocks:    0
 
@@ -529,7 +542,7 @@ OUTBUF         4 uses
 Global Clock Buffers: 2
 
 
-Total LUTs:    159
+Total LUTs:    163
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -537,14 +550,14 @@ RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
 RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  115 + 0 + 0 + 0 = 115;
-Total number of LUTs after P&R:  159 + 0 + 0 + 0 = 159;
+Total number of SLEs after P&R:  116 + 0 + 0 + 0 = 116;
+Total number of LUTs after P&R:  163 + 0 + 0 + 0 = 163;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 49MB peak: 135MB)
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:05s; Memory used current: 49MB peak: 135MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 23 02:59:34 2016
+Process took 0h:00m:04s realtime, 0h:00m:05s cputime
+# Thu Mar 09 12:40:18 2017
 
 ###########################################################]

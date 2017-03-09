@@ -1,7 +1,7 @@
 # Microsemi Corp.
-# Date: 2016-Oct-23 03:01:01
+# Date: 2017-Mar-09 12:56:06
 # This file was generated based on the following SDC source files:
-#   C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab2_VHDL/constraint/LedBlinkingDSpeed_sdc.sdc
+#   C:/Users/ashj/Documents/LEARNING/Microsemi/Lab2_VHDL/constraint/LedBlinkingDSpeed_sdc.sdc
 #
 
 # Clocks 

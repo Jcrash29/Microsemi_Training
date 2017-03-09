@@ -1,5 +1,5 @@
 DESIGN=LedBlinkingDSpeed
-DESDIR=C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed
+DESDIR=C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\LedBlinkingDSpeed
 FAM=IGLOO2
 DIE=PA4MGL2500_N
 PACKAGE=vf256
@@ -23,7 +23,7 @@ MINDELAYG4_REPAIR=1
 RANDOM_SEED=0
 NETLIST_TYPE=EDIF
 LAYOUT_STATE=NOT_VALID
-PDC_FILE=C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\constraint\io\LedBlinkingDSpeed.io.pdc,,
+PDC_FILE=C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\constraint\io\LedBlinkingDSpeed.io.pdc,,C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\constraint\fp\user.pdc,,
 USE_CONSTRAINT_FLOW=1
 TARGET_DEVICES_FOR_MIGRATION='PA4MGL2500_N '
 RESTRICTPROBEPINS=0

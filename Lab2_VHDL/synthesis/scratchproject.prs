@@ -1,19 +1,19 @@
 #--  Synopsys, Inc.
 #--  Version J-2015.03M-SP1-2
-#--  Project file C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\scratchproject.prs
+#--  Project file C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\scratchproject.prs
 
 #project files
-add_file -vhdl -lib work "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab2_VHDL/hdl/ClkGen.vhd"
-add_file -vhdl -lib work "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab2_VHDL/hdl/ClkGenNoSwitch.vhd"
-add_file -vhdl -lib work "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab2_VHDL/hdl/Display.vhd"
-add_file -vhdl -lib work "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab2_VHDL/hdl/Reset_out.vhd"
-add_file -vhdl -lib work "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab2_VHDL/hdl/LedBlinkingDSpeed.vhd"
-add_file -fpga_constraint "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab2_VHDL/designer/LedBlinkingDSpeed/synthesis.fdc"
+add_file -vhdl -lib work "C:/Users/ashj/Documents/LEARNING/Microsemi/Lab2_VHDL/hdl/ClkGen.vhd"
+add_file -vhdl -lib work "C:/Users/ashj/Documents/LEARNING/Microsemi/Lab2_VHDL/hdl/ClkGenNoSwitch.vhd"
+add_file -vhdl -lib work "C:/Users/ashj/Documents/LEARNING/Microsemi/Lab2_VHDL/hdl/Display.vhd"
+add_file -vhdl -lib work "C:/Users/ashj/Documents/LEARNING/Microsemi/Lab2_VHDL/hdl/Reset_out.vhd"
+add_file -vhdl -lib work "C:/Users/ashj/Documents/LEARNING/Microsemi/Lab2_VHDL/hdl/LedBlinkingDSpeed.vhd"
+add_file -fpga_constraint "C:/Users/ashj/Documents/LEARNING/Microsemi/Lab2_VHDL/designer/LedBlinkingDSpeed/synthesis.fdc"
 
 
 
 #implementation: "synthesis"
-impl -add C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis -type fpga
+impl -add C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis -type fpga
 
 #device options
 set_option -technology IGLOO2
@@ -66,5 +66,5 @@ set_option -vhdl2008 1
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Future/FPGA/Microsemi/CreativeBoard/IGLOO2/Lab2_VHDL/synthesis/LedBlinkingDSpeed.edn"
+project -result_file "C:/Users/ashj/Documents/LEARNING/Microsemi/Lab2_VHDL/synthesis/LedBlinkingDSpeed.edn"
 impl -active "synthesis"

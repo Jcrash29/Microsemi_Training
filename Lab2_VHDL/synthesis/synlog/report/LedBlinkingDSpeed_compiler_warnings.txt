@@ -1,16 +1,16 @@
-@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":93:11:93:23|Signal scale_factor0 is undriven 
-@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":94:11:94:23|Signal scale_factor1 is undriven 
-@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":95:11:95:23|Signal scale_factor3 is undriven 
-@W: CG296 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":82:18:82:20|Referenced variable sw2 is not in sensitivity list
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":82:24:82:26|Referenced variable sw1 is not in sensitivity list
-@W: CL111 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to red_led1 assign '0'; register removed by optimization
-@W: CL111 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to green_led2 assign '0'; register removed by optimization
-@W: CG296 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":76:4:76:10|Incomplete sensitivity list - assuming completeness
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":79:21:79:25|Referenced variable scale is not in sensitivity list
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":83:33:83:34|Referenced variable sw is not in sensitivity list
-@W: CL113 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal cnt[31:0].
-@W: CL113 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal tmp_clk.
-@W: CG296 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":80:21:80:25|Referenced variable scale is not in sensitivity list
+@W: CD638 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":99:11:99:23|Signal scale_factor0 is undriven 
+@W: CD638 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":100:11:100:23|Signal scale_factor1 is undriven 
+@W: CD638 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":101:11:101:23|Signal scale_factor3 is undriven 
+@W: CG296 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":82:18:82:20|Referenced variable sw2 is not in sensitivity list
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":82:24:82:26|Referenced variable sw1 is not in sensitivity list
+@W: CL111 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to red_led1 assign '0'; register removed by optimization
+@W: CL111 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to green_led2 assign '0'; register removed by optimization
+@W: CG296 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":76:4:76:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":79:21:79:25|Referenced variable scale is not in sensitivity list
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":83:33:83:34|Referenced variable sw is not in sensitivity list
+@W: CL113 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal cnt[31:0].
+@W: CL113 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal tmp_clk.
+@W: CG296 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":80:21:80:25|Referenced variable scale is not in sensitivity list
 

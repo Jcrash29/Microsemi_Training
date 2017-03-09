@@ -1,6 +1,6 @@
 DESIGN=LedBlinkingDSpeed
-DESDIR=C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed
-TARGET_DIR=C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed
+DESDIR=C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\LedBlinkingDSpeed
+TARGET_DIR=C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\LedBlinkingDSpeed
 FAM=IGLOO2
 DIE=PA4MGL2500_N
 PACKAGE=vf256

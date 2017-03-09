@@ -1,17 +1,17 @@
-@P:  Worst Slack : 12.640
-@P:  LedBlinkingDSpeed|clk - Estimated Frequency : 135.9 MHz
+@P:  Worst Slack : 13.111
+@P:  LedBlinkingDSpeed|clk - Estimated Frequency : 145.2 MHz
 @P:  LedBlinkingDSpeed|clk - Requested Frequency : 50.0 MHz
-@P:  LedBlinkingDSpeed|clk - Estimated Period : 7.360
+@P:  LedBlinkingDSpeed|clk - Estimated Period : 6.889
 @P:  LedBlinkingDSpeed|clk - Requested Period : 20.000
-@P:  LedBlinkingDSpeed|clk - Slack : 12.640
+@P:  LedBlinkingDSpeed|clk - Slack : 13.111
 @P:  Worst Slack(min analysis) : 0.545
-@P:  LedBlinkingDSpeed|clk - Estimated Frequency(min analysis) : 135.9 MHz
+@P:  LedBlinkingDSpeed|clk - Estimated Frequency(min analysis) : 145.2 MHz
 @P:  LedBlinkingDSpeed|clk - Requested Frequency(min analysis) : 50.0 MHz
-@P:  LedBlinkingDSpeed|clk - Estimated Period(min analysis) : 7.360
+@P:  LedBlinkingDSpeed|clk - Estimated Period(min analysis) : 6.889
 @P:  LedBlinkingDSpeed|clk - Requested Period(min analysis) : 20.000
-@P:  LedBlinkingDSpeed|clk - Slack(min analysis) : 12.640
+@P:  LedBlinkingDSpeed|clk - Slack(min analysis) : 13.111
 @P: LedBlinkingDSpeed Part : m2gl025vf256std
-@P: LedBlinkingDSpeed Register bits  : 115 
+@P: LedBlinkingDSpeed Register bits  : 116 
 @P: LedBlinkingDSpeed DSP Blocks  : 0
 @P: LedBlinkingDSpeed I/O primitives : 7
-@P:  CPU Time : 0h:00m:01s
+@P:  CPU Time : 0h:00m:05s

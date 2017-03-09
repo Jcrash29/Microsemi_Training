@@ -1,4 +1,4 @@
--- Version: v11.7 SP1 11.7.1.11
+-- Version: v11.7 SP1 11.7.1.14
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -16,14 +16,17 @@ end ClkGenNoSwitch_1;
 
 architecture DEF_ARCH of ClkGenNoSwitch_1 is 
 
-  component CFG4
-    generic (INIT:std_logic_vector(15 downto 0) := x"0000");
+  component ARI1
+    generic (INIT:std_logic_vector(19 downto 0) := x"00000");
 
-    port( A : in    std_logic := 'U';
-          B : in    std_logic := 'U';
-          C : in    std_logic := 'U';
-          D : in    std_logic := 'U';
-          Y : out   std_logic
+    port( A   : in    std_logic := 'U';
+          B   : in    std_logic := 'U';
+          C   : in    std_logic := 'U';
+          D   : in    std_logic := 'U';
+          FCI : in    std_logic := 'U';
+          S   : out   std_logic;
+          Y   : out   std_logic;
+          FCO : out   std_logic
         );
   end component;
 
@@ -40,27 +43,17 @@ architecture DEF_ARCH of ClkGenNoSwitch_1 is
         );
   end component;
 
-  component ARI1
-    generic (INIT:std_logic_vector(19 downto 0) := x"00000");
-
-    port( A   : in    std_logic := 'U';
-          B   : in    std_logic := 'U';
-          C   : in    std_logic := 'U';
-          D   : in    std_logic := 'U';
-          FCI : in    std_logic := 'U';
-          S   : out   std_logic;
-          Y   : out   std_logic;
-          FCO : out   std_logic
-        );
-  end component;
-
   component VCC
     port( Y : out   std_logic
         );
   end component;
 
-  component GND
-    port( Y : out   std_logic
+  component CFG2
+    generic (INIT:std_logic_vector(3 downto 0) := x"0");
+
+    port( A : in    std_logic := 'U';
+          B : in    std_logic := 'U';
+          Y : out   std_logic
         );
   end component;
 
@@ -74,68 +67,103 @@ architecture DEF_ARCH of ClkGenNoSwitch_1 is
         );
   end component;
 
-    signal VCC_net_1, \tmp_clk_RNO\, GND_net_1, \cnt[0]_net_1\, 
-        \cnt_s[0]\, \cnt[1]_net_1\, \cnt_s[1]\, \cnt[2]_net_1\, 
-        \cnt_s[2]\, \cnt[3]_net_1\, \cnt_s[3]\, \cnt[4]_net_1\, 
-        \cnt_s[4]\, \cnt[5]_net_1\, \cnt_s[5]\, \cnt[6]_net_1\, 
-        \cnt_s[6]\, \cnt[7]_net_1\, \cnt_s[7]\, \cnt[8]_net_1\, 
-        \cnt_s[8]\, \cnt[9]_net_1\, \cnt_s[9]\, \cnt[10]_net_1\, 
-        \cnt_s[10]\, \cnt[11]_net_1\, \cnt_s[11]\, 
-        \cnt[12]_net_1\, \cnt_s[12]\, \cnt[13]_net_1\, 
-        \cnt_s[13]\, \cnt[14]_net_1\, \cnt_s[14]\, 
-        \cnt[15]_net_1\, \cnt_s[15]\, \cnt[16]_net_1\, 
-        \cnt_s[16]\, \cnt[17]_net_1\, \cnt_s[17]\, 
-        \cnt[18]_net_1\, \cnt_s[18]\, \cnt[19]_net_1\, 
-        \cnt_s[19]\, \cnt[20]_net_1\, \cnt_s[20]\, 
-        \cnt[21]_net_1\, \cnt_s[21]\, \cnt[22]_net_1\, 
-        \cnt_s[22]\, \cnt[23]_net_1\, \cnt_s[23]\, 
-        \cnt[24]_net_1\, \cnt_s[24]\, \cnt[25]_net_1\, 
-        \cnt_s[25]\, \cnt[26]_net_1\, \cnt_s[26]\, 
-        \cnt[27]_net_1\, \cnt_s[27]\, cnt_cry_cy, 
-        \cnt_RNIOCCK2_Y[27]\, N_103, \cnt_cry[0]\, \cnt_cry[1]\, 
-        \cnt_cry[2]\, \cnt_cry[3]\, \cnt_cry[4]\, \cnt_cry[5]\, 
-        \cnt_cry[6]\, \cnt_cry[7]\, \cnt_cry[8]\, \cnt_cry[9]\, 
-        \cnt_cry[10]\, \cnt_cry[11]\, \cnt_cry[12]\, 
+  component CFG4
+    generic (INIT:std_logic_vector(15 downto 0) := x"0000");
+
+    port( A : in    std_logic := 'U';
+          B : in    std_logic := 'U';
+          C : in    std_logic := 'U';
+          D : in    std_logic := 'U';
+          Y : out   std_logic
+        );
+  end component;
+
+  component GND
+    port( Y : out   std_logic
+        );
+  end component;
+
+    signal VCC_net_1, \un7_cntlto31_0_1\, GND_net_1, 
+        \cnt[0]_net_1\, \cnt_s[0]\, \cnt[1]_net_1\, \cnt_s[1]\, 
+        \cnt[2]_net_1\, \cnt_s[2]\, \cnt[3]_net_1\, \cnt_s[3]\, 
+        \cnt[4]_net_1\, \cnt_s[4]\, \cnt[5]_net_1\, \cnt_s[5]\, 
+        \cnt[6]_net_1\, \cnt_s[6]\, \cnt[7]_net_1\, \cnt_s[7]\, 
+        \cnt[8]_net_1\, \cnt_s[8]\, \cnt[9]_net_1\, \cnt_s[9]\, 
+        \cnt[10]_net_1\, \cnt_s[10]\, \cnt[11]_net_1\, 
+        \cnt_s[11]\, \cnt[12]_net_1\, \cnt_s[12]\, 
+        \cnt[13]_net_1\, \cnt_s[13]\, \cnt[14]_net_1\, 
+        \cnt_s[14]\, \cnt[15]_net_1\, \cnt_s[15]\, 
+        \cnt[16]_net_1\, \cnt_s[16]\, \cnt[17]_net_1\, 
+        \cnt_s[17]\, \cnt[18]_net_1\, \cnt_s[18]\, 
+        \cnt[19]_net_1\, \cnt_s[19]\, \cnt[20]_net_1\, 
+        \cnt_s[20]\, \cnt[21]_net_1\, \cnt_s[21]\, 
+        \cnt[22]_net_1\, \cnt_s[22]\, \cnt[23]_net_1\, 
+        \cnt_s[23]\, \cnt[24]_net_1\, \cnt_s[24]\, 
+        \cnt[25]_net_1\, \cnt_s[25]\, \cnt[26]_net_1\, 
+        \cnt_s[26]\, \cnt[27]_net_1\, \cnt_s[27]\, 
+        \cnt[28]_net_1\, \cnt_s[28]\, \cnt[29]_net_1\, 
+        \cnt_s[29]\, \cnt[30]_net_1\, \cnt_s[30]\, 
+        \cnt[31]_net_1\, \cnt_s[31]\, cnt_cry_cy, 
+        un14_cntlto31_0_0_RNID8IS_Y, \un14_cntlto31_0_o2_1\, 
+        \un14_cntlto31_0_0\, \un14_cntlto31_0_1_0\, \cnt_cry[0]\, 
+        \cnt_cry[1]\, \cnt_cry[2]\, \cnt_cry[3]\, \cnt_cry[4]\, 
+        \cnt_cry[5]\, \cnt_cry[6]\, \cnt_cry[7]\, \cnt_cry[8]\, 
+        \cnt_cry[9]\, \cnt_cry[10]\, \cnt_cry[11]\, \cnt_cry[12]\, 
         \cnt_cry[13]\, \cnt_cry[14]\, \cnt_cry[15]\, 
         \cnt_cry[16]\, \cnt_cry[17]\, \cnt_cry[18]\, 
         \cnt_cry[19]\, \cnt_cry[20]\, \cnt_cry[21]\, 
         \cnt_cry[22]\, \cnt_cry[23]\, \cnt_cry[24]\, 
-        \cnt_cry[25]\, N_94, m39_e_1, N_105, m21_e_2, m30_e_1, 
-        m13_e_1, N_176, N_88, N_87, N_93 : std_logic;
+        \cnt_cry[25]\, \cnt_cry[26]\, \cnt_cry[27]\, 
+        \cnt_cry[28]\, \cnt_cry[29]\, \cnt_cry[30]\, 
+        un7_cntlto31_0_1_0, \un7_cntlto31_0_0\, 
+        \un14_cntlto31_0_a2_0\, \un7_cntlto31_0_o2_0\, 
+        \un14_cntlto31_0_o2\, \un14_cntlto31_0_o2_4\, 
+        \un14_cntlto31_0_o2_5\, un14_cntlto31_0_o2_3_0, N_89_3, 
+        un14_cntlto31_0_a2_0_0 : std_logic;
 
 begin 
 
 
-    \cnt_RNI4GAR1[17]\ : CFG4
-      generic map(INIT => x"010F")
+    \cnt_RNIIAV3Q[21]\ : ARI1
+      generic map(INIT => x"48800")
 
-      port map(A => \cnt[17]_net_1\, B => N_87, C => 
-        \cnt[19]_net_1\, D => \cnt[18]_net_1\, Y => N_93);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[21]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[20]\, S => \cnt_s[21]\, Y => OPEN, FCO => 
+        \cnt_cry[21]\);
+    
+    \cnt_RNIPK6I7[4]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[4]_net_1\, D => GND_net_1, FCI => \cnt_cry[3]\, 
+        S => \cnt_s[4]\, Y => OPEN, FCO => \cnt_cry[4]\);
+    
+    \cnt_RNIF8C3S[23]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[23]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[22]\, S => \cnt_s[23]\, Y => OPEN, FCO => 
+        \cnt_cry[23]\);
     
     \cnt[19]\ : SLE
       port map(D => \cnt_s[19]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[19]_net_1\);
     
-    \cnt_RNI819V42[22]\ : ARI1
+    \cnt_RNI5TS4N[18]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[22]_net_1\, D => GND_net_1, FCI => \cnt_cry[21]\, S
-         => \cnt_s[22]\, Y => OPEN, FCO => \cnt_cry[22]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[18]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[17]\, S => \cnt_s[18]\, Y => OPEN, FCO => 
+        \cnt_cry[18]\);
     
-    tmp_clk_RNO_0 : CFG4
-      generic map(INIT => x"3331")
-
-      port map(A => \cnt[23]_net_1\, B => \cnt[24]_net_1\, C => 
-        N_94, D => m39_e_1, Y => N_105);
-    
-    \cnt_RNIAH0SB[2]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[2]_net_1\, D => GND_net_1, FCI => \cnt_cry[1]\, S
-         => \cnt_s[2]\, Y => OPEN, FCO => \cnt_cry[2]\);
+    \cnt[30]\ : SLE
+      port map(D => \cnt_s[30]\, CLK => clk_c, EN => VCC_net_1, 
+        ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
+        GND_net_1, LAT => GND_net_1, Q => \cnt[30]_net_1\);
     
     \cnt[27]\ : SLE
       port map(D => \cnt_s[27]\, CLK => clk_c, EN => VCC_net_1, 
@@ -143,9 +171,16 @@ begin
         GND_net_1, LAT => GND_net_1, Q => \cnt[27]_net_1\);
     
     tmp_clk : SLE
-      port map(D => \tmp_clk_RNO\, CLK => clk_c, EN => VCC_net_1, 
-        ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
-        GND_net_1, LAT => GND_net_1, Q => led1);
+      port map(D => \un7_cntlto31_0_1\, CLK => clk_c, EN => 
+        VCC_net_1, ALn => reset, ADn => VCC_net_1, SLn => 
+        VCC_net_1, SD => GND_net_1, LAT => GND_net_1, Q => led1);
+    
+    \cnt_RNIODL7A[6]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[6]_net_1\, D => GND_net_1, FCI => \cnt_cry[5]\, 
+        S => \cnt_s[6]\, Y => OPEN, FCO => \cnt_cry[6]\);
     
     \cnt[2]\ : SLE
       port map(D => \cnt_s[2]\, CLK => clk_c, EN => VCC_net_1, 
@@ -167,300 +202,343 @@ begin
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[1]_net_1\);
     
-    \cnt_RNIAIOQH1[15]\ : ARI1
+    \cnt_RNIGAH6I[13]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[15]_net_1\, D => GND_net_1, FCI => \cnt_cry[14]\, S
-         => \cnt_s[15]\, Y => OPEN, FCO => \cnt_cry[15]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[13]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[12]\, S => \cnt_s[13]\, Y => OPEN, FCO => 
+        \cnt_cry[13]\);
     
     \cnt[11]\ : SLE
       port map(D => \cnt_s[11]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[11]_net_1\);
     
-    \cnt_RNIRE31I[4]\ : ARI1
+    \cnt_RNIGAP2U[25]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[4]_net_1\, D => GND_net_1, FCI => \cnt_cry[3]\, S
-         => \cnt_s[4]\, Y => OPEN, FCO => \cnt_cry[4]\);
-    
-    \cnt_RNI5VK3L[5]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[5]_net_1\, D => GND_net_1, FCI => \cnt_cry[4]\, S
-         => \cnt_s[5]\, Y => OPEN, FCO => \cnt_cry[5]\);
-    
-    \cnt_RNISP9K91[12]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[12]_net_1\, D => GND_net_1, FCI => \cnt_cry[11]\, S
-         => \cnt_s[12]\, Y => OPEN, FCO => \cnt_cry[12]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[25]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[24]\, S => \cnt_s[25]\, Y => OPEN, FCO => 
+        \cnt_cry[25]\);
     
     \cnt[17]\ : SLE
       port map(D => \cnt_s[17]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[17]_net_1\);
     
-    tmp_clk_RNO : CFG4
-      generic map(INIT => x"000D")
-
-      port map(A => \cnt[25]_net_1\, B => N_105, C => 
-        \cnt[27]_net_1\, D => \cnt[26]_net_1\, Y => \tmp_clk_RNO\);
-    
     \cnt[16]\ : SLE
       port map(D => \cnt_s[16]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[16]_net_1\);
     
-    \cnt_RNIOCCK2[27]\ : ARI1
-      generic map(INIT => x"40037")
-
-      port map(A => \cnt[27]_net_1\, B => N_103, C => 
-        \cnt[26]_net_1\, D => \cnt[25]_net_1\, FCI => VCC_net_1, 
-        S => OPEN, Y => \cnt_RNIOCCK2_Y[27]\, FCO => cnt_cry_cy);
-    
-    \cnt_RNILBPBC1[13]\ : ARI1
+    \cnt_RNILG6201[27]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[13]_net_1\, D => GND_net_1, FCI => \cnt_cry[12]\, S
-         => \cnt_s[13]\, Y => OPEN, FCO => \cnt_cry[13]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[27]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[26]\, S => \cnt_s[27]\, Y => OPEN, FCO => 
+        \cnt_cry[27]\);
     
-    \cnt_RNI8JG21[10]\ : CFG4
-      generic map(INIT => x"0001")
+    \cnt_RNI2TF2V[26]\ : ARI1
+      generic map(INIT => x"48800")
 
-      port map(A => \cnt[11]_net_1\, B => \cnt[10]_net_1\, C => 
-        \cnt[9]_net_1\, D => \cnt[8]_net_1\, Y => N_176);
-    
-    \cnt_RNI9EVA2[20]\ : CFG4
-      generic map(INIT => x"0800")
-
-      port map(A => \cnt[20]_net_1\, B => \cnt[23]_net_1\, C => 
-        N_93, D => m21_e_2, Y => N_103);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[26]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[25]\, S => \cnt_s[26]\, Y => OPEN, FCO => 
+        \cnt_cry[26]\);
     
     \VCC\ : VCC
       port map(Y => VCC_net_1);
     
-    \cnt_RNIMMBTF2[26]\ : ARI1
-      generic map(INIT => x"48800")
+    un14_cntlto31_0_a2_0 : CFG2
+      generic map(INIT => x"1")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[26]_net_1\, D => GND_net_1, FCI => \cnt_cry[25]\, S
-         => \cnt_s[26]\, Y => OPEN, FCO => \cnt_s[27]\);
+      port map(A => \un14_cntlto31_0_o2_5\, B => \cnt[26]_net_1\, 
+        Y => un14_cntlto31_0_a2_0_0);
     
-    \cnt_RNI1K71Q1[18]\ : ARI1
-      generic map(INIT => x"48800")
+    un14_cntlto31_0_o2_1 : CFG3
+      generic map(INIT => x"AE")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[18]_net_1\, D => GND_net_1, FCI => \cnt_cry[17]\, S
-         => \cnt_s[18]\, Y => OPEN, FCO => \cnt_cry[18]\);
+      port map(A => \un14_cntlto31_0_o2_5\, B => \cnt[20]_net_1\, 
+        C => un14_cntlto31_0_o2_3_0, Y => \un14_cntlto31_0_o2_1\);
     
-    \cnt_RNI0CNOS1[19]\ : ARI1
+    \cnt_RNIO0US8[5]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[19]_net_1\, D => GND_net_1, FCI => \cnt_cry[18]\, S
-         => \cnt_s[19]\, Y => OPEN, FCO => \cnt_cry[19]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[5]_net_1\, D => GND_net_1, FCI => \cnt_cry[4]\, 
+        S => \cnt_s[5]\, Y => OPEN, FCO => \cnt_cry[5]\);
+    
+    \cnt_RNIIA75M[17]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[17]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[16]\, S => \cnt_s[17]\, Y => OPEN, FCO => 
+        \cnt_cry[17]\);
     
     \cnt[6]\ : SLE
       port map(D => \cnt_s[6]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[6]_net_1\);
     
-    tmp_clk_RNO_4 : CFG4
-      generic map(INIT => x"8000")
-
-      port map(A => \cnt[15]_net_1\, B => \cnt[14]_net_1\, C => 
-        \cnt[13]_net_1\, D => \cnt[12]_net_1\, Y => m30_e_1);
-    
     \cnt[4]\ : SLE
       port map(D => \cnt_s[4]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[4]_net_1\);
+    
+    un14_cntlto31_0_0 : CFG4
+      generic map(INIT => x"EEAE")
+
+      port map(A => \un14_cntlto31_0_a2_0\, B => 
+        un14_cntlto31_0_a2_0_0, C => \cnt[25]_net_1\, D => 
+        un14_cntlto31_0_o2_3_0, Y => \un14_cntlto31_0_0\);
+    
+    \cnt_RNIRA4TC[8]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[8]_net_1\, D => GND_net_1, FCI => \cnt_cry[7]\, 
+        S => \cnt_s[8]\, Y => OPEN, FCO => \cnt_cry[8]\);
     
     \cnt[9]\ : SLE
       port map(D => \cnt_s[9]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[9]_net_1\);
     
+    un7_cntlto31_0 : CFG4
+      generic map(INIT => x"CECC")
+
+      port map(A => un7_cntlto31_0_1_0, B => \un7_cntlto31_0_0\, 
+        C => \cnt[25]_net_1\, D => \un14_cntlto31_0_a2_0\, Y => 
+        \un7_cntlto31_0_1\);
+    
+    \cnt_RNIUQJ121[29]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[29]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[28]\, S => \cnt_s[29]\, Y => OPEN, FCO => 
+        \cnt_cry[29]\);
+    
+    un7_cntlto31_0_0 : CFG4
+      generic map(INIT => x"3301")
+
+      port map(A => \cnt[25]_net_1\, B => \cnt[27]_net_1\, C => 
+        \un14_cntlto31_0_o2_1\, D => un14_cntlto31_0_a2_0_0, Y
+         => \un7_cntlto31_0_0\);
+    
+    \cnt_RNIPRCIB[7]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[7]_net_1\, D => GND_net_1, FCI => \cnt_cry[6]\, 
+        S => \cnt_s[7]\, Y => OPEN, FCO => \cnt_cry[7]\);
+    
     \cnt[0]\ : SLE
       port map(D => \cnt_s[0]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[0]_net_1\);
     
-    \cnt_RNI2LPM72[23]\ : ARI1
+    un14_cntlto31_0_o2_5 : CFG4
+      generic map(INIT => x"FFFE")
+
+      port map(A => \cnt[31]_net_1\, B => \cnt[30]_net_1\, C => 
+        \cnt[29]_net_1\, D => \cnt[28]_net_1\, Y => 
+        \un14_cntlto31_0_o2_5\);
+    
+    un7_cntlto31_0_1 : CFG4
+      generic map(INIT => x"040F")
+
+      port map(A => \cnt[17]_net_1\, B => \un7_cntlto31_0_o2_0\, 
+        C => \cnt[19]_net_1\, D => \cnt[18]_net_1\, Y => 
+        un7_cntlto31_0_1_0);
+    
+    \cnt_RNI0PH5L[16]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[23]_net_1\, D => GND_net_1, FCI => \cnt_cry[22]\, S
-         => \cnt_s[23]\, Y => OPEN, FCO => \cnt_cry[23]\);
-    
-    \cnt_RNIFU83F1[14]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[14]_net_1\, D => GND_net_1, FCI => \cnt_cry[13]\, S
-         => \cnt_s[14]\, Y => OPEN, FCO => \cnt_cry[14]\);
-    
-    \cnt_RNIAQCC[13]\ : CFG4
-      generic map(INIT => x"8000")
-
-      port map(A => \cnt[16]_net_1\, B => \cnt[15]_net_1\, C => 
-        \cnt[14]_net_1\, D => \cnt[13]_net_1\, Y => m13_e_1);
-    
-    tmp_clk_RNO_1 : CFG4
-      generic map(INIT => x"010F")
-
-      port map(A => \cnt[16]_net_1\, B => N_88, C => 
-        \cnt[18]_net_1\, D => \cnt[17]_net_1\, Y => N_94);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[16]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[15]\, S => \cnt_s[16]\, Y => OPEN, FCO => 
+        \cnt_cry[16]\);
     
     \GND\ : GND
       port map(Y => GND_net_1);
     
-    tmp_clk_RNO_3 : CFG3
-      generic map(INIT => x"8C")
+    \cnt_RNIVO23T[24]\ : ARI1
+      generic map(INIT => x"48800")
 
-      port map(A => \cnt[7]_net_1\, B => m30_e_1, C => N_176, Y
-         => N_88);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[24]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[23]\, S => \cnt_s[24]\, Y => OPEN, FCO => 
+        \cnt_cry[24]\);
+    
+    \cnt[31]\ : SLE
+      port map(D => \cnt_s[31]\, CLK => clk_c, EN => VCC_net_1, 
+        ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
+        GND_net_1, LAT => GND_net_1, Q => \cnt[31]_net_1\);
+    
+    un14_cntlto31_0_o2_4 : CFG3
+      generic map(INIT => x"7F")
+
+      port map(A => \cnt[16]_net_1\, B => \cnt[15]_net_1\, C => 
+        \cnt[14]_net_1\, Y => \un14_cntlto31_0_o2_4\);
+    
+    \cnt_RNIUQR7E[9]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[9]_net_1\, D => GND_net_1, FCI => \cnt_cry[8]\, 
+        S => \cnt_s[9]\, Y => OPEN, FCO => \cnt_cry[9]\);
+    
+    \cnt_RNIR9F76[3]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[3]_net_1\, D => GND_net_1, FCI => \cnt_cry[2]\, 
+        S => \cnt_s[3]\, Y => OPEN, FCO => \cnt_cry[3]\);
     
     \cnt[23]\ : SLE
       port map(D => \cnt_s[23]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[23]_net_1\);
     
-    \cnt_RNINARD11[9]\ : ARI1
+    \cnt[28]\ : SLE
+      port map(D => \cnt_s[28]\, CLK => clk_c, EN => VCC_net_1, 
+        ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
+        GND_net_1, LAT => GND_net_1, Q => \cnt[28]_net_1\);
+    
+    \cnt_RNIVO66J[14]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[9]_net_1\, D => GND_net_1, FCI => \cnt_cry[8]\, S
-         => \cnt_s[9]\, Y => OPEN, FCO => \cnt_cry[9]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[14]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[13]\, S => \cnt_s[14]\, Y => OPEN, FCO => 
+        \cnt_cry[14]\);
     
     \cnt[20]\ : SLE
       port map(D => \cnt_s[20]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[20]_net_1\);
     
-    \cnt_RNIFEO722[21]\ : ARI1
+    \cnt_RNI0PL3R[22]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[21]_net_1\, D => GND_net_1, FCI => \cnt_cry[20]\, S
-         => \cnt_s[21]\, Y => OPEN, FCO => \cnt_cry[21]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[22]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[21]\, S => \cnt_s[22]\, Y => OPEN, FCO => 
+        \cnt_cry[22]\);
+    
+    \cnt_RNIF8S5K[15]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[15]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[14]\, S => \cnt_s[15]\, Y => OPEN, FCO => 
+        \cnt_cry[15]\);
     
     \cnt[13]\ : SLE
       port map(D => \cnt_s[13]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[13]_net_1\);
     
-    \cnt_RNITNTM5[0]\ : ARI1
-      generic map(INIT => x"48800")
+    un14_cntlto31_0_o2_3 : CFG4
+      generic map(INIT => x"7FFF")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[0]_net_1\, D => GND_net_1, FCI => cnt_cry_cy, S => 
-        \cnt_s[0]\, Y => OPEN, FCO => \cnt_cry[0]\);
-    
-    \cnt_RNIDPA541[10]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[10]_net_1\, D => GND_net_1, FCI => \cnt_cry[9]\, S
-         => \cnt_s[10]\, Y => OPEN, FCO => \cnt_cry[10]\);
-    
-    \cnt_RNIT9AEA2[24]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[24]_net_1\, D => GND_net_1, FCI => \cnt_cry[23]\, S
-         => \cnt_s[24]\, Y => OPEN, FCO => \cnt_cry[24]\);
+      port map(A => \cnt[24]_net_1\, B => \cnt[23]_net_1\, C => 
+        \cnt[22]_net_1\, D => \cnt[21]_net_1\, Y => 
+        un14_cntlto31_0_o2_3_0);
     
     \cnt[18]\ : SLE
       port map(D => \cnt_s[18]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[18]_net_1\);
     
-    \cnt_RNIIH0I1[12]\ : CFG3
-      generic map(INIT => x"8C")
-
-      port map(A => \cnt[12]_net_1\, B => m13_e_1, C => N_176, Y
-         => N_87);
-    
     \cnt[7]\ : SLE
       port map(D => \cnt_s[7]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[7]_net_1\);
-    
-    tmp_clk_RNO_2 : CFG4
-      generic map(INIT => x"7FFF")
-
-      port map(A => \cnt[22]_net_1\, B => \cnt[21]_net_1\, C => 
-        \cnt[20]_net_1\, D => \cnt[19]_net_1\, Y => m39_e_1);
     
     \cnt[10]\ : SLE
       port map(D => \cnt_s[10]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[10]_net_1\);
     
-    \cnt_RNI678IK1[16]\ : ARI1
+    un7_cntlto31_0_o2_0 : CFG4
+      generic map(INIT => x"FF75")
+
+      port map(A => \cnt[13]_net_1\, B => \cnt[8]_net_1\, C => 
+        N_89_3, D => \un14_cntlto31_0_o2_4\, Y => 
+        \un7_cntlto31_0_o2_0\);
+    
+    \cnt_RNIUVNS4[2]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[16]_net_1\, D => GND_net_1, FCI => \cnt_cry[15]\, S
-         => \cnt_s[16]\, Y => OPEN, FCO => \cnt_cry[16]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[2]_net_1\, D => GND_net_1, FCI => \cnt_cry[1]\, 
+        S => \cnt_s[2]\, Y => OPEN, FCO => \cnt_cry[2]\);
     
-    \cnt_RNI4JC9[21]\ : CFG3
-      generic map(INIT => x"80")
+    un14_cntlto31_0_a2_1_3 : CFG4
+      generic map(INIT => x"0001")
 
-      port map(A => \cnt[24]_net_1\, B => \cnt[22]_net_1\, C => 
-        \cnt[21]_net_1\, Y => m21_e_2);
+      port map(A => \cnt[12]_net_1\, B => \cnt[11]_net_1\, C => 
+        \cnt[10]_net_1\, D => \cnt[9]_net_1\, Y => N_89_3);
     
-    \cnt_RNIS2O8R[7]\ : ARI1
+    \cnt_RNO[31]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[7]_net_1\, D => GND_net_1, FCI => \cnt_cry[6]\, S
-         => \cnt_s[7]\, Y => OPEN, FCO => \cnt_cry[7]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[31]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[30]\, S => \cnt_s[31]\, Y => OPEN, FCO => OPEN);
+    
+    \cnt_RNI2N0I3[1]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[1]_net_1\, D => GND_net_1, FCI => \cnt_cry[0]\, 
+        S => \cnt_s[1]\, Y => OPEN, FCO => \cnt_cry[1]\);
+    
+    \cnt_RNI7F972[0]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[0]_net_1\, D => GND_net_1, FCI => cnt_cry_cy, S
+         => \cnt_s[0]\, Y => OPEN, FCO => \cnt_cry[0]\);
     
     \cnt[3]\ : SLE
       port map(D => \cnt_s[3]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[3]_net_1\);
     
+    un14_cntlto31_0_o2 : CFG4
+      generic map(INIT => x"F7F5")
+
+      port map(A => \cnt[17]_net_1\, B => \cnt[13]_net_1\, C => 
+        \un14_cntlto31_0_o2_4\, D => N_89_3, Y => 
+        \un14_cntlto31_0_o2\);
+    
     \cnt[25]\ : SLE
       port map(D => \cnt_s[25]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[25]_net_1\);
     
-    \cnt_RNI9M9BU[8]\ : ARI1
+    \cnt_RNIB9B131[30]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[8]_net_1\, D => GND_net_1, FCI => \cnt_cry[7]\, S
-         => \cnt_s[8]\, Y => OPEN, FCO => \cnt_cry[8]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[30]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[29]\, S => \cnt_s[30]\, Y => OPEN, FCO => 
+        \cnt_cry[30]\);
     
-    \cnt_RNI34FP8[1]\ : ARI1
+    \cnt_RNI2TR6H[12]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[1]_net_1\, D => GND_net_1, FCI => \cnt_cry[0]\, S
-         => \cnt_s[1]\, Y => OPEN, FCO => \cnt_cry[1]\);
-    
-    \cnt_RNI49QS61[11]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[11]_net_1\, D => GND_net_1, FCI => \cnt_cry[10]\, S
-         => \cnt_s[11]\, Y => OPEN, FCO => \cnt_cry[11]\);
-    
-    \cnt_RNIPVQ5D2[25]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[25]_net_1\, D => GND_net_1, FCI => \cnt_cry[24]\, S
-         => \cnt_s[25]\, Y => OPEN, FCO => \cnt_cry[25]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[12]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[11]\, S => \cnt_s[12]\, Y => OPEN, FCO => 
+        \cnt_cry[12]\);
     
     \cnt[22]\ : SLE
       port map(D => \cnt_s[22]\, CLK => clk_c, EN => VCC_net_1, 
@@ -472,43 +550,79 @@ begin
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[15]_net_1\);
     
-    \cnt_RNIGG66O[6]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[6]_net_1\, D => GND_net_1, FCI => \cnt_cry[5]\, S
-         => \cnt_s[6]\, Y => OPEN, FCO => \cnt_cry[6]\);
-    
     \cnt[24]\ : SLE
       port map(D => \cnt_s[24]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[24]_net_1\);
     
-    \cnt_RNIIVHUE[3]\ : ARI1
+    \cnt_RNI5T84P[20]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[3]_net_1\, D => GND_net_1, FCI => \cnt_cry[2]\, S
-         => \cnt_s[3]\, Y => OPEN, FCO => \cnt_cry[3]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[20]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[19]\, S => \cnt_s[20]\, Y => OPEN, FCO => 
+        \cnt_cry[20]\);
+    
+    \cnt_RNIPGI4O[19]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[19]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[18]\, S => \cnt_s[19]\, Y => OPEN, FCO => 
+        \cnt_cry[19]\);
+    
+    \cnt[29]\ : SLE
+      port map(D => \cnt_s[29]\, CLK => clk_c, EN => VCC_net_1, 
+        ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
+        GND_net_1, LAT => GND_net_1, Q => \cnt[29]_net_1\);
+    
+    un14_cntlto31_0_a2 : CFG2
+      generic map(INIT => x"1")
+
+      port map(A => \un14_cntlto31_0_o2_5\, B => \cnt[27]_net_1\, 
+        Y => \un14_cntlto31_0_a2_0\);
+    
+    \cnt_RNI95T111[28]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[28]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[27]\, S => \cnt_s[28]\, Y => OPEN, FCO => 
+        \cnt_cry[28]\);
     
     \cnt[5]\ : SLE
       port map(D => \cnt_s[5]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[5]_net_1\);
     
-    \cnt_RNI3TN9N1[17]\ : ARI1
-      generic map(INIT => x"48800")
+    un14_cntlto31_0_0_RNID8IS : ARI1
+      generic map(INIT => x"4CCDC")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[17]_net_1\, D => GND_net_1, FCI => \cnt_cry[16]\, S
-         => \cnt_s[17]\, Y => OPEN, FCO => \cnt_cry[17]\);
+      port map(A => \un14_cntlto31_0_o2_1\, B => \cnt[26]_net_1\, 
+        C => \un14_cntlto31_0_0\, D => \un14_cntlto31_0_1_0\, FCI
+         => VCC_net_1, S => OPEN, Y => 
+        un14_cntlto31_0_0_RNID8IS_Y, FCO => cnt_cry_cy);
     
-    \cnt_RNINS7GV1[20]\ : ARI1
+    \cnt_RNI95H7F[10]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => \cnt_RNIOCCK2_Y[27]\, C => 
-        \cnt[20]_net_1\, D => GND_net_1, FCI => \cnt_cry[19]\, S
-         => \cnt_s[20]\, Y => OPEN, FCO => \cnt_cry[20]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[10]_net_1\, D => GND_net_1, FCI => \cnt_cry[9]\, 
+        S => \cnt_s[10]\, Y => OPEN, FCO => \cnt_cry[10]\);
+    
+    un14_cntlto31_0_1_0 : CFG3
+      generic map(INIT => x"4F")
+
+      port map(A => \cnt[18]_net_1\, B => \un14_cntlto31_0_o2\, C
+         => \cnt[19]_net_1\, Y => \un14_cntlto31_0_1_0\);
+    
+    \cnt_RNILG67G[11]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_0_RNID8IS_Y, 
+        C => \cnt[11]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[10]\, S => \cnt_s[11]\, Y => OPEN, FCO => 
+        \cnt_cry[11]\);
     
     \cnt[12]\ : SLE
       port map(D => \cnt_s[12]\, CLK => clk_c, EN => VCC_net_1, 
@@ -628,18 +742,17 @@ architecture DEF_ARCH of ClkGen_1 is
         \cnt_s[20]\, \cnt[21]_net_1\, \cnt_s[21]\, 
         \cnt[22]_net_1\, \cnt_s[22]\, \cnt[23]_net_1\, 
         \cnt_s[23]\, \cnt[24]_net_1\, \cnt_s[24]\, 
-        \cnt[25]_net_1\, \cnt_s[25]\, \cnt[26]_net_1\, 
-        \cnt_s[26]\, cnt_cry_cy, un14_cntlto31_0_o3_RNIE29S2_Y, 
-        N_314_tz, \un14_cntlto31_0_o3\, \un14_cntlto31_0_a2\, 
-        \cnt_cry[0]\, \cnt_cry[1]\, \cnt_cry[2]\, \cnt_cry[3]\, 
-        \cnt_cry[4]\, \cnt_cry[5]\, \cnt_cry[6]\, \cnt_cry[7]\, 
-        \cnt_cry[8]\, \cnt_cry[9]\, \cnt_cry[10]\, \cnt_cry[11]\, 
-        \cnt_cry[12]\, \cnt_cry[13]\, \cnt_cry[14]\, 
-        \cnt_cry[15]\, \cnt_cry[16]\, \cnt_cry[17]\, 
-        \cnt_cry[18]\, \cnt_cry[19]\, \cnt_cry[20]\, 
-        \cnt_cry[21]\, \cnt_cry[22]\, \cnt_cry[23]\, 
-        \cnt_cry[24]\, \un14_cntlto31_0_o2_3\, 
-        \un14_cntlto31_0_o2_0\, N_125_3, \un7_cntlto31_0_a2_1\, 
+        \cnt[25]_net_1\, \cnt_s[25]\, cnt_cry_cy, 
+        un14_cntlto31_0_o3_RNIAU8S2_Y, N_303_tz, 
+        \un14_cntlto31_0_o3\, \un14_cntlto31_0_a2\, \cnt_cry[0]\, 
+        \cnt_cry[1]\, \cnt_cry[2]\, \cnt_cry[3]\, \cnt_cry[4]\, 
+        \cnt_cry[5]\, \cnt_cry[6]\, \cnt_cry[7]\, \cnt_cry[8]\, 
+        \cnt_cry[9]\, \cnt_cry[10]\, \cnt_cry[11]\, \cnt_cry[12]\, 
+        \cnt_cry[13]\, \cnt_cry[14]\, \cnt_cry[15]\, 
+        \cnt_cry[16]\, \cnt_cry[17]\, \cnt_cry[18]\, 
+        \cnt_cry[19]\, \cnt_cry[20]\, \cnt_cry[21]\, 
+        \cnt_cry[22]\, \cnt_cry[23]\, \un14_cntlto31_0_o2_3\, 
+        \un14_cntlto31_0_o2_0\, N_113_3, \un7_cntlto31_0_a2_1\, 
         \un14_cntlto31_0_o3_0\, \un7_cntlto31_0_a2_0\, 
         \un7_cntlto31_0_a2\, \un7_cntlto31_0_a3\ : std_logic;
 
@@ -649,21 +762,20 @@ begin
     un14_cntlto31_0_o2_0 : CFG3
       generic map(INIT => x"7F")
 
-      port map(A => \cnt[14]_net_1\, B => \cnt[13]_net_1\, C => 
-        \cnt[12]_net_1\, Y => \un14_cntlto31_0_o2_0\);
+      port map(A => \cnt[13]_net_1\, B => \cnt[12]_net_1\, C => 
+        \cnt[11]_net_1\, Y => \un14_cntlto31_0_o2_0\);
     
     \cnt[19]\ : SLE
       port map(D => \cnt_s[19]\, CLK => clk_c, EN => SW2_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[19]_net_1\);
     
-    un14_cntlto31_0_o3_RNIE29S2 : ARI1
-      generic map(INIT => x"4F444")
+    \cnt_RNITCRRV[9]\ : ARI1
+      generic map(INIT => x"48800")
 
-      port map(A => N_314_tz, B => \cnt[26]_net_1\, C => 
-        \un14_cntlto31_0_o3\, D => \un14_cntlto31_0_a2\, FCI => 
-        VCC_net_1, S => OPEN, Y => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        FCO => cnt_cry_cy);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[9]_net_1\, D => GND_net_1, FCI => \cnt_cry[8]\, 
+        S => \cnt_s[9]\, Y => OPEN, FCO => \cnt_cry[9]\);
     
     tmp_clk : SLE
       port map(D => un7_cntlto31_0_0_0, CLK => clk_c, EN => SW2_c, 
@@ -675,84 +787,35 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[2]_net_1\);
     
-    \cnt_RNI8FM2F2[23]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[23]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[22]\, S => \cnt_s[23]\, Y => OPEN, FCO => 
-        \cnt_cry[23]\);
-    
     \cnt[8]\ : SLE
       port map(D => \cnt_s[8]\, CLK => clk_c, EN => SW2_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[8]_net_1\);
-    
-    \cnt[26]\ : SLE
-      port map(D => \cnt_s[26]\, CLK => clk_c, EN => SW2_c, ALn
-         => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
-        GND_net_1, LAT => GND_net_1, Q => \cnt[26]_net_1\);
     
     \cnt[1]\ : SLE
       port map(D => \cnt_s[1]\, CLK => clk_c, EN => SW2_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[1]_net_1\);
     
-    \cnt_RNI9QSRV[9]\ : ARI1
+    \cnt_RNI8KHV91[12]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[9]_net_1\, D => GND_net_1, FCI => \cnt_cry[8]\, 
-        S => \cnt_s[9]\, Y => OPEN, FCO => \cnt_cry[9]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[12]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[11]\, S => \cnt_s[12]\, Y => OPEN, FCO => 
+        \cnt_cry[12]\);
     
     \cnt[11]\ : SLE
       port map(D => \cnt_s[11]\, CLK => clk_c, EN => SW2_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[11]_net_1\);
     
-    \cnt_RNIL94VS[8]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[8]_net_1\, D => GND_net_1, FCI => \cnt_cry[7]\, 
-        S => \cnt_s[8]\, Y => OPEN, FCO => \cnt_cry[8]\);
-    
-    un14_cntlto31_0_o3_0_RNIA4EM1 : CFG4
-      generic map(INIT => x"0073")
-
-      port map(A => \cnt[16]_net_1\, B => \cnt[17]_net_1\, C => 
-        \un14_cntlto31_0_o3_0\, D => \cnt[24]_net_1\, Y => 
-        N_314_tz);
-    
-    \cnt_RNI5IPL8[1]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[1]_net_1\, D => GND_net_1, FCI => \cnt_cry[0]\, 
-        S => \cnt_s[1]\, Y => OPEN, FCO => \cnt_cry[1]\);
-    
-    \cnt_RNI2C7FN1[16]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[16]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[15]\, S => \cnt_s[16]\, Y => OPEN, FCO => 
-        \cnt_cry[16]\);
-    
     un14_cntlto31_0_o3 : CFG4
       generic map(INIT => x"0FDF")
 
-      port map(A => \cnt[23]_net_1\, B => \un14_cntlto31_0_o2_3\, 
-        C => \cnt[25]_net_1\, D => \cnt[24]_net_1\, Y => 
+      port map(A => \cnt[22]_net_1\, B => \un14_cntlto31_0_o2_3\, 
+        C => \cnt[24]_net_1\, D => \cnt[23]_net_1\, Y => 
         \un14_cntlto31_0_o3\);
-    
-    \cnt_RNIBISU42[20]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[20]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[19]\, S => \cnt_s[20]\, Y => OPEN, FCO => 
-        \cnt_cry[20]\);
     
     \cnt[17]\ : SLE
       port map(D => \cnt_s[17]\, CLK => clk_c, EN => SW2_c, ALn
@@ -767,117 +830,86 @@ begin
     un7_cntlto31_0_a2_0 : CFG4
       generic map(INIT => x"5551")
 
-      port map(A => \cnt[15]_net_1\, B => \cnt[11]_net_1\, C => 
+      port map(A => \cnt[14]_net_1\, B => \cnt[10]_net_1\, C => 
         \un14_cntlto31_0_o2_0\, D => \un7_cntlto31_0_a2_1\, Y => 
         \un7_cntlto31_0_a2_0\);
     
-    \cnt_RNI9GQA82[21]\ : ARI1
+    \cnt_RNI3EEBD1[13]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[21]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[20]\, S => \cnt_s[21]\, Y => OPEN, FCO => 
-        \cnt_cry[21]\);
-    
-    \cnt_RNI9GKEI2[24]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[24]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[23]\, S => \cnt_s[24]\, Y => OPEN, FCO => 
-        \cnt_cry[24]\);
-    
-    \cnt_RNIVBGBD1[13]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
         C => \cnt[13]_net_1\, D => GND_net_1, FCI => 
         \cnt_cry[12]\, S => \cnt_s[13]\, Y => OPEN, FCO => 
         \cnt_cry[13]\);
     
-    \cnt_RNI0BA3K1[15]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[15]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[14]\, S => \cnt_s[15]\, Y => OPEN, FCO => 
-        \cnt_cry[15]\);
-    
     \VCC\ : VCC
       port map(Y => VCC_net_1);
     
-    \cnt_RNI2QB2Q[7]\ : ARI1
+    \cnt_RNIJNPU42[20]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[7]_net_1\, D => GND_net_1, FCI => \cnt_cry[6]\, 
-        S => \cnt_s[7]\, Y => OPEN, FCO => \cnt_cry[7]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[20]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[19]\, S => \cnt_s[20]\, Y => OPEN, FCO => 
+        \cnt_cry[20]\);
     
-    \cnt_RNIVADNG1[14]\ : ARI1
+    \cnt_RNI48J2F2[23]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[14]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[13]\, S => \cnt_s[14]\, Y => OPEN, FCO => 
-        \cnt_cry[14]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[23]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[22]\, S => \cnt_s[23]\, Y => OPEN, FCO => 
+        \cnt_cry[23]\);
     
     \cnt[6]\ : SLE
       port map(D => \cnt_s[6]\, CLK => clk_c, EN => SW2_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[6]_net_1\);
     
+    \cnt_RNIL3O731[10]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[10]_net_1\, D => GND_net_1, FCI => \cnt_cry[9]\, 
+        S => \cnt_s[10]\, Y => OPEN, FCO => \cnt_cry[10]\);
+    
+    \cnt_RNIP5PL8[1]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[1]_net_1\, D => GND_net_1, FCI => \cnt_cry[0]\, 
+        S => \cnt_s[1]\, Y => OPEN, FCO => \cnt_cry[1]\);
+    
+    \cnt_RNI15HEI2[24]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[24]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[23]\, S => \cnt_s[24]\, Y => OPEN, FCO => 
+        \cnt_s[25]\);
+    
     \cnt[4]\ : SLE
       port map(D => \cnt_s[4]\, CLK => clk_c, EN => SW2_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[4]_net_1\);
+    
+    \cnt_RNIDHNA82[21]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[21]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[20]\, S => \cnt_s[21]\, Y => OPEN, FCO => 
+        \cnt_cry[21]\);
     
     \cnt[9]\ : SLE
       port map(D => \cnt_s[9]\, CLK => clk_c, EN => SW2_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[9]_net_1\);
     
-    \cnt_RNIGBJ5N[6]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[6]_net_1\, D => GND_net_1, FCI => \cnt_cry[5]\, 
-        S => \cnt_s[6]\, Y => OPEN, FCO => \cnt_cry[6]\);
-    
-    \cnt_RNIBIIQL2[25]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[25]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[24]\, S => \cnt_s[25]\, Y => OPEN, FCO => 
-        \cnt_s[26]\);
-    
-    \cnt_RNI5LP731[10]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[10]_net_1\, D => GND_net_1, FCI => \cnt_cry[9]\, 
-        S => \cnt_s[10]\, Y => OPEN, FCO => \cnt_cry[10]\);
-    
-    \cnt_RNI5E4RQ1[17]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[17]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[16]\, S => \cnt_s[17]\, Y => OPEN, FCO => 
-        \cnt_cry[17]\);
-    
-    \cnt_RNI0EJV91[12]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[12]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[11]\, S => \cnt_s[12]\, Y => OPEN, FCO => 
-        \cnt_cry[12]\);
-    
     un7_cntlto31_0_0 : CFG4
       generic map(INIT => x"FF10")
 
-      port map(A => \cnt[25]_net_1\, B => \cnt[23]_net_1\, C => 
+      port map(A => \cnt[24]_net_1\, B => \cnt[22]_net_1\, C => 
         \un14_cntlto31_0_a2\, D => \un7_cntlto31_0_a3\, Y => 
         un7_cntlto31_0_0_0);
     
@@ -886,28 +918,13 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[0]_net_1\);
     
-    \cnt_RNIIRHIB[2]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[2]_net_1\, D => GND_net_1, FCI => \cnt_cry[1]\, 
-        S => \cnt_s[2]\, Y => OPEN, FCO => \cnt_cry[2]\);
-    
     \GND\ : GND
       port map(Y => GND_net_1);
-    
-    \cnt_RNI8FOMB2[22]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[22]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[21]\, S => \cnt_s[22]\, Y => OPEN, FCO => 
-        \cnt_cry[22]\);
     
     un7_cntlto31_0_a2_1 : CFG2
       generic map(INIT => x"2")
 
-      port map(A => N_125_3, B => \cnt[6]_net_1\, Y => 
+      port map(A => N_113_3, B => \cnt[5]_net_1\, Y => 
         \un7_cntlto31_0_a2_1\);
     
     \cnt[23]\ : SLE
@@ -915,25 +932,47 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[23]_net_1\);
     
-    \cnt_RNI2HMJ61[11]\ : ARI1
+    \cnt_RNIH11P5[0]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[11]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[10]\, S => \cnt_s[11]\, Y => OPEN, FCO => 
-        \cnt_cry[11]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[0]_net_1\, D => GND_net_1, FCI => cnt_cry_cy, S
+         => \cnt_s[0]\, Y => OPEN, FCO => \cnt_cry[0]\);
     
-    \cnt_RNI06AFE[3]\ : ARI1
+    \cnt_RNIQ15FN1[16]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[3]_net_1\, D => GND_net_1, FCI => \cnt_cry[2]\, 
-        S => \cnt_s[3]\, Y => OPEN, FCO => \cnt_cry[3]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[16]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[15]\, S => \cnt_s[16]\, Y => OPEN, FCO => 
+        \cnt_cry[16]\);
     
     \cnt[20]\ : SLE
       port map(D => \cnt_s[20]\, CLK => clk_c, EN => SW2_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[20]_net_1\);
+    
+    \cnt_RNID03VS[8]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[8]_net_1\, D => GND_net_1, FCI => \cnt_cry[7]\, 
+        S => \cnt_s[8]\, Y => OPEN, FCO => \cnt_cry[8]\);
+    
+    \cnt_RNIERKJ61[11]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[11]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[10]\, S => \cnt_s[11]\, Y => OPEN, FCO => 
+        \cnt_cry[11]\);
+    
+    \cnt_RNIUKA2Q[7]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[7]_net_1\, D => GND_net_1, FCI => \cnt_cry[6]\, 
+        S => \cnt_s[7]\, Y => OPEN, FCO => \cnt_cry[7]\);
     
     \cnt[13]\ : SLE
       port map(D => \cnt_s[13]\, CLK => clk_c, EN => SW2_c, ALn
@@ -943,8 +982,8 @@ begin
     un14_cntlto31_0_o2_3 : CFG4
       generic map(INIT => x"7FFF")
 
-      port map(A => \cnt[22]_net_1\, B => \cnt[21]_net_1\, C => 
-        \cnt[20]_net_1\, D => \cnt[19]_net_1\, Y => 
+      port map(A => \cnt[21]_net_1\, B => \cnt[20]_net_1\, C => 
+        \cnt[19]_net_1\, D => \cnt[18]_net_1\, Y => 
         \un14_cntlto31_0_o2_3\);
     
     \cnt[18]\ : SLE
@@ -962,11 +1001,49 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[10]_net_1\);
     
+    un14_cntlto31_0_o3_RNIAU8S2 : ARI1
+      generic map(INIT => x"4F444")
+
+      port map(A => N_303_tz, B => \cnt[25]_net_1\, C => 
+        \un14_cntlto31_0_o3\, D => \un14_cntlto31_0_a2\, FCI => 
+        VCC_net_1, S => OPEN, Y => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        FCO => cnt_cry_cy);
+    
+    \cnt_RNI2BHIB[2]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[2]_net_1\, D => GND_net_1, FCI => \cnt_cry[1]\, 
+        S => \cnt_s[2]\, Y => OPEN, FCO => \cnt_cry[2]\);
+    
+    \cnt_RNIQURI12[19]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[19]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[18]\, S => \cnt_s[19]\, Y => OPEN, FCO => 
+        \cnt_cry[19]\);
+    
+    \cnt_RNI31Q8K[5]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[5]_net_1\, D => GND_net_1, FCI => \cnt_cry[4]\, 
+        S => \cnt_s[5]\, Y => OPEN, FCO => \cnt_cry[5]\);
+    
+    \cnt_RNIPUU6U1[18]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[18]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[17]\, S => \cnt_s[18]\, Y => OPEN, FCO => 
+        \cnt_cry[18]\);
+    
     un14_cntlto31_0_a2_1_3 : CFG4
       generic map(INIT => x"0001")
 
-      port map(A => \cnt[10]_net_1\, B => \cnt[9]_net_1\, C => 
-        \cnt[8]_net_1\, D => \cnt[7]_net_1\, Y => N_125_3);
+      port map(A => \cnt[9]_net_1\, B => \cnt[8]_net_1\, C => 
+        \cnt[7]_net_1\, D => \cnt[6]_net_1\, Y => N_113_3);
     
     \cnt[3]\ : SLE
       port map(D => \cnt_s[3]\, CLK => clk_c, EN => SW2_c, ALn
@@ -978,19 +1055,34 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[25]_net_1\);
     
+    \cnt_RNICH9FE[3]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[3]_net_1\, D => GND_net_1, FCI => \cnt_cry[2]\, 
+        S => \cnt_s[3]\, Y => OPEN, FCO => \cnt_cry[3]\);
+    
+    \cnt_RNIV8BNG1[14]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[14]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[13]\, S => \cnt_s[14]\, Y => OPEN, FCO => 
+        \cnt_cry[14]\);
+    
+    \cnt_RNIGAI5N[6]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[6]_net_1\, D => GND_net_1, FCI => \cnt_cry[5]\, 
+        S => \cnt_s[6]\, Y => OPEN, FCO => \cnt_cry[6]\);
+    
     un14_cntlto31_0_o3_0 : CFG4
       generic map(INIT => x"F7F5")
 
-      port map(A => \cnt[15]_net_1\, B => \cnt[11]_net_1\, C => 
-        \un14_cntlto31_0_o2_0\, D => N_125_3, Y => 
+      port map(A => \cnt[14]_net_1\, B => \cnt[10]_net_1\, C => 
+        \un14_cntlto31_0_o2_0\, D => N_113_3, Y => 
         \un14_cntlto31_0_o3_0\);
-    
-    \cnt_RNIFH2CH[4]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[4]_net_1\, D => GND_net_1, FCI => \cnt_cry[3]\, 
-        S => \cnt_s[4]\, Y => OPEN, FCO => \cnt_cry[4]\);
     
     \cnt[22]\ : SLE
       port map(D => \cnt_s[22]\, CLK => clk_c, EN => SW2_c, ALn
@@ -1002,13 +1094,6 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[15]_net_1\);
     
-    \cnt_RNIVTQ8K[5]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[5]_net_1\, D => GND_net_1, FCI => \cnt_cry[4]\, 
-        S => \cnt_s[5]\, Y => OPEN, FCO => \cnt_cry[5]\);
-    
     \cnt[24]\ : SLE
       port map(D => \cnt_s[24]\, CLK => clk_c, EN => SW2_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
@@ -1017,41 +1102,49 @@ begin
     un7_cntlto31_0_a3 : CFG4
       generic map(INIT => x"000D")
 
-      port map(A => \cnt[24]_net_1\, B => \un7_cntlto31_0_a2\, C
-         => \cnt[26]_net_1\, D => \cnt[25]_net_1\, Y => 
+      port map(A => \cnt[23]_net_1\, B => \un7_cntlto31_0_a2\, C
+         => \cnt[25]_net_1\, D => \cnt[24]_net_1\, Y => 
         \un7_cntlto31_0_a3\);
+    
+    \cnt_RNI8CLMB2[22]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[22]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[21]\, S => \cnt_s[22]\, Y => OPEN, FCO => 
+        \cnt_cry[22]\);
     
     un14_cntlto31_0_a2 : CFG3
       generic map(INIT => x"45")
 
-      port map(A => \cnt[26]_net_1\, B => \un14_cntlto31_0_o2_3\, 
-        C => \cnt[18]_net_1\, Y => \un14_cntlto31_0_a2\);
+      port map(A => \cnt[25]_net_1\, B => \un14_cntlto31_0_o2_3\, 
+        C => \cnt[17]_net_1\, Y => \un14_cntlto31_0_a2\);
     
-    \cnt_RNIP91P5[0]\ : ARI1
+    \cnt_RNIS483K1[15]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[0]_net_1\, D => GND_net_1, FCI => cnt_cry_cy, S
-         => \cnt_s[0]\, Y => OPEN, FCO => \cnt_cry[0]\);
-    
-    \cnt_RNIELUI12[19]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[19]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[18]\, S => \cnt_s[19]\, Y => OPEN, FCO => 
-        \cnt_cry[19]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[15]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[14]\, S => \cnt_s[15]\, Y => OPEN, FCO => 
+        \cnt_cry[15]\);
     
     \cnt[5]\ : SLE
       port map(D => \cnt_s[5]\, CLK => clk_c, EN => SW2_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[5]_net_1\);
     
+    \cnt_RNINO1CH[4]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[4]_net_1\, D => GND_net_1, FCI => \cnt_cry[3]\, 
+        S => \cnt_s[4]\, Y => OPEN, FCO => \cnt_cry[4]\);
+    
     un7_cntlto31_0_a2 : CFG4
       generic map(INIT => x"0031")
 
-      port map(A => \cnt[16]_net_1\, B => \cnt[17]_net_1\, C => 
-        \un7_cntlto31_0_a2_0\, D => \cnt[23]_net_1\, Y => 
+      port map(A => \cnt[15]_net_1\, B => \cnt[16]_net_1\, C => 
+        \un7_cntlto31_0_a2_0\, D => \cnt[22]_net_1\, Y => 
         \un7_cntlto31_0_a2\);
     
     \cnt[12]\ : SLE
@@ -1059,18 +1152,25 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[12]_net_1\);
     
-    \cnt_RNI9H17U1[18]\ : ARI1
-      generic map(INIT => x"48800")
+    un14_cntlto31_0_o3_0_RNI71EM1 : CFG4
+      generic map(INIT => x"0073")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIE29S2_Y, 
-        C => \cnt[18]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[17]\, S => \cnt_s[18]\, Y => OPEN, FCO => 
-        \cnt_cry[18]\);
+      port map(A => \cnt[15]_net_1\, B => \cnt[16]_net_1\, C => 
+        \un14_cntlto31_0_o3_0\, D => \cnt[23]_net_1\, Y => 
+        N_303_tz);
     
     \cnt[14]\ : SLE
       port map(D => \cnt_s[14]\, CLK => clk_c, EN => SW2_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[14]_net_1\);
+    
+    \cnt_RNIPV1RQ1[17]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIAU8S2_Y, 
+        C => \cnt[17]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[16]\, S => \cnt_s[17]\, Y => OPEN, FCO => 
+        \cnt_cry[17]\);
     
     \cnt[21]\ : SLE
       port map(D => \cnt_s[21]\, CLK => clk_c, EN => SW2_c, ALn
@@ -1261,18 +1361,17 @@ architecture DEF_ARCH of ClkGenNoSwitch is
         \cnt[19]_net_1\, \cnt_s[19]\, \cnt[20]_net_1\, 
         \cnt_s[20]\, \cnt[21]_net_1\, \cnt_s[21]\, 
         \cnt[22]_net_1\, \cnt_s[22]\, \cnt[23]_net_1\, 
-        \cnt_s[23]\, \cnt[24]_net_1\, \cnt_s[24]\, 
-        \cnt[25]_net_1\, \cnt_s[25]\, N_39, \cnt_s[26]\, 
-        cnt_cry_cy, un14_cntlto31_0_o3_RNINP5T1_Y, N_312_tz, N_16, 
-        N_29, \cnt_cry[0]\, \cnt_cry[1]\, \cnt_cry[2]\, 
-        \cnt_cry[3]\, \cnt_cry[4]\, \cnt_cry[5]\, \cnt_cry[6]\, 
-        \cnt_cry[7]\, \cnt_cry[8]\, \cnt_cry[9]\, \cnt_cry[10]\, 
-        \cnt_cry[11]\, \cnt_cry[12]\, \cnt_cry[13]\, 
-        \cnt_cry[14]\, \cnt_cry[15]\, \cnt_cry[16]\, 
-        \cnt_cry[17]\, \cnt_cry[18]\, \cnt_cry[19]\, 
-        \cnt_cry[20]\, \cnt_cry[21]\, \cnt_cry[22]\, 
-        \cnt_cry[23]\, \cnt_cry[24]\, N_9, N_6, N_30_3, N_30, 
-        N_18, N_31, N_32, N_27 : std_logic;
+        \cnt_s[23]\, \cnt[24]_net_1\, \cnt_s[24]\, N_41, 
+        \cnt_s[25]\, cnt_cry_cy, un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        N_301_tz, N_16, N_30, \cnt_cry[0]\, \cnt_cry[1]\, 
+        \cnt_cry[2]\, \cnt_cry[3]\, \cnt_cry[4]\, \cnt_cry[5]\, 
+        \cnt_cry[6]\, \cnt_cry[7]\, \cnt_cry[8]\, \cnt_cry[9]\, 
+        \cnt_cry[10]\, \cnt_cry[11]\, \cnt_cry[12]\, 
+        \cnt_cry[13]\, \cnt_cry[14]\, \cnt_cry[15]\, 
+        \cnt_cry[16]\, \cnt_cry[17]\, \cnt_cry[18]\, 
+        \cnt_cry[19]\, \cnt_cry[20]\, \cnt_cry[21]\, 
+        \cnt_cry[22]\, \cnt_cry[23]\, N_8, N_9, N_31_3, N_31, 
+        N_18, N_32, N_33, N_28 : std_logic;
 
 begin 
 
@@ -1280,29 +1379,28 @@ begin
     un14_cntlto31_0_o2_0 : CFG3
       generic map(INIT => x"7F")
 
-      port map(A => \cnt[14]_net_1\, B => \cnt[13]_net_1\, C => 
-        \cnt[12]_net_1\, Y => N_6);
+      port map(A => \cnt[13]_net_1\, B => \cnt[12]_net_1\, C => 
+        \cnt[11]_net_1\, Y => N_9);
     
-    \cnt_RNI9OAM51[15]\ : ARI1
+    \cnt_RNI6L9HQ[10]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[15]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[14]\, S => \cnt_s[15]\, Y => OPEN, FCO => 
-        \cnt_cry[15]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[10]_net_1\, D => GND_net_1, FCI => \cnt_cry[9]\, 
+        S => \cnt_s[10]\, Y => OPEN, FCO => \cnt_cry[10]\);
     
     \cnt[19]\ : SLE
       port map(D => \cnt_s[19]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[19]_net_1\);
     
-    \cnt_RNIO7H711[13]\ : ARI1
+    \cnt_RNI5I8M51[15]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[13]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[12]\, S => \cnt_s[13]\, Y => OPEN, FCO => 
-        \cnt_cry[13]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[15]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[14]\, S => \cnt_s[15]\, Y => OPEN, FCO => 
+        \cnt_cry[15]\);
     
     tmp_clk : SLE
       port map(D => \un7_cntlto31_0\, CLK => clk_c, EN => 
@@ -1319,67 +1417,34 @@ begin
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[8]_net_1\);
     
-    \cnt[26]\ : SLE
-      port map(D => \cnt_s[26]\, CLK => clk_c, EN => VCC_net_1, 
-        ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
-        GND_net_1, LAT => GND_net_1, Q => N_39);
-    
     \cnt[1]\ : SLE
       port map(D => \cnt_s[1]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[1]_net_1\);
-    
-    un14_cntlto31_0_o3_0_RNI6DVC1 : CFG4
-      generic map(INIT => x"0073")
-
-      port map(A => \cnt[16]_net_1\, B => \cnt[17]_net_1\, C => 
-        N_18, D => \cnt[24]_net_1\, Y => N_312_tz);
     
     \cnt[11]\ : SLE
       port map(D => \cnt_s[11]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[11]_net_1\);
     
-    \cnt_RNI2JU9O[9]\ : ARI1
+    \cnt_RNIS9F711[13]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[9]_net_1\, D => GND_net_1, FCI => \cnt_cry[8]\, 
-        S => \cnt_s[9]\, Y => OPEN, FCO => \cnt_cry[9]\);
-    
-    \cnt_RNIQ8HCC1[18]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[18]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[17]\, S => \cnt_s[18]\, Y => OPEN, FCO => 
-        \cnt_cry[18]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[13]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[12]\, S => \cnt_s[13]\, Y => OPEN, FCO => 
+        \cnt_cry[13]\);
     
     un14_cntlto31_0_o3 : CFG4
       generic map(INIT => x"0FDF")
 
-      port map(A => \cnt[23]_net_1\, B => N_9, C => 
-        \cnt[25]_net_1\, D => \cnt[24]_net_1\, Y => N_16);
-    
-    un14_cntlto31_0_o3_RNINP5T1 : ARI1
-      generic map(INIT => x"4CE0A")
-
-      port map(A => N_312_tz, B => N_16, C => N_29, D => N_39, 
-        FCI => VCC_net_1, S => OPEN, Y => 
-        un14_cntlto31_0_o3_RNINP5T1_Y, FCO => cnt_cry_cy);
+      port map(A => \cnt[22]_net_1\, B => N_8, C => 
+        \cnt[24]_net_1\, D => \cnt[23]_net_1\, Y => N_16);
     
     \cnt[17]\ : SLE
       port map(D => \cnt_s[17]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[17]_net_1\);
-    
-    \cnt_RNI3INT71[16]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[16]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[15]\, S => \cnt_s[16]\, Y => OPEN, FCO => 
-        \cnt_cry[16]\);
     
     \cnt[16]\ : SLE
       port map(D => \cnt_s[16]\, CLK => clk_c, EN => VCC_net_1, 
@@ -1389,47 +1454,31 @@ begin
     un7_cntlto31_0_a2_0 : CFG4
       generic map(INIT => x"3331")
 
-      port map(A => \cnt[11]_net_1\, B => \cnt[15]_net_1\, C => 
-        N_30, D => N_6, Y => N_31);
+      port map(A => \cnt[10]_net_1\, B => \cnt[14]_net_1\, C => 
+        N_31, D => N_9, Y => N_32);
+    
+    \cnt_RNI7QHQJ[7]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[7]_net_1\, D => GND_net_1, FCI => \cnt_cry[6]\, 
+        S => \cnt_s[7]\, Y => OPEN, FCO => \cnt_cry[7]\);
     
     \VCC\ : VCC
       port map(Y => VCC_net_1);
-    
-    \cnt_RNIUC45A1[17]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[17]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[16]\, S => \cnt_s[17]\, Y => OPEN, FCO => 
-        \cnt_cry[17]\);
-    
-    \cnt_RNI1H40V[12]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[12]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[11]\, S => \cnt_s[12]\, Y => OPEN, FCO => 
-        \cnt_cry[12]\);
     
     \cnt[6]\ : SLE
       port map(D => \cnt_s[6]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[6]_net_1\);
     
-    \cnt_RNIP97AL1[22]\ : ARI1
+    \cnt_RNI9N20V[12]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[22]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[21]\, S => \cnt_s[22]\, Y => OPEN, FCO => 
-        \cnt_cry[22]\);
-    
-    \cnt_RNIM6BHQ[10]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[10]_net_1\, D => GND_net_1, FCI => \cnt_cry[9]\, 
-        S => \cnt_s[10]\, Y => OPEN, FCO => \cnt_cry[10]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[12]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[11]\, S => \cnt_s[12]\, Y => OPEN, FCO => 
+        \cnt_cry[12]\);
     
     \cnt[4]\ : SLE
       port map(D => \cnt_s[4]\, CLK => clk_c, EN => VCC_net_1, 
@@ -1444,105 +1493,120 @@ begin
     un7_cntlto31_0 : CFG4
       generic map(INIT => x"FF10")
 
-      port map(A => \cnt[25]_net_1\, B => \cnt[23]_net_1\, C => 
-        N_29, D => N_27, Y => \un7_cntlto31_0\);
+      port map(A => \cnt[24]_net_1\, B => \cnt[22]_net_1\, C => 
+        N_30, D => N_28, Y => \un7_cntlto31_0\);
+    
+    \cnt_RNIK09RG1[20]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[20]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[19]\, S => \cnt_s[20]\, Y => OPEN, FCO => 
+        \cnt_cry[20]\);
     
     \cnt[0]\ : SLE
       port map(D => \cnt_s[0]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[0]_net_1\);
     
-    \cnt_RNIBVIQJ[7]\ : ARI1
-      generic map(INIT => x"48800")
+    un14_cntlto31_0_o3_0_RNI3AVC1 : CFG4
+      generic map(INIT => x"0073")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[7]_net_1\, D => GND_net_1, FCI => \cnt_cry[6]\, 
-        S => \cnt_s[7]\, Y => OPEN, FCO => \cnt_cry[7]\);
+      port map(A => \cnt[15]_net_1\, B => \cnt[16]_net_1\, C => 
+        N_18, D => \cnt[23]_net_1\, Y => N_301_tz);
     
-    \cnt_RNIGPH3D[4]\ : ARI1
+    \cnt_RNILFRRA[3]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[4]_net_1\, D => GND_net_1, FCI => \cnt_cry[3]\, 
-        S => \cnt_s[4]\, Y => OPEN, FCO => \cnt_cry[4]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[3]_net_1\, D => GND_net_1, FCI => \cnt_cry[2]\, 
+        S => \cnt_s[3]\, Y => OPEN, FCO => \cnt_cry[3]\);
+    
+    \cnt_RNI6JM2J1[21]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[21]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[20]\, S => \cnt_s[21]\, Y => OPEN, FCO => 
+        \cnt_cry[21]\);
+    
+    \cnt_RNIM5T9O[9]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[9]_net_1\, D => GND_net_1, FCI => \cnt_cry[8]\, 
+        S => \cnt_s[9]\, Y => OPEN, FCO => \cnt_cry[9]\);
     
     \GND\ : GND
       port map(Y => GND_net_1);
     
-    \cnt_RNIQAR44[0]\ : ARI1
+    \cnt_RNIIGGC6[1]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[0]_net_1\, D => GND_net_1, FCI => cnt_cry_cy, S
-         => \cnt_s[0]\, Y => OPEN, FCO => \cnt_cry[0]\);
-    
-    \cnt_RNICRBRG1[20]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[20]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[19]\, S => \cnt_s[20]\, Y => OPEN, FCO => 
-        \cnt_cry[20]\);
-    
-    \cnt_RNI3G6K8[2]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[2]_net_1\, D => GND_net_1, FCI => \cnt_cry[1]\, 
-        S => \cnt_s[2]\, Y => OPEN, FCO => \cnt_cry[2]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[1]_net_1\, D => GND_net_1, FCI => \cnt_cry[0]\, 
+        S => \cnt_s[1]\, Y => OPEN, FCO => \cnt_cry[1]\);
     
     un7_cntlto31_0_a2_1 : CFG2
       generic map(INIT => x"2")
 
-      port map(A => N_30_3, B => \cnt[6]_net_1\, Y => N_30);
+      port map(A => N_31_3, B => \cnt[5]_net_1\, Y => N_31);
     
     \cnt[23]\ : SLE
       port map(D => \cnt_s[23]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[23]_net_1\);
     
-    \cnt_RNIOF7BF[5]\ : ARI1
+    \cnt_RNI16SIH[6]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[5]_net_1\, D => GND_net_1, FCI => \cnt_cry[4]\, 
-        S => \cnt_s[5]\, Y => OPEN, FCO => \cnt_cry[5]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[6]_net_1\, D => GND_net_1, FCI => \cnt_cry[5]\, 
+        S => \cnt_s[6]\, Y => OPEN, FCO => \cnt_cry[6]\);
+    
+    \cnt_RNIN5MOS[11]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[11]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[10]\, S => \cnt_s[11]\, Y => OPEN, FCO => 
+        \cnt_cry[11]\);
+    
+    \cnt_RNIR7LT71[16]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[16]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[15]\, S => \cnt_s[16]\, Y => OPEN, FCO => 
+        \cnt_cry[16]\);
     
     \cnt[20]\ : SLE
       port map(D => \cnt_s[20]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[20]_net_1\);
     
-    \cnt_RNIMO82M[8]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[8]_net_1\, D => GND_net_1, FCI => \cnt_cry[7]\, 
-        S => \cnt_s[8]\, Y => OPEN, FCO => \cnt_cry[8]\);
-    
     \cnt[13]\ : SLE
       port map(D => \cnt_s[13]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[13]_net_1\);
     
+    \cnt_RNIEF72M[8]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[8]_net_1\, D => GND_net_1, FCI => \cnt_cry[7]\, 
+        S => \cnt_s[8]\, Y => OPEN, FCO => \cnt_cry[8]\);
+    
     un14_cntlto31_0_o2_3 : CFG4
       generic map(INIT => x"7FFF")
 
-      port map(A => \cnt[22]_net_1\, B => \cnt[21]_net_1\, C => 
-        \cnt[20]_net_1\, D => \cnt[19]_net_1\, Y => N_9);
+      port map(A => \cnt[21]_net_1\, B => \cnt[20]_net_1\, C => 
+        \cnt[19]_net_1\, D => \cnt[18]_net_1\, Y => N_8);
     
     \cnt[18]\ : SLE
       port map(D => \cnt_s[18]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[18]_net_1\);
-    
-    \cnt_RNI4NG0S1[25]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[25]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[24]\, S => \cnt_s[25]\, Y => OPEN, FCO => 
-        \cnt_s[26]\);
     
     \cnt[7]\ : SLE
       port map(D => \cnt_s[7]\, CLK => clk_c, EN => VCC_net_1, 
@@ -1554,96 +1618,94 @@ begin
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[10]_net_1\);
     
-    \cnt_RNI94SRA[3]\ : ARI1
+    \cnt_RNIO0H3D[4]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[3]_net_1\, D => GND_net_1, FCI => \cnt_cry[2]\, 
-        S => \cnt_s[3]\, Y => OPEN, FCO => \cnt_cry[3]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[4]_net_1\, D => GND_net_1, FCI => \cnt_cry[3]\, 
+        S => \cnt_s[4]\, Y => OPEN, FCO => \cnt_cry[4]\);
     
-    \cnt_RNIN5UJE1[19]\ : ARI1
+    \cnt_RNIJV5K8[2]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[19]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[18]\, S => \cnt_s[19]\, Y => OPEN, FCO => 
-        \cnt_cry[19]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[2]_net_1\, D => GND_net_1, FCI => \cnt_cry[1]\, 
+        S => \cnt_s[2]\, Y => OPEN, FCO => \cnt_cry[2]\);
     
-    \cnt_RNIH2LHN1[23]\ : ARI1
+    \cnt_RNIP64AL1[22]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[23]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[22]\, S => \cnt_s[23]\, Y => OPEN, FCO => 
-        \cnt_cry[23]\);
-    
-    \cnt_RNIAS2PP1[24]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[24]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[23]\, S => \cnt_s[24]\, Y => OPEN, FCO => 
-        \cnt_cry[24]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[22]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[21]\, S => \cnt_s[22]\, Y => OPEN, FCO => 
+        \cnt_cry[22]\);
     
     un14_cntlto31_0_a2_1_3 : CFG4
       generic map(INIT => x"0001")
 
-      port map(A => \cnt[10]_net_1\, B => \cnt[9]_net_1\, C => 
-        \cnt[8]_net_1\, D => \cnt[7]_net_1\, Y => N_30_3);
+      port map(A => \cnt[9]_net_1\, B => \cnt[8]_net_1\, C => 
+        \cnt[7]_net_1\, D => \cnt[6]_net_1\, Y => N_31_3);
+    
+    \cnt_RNISI6BF[5]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[5]_net_1\, D => GND_net_1, FCI => \cnt_cry[4]\, 
+        S => \cnt_s[5]\, Y => OPEN, FCO => \cnt_cry[5]\);
     
     \cnt[3]\ : SLE
       port map(D => \cnt_s[3]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[3]_net_1\);
     
+    \cnt_RNII2R44[0]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[0]_net_1\, D => GND_net_1, FCI => cnt_cry_cy, S
+         => \cnt_s[0]\, Y => OPEN, FCO => \cnt_cry[0]\);
+    
+    \cnt_RNI3FRJE1[19]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[19]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[18]\, S => \cnt_s[19]\, Y => OPEN, FCO => 
+        \cnt_cry[19]\);
+    
     \cnt[25]\ : SLE
       port map(D => \cnt_s[25]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
-        GND_net_1, LAT => GND_net_1, Q => \cnt[25]_net_1\);
+        GND_net_1, LAT => GND_net_1, Q => N_41);
     
-    \cnt_RNIUSGC6[1]\ : ARI1
+    un14_cntlto31_0_o3_RNIJL5T1 : ARI1
+      generic map(INIT => x"4CE0A")
+
+      port map(A => N_301_tz, B => N_16, C => N_30, D => N_41, 
+        FCI => VCC_net_1, S => OPEN, Y => 
+        un14_cntlto31_0_o3_RNIJL5T1_Y, FCO => cnt_cry_cy);
+    
+    \cnt_RNIAMECC1[18]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[1]_net_1\, D => GND_net_1, FCI => \cnt_cry[0]\, 
-        S => \cnt_s[1]\, Y => OPEN, FCO => \cnt_cry[1]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[18]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[17]\, S => \cnt_s[18]\, Y => OPEN, FCO => 
+        \cnt_cry[18]\);
     
-    \cnt_RNIGVTE31[14]\ : ARI1
+    \cnt_RNIGTRE31[14]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
         C => \cnt[14]_net_1\, D => GND_net_1, FCI => 
         \cnt_cry[13]\, S => \cnt_s[14]\, Y => OPEN, FCO => 
         \cnt_cry[14]\);
     
-    \cnt_RNI17TIH[6]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[6]_net_1\, D => GND_net_1, FCI => \cnt_cry[5]\, 
-        S => \cnt_s[6]\, Y => OPEN, FCO => \cnt_cry[6]\);
-    
-    \cnt_RNIBRNOS[11]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[11]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[10]\, S => \cnt_s[11]\, Y => OPEN, FCO => 
-        \cnt_cry[11]\);
-    
-    \cnt_RNI2IP2J1[21]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNINP5T1_Y, 
-        C => \cnt[21]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[20]\, S => \cnt_s[21]\, Y => OPEN, FCO => 
-        \cnt_cry[21]\);
-    
     un14_cntlto31_0_o3_0 : CFG4
       generic map(INIT => x"FF73")
 
-      port map(A => \cnt[11]_net_1\, B => \cnt[15]_net_1\, C => 
-        N_30_3, D => N_6, Y => N_18);
+      port map(A => \cnt[10]_net_1\, B => \cnt[14]_net_1\, C => 
+        N_31_3, D => N_9, Y => N_18);
     
     \cnt[22]\ : SLE
       port map(D => \cnt_s[22]\, CLK => clk_c, EN => VCC_net_1, 
@@ -1663,25 +1725,49 @@ begin
     un7_cntlto31_0_a3 : CFG4
       generic map(INIT => x"1011")
 
-      port map(A => \cnt[25]_net_1\, B => N_39, C => N_32, D => 
-        \cnt[24]_net_1\, Y => N_27);
+      port map(A => \cnt[24]_net_1\, B => N_41, C => N_33, D => 
+        \cnt[23]_net_1\, Y => N_28);
+    
+    \cnt_RNIDRHHN1[23]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[23]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[22]\, S => \cnt_s[23]\, Y => OPEN, FCO => 
+        \cnt_cry[23]\);
     
     un14_cntlto31_0_a2 : CFG3
       generic map(INIT => x"45")
 
-      port map(A => N_39, B => N_9, C => \cnt[18]_net_1\, Y => 
-        N_29);
+      port map(A => N_41, B => N_8, C => \cnt[17]_net_1\, Y => 
+        N_30);
     
     \cnt[5]\ : SLE
       port map(D => \cnt_s[5]\, CLK => clk_c, EN => VCC_net_1, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[5]_net_1\);
     
+    \cnt_RNIIU15A1[17]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[17]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[16]\, S => \cnt_s[17]\, Y => OPEN, FCO => 
+        \cnt_cry[17]\);
+    
+    \cnt_RNI2HVOP1[24]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIJL5T1_Y, 
+        C => \cnt[24]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[23]\, S => \cnt_s[24]\, Y => OPEN, FCO => 
+        \cnt_s[25]\);
+    
     un7_cntlto31_0_a2 : CFG4
       generic map(INIT => x"0031")
 
-      port map(A => \cnt[16]_net_1\, B => \cnt[17]_net_1\, C => 
-        N_31, D => \cnt[23]_net_1\, Y => N_32);
+      port map(A => \cnt[15]_net_1\, B => \cnt[16]_net_1\, C => 
+        N_32, D => \cnt[22]_net_1\, Y => N_33);
     
     \cnt[12]\ : SLE
       port map(D => \cnt_s[12]\, CLK => clk_c, EN => VCC_net_1, 
@@ -1894,78 +1980,61 @@ architecture DEF_ARCH of ClkGen is
         \cnt[19]_net_1\, \cnt_s[19]\, \cnt[20]_net_1\, 
         \cnt_s[20]\, \cnt[21]_net_1\, \cnt_s[21]\, 
         \cnt[22]_net_1\, \cnt_s[22]\, \cnt[23]_net_1\, 
-        \cnt_s[23]\, \cnt[24]_net_1\, \cnt_s[24]\, 
-        \cnt[25]_net_1\, \cnt_s[25]\, cnt_cry_cy, 
-        un14_cntlto31_0_o3_RNI33E32_Y, N_313_tz, 
-        un14_cntlto31_0_o3_1, un14_cntlto31_0_a2_0, \cnt_cry[0]\, 
+        \cnt_s[23]\, \cnt[24]_net_1\, \cnt_s[24]\, cnt_cry_cy, 
+        un14_cntlto31_0_o3_RNIVUD32_Y, N_302_tz, 
+        un14_cntlto31_0_o3_1, un14_cntlto31_0_a2_1, \cnt_cry[0]\, 
         \cnt_cry[1]\, \cnt_cry[2]\, \cnt_cry[3]\, \cnt_cry[4]\, 
         \cnt_cry[5]\, \cnt_cry[6]\, \cnt_cry[7]\, \cnt_cry[8]\, 
         \cnt_cry[9]\, \cnt_cry[10]\, \cnt_cry[11]\, \cnt_cry[12]\, 
         \cnt_cry[13]\, \cnt_cry[14]\, \cnt_cry[15]\, 
         \cnt_cry[16]\, \cnt_cry[17]\, \cnt_cry[18]\, 
         \cnt_cry[19]\, \cnt_cry[20]\, \cnt_cry[21]\, 
-        \cnt_cry[22]\, \cnt_cry[23]\, un14_cntlto31_0_o2_3_0, 
-        un14_cntlto31_0_o2_0_0, N_59_3, un7_cntlto31_0_a2_1_0, 
+        \cnt_cry[22]\, un14_cntlto31_0_o2_3_1, 
+        un14_cntlto31_0_o2_0_0, N_61_3, un7_cntlto31_0_a2_1_0, 
         un14_cntlto31_0_o3_0_0, un7_cntlto31_0_a2_0_0, 
         un7_cntlto31_0_a2_2, un7_cntlto31_0_a3_0 : std_logic;
 
 begin 
 
 
-    \cnt_RNIJCPBI1[19]\ : ARI1
+    \cnt_RNIHPV291[15]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[19]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[18]\, S => \cnt_s[19]\, Y => OPEN, FCO => 
-        \cnt_cry[19]\);
-    
-    \cnt_RNIBP7DB1[16]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[16]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[15]\, S => \cnt_s[16]\, Y => OPEN, FCO => 
-        \cnt_cry[16]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[15]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[14]\, S => \cnt_s[15]\, Y => OPEN, FCO => 
+        \cnt_cry[15]\);
     
     un14_cntlto31_0_o2_0 : CFG3
       generic map(INIT => x"7F")
 
-      port map(A => \cnt[13]_net_1\, B => \cnt[12]_net_1\, C => 
-        \cnt[11]_net_1\, Y => un14_cntlto31_0_o2_0_0);
+      port map(A => \cnt[12]_net_1\, B => \cnt[11]_net_1\, C => 
+        \cnt[10]_net_1\, Y => un14_cntlto31_0_o2_0_0);
     
     \cnt[19]\ : SLE
       port map(D => \cnt_s[19]\, CLK => clk_c, EN => SW1_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[19]_net_1\);
     
-    \cnt_RNI9GDAP1[22]\ : ARI1
+    \cnt_RNIMPT37[1]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[22]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[21]\, S => \cnt_s[22]\, Y => OPEN, FCO => 
-        \cnt_cry[22]\);
-    
-    \cnt_RNI07SO61[14]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[14]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[13]\, S => \cnt_s[14]\, Y => OPEN, FCO => 
-        \cnt_cry[14]\);
-    
-    \cnt_RNI5DE4C[3]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[3]_net_1\, D => GND_net_1, FCI => \cnt_cry[2]\, 
-        S => \cnt_s[3]\, Y => OPEN, FCO => \cnt_cry[3]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[1]_net_1\, D => GND_net_1, FCI => \cnt_cry[0]\, 
+        S => \cnt_s[1]\, Y => OPEN, FCO => \cnt_cry[1]\);
     
     tmp_clk : SLE
       port map(D => \un7_cntlto31_0_0\, CLK => clk_c, EN => SW1_c, 
         ALn => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => led);
+    
+    \cnt_RNIGHKE41[13]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[13]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[12]\, S => \cnt_s[13]\, Y => OPEN, FCO => 
+        \cnt_cry[13]\);
     
     \cnt[2]\ : SLE
       port map(D => \cnt_s[2]\, CLK => clk_c, EN => SW1_c, ALn
@@ -1982,29 +2051,54 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[1]_net_1\);
     
-    \cnt_RNI26U37[1]\ : ARI1
+    \cnt_RNI9DAAP1[22]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[1]_net_1\, D => GND_net_1, FCI => \cnt_cry[0]\, 
-        S => \cnt_s[1]\, Y => OPEN, FCO => \cnt_cry[1]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[22]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[21]\, S => \cnt_s[22]\, Y => OPEN, FCO => 
+        \cnt_cry[22]\);
     
     \cnt[11]\ : SLE
       port map(D => \cnt_s[11]\, CLK => clk_c, EN => SW1_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[11]_net_1\);
     
+    \cnt_RNIVLMBI1[19]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[19]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[18]\, S => \cnt_s[19]\, Y => OPEN, FCO => 
+        \cnt_cry[19]\);
+    
+    \cnt_RNI3F5DB1[16]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[16]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[15]\, S => \cnt_s[16]\, Y => OPEN, FCO => 
+        \cnt_cry[16]\);
+    
+    \cnt_RNIQP30N1[21]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[21]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[20]\, S => \cnt_s[21]\, Y => OPEN, FCO => 
+        \cnt_cry[21]\);
+    
     un14_cntlto31_0_o3 : CFG4
       generic map(INIT => x"0FDF")
 
-      port map(A => \cnt[22]_net_1\, B => un14_cntlto31_0_o2_3_0, 
-        C => \cnt[24]_net_1\, D => \cnt[23]_net_1\, Y => 
+      port map(A => \cnt[21]_net_1\, B => un14_cntlto31_0_o2_3_1, 
+        C => \cnt[23]_net_1\, D => \cnt[22]_net_1\, Y => 
         un14_cntlto31_0_o3_1);
     
-    \cnt_RNI8IMKE[4]\ : ARI1
+    \cnt_RNIGPLKE[4]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
         C => \cnt[4]_net_1\, D => GND_net_1, FCI => \cnt_cry[3]\, 
         S => \cnt_s[4]\, Y => OPEN, FCO => \cnt_cry[4]\);
     
@@ -2013,13 +2107,13 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[17]_net_1\);
     
-    un14_cntlto31_0_o3_RNI33E32 : ARI1
-      generic map(INIT => x"4F444")
+    \cnt_RNI1VE421[12]\ : ARI1
+      generic map(INIT => x"48800")
 
-      port map(A => N_313_tz, B => \cnt[25]_net_1\, C => 
-        un14_cntlto31_0_o3_1, D => un14_cntlto31_0_a2_0, FCI => 
-        VCC_net_1, S => OPEN, Y => un14_cntlto31_0_o3_RNI33E32_Y, 
-        FCO => cnt_cry_cy);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[12]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[11]\, S => \cnt_s[12]\, Y => OPEN, FCO => 
+        \cnt_cry[12]\);
     
     \cnt[16]\ : SLE
       port map(D => \cnt_s[16]\, CLK => clk_c, EN => SW1_c, ALn
@@ -2029,19 +2123,42 @@ begin
     un7_cntlto31_0_a2_0 : CFG4
       generic map(INIT => x"5551")
 
-      port map(A => \cnt[14]_net_1\, B => \cnt[10]_net_1\, C => 
+      port map(A => \cnt[13]_net_1\, B => \cnt[9]_net_1\, C => 
         un14_cntlto31_0_o2_0_0, D => un7_cntlto31_0_a2_1_0, Y => 
         un7_cntlto31_0_a2_0_0);
     
-    \cnt_RNI6RV5R[9]\ : ARI1
+    \cnt_RNIM7MLO[8]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[9]_net_1\, D => GND_net_1, FCI => \cnt_cry[8]\, 
-        S => \cnt_s[9]\, Y => OPEN, FCO => \cnt_cry[9]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[8]_net_1\, D => GND_net_1, FCI => \cnt_cry[7]\, 
+        S => \cnt_s[8]\, Y => OPEN, FCO => \cnt_cry[8]\);
     
     \VCC\ : VCC
       port map(Y => VCC_net_1);
+    
+    \cnt_RNI05QO61[14]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[14]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[13]\, S => \cnt_s[14]\, Y => OPEN, FCO => 
+        \cnt_cry[14]\);
+    
+    \cnt_RNIQDU5R[9]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[9]_net_1\, D => GND_net_1, FCI => \cnt_cry[8]\, 
+        S => \cnt_s[9]\, Y => OPEN, FCO => \cnt_cry[9]\);
+    
+    \cnt_RNIJD9QV[11]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[11]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[10]\, S => \cnt_s[11]\, Y => OPEN, FCO => 
+        \cnt_cry[11]\);
     
     \cnt[6]\ : SLE
       port map(D => \cnt_s[6]\, CLK => clk_c, EN => SW1_c, ALn
@@ -2053,6 +2170,14 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[4]_net_1\);
     
+    \cnt_RNIATG1G1[18]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[18]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[17]\, S => \cnt_s[18]\, Y => OPEN, FCO => 
+        \cnt_cry[18]\);
+    
     \cnt[9]\ : SLE
       port map(D => \cnt_s[9]\, CLK => clk_c, EN => SW1_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
@@ -2061,37 +2186,43 @@ begin
     un7_cntlto31_0_0 : CFG4
       generic map(INIT => x"FF10")
 
-      port map(A => \cnt[24]_net_1\, B => \cnt[22]_net_1\, C => 
-        un14_cntlto31_0_a2_0, D => un7_cntlto31_0_a3_0, Y => 
+      port map(A => \cnt[23]_net_1\, B => \cnt[21]_net_1\, C => 
+        un14_cntlto31_0_a2_1, D => un7_cntlto31_0_a3_0, Y => 
         \un7_cntlto31_0_0\);
+    
+    un14_cntlto31_0_o3_0_RNI0H631 : CFG4
+      generic map(INIT => x"0073")
+
+      port map(A => \cnt[14]_net_1\, B => \cnt[15]_net_1\, C => 
+        un14_cntlto31_0_o3_0_0, D => \cnt[22]_net_1\, Y => 
+        N_302_tz);
     
     \cnt[0]\ : SLE
       port map(D => \cnt_s[0]\, CLK => clk_c, EN => SW1_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[0]_net_1\);
     
-    \cnt_RNIT8KKR1[23]\ : ARI1
+    \cnt_RNIGRT4H[5]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[23]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[22]\, S => \cnt_s[23]\, Y => OPEN, FCO => 
-        \cnt_cry[23]\);
-    
-    \cnt_RNI420MK1[20]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[20]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[19]\, S => \cnt_s[20]\, Y => OPEN, FCO => 
-        \cnt_cry[20]\);
-    
-    \cnt_RNICOU4H[5]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
         C => \cnt[5]_net_1\, D => GND_net_1, FCI => \cnt_cry[4]\, 
         S => \cnt_s[5]\, Y => OPEN, FCO => \cnt_cry[5]\);
+    
+    \cnt_RNIJO5K9[2]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[2]_net_1\, D => GND_net_1, FCI => \cnt_cry[1]\, 
+        S => \cnt_s[2]\, Y => OPEN, FCO => \cnt_cry[2]\);
+    
+    \cnt_RNIP1HKR1[23]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[23]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[22]\, S => \cnt_s[23]\, Y => OPEN, FCO => 
+        \cnt_s[24]\);
     
     \GND\ : GND
       port map(Y => GND_net_1);
@@ -2099,7 +2230,7 @@ begin
     un7_cntlto31_0_a2_1 : CFG2
       generic map(INIT => x"2")
 
-      port map(A => N_59_3, B => \cnt[5]_net_1\, Y => 
+      port map(A => N_61_3, B => \cnt[4]_net_1\, Y => 
         un7_cntlto31_0_a2_1_0);
     
     \cnt[23]\ : SLE
@@ -2107,68 +2238,45 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[23]_net_1\);
     
-    \cnt_RNI396K9[2]\ : ARI1
+    \cnt_RNIC7TLK1[20]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[2]_net_1\, D => GND_net_1, FCI => \cnt_cry[1]\, 
-        S => \cnt_s[2]\, Y => OPEN, FCO => \cnt_cry[2]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[20]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[19]\, S => \cnt_s[20]\, Y => OPEN, FCO => 
+        \cnt_cry[20]\);
+    
+    \cnt_RNIQRLJ4[0]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[0]_net_1\, D => GND_net_1, FCI => cnt_cry_cy, S
+         => \cnt_s[0]\, Y => OPEN, FCO => \cnt_cry[0]\);
     
     \cnt[20]\ : SLE
       port map(D => \cnt_s[20]\, CLK => clk_c, EN => SW1_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[20]_net_1\);
     
-    \cnt_RNI2KDND1[17]\ : ARI1
-      generic map(INIT => x"48800")
+    un14_cntlto31_0_o3_RNIVUD32 : ARI1
+      generic map(INIT => x"4F444")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[17]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[16]\, S => \cnt_s[17]\, Y => OPEN, FCO => 
-        \cnt_cry[17]\);
-    
-    \cnt_RNILV1391[15]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[15]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[14]\, S => \cnt_s[15]\, Y => OPEN, FCO => 
-        \cnt_cry[15]\);
-    
-    \cnt_RNIQFJ1G1[18]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[18]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[17]\, S => \cnt_s[18]\, Y => OPEN, FCO => 
-        \cnt_cry[18]\);
+      port map(A => N_302_tz, B => \cnt[24]_net_1\, C => 
+        un14_cntlto31_0_o3_1, D => un14_cntlto31_0_a2_1, FCI => 
+        VCC_net_1, S => OPEN, Y => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        FCO => cnt_cry_cy);
     
     \cnt[13]\ : SLE
       port map(D => \cnt_s[13]\, CLK => clk_c, EN => SW1_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[13]_net_1\);
     
-    \cnt_RNIN7F5M[7]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[7]_net_1\, D => GND_net_1, FCI => \cnt_cry[6]\, 
-        S => \cnt_s[7]\, Y => OPEN, FCO => \cnt_cry[7]\);
-    
-    \cnt_RNI73BQV[11]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[11]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[10]\, S => \cnt_s[11]\, Y => OPEN, FCO => 
-        \cnt_cry[11]\);
-    
     un14_cntlto31_0_o2_3 : CFG4
       generic map(INIT => x"7FFF")
 
-      port map(A => \cnt[21]_net_1\, B => \cnt[20]_net_1\, C => 
-        \cnt[19]_net_1\, D => \cnt[18]_net_1\, Y => 
-        un14_cntlto31_0_o2_3_0);
+      port map(A => \cnt[20]_net_1\, B => \cnt[19]_net_1\, C => 
+        \cnt[18]_net_1\, D => \cnt[17]_net_1\, Y => 
+        un14_cntlto31_0_o2_3_1);
     
     \cnt[18]\ : SLE
       port map(D => \cnt_s[18]\, CLK => clk_c, EN => SW1_c, ALn
@@ -2185,95 +2293,37 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[10]_net_1\);
     
-    \cnt_RNICFME41[13]\ : ARI1
+    \cnt_RNIHU5LJ[6]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[13]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[12]\, S => \cnt_s[13]\, Y => OPEN, FCO => 
-        \cnt_cry[13]\);
-    
-    \cnt_RNIHV6LJ[6]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
         C => \cnt[6]_net_1\, D => GND_net_1, FCI => \cnt_cry[5]\, 
         S => \cnt_s[6]\, Y => OPEN, FCO => \cnt_cry[6]\);
-    
-    un14_cntlto31_0_o3_0_RNI3K631 : CFG4
-      generic map(INIT => x"0073")
-
-      port map(A => \cnt[15]_net_1\, B => \cnt[16]_net_1\, C => 
-        un14_cntlto31_0_o3_0_0, D => \cnt[23]_net_1\, Y => 
-        N_313_tz);
     
     un14_cntlto31_0_a2_1_3 : CFG4
       generic map(INIT => x"0001")
 
-      port map(A => \cnt[9]_net_1\, B => \cnt[8]_net_1\, C => 
-        \cnt[7]_net_1\, D => \cnt[6]_net_1\, Y => N_59_3);
+      port map(A => \cnt[8]_net_1\, B => \cnt[7]_net_1\, C => 
+        \cnt[6]_net_1\, D => \cnt[5]_net_1\, Y => N_61_3);
     
     \cnt[3]\ : SLE
       port map(D => \cnt_s[3]\, CLK => clk_c, EN => SW1_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[3]_net_1\);
     
-    \cnt[25]\ : SLE
-      port map(D => \cnt_s[25]\, CLK => clk_c, EN => SW1_c, ALn
-         => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
-        GND_net_1, LAT => GND_net_1, Q => \cnt[25]_net_1\);
-    
-    \cnt_RNIUGNLO[8]\ : ARI1
+    \cnt_RNIHOD4C[3]\ : ARI1
       generic map(INIT => x"48800")
 
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[8]_net_1\, D => GND_net_1, FCI => \cnt_cry[7]\, 
-        S => \cnt_s[8]\, Y => OPEN, FCO => \cnt_cry[8]\);
-    
-    \cnt_RNIME5GT[10]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[10]_net_1\, D => GND_net_1, FCI => \cnt_cry[9]\, 
-        S => \cnt_s[10]\, Y => OPEN, FCO => \cnt_cry[10]\);
-    
-    \cnt_RNII2RUT1[24]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[24]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[23]\, S => \cnt_s[24]\, Y => OPEN, FCO => 
-        \cnt_s[25]\);
-    
-    \cnt_RNI24MJ4[0]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[0]_net_1\, D => GND_net_1, FCI => cnt_cry_cy, S
-         => \cnt_s[0]\, Y => OPEN, FCO => \cnt_cry[0]\);
-    
-    \cnt_RNIMO60N1[21]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[21]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[20]\, S => \cnt_s[21]\, Y => OPEN, FCO => 
-        \cnt_cry[21]\);
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[3]_net_1\, D => GND_net_1, FCI => \cnt_cry[2]\, 
+        S => \cnt_s[3]\, Y => OPEN, FCO => \cnt_cry[3]\);
     
     un14_cntlto31_0_o3_0 : CFG4
       generic map(INIT => x"F7F5")
 
-      port map(A => \cnt[14]_net_1\, B => \cnt[10]_net_1\, C => 
-        un14_cntlto31_0_o2_0_0, D => N_59_3, Y => 
+      port map(A => \cnt[13]_net_1\, B => \cnt[9]_net_1\, C => 
+        un14_cntlto31_0_o2_0_0, D => N_61_3, Y => 
         un14_cntlto31_0_o3_0_0);
-    
-    \cnt_RNIPOG421[12]\ : ARI1
-      generic map(INIT => x"48800")
-
-      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNI33E32_Y, 
-        C => \cnt[12]_net_1\, D => GND_net_1, FCI => 
-        \cnt_cry[11]\, S => \cnt_s[12]\, Y => OPEN, FCO => 
-        \cnt_cry[12]\);
     
     \cnt[22]\ : SLE
       port map(D => \cnt_s[22]\, CLK => clk_c, EN => SW1_c, ALn
@@ -2290,29 +2340,43 @@ begin
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[24]_net_1\);
     
+    \cnt_RNI6T3GT[10]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[10]_net_1\, D => GND_net_1, FCI => \cnt_cry[9]\, 
+        S => \cnt_s[10]\, Y => OPEN, FCO => \cnt_cry[10]\);
+    
     un7_cntlto31_0_a3 : CFG4
       generic map(INIT => x"000D")
 
-      port map(A => \cnt[23]_net_1\, B => un7_cntlto31_0_a2_2, C
-         => \cnt[25]_net_1\, D => \cnt[24]_net_1\, Y => 
+      port map(A => \cnt[22]_net_1\, B => un7_cntlto31_0_a2_2, C
+         => \cnt[24]_net_1\, D => \cnt[23]_net_1\, Y => 
         un7_cntlto31_0_a3_0);
     
     un14_cntlto31_0_a2 : CFG3
       generic map(INIT => x"45")
 
-      port map(A => \cnt[25]_net_1\, B => un14_cntlto31_0_o2_3_0, 
-        C => \cnt[17]_net_1\, Y => un14_cntlto31_0_a2_0);
+      port map(A => \cnt[24]_net_1\, B => un14_cntlto31_0_o2_3_1, 
+        C => \cnt[16]_net_1\, Y => un14_cntlto31_0_a2_1);
     
     \cnt[5]\ : SLE
       port map(D => \cnt_s[5]\, CLK => clk_c, EN => SW1_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[5]_net_1\);
     
+    \cnt_RNIJ2E5M[7]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[7]_net_1\, D => GND_net_1, FCI => \cnt_cry[6]\, 
+        S => \cnt_s[7]\, Y => OPEN, FCO => \cnt_cry[7]\);
+    
     un7_cntlto31_0_a2 : CFG4
       generic map(INIT => x"0031")
 
-      port map(A => \cnt[15]_net_1\, B => \cnt[16]_net_1\, C => 
-        un7_cntlto31_0_a2_0_0, D => \cnt[22]_net_1\, Y => 
+      port map(A => \cnt[14]_net_1\, B => \cnt[15]_net_1\, C => 
+        un7_cntlto31_0_a2_0_0, D => \cnt[21]_net_1\, Y => 
         un7_cntlto31_0_a2_2);
     
     \cnt[12]\ : SLE
@@ -2324,6 +2388,14 @@ begin
       port map(D => \cnt_s[14]\, CLK => clk_c, EN => SW1_c, ALn
          => reset, ADn => VCC_net_1, SLn => VCC_net_1, SD => 
         GND_net_1, LAT => GND_net_1, Q => \cnt[14]_net_1\);
+    
+    \cnt_RNIM5BND1[17]\ : ARI1
+      generic map(INIT => x"48800")
+
+      port map(A => VCC_net_1, B => un14_cntlto31_0_o3_RNIVUD32_Y, 
+        C => \cnt[17]_net_1\, D => GND_net_1, FCI => 
+        \cnt_cry[16]\, S => \cnt_s[17]\, Y => OPEN, FCO => 
+        \cnt_cry[17]\);
     
     \cnt[21]\ : SLE
       port map(D => \cnt_s[21]\, CLK => clk_c, EN => SW1_c, ALn

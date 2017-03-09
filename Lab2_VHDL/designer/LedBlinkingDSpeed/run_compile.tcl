@@ -81,7 +81,7 @@ set_compile_info \
 set_compile_info \
     -category {"Source Files"} \
     -name {"Source"} \
-    -value {"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\LedBlinkingDSpeed.edn"}
+    -value {"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\LedBlinkingDSpeed.edn"}
 set_compile_info \
     -category {"Options"} \
     -name {"Enable Single Event Transient mitigation"} \
@@ -95,7 +95,7 @@ set_compile_info \
     -name {"Limit the number of high fanout nets to display to"} \
     -value {"10"}
 compile \
-    -desdir {C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed} \
+    -desdir {C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\LedBlinkingDSpeed} \
     -design LedBlinkingDSpeed \
     -fam IGLOO2 \
     -die PA4MGL2500_N \

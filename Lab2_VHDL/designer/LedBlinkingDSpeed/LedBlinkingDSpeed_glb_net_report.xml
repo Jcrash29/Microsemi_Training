@@ -2,8 +2,8 @@
 <?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
 <doc>
 <title>Global Net Report</title>
-<text>Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1 (Version 11.7.1.11)</text>
-<text>Date: Sun Oct 23 03:00:36 2016
+<text>Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1.1 (Version 11.7.1.14)</text>
+<text>Date: Thu Mar 09 12:54:07 2017
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -20,14 +20,14 @@
  <cell>GB[3] </cell>
  <cell>(293, 72)</cell>
  <cell>clk_ibuf_RNIVTI2/U0_YWn</cell>
- <cell>115</cell>
+ <cell>116</cell>
 </row>
 <row>
  <cell>2</cell>
  <cell>GB[7] </cell>
  <cell>(297, 72)</cell>
  <cell>Clear_outputs/reset_RNIREK/U0_YWn</cell>
- <cell>114</cell>
+ <cell>115</cell>
 </row>
 </table>
 <text></text>
@@ -77,7 +77,7 @@
 <row>
  <cell>1</cell>
  <cell>Clear_outputs/reset:Q</cell>
- <cell>(137, 28)</cell>
+ <cell>(377, 55)</cell>
  <cell>GB[7] </cell>
  <cell>Clear_outputs/reset_0</cell>
  <cell>ROUTED</cell>
@@ -116,10 +116,10 @@
  <cell>GB[3] </cell>
  <cell>(293, 72)</cell>
  <cell>clk_ibuf_RNIVTI2/U0_YWn</cell>
- <cell>115</cell>
+ <cell>116</cell>
  <cell>1</cell>
- <cell>(147, 24)</cell>
- <cell>28</cell>
+ <cell>(147, 54)</cell>
+ <cell>33</cell>
 </row>
 <row>
  <cell> </cell>
@@ -128,7 +128,7 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(147, 27)</cell>
+ <cell>(447, 54)</cell>
  <cell>30</cell>
 </row>
 <row>
@@ -138,8 +138,8 @@
  <cell></cell>
  <cell></cell>
  <cell>3</cell>
- <cell>(147, 66)</cell>
- <cell>1</cell>
+ <cell>(447, 57)</cell>
+ <cell>26</cell>
 </row>
 <row>
  <cell> </cell>
@@ -148,28 +148,18 @@
  <cell></cell>
  <cell></cell>
  <cell>4</cell>
- <cell>(147, 69)</cell>
+ <cell>(447, 123)</cell>
  <cell>27</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>5</cell>
- <cell>(147, 114)</cell>
- <cell>29</cell>
 </row>
 <row>
  <cell>2</cell>
  <cell>GB[7] </cell>
  <cell>(297, 72)</cell>
  <cell>Clear_outputs/reset_RNIREK/U0_YWn</cell>
- <cell>114</cell>
+ <cell>115</cell>
  <cell>1</cell>
- <cell>(146, 24)</cell>
- <cell>28</cell>
+ <cell>(146, 54)</cell>
+ <cell>33</cell>
 </row>
 <row>
  <cell> </cell>
@@ -178,7 +168,7 @@
  <cell></cell>
  <cell></cell>
  <cell>2</cell>
- <cell>(146, 27)</cell>
+ <cell>(446, 54)</cell>
  <cell>29</cell>
 </row>
 <row>
@@ -188,8 +178,8 @@
  <cell></cell>
  <cell></cell>
  <cell>3</cell>
- <cell>(146, 66)</cell>
- <cell>1</cell>
+ <cell>(446, 57)</cell>
+ <cell>26</cell>
 </row>
 <row>
  <cell> </cell>
@@ -198,18 +188,8 @@
  <cell></cell>
  <cell></cell>
  <cell>4</cell>
- <cell>(146, 69)</cell>
+ <cell>(446, 123)</cell>
  <cell>27</cell>
-</row>
-<row>
- <cell> </cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell></cell>
- <cell>5</cell>
- <cell>(146, 114)</cell>
- <cell>29</cell>
 </row>
 </table>
 <text></text>

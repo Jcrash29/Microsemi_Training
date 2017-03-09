@@ -1,6 +1,6 @@
 <project name="LedBlinkingDSpeed" version="1.1">
     <ProjectDirectory>
-        C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed\LedBlinkingDSpeed_fp
+        C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\LedBlinkingDSpeed\LedBlinkingDSpeed_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,17 +9,17 @@
         M2GL025
     </LiberoTargetDevice>
     <LogFile>
-        C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed\LedBlinkingDSpeed_fp\LedBlinkingDSpeed.log
+        C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\LedBlinkingDSpeed\LedBlinkingDSpeed_fp\LedBlinkingDSpeed.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
     <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb2.0">
         <name>
-            E200WJY28
+            E20010PVHQ
         </name>
         <id>
-            E200WJY28
+            E20010PVHQ
         </id>
     </programmer>
     <configuration>

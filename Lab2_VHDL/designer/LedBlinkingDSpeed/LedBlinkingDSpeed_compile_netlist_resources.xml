@@ -2,8 +2,8 @@
 <?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
 <doc>
 <title>Resource Report</title>
-<text>Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1 (Version 11.7.1.11)</text>
-<text>Date: Sun Oct 23 02:59:39 2016
+<text>Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1.1 (Version 11.7.1.14)</text>
+<text>Date: Thu Mar 09 12:40:40 2017
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -76,7 +76,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\LedBlinkingDSpeed.edn</cell>
+ <cell>C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\LedBlinkingDSpeed.edn</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -106,13 +106,13 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>163</cell>
+ <cell>166</cell>
  <cell>27696</cell>
- <cell>0.59</cell>
+ <cell>0.60</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>115</cell>
+ <cell>116</cell>
  <cell>27696</cell>
  <cell>0.42</cell>
 </row>
@@ -204,8 +204,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>163</cell>
- <cell>115</cell>
+ <cell>166</cell>
+ <cell>116</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -224,8 +224,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>163</cell>
- <cell>115</cell>
+ <cell>166</cell>
+ <cell>116</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -237,15 +237,15 @@
  <cell>Used</cell>
 </row>
 <row>
- <cell>27</cell>
+ <cell>26</cell>
  <cell>1</cell>
 </row>
 <row>
- <cell>28</cell>
+ <cell>27</cell>
  <cell>2</cell>
 </row>
 <row>
- <cell>29</cell>
+ <cell>33</cell>
  <cell>1</cell>
 </row>
 <row>
@@ -342,7 +342,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>115</cell>
+ <cell>116</cell>
  <cell>INT_NET</cell>
  <cell>Net   : clk_c</cell>
 </row>
@@ -357,7 +357,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>114</cell>
+ <cell>115</cell>
  <cell>INT_NET</cell>
  <cell>Net   : reset</cell>
 </row>
@@ -388,7 +388,17 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>31</cell>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Initial_blinking_SW2/un14_cntlto31_0_0_RNID8IS_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Initial_blinking_SW2/un14_cntlto31_0_0_RNID8IS</cell>
+</row>
+<row>
+ <cell>30</cell>
  <cell>INT_NET</cell>
  <cell>Net   : SW2_c</cell>
 </row>
@@ -398,7 +408,7 @@
  <cell>Driver: SW2_ibuf</cell>
 </row>
 <row>
- <cell>30</cell>
+ <cell>29</cell>
  <cell>INT_NET</cell>
  <cell>Net   : SW1_c</cell>
 </row>
@@ -408,44 +418,54 @@
  <cell>Driver: SW1_ibuf</cell>
 </row>
 <row>
- <cell>27</cell>
+ <cell>25</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Initial_blinking_SW2/cnt_RNIOCCK2_Y[27]</cell>
+ <cell>Net   : Fast_clk_SW2/un14_cntlto31_0_o3_RNIAU8S2_Y</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Initial_blinking_SW2/cnt_RNIOCCK2[27]</cell>
-</row>
-<row>
- <cell>26</cell>
- <cell>INT_NET</cell>
- <cell>Net   : Fast_clk_SW2/un14_cntlto31_0_o3_RNIE29S2_Y</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: Fast_clk_SW2/un14_cntlto31_0_o3_RNIE29S2</cell>
-</row>
-<row>
- <cell>26</cell>
- <cell>INT_NET</cell>
- <cell>Net   : Initial_blinking_SW1/un14_cntlto31_0_o3_RNINP5T1_Y</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: Initial_blinking_SW1/un14_cntlto31_0_o3_RNINP5T1</cell>
+ <cell>Driver: Fast_clk_SW2/un14_cntlto31_0_o3_RNIAU8S2</cell>
 </row>
 <row>
  <cell>25</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Fast_clk_SW1/un14_cntlto31_0_o3_RNI33E32_Y</cell>
+ <cell>Net   : Initial_blinking_SW1/un14_cntlto31_0_o3_RNIJL5T1_Y</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Fast_clk_SW1/un14_cntlto31_0_o3_RNI33E32</cell>
+ <cell>Driver: Initial_blinking_SW1/un14_cntlto31_0_o3_RNIJL5T1</cell>
+</row>
+<row>
+ <cell>24</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Fast_clk_SW1/un14_cntlto31_0_o3_RNIVUD32_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Fast_clk_SW1/un14_cntlto31_0_o3_RNIVUD32</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Initial_blinking_SW2/cnt[25]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Initial_blinking_SW2/cnt[25]</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Fast_clk_SW2/cnt[22]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Fast_clk_SW2/cnt[22]</cell>
 </row>
 <row>
  <cell>4</cell>
@@ -466,26 +486,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: Fast_clk_SW2/cnt[24]</cell>
-</row>
-<row>
- <cell>4</cell>
- <cell>INT_NET</cell>
- <cell>Net   : Fast_clk_SW2/cnt[25]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: Fast_clk_SW2/cnt[25]</cell>
-</row>
-<row>
- <cell>4</cell>
- <cell>INT_NET</cell>
- <cell>Net   : Initial_blinking_SW1/cnt[23]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: Initial_blinking_SW1/cnt[23]</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -496,7 +496,17 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>31</cell>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Initial_blinking_SW2/un14_cntlto31_0_0_RNID8IS_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Initial_blinking_SW2/un14_cntlto31_0_0_RNID8IS</cell>
+</row>
+<row>
+ <cell>30</cell>
  <cell>INT_NET</cell>
  <cell>Net   : SW2_c</cell>
 </row>
@@ -506,7 +516,7 @@
  <cell>Driver: SW2_ibuf</cell>
 </row>
 <row>
- <cell>30</cell>
+ <cell>29</cell>
  <cell>INT_NET</cell>
  <cell>Net   : SW1_c</cell>
 </row>
@@ -516,44 +526,54 @@
  <cell>Driver: SW1_ibuf</cell>
 </row>
 <row>
- <cell>27</cell>
+ <cell>25</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Initial_blinking_SW2/cnt_RNIOCCK2_Y[27]</cell>
+ <cell>Net   : Fast_clk_SW2/un14_cntlto31_0_o3_RNIAU8S2_Y</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Initial_blinking_SW2/cnt_RNIOCCK2[27]</cell>
-</row>
-<row>
- <cell>26</cell>
- <cell>INT_NET</cell>
- <cell>Net   : Fast_clk_SW2/un14_cntlto31_0_o3_RNIE29S2_Y</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: Fast_clk_SW2/un14_cntlto31_0_o3_RNIE29S2</cell>
-</row>
-<row>
- <cell>26</cell>
- <cell>INT_NET</cell>
- <cell>Net   : Initial_blinking_SW1/un14_cntlto31_0_o3_RNINP5T1_Y</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: Initial_blinking_SW1/un14_cntlto31_0_o3_RNINP5T1</cell>
+ <cell>Driver: Fast_clk_SW2/un14_cntlto31_0_o3_RNIAU8S2</cell>
 </row>
 <row>
  <cell>25</cell>
  <cell>INT_NET</cell>
- <cell>Net   : Fast_clk_SW1/un14_cntlto31_0_o3_RNI33E32_Y</cell>
+ <cell>Net   : Initial_blinking_SW1/un14_cntlto31_0_o3_RNIJL5T1_Y</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: Fast_clk_SW1/un14_cntlto31_0_o3_RNI33E32</cell>
+ <cell>Driver: Initial_blinking_SW1/un14_cntlto31_0_o3_RNIJL5T1</cell>
+</row>
+<row>
+ <cell>24</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Fast_clk_SW1/un14_cntlto31_0_o3_RNIVUD32_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Fast_clk_SW1/un14_cntlto31_0_o3_RNIVUD32</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Initial_blinking_SW2/cnt[25]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Initial_blinking_SW2/cnt[25]</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Fast_clk_SW2/cnt[22]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Fast_clk_SW2/cnt[22]</cell>
 </row>
 <row>
  <cell>4</cell>
@@ -574,26 +594,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: Fast_clk_SW2/cnt[24]</cell>
-</row>
-<row>
- <cell>4</cell>
- <cell>INT_NET</cell>
- <cell>Net   : Fast_clk_SW2/cnt[25]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: Fast_clk_SW2/cnt[25]</cell>
-</row>
-<row>
- <cell>4</cell>
- <cell>INT_NET</cell>
- <cell>Net   : Initial_blinking_SW1/cnt[23]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: Initial_blinking_SW1/cnt[23]</cell>
 </row>
 </table>
 </doc>

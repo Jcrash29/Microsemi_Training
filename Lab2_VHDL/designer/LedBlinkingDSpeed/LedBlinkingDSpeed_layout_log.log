@@ -8,7 +8,8 @@ Incremental              : OFF
 Inter-clock optimization : ON
 TDPR scenario            : place_and_route
 
-INFO: Reading User PDC file C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\constraint\io\LedBlinkingDSpeed.io.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\constraint\io\LedBlinkingDSpeed.io.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\constraint\fp\user.pdc. 0 error(s) and 0 warning(s)
 
 Running the I/O Bank and Globals Assigner.
 Info:  I/O Bank and Globals Assigner identified 7 fixed I/O macros, 0 unfixed I/O macros
@@ -17,33 +18,33 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V4.0 - 11.7.1 
-Design: LedBlinkingDSpeed               Started: Sun Oct 23 03:00:17 2016
+Design: LedBlinkingDSpeed               Started: Thu Mar 09 12:52:52 2017
 
 Initializing Timing-Driven Placement ...
 Placing design...
 End of placement.
-Pre-Placement Runtime        : 1 seconds
-Placement Runtime            : 2 seconds
+Pre-Placement Runtime        : 0 seconds
+Placement Runtime            : 6 seconds
 
 Placer completed successfully.
 
 Design: LedBlinkingDSpeed               
-Finished: Sun Oct 23 03:00:36 2016
-Total CPU Time:     00:00:17            Total Elapsed Time: 00:00:19
-Total Memory Usage: 351.1 Mbytes
+Finished: Thu Mar 09 12:54:04 2017
+Total CPU Time:     00:01:08            Total Elapsed Time: 00:01:12
+Total Memory Usage: 353.0 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed\LedBlinkingDSpeedStarted: Sun Oct 23 03:00:38 2016
+Design: C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\LedBlinkingDSpeed\LedBlinkingDSpeedStarted: Thu Mar 09 12:54:18 2017
 
 
 Router completed successfully.
 
-Design: C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed\LedBlinkingDSpeed
-Finished: Sun Oct 23 03:00:50 2016
-Total CPU Time:     00:00:11            Total Elapsed Time: 00:00:12
-Total Memory Usage: 1022.8 Mbytes
+Design: C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\LedBlinkingDSpeed\LedBlinkingDSpeed
+Finished: Thu Mar 09 12:55:08 2017
+Total CPU Time:     00:00:46            Total Elapsed Time: 00:00:50
+Total Memory Usage: 1023.9 Mbytes
                         o - o - o - o - o - o
 
 Info: Iteration 1:
@@ -53,9 +54,9 @@ Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 163  | 27696 | 0.59       |
-| DFF           | 115  | 27696 | 0.42       |
+| 4LUT          | 166  | 27696 | 0.60       |
+| DFF           | 116  | 27696 | 0.42       |
 | I/O Register  | 0    | 414   | 0.00       |
-| Logic Element | 164  | 27696 | 0.59       |
+| Logic Element | 168  | 27696 | 0.61       |
 +---------------+------+-------+------------+
 

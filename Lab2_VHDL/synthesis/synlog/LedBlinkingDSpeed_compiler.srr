@@ -6,59 +6,65 @@ Synopsys VHDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
 @N|Running in 64-bit mode
 Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
 
-@N: CD720 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
-@N:"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Top entity is set to LedBlinkingDSpeed.
-File C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd changed - recompiling
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Top entity is set to LedBlinkingDSpeed.
+
+File Dependency file is up to date.  It will not be rewritten.
+
 VHDL syntax check successful!
-File C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd changed - recompiling
-@N: CD231 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Synthesizing work.ledblinkingdspeed.architecture_ledblinkingdspeed 
-@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":93:11:93:23|Signal scale_factor0 is undriven 
-@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":94:11:94:23|Signal scale_factor1 is undriven 
-@W: CD638 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":95:11:95:23|Signal scale_factor3 is undriven 
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":54:7:54:13|Synthesizing work.display.architecture_display 
-@W: CG296 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":82:18:82:20|Referenced variable sw2 is not in sensitivity list
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":82:24:82:26|Referenced variable sw1 is not in sensitivity list
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Synthesizing work.ledblinkingdspeed.architecture_ledblinkingdspeed 
+@W: CD638 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":99:11:99:23|Signal scale_factor0 is undriven 
+@W: CD638 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":100:11:100:23|Signal scale_factor1 is undriven 
+@W: CD638 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":101:11:101:23|Signal scale_factor3 is undriven 
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":54:7:54:13|Synthesizing work.display.architecture_display 
+@W: CG296 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":82:18:82:20|Referenced variable sw2 is not in sensitivity list
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":82:24:82:26|Referenced variable sw1 is not in sensitivity list
 Post processing for work.display.architecture_display
-@W: CL111 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to red_led1 assign '0'; register removed by optimization
-@W: CL111 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to green_led2 assign '0'; register removed by optimization
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":56:7:56:12|Synthesizing work.clkgen.architecture_clkgen 
-@W: CG296 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":76:4:76:10|Incomplete sensitivity list - assuming completeness
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":79:21:79:25|Referenced variable scale is not in sensitivity list
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":83:33:83:34|Referenced variable sw is not in sensitivity list
+@W: CL111 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to red_led1 assign '0'; register removed by optimization
+@W: CL111 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":84:8:84:9|All reachable assignments to green_led2 assign '0'; register removed by optimization
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":56:7:56:12|Synthesizing work.clkgen.architecture_clkgen 
+@W: CG296 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":76:4:76:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":79:21:79:25|Referenced variable scale is not in sensitivity list
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":83:33:83:34|Referenced variable sw is not in sensitivity list
 Post processing for work.clkgen.architecture_clkgen
-@W: CL113 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal cnt[31:0].
-@W: CL113 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal tmp_clk.
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":56:7:56:20|Synthesizing work.clkgennoswitch.architecture_clkgennoswitch 
-@W: CG296 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
-@W: CG290 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":80:21:80:25|Referenced variable scale is not in sensitivity list
+@W: CL113 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal cnt[31:0].
+@W: CL113 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":80:4:80:5|Feedback mux created for signal tmp_clk.
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":56:7:56:20|Synthesizing work.clkgennoswitch.architecture_clkgennoswitch 
+@W: CG296 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":77:4:77:10|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":80:21:80:25|Referenced variable scale is not in sensitivity list
 Post processing for work.clkgennoswitch.architecture_clkgennoswitch
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Reset_out.vhd":55:7:55:15|Synthesizing work.reset_out.architecture_reset_out 
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Reset_out.vhd":55:7:55:15|Synthesizing work.reset_out.architecture_reset_out 
 Post processing for work.reset_out.architecture_reset_out
 Post processing for work.ledblinkingdspeed.architecture_ledblinkingdspeed
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 23 02:59:30 2016
+# Thu Mar 09 12:40:09 2017
 
 ###########################################################]
 Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
 @N|Running in 64-bit mode
-File C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synwork\layer0.srs changed - recompiling
+
+Linker output is up to date. No re-linking necessary
+
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 23 02:59:30 2016
+# Thu Mar 09 12:40:10 2017
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 23 02:59:30 2016
+# Thu Mar 09 12:40:10 2017
 
 ###########################################################]

@@ -90,15 +90,15 @@ architecture architecture_LedBlinkingDSpeed of LedBlinkingDSpeed is
     -- Scale Factor used to program the board for Lab1
     -- They provide longer delays so you can see the lEDs blink
 	-- Comment these factors if you want to simulate 
-    signal Scale_Factor0 : std_logic_vector(31 downto 0) := "00000101111101011110000100000000"; --every 2 sec
-    signal Scale_Factor1 : std_logic_vector(31 downto 0) := "00000001011111010111100001000000"; --every 0.5 sec
-    signal Scale_Factor3 : std_logic_vector(31 downto 0) := "00000010111110101111000010000000"; --every 1 sec    ---------------------------------------------------------------------------------------------------------------
+    --signal Scale_Factor0 : std_logic_vector(31 downto 0) := "00000101111101011110000100000000"; --every 2 sec
+    --signal Scale_Factor1 : std_logic_vector(31 downto 0) := "00000001011111010111100001000000"; --every 0.5 sec
+    --signal Scale_Factor3 : std_logic_vector(31 downto 0) := "00000010111110101111000010000000"; --every 1 sec    ---------------------------------------------------------------------------------------------------------------
     -- Scale Factor used to program the board for Lab 2
 	-- These change the Blink rates from Lab1 for Lab2
     -- Comment these factors if you want to simulate 
-    --signal Scale_Factor0 : std_logic_vector(31 downto 0) := "00001011111010111100001000000000"; --every 4 sec
-    --signal Scale_Factor1 : std_logic_vector(31 downto 0) := "00000000101111101011110000100000"; --every 0.25 sec
-    --signal Scale_Factor3 : std_logic_vector(31 downto 0) := "00000001011111010111100001000000"; --every 0.5 sec
+    signal Scale_Factor0 : std_logic_vector(31 downto 0) := "00001011111010111100001000000000"; --every 4 sec
+    signal Scale_Factor1 : std_logic_vector(31 downto 0) := "00000000101111101011110000100000"; --every 0.25 sec
+    signal Scale_Factor3 : std_logic_vector(31 downto 0) := "00000001011111010111100001000000"; --every 0.5 sec
   
 
     -- component

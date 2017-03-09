@@ -1,5 +1,5 @@
 probe \
-    -desdir {C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed} \
+    -desdir {C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\LedBlinkingDSpeed} \
     -design LedBlinkingDSpeed \
     -fam IGLOO2 \
     -die PA4MGL2500_N \

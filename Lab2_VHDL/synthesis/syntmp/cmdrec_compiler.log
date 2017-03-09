@@ -1,11 +1,11 @@
-C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\bin64\c_hdl.exe  -osyn  C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synwork\LedBlinkingDSpeed_comp.srs  -top  work.LedBlinkingDSpeed  -hdllog  C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synlog\LedBlinkingDSpeed_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram  -encrypt  -pro  -dmgen  C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd -lib work C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd -lib work C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd -lib work C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Reset_out.vhd -lib work C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd 
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\c_hdl.exe  -osyn  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\synwork\LedBlinkingDSpeed_comp.srs  -top  work.LedBlinkingDSpeed  -hdllog  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\synlog\LedBlinkingDSpeed_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram  -encrypt  -pro  -dmgen  C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -vhdl2008  -ignore_undefined_lib  -lib work C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd -lib work C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd -lib work C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd -lib work C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Reset_out.vhd -lib work C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd 
 rc:0 success:1
-C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synwork\LedBlinkingDSpeed_comp.srs|o|1477216770|7473
-C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\synlog\LedBlinkingDSpeed_compiler.srr|o|1477216770|5931
-C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd|i|1477216350|4624
-C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd|i|1477216350|4722
-C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd|i|1477216350|4734
-C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Reset_out.vhd|i|1477216350|3699
-C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd|i|1477216739|8890
-C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\bin\c_hdl.exe|i|1449250522|1295872
-C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\bin64\c_hdl.exe|i|1449250524|1897472
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\synwork\LedBlinkingDSpeed_comp.srs|o|1489084720|7389
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\synlog\LedBlinkingDSpeed_compiler.srr|o|1489084810|5714
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd|i|1477212752|4624
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd|i|1477212752|4722
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd|i|1477212752|4734
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Reset_out.vhd|i|1477212752|3699
+C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd|i|1489084648|8890
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\c_hdl.exe|i|1449243322|1295872
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\c_hdl.exe|i|1449243324|1897472

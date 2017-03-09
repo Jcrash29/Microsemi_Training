@@ -1,12 +1,12 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
-@N: CD720 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
-@N:"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Top entity is set to LedBlinkingDSpeed.
-@N: CD231 :"C:\tools\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Synthesizing work.ledblinkingdspeed.architecture_ledblinkingdspeed 
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Display.vhd":54:7:54:13|Synthesizing work.display.architecture_display 
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGen.vhd":56:7:56:12|Synthesizing work.clkgen.architecture_clkgen 
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":56:7:56:20|Synthesizing work.clkgennoswitch.architecture_clkgennoswitch 
-@N: CD630 :"C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\hdl\Reset_out.vhd":55:7:55:15|Synthesizing work.reset_out.architecture_reset_out 
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Top entity is set to LedBlinkingDSpeed.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\LedBlinkingDSpeed.vhd":60:7:60:23|Synthesizing work.ledblinkingdspeed.architecture_ledblinkingdspeed 
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Display.vhd":54:7:54:13|Synthesizing work.display.architecture_display 
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGen.vhd":56:7:56:12|Synthesizing work.clkgen.architecture_clkgen 
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\ClkGenNoSwitch.vhd":56:7:56:20|Synthesizing work.clkgennoswitch.architecture_clkgennoswitch 
+@N: CD630 :"C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\hdl\Reset_out.vhd":55:7:55:15|Synthesizing work.reset_out.architecture_reset_out 
 @N|Running in 64-bit mode
 

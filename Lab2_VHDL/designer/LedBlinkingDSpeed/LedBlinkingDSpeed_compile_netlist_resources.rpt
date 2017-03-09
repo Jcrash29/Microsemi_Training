@@ -1,6 +1,6 @@
 Resource Report
-Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1 (Version 11.7.1.11)
-Date: Sun Oct 23 02:59:39 2016
+Microsemi Corporation - Microsemi Libero Software Release v11.7 SP1.1 (Version 11.7.1.14)
+Date: Thu Mar 09 12:40:41 2017
 
 Device Selection
 +--------------------------------+----------------+
@@ -20,11 +20,11 @@ Device Selection
 +--------------------------------+----------------+
 
 Source Files
-+---------+-----------------------------------------------------------------------------------------+
-| Topcell | LedBlinkingDSpeed                                                                       |
-| Format  | EDIF                                                                                    |
-| Source  | C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\synthesis\LedBlinkingDSpeed.edn |
-+---------+-----------------------------------------------------------------------------------------+
++---------+--------------------------------------------------------------------------------------+
+| Topcell | LedBlinkingDSpeed                                                                    |
+| Format  | EDIF                                                                                 |
+| Source  | C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\LedBlinkingDSpeed.edn |
++---------+--------------------------------------------------------------------------------------+
 
 Options
 +----------------------------------------------------+-------+
@@ -37,8 +37,8 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 163  | 27696 | 0.59       |
-| DFF                       | 115  | 27696 | 0.42       |
+| 4LUT                      | 166  | 27696 | 0.60       |
+| DFF                       | 116  | 27696 | 0.42       |
 | I/O Register              | 0    | 414   | 0.00       |
 | User I/O                  | 7    | 138   | 5.07       |
 | -- Single-ended I/O       | 7    | 138   | 5.07       |
@@ -58,19 +58,19 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 163  | 115 |
+| Fabric Logic             | 166  | 116 |
 | RAM64x18 Interface Logic | 0    | 0   |
 | RAM1K18 Interface Logic  | 0    | 0   |
 | MACC Interface Logic     | 0    | 0   |
-| Total Used               | 163  | 115 |
+| Total Used               | 166  | 116 |
 +--------------------------+------+-----+
 
 Detailed Carry Chains Resource Usage
 +--------+------+
 | Length | Used |
-| 27     | 1    |
-| 28     | 2    |
-| 29     | 1    |
+| 26     | 1    |
+| 27     | 2    |
+| 33     | 1    |
 | Total  | 4    |
 +--------+------+
 
@@ -105,10 +105,10 @@ Nets assigned to chip global resources
 +--------+---------+--------------------------------------------+
 | Fanout | Type    | Name                                       |
 +--------+---------+--------------------------------------------+
-| 115    | INT_NET | Net   : clk_c                              |
+| 116    | INT_NET | Net   : clk_c                              |
 |        |         | Driver: clk_ibuf_RNIVTI2/U0_RGB1           |
 |        |         | Source: NETLIST                            |
-| 114    | INT_NET | Net   : reset                              |
+| 115    | INT_NET | Net   : reset                              |
 |        |         | Driver: Clear_outputs/reset_RNIREK/U0_RGB1 |
 |        |         | Source: NETLIST                            |
 +--------+---------+--------------------------------------------+
@@ -123,51 +123,51 @@ High fanout nets
 +--------+---------+------------------------------------------------------------+
 | Fanout | Type    | Name                                                       |
 +--------+---------+------------------------------------------------------------+
-| 31     | INT_NET | Net   : SW2_c                                              |
+| 32     | INT_NET | Net   : Initial_blinking_SW2/un14_cntlto31_0_0_RNID8IS_Y   |
+|        |         | Driver: Initial_blinking_SW2/un14_cntlto31_0_0_RNID8IS     |
+| 30     | INT_NET | Net   : SW2_c                                              |
 |        |         | Driver: SW2_ibuf                                           |
-| 30     | INT_NET | Net   : SW1_c                                              |
+| 29     | INT_NET | Net   : SW1_c                                              |
 |        |         | Driver: SW1_ibuf                                           |
-| 27     | INT_NET | Net   : Initial_blinking_SW2/cnt_RNIOCCK2_Y[27]            |
-|        |         | Driver: Initial_blinking_SW2/cnt_RNIOCCK2[27]              |
-| 26     | INT_NET | Net   : Fast_clk_SW2/un14_cntlto31_0_o3_RNIE29S2_Y         |
-|        |         | Driver: Fast_clk_SW2/un14_cntlto31_0_o3_RNIE29S2           |
-| 26     | INT_NET | Net   : Initial_blinking_SW1/un14_cntlto31_0_o3_RNINP5T1_Y |
-|        |         | Driver: Initial_blinking_SW1/un14_cntlto31_0_o3_RNINP5T1   |
-| 25     | INT_NET | Net   : Fast_clk_SW1/un14_cntlto31_0_o3_RNI33E32_Y         |
-|        |         | Driver: Fast_clk_SW1/un14_cntlto31_0_o3_RNI33E32           |
+| 25     | INT_NET | Net   : Fast_clk_SW2/un14_cntlto31_0_o3_RNIAU8S2_Y         |
+|        |         | Driver: Fast_clk_SW2/un14_cntlto31_0_o3_RNIAU8S2           |
+| 25     | INT_NET | Net   : Initial_blinking_SW1/un14_cntlto31_0_o3_RNIJL5T1_Y |
+|        |         | Driver: Initial_blinking_SW1/un14_cntlto31_0_o3_RNIJL5T1   |
+| 24     | INT_NET | Net   : Fast_clk_SW1/un14_cntlto31_0_o3_RNIVUD32_Y         |
+|        |         | Driver: Fast_clk_SW1/un14_cntlto31_0_o3_RNIVUD32           |
+| 4      | INT_NET | Net   : Initial_blinking_SW2/cnt[25]                       |
+|        |         | Driver: Initial_blinking_SW2/cnt[25]                       |
+| 4      | INT_NET | Net   : Fast_clk_SW2/cnt[22]                               |
+|        |         | Driver: Fast_clk_SW2/cnt[22]                               |
 | 4      | INT_NET | Net   : Fast_clk_SW2/cnt[23]                               |
 |        |         | Driver: Fast_clk_SW2/cnt[23]                               |
 | 4      | INT_NET | Net   : Fast_clk_SW2/cnt[24]                               |
 |        |         | Driver: Fast_clk_SW2/cnt[24]                               |
-| 4      | INT_NET | Net   : Fast_clk_SW2/cnt[25]                               |
-|        |         | Driver: Fast_clk_SW2/cnt[25]                               |
-| 4      | INT_NET | Net   : Initial_blinking_SW1/cnt[23]                       |
-|        |         | Driver: Initial_blinking_SW1/cnt[23]                       |
 +--------+---------+------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
 +--------+---------+------------------------------------------------------------+
 | Fanout | Type    | Name                                                       |
 +--------+---------+------------------------------------------------------------+
-| 31     | INT_NET | Net   : SW2_c                                              |
+| 32     | INT_NET | Net   : Initial_blinking_SW2/un14_cntlto31_0_0_RNID8IS_Y   |
+|        |         | Driver: Initial_blinking_SW2/un14_cntlto31_0_0_RNID8IS     |
+| 30     | INT_NET | Net   : SW2_c                                              |
 |        |         | Driver: SW2_ibuf                                           |
-| 30     | INT_NET | Net   : SW1_c                                              |
+| 29     | INT_NET | Net   : SW1_c                                              |
 |        |         | Driver: SW1_ibuf                                           |
-| 27     | INT_NET | Net   : Initial_blinking_SW2/cnt_RNIOCCK2_Y[27]            |
-|        |         | Driver: Initial_blinking_SW2/cnt_RNIOCCK2[27]              |
-| 26     | INT_NET | Net   : Fast_clk_SW2/un14_cntlto31_0_o3_RNIE29S2_Y         |
-|        |         | Driver: Fast_clk_SW2/un14_cntlto31_0_o3_RNIE29S2           |
-| 26     | INT_NET | Net   : Initial_blinking_SW1/un14_cntlto31_0_o3_RNINP5T1_Y |
-|        |         | Driver: Initial_blinking_SW1/un14_cntlto31_0_o3_RNINP5T1   |
-| 25     | INT_NET | Net   : Fast_clk_SW1/un14_cntlto31_0_o3_RNI33E32_Y         |
-|        |         | Driver: Fast_clk_SW1/un14_cntlto31_0_o3_RNI33E32           |
+| 25     | INT_NET | Net   : Fast_clk_SW2/un14_cntlto31_0_o3_RNIAU8S2_Y         |
+|        |         | Driver: Fast_clk_SW2/un14_cntlto31_0_o3_RNIAU8S2           |
+| 25     | INT_NET | Net   : Initial_blinking_SW1/un14_cntlto31_0_o3_RNIJL5T1_Y |
+|        |         | Driver: Initial_blinking_SW1/un14_cntlto31_0_o3_RNIJL5T1   |
+| 24     | INT_NET | Net   : Fast_clk_SW1/un14_cntlto31_0_o3_RNIVUD32_Y         |
+|        |         | Driver: Fast_clk_SW1/un14_cntlto31_0_o3_RNIVUD32           |
+| 4      | INT_NET | Net   : Initial_blinking_SW2/cnt[25]                       |
+|        |         | Driver: Initial_blinking_SW2/cnt[25]                       |
+| 4      | INT_NET | Net   : Fast_clk_SW2/cnt[22]                               |
+|        |         | Driver: Fast_clk_SW2/cnt[22]                               |
 | 4      | INT_NET | Net   : Fast_clk_SW2/cnt[23]                               |
 |        |         | Driver: Fast_clk_SW2/cnt[23]                               |
 | 4      | INT_NET | Net   : Fast_clk_SW2/cnt[24]                               |
 |        |         | Driver: Fast_clk_SW2/cnt[24]                               |
-| 4      | INT_NET | Net   : Fast_clk_SW2/cnt[25]                               |
-|        |         | Driver: Fast_clk_SW2/cnt[25]                               |
-| 4      | INT_NET | Net   : Initial_blinking_SW1/cnt[23]                       |
-|        |         | Driver: Initial_blinking_SW1/cnt[23]                       |
 +--------+---------+------------------------------------------------------------+
 

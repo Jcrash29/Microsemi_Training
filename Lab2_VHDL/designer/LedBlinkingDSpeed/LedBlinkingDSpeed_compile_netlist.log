@@ -10,8 +10,8 @@ Info: Global design data:
 Info: List of globals considered for demotion: 
     CLK    ASYN   DATA   Instance Name 
     ---    ----   ----   ------------- 
-    115    0      0      'clk_ibuf_RNIVTI2' 
-    0      114    0      'Clear_outputs/reset_RNIREK' 
+    116    0      0      'clk_ibuf_RNIVTI2' 
+    0      115    0      'Clear_outputs/reset_RNIREK' 
 
 Info: Demotion information: 
 Info: CMPG4-302: Added 0 row global instances.

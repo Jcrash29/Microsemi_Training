@@ -1,7 +1,7 @@
 
 
 @S |##### START OF TIMING REPORT #####[
-# Timing Report written on Sun Oct 23 02:59:33 2016
+# Timing Report written on Thu Mar 09 12:40:17 2017
 #
 
 
@@ -9,7 +9,7 @@ Top view:               LedBlinkingDSpeed
 Requested Frequency:    50.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\LedBlinkingDSpeed\synthesis.fdc
+Constraint File(s):    C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\LedBlinkingDSpeed\synthesis.fdc
                        
 @N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
 
@@ -26,7 +26,7 @@ Worst slack in design: 0.545
                           Requested     Estimated     Requested     Estimated                Clock        Clock           
 Starting Clock            Frequency     Frequency     Period        Period        Slack      Type         Group           
 --------------------------------------------------------------------------------------------------------------------------
-LedBlinkingDSpeed|clk     50.0 MHz      135.9 MHz     20.000        7.360         12.640     declared     default_clkgroup
+LedBlinkingDSpeed|clk     50.0 MHz      145.2 MHz     20.000        6.889         13.111     declared     default_clkgroup
 ==========================================================================================================================
 
 
@@ -67,14 +67,14 @@ Instance                         Reference                 Type     Pin     Net 
 ---------------------------------------------------------------------------------------------------------
 Fast_clk_SW1.tmp_clk             LedBlinkingDSpeed|clk     SLE      Q       led         0.061       0.545
 Initial_blinking_SW2.tmp_clk     LedBlinkingDSpeed|clk     SLE      Q       led1        0.061       0.545
-Initial_blinking_SW2.cnt[25]     LedBlinkingDSpeed|clk     SLE      Q       cnt[25]     0.076       0.591
 Fast_clk_SW2.tmp_clk             LedBlinkingDSpeed|clk     SLE      Q       led2        0.061       0.593
 Initial_blinking_SW1.tmp_clk     LedBlinkingDSpeed|clk     SLE      Q       led0        0.061       0.593
-Fast_clk_SW1.cnt[24]             LedBlinkingDSpeed|clk     SLE      Q       cnt[24]     0.076       0.623
-Fast_clk_SW2.cnt[25]             LedBlinkingDSpeed|clk     SLE      Q       cnt[25]     0.076       0.623
-Initial_blinking_SW1.cnt[25]     LedBlinkingDSpeed|clk     SLE      Q       cnt[25]     0.076       0.623
-Initial_blinking_SW2.cnt[27]     LedBlinkingDSpeed|clk     SLE      Q       cnt[27]     0.076       0.636
-Fast_clk_SW1.cnt[22]             LedBlinkingDSpeed|clk     SLE      Q       cnt[22]     0.076       0.657
+Fast_clk_SW1.cnt[23]             LedBlinkingDSpeed|clk     SLE      Q       cnt[23]     0.076       0.623
+Initial_blinking_SW1.cnt[24]     LedBlinkingDSpeed|clk     SLE      Q       cnt[24]     0.076       0.623
+Fast_clk_SW2.cnt[24]             LedBlinkingDSpeed|clk     SLE      Q       cnt[24]     0.076       0.623
+Fast_clk_SW1.cnt[21]             LedBlinkingDSpeed|clk     SLE      Q       cnt[21]     0.076       0.657
+Fast_clk_SW2.cnt[22]             LedBlinkingDSpeed|clk     SLE      Q       cnt[22]     0.076       0.657
+Initial_blinking_SW1.cnt[22]     LedBlinkingDSpeed|clk     SLE      Q       cnt[22]     0.076       0.657
 =========================================================================================================
 
 
@@ -87,14 +87,14 @@ Instance                         Reference                 Type     Pin     Net 
 ---------------------------------------------------------------------------------------------------------------------
 Display_out.green_led1           LedBlinkingDSpeed|clk     SLE      D       green_led1_4           0.179        0.545
 Display_out.red_led2             LedBlinkingDSpeed|clk     SLE      D       red_led2_3             0.179        0.545
-Initial_blinking_SW2.tmp_clk     LedBlinkingDSpeed|clk     SLE      D       tmp_clk_RNO            0.179        0.591
 Fast_clk_SW2.tmp_clk             LedBlinkingDSpeed|clk     SLE      D       un7_cntlto31_0_0_0     0.179        0.623
-Fast_clk_SW1.tmp_clk             LedBlinkingDSpeed|clk     SLE      D       un7_cntlto31_0_0       0.179        0.623
 Initial_blinking_SW1.tmp_clk     LedBlinkingDSpeed|clk     SLE      D       un7_cntlto31_0         0.179        0.623
-Fast_clk_SW1.cnt[25]             LedBlinkingDSpeed|clk     SLE      D       cnt_s[25]              0.179        0.709
-Initial_blinking_SW1.cnt[26]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[26]              0.179        0.709
-Fast_clk_SW2.cnt[26]             LedBlinkingDSpeed|clk     SLE      D       cnt_s[26]              0.179        0.709
-Initial_blinking_SW2.cnt[27]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[27]              0.179        0.719
+Fast_clk_SW1.tmp_clk             LedBlinkingDSpeed|clk     SLE      D       un7_cntlto31_0_0       0.179        0.623
+Initial_blinking_SW2.tmp_clk     LedBlinkingDSpeed|clk     SLE      D       un7_cntlto31_0_1       0.179        0.709
+Fast_clk_SW1.cnt[24]             LedBlinkingDSpeed|clk     SLE      D       cnt_s[24]              0.179        0.709
+Initial_blinking_SW1.cnt[25]     LedBlinkingDSpeed|clk     SLE      D       cnt_s[25]              0.179        0.709
+Fast_clk_SW2.cnt[25]             LedBlinkingDSpeed|clk     SLE      D       cnt_s[25]              0.179        0.709
+Fast_clk_SW2.cnt[1]              LedBlinkingDSpeed|clk     SLE      D       cnt_s[1]               0.179        1.292
 =====================================================================================================================
 
 

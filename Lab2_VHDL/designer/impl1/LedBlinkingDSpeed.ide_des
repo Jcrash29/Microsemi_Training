@@ -1,10 +1,12 @@
 KEY IDE_DES_TOOL "Ide"
-KEY IDE_DES_ADB_PATH "C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\designer\impl1\LedBlinkingDSpeed.adb"
+KEY IDE_DES_ADB_PATH "C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\designer\impl1\LedBlinkingDSpeed.adb"
 LIST SOURCE_FILES
-VALUE "C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\constraint\io\LedBlinkingDSpeed.io.pdc;pdc"
-VALUE "C:\Future\FPGA\Microsemi\CreativeBoard\IGLOO2\Lab2_VHDL\constraint\LedBlinkingDSpeed_sdc.sdc;sdc"
+VALUE "C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\constraint\io\LedBlinkingDSpeed.io.pdc;pdc"
+VALUE "C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\constraint\LedBlinkingDSpeed_sdc.sdc;sdc"
+VALUE "C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\constraint\fp\user.pdc;pdc"
 ENDLIST
 LIST OPTIONAL_FILES
+VALUE "C:\Users\ashj\Documents\LEARNING\Microsemi\Lab2_VHDL\synthesis\LedBlinkingDSpeed_sdc.sdc;Skipped"
 ENDLIST
 LIST VCD_FILES
 ENDLIST
